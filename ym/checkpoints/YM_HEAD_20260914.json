@@ -1,0 +1,34 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-14",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "passes_completed": [
+    "YM-P1"
+  ],
+  "live_cursor": "YM-NF2",
+  "opening_question": "What quantitative carrier can survive the continuum limit while the dimensionless lattice mass tends to zero and a nonzero physical mass scale remains?",
+  "current_determination": "The naive strong-coupling lattice-gap-to-continuum handoff is incorrectly typed; the first seam is custody of a dynamically generated physical clustering/mass scale across the continuum-producing RG trajectory.",
+  "candidate_carriers": [
+    "a^{-1} m_lat(a)",
+    "(a xi_lat(a))^{-1}",
+    "physical-unit exponential clustering rate",
+    "transfer-Hamiltonian spectral data",
+    "RG-invariant dimensional scale comparable to Lambda_YM"
+  ],
+  "live_obligations": [
+    "Type the continuum-limit scaling law for each candidate carrier.",
+    "Determine exactly what strong-coupling functional-inequality results control.",
+    "Determine what Balaban-style RG estimates can transport between scales.",
+    "Determine the precise Euclidean-to-spectral hypotheses needed for Osterwalder-Schrader reconstruction.",
+    "Audit whether any common carrier is presently controlled across UV construction, RG transport, IR clustering, and spectral reconstruction.",
+    "Do not identify Lambda_YM, a clustering exponent, and the Hamiltonian spectral gap without an explicit theorem linking them."
+  ],
+  "next_action": "YM-NF2 RG transport of physical clustering scale",
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_P1_SCALE_TRANSFER_SEAM_20260914.md",
+    "ym/checkpoints/YM_HEAD_20260914.json"
+  ]
+}
