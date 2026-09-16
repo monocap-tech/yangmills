@@ -1,0 +1,54 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R18_20260915.json",
+  "passes_completed": [
+    "YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19","YM-R20"
+  ],
+  "live_cursor": "YM-R21",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "local extraction / coupling-coordinate audit",
+  "current_determination": "The reflection-adapted soft kernel is structurally compatible with the Bałaban weak-field Gaussian family at quadratic order. Its soft-hard quadratic defect behaves as p^4 and is therefore a dimension-six, tree-level L^-2 irrelevant correction. The nonlinear kernel remainder is not wholly irrelevant: its cubic and quartic pieces can project onto the marginal Yang-Mills F^2 operator. The correct decomposition is a finite coupling-coordinate/scheme shift plus a gauge-invariant dimension-six-and-higher remainder. The unresolved theorem is quantitative closure of that residual local functional in Bałaban's actual analytic/localized polymer norms, including the precise marginal extraction used in his coupling recursion.",
+  "major_new_results": [
+    "The quadratic defect E_a = -a^-1 Delta_infty^2 (I+a^-1 Delta_infty)^-1 begins at p^4 and has canonical dimension six in 4d, hence tree-level scaling gain L^-2.",
+    "Cubic/higher field order does not imply irrelevance because tr F^2 itself contains cubic and quartic Yang-Mills vertices.",
+    "The soft-kernel nonlinear remainder must be locally projected onto the marginal tr F^2 coordinate before irrelevance can be asserted.",
+    "After gauge/reflection symmetry constraints and marginal extraction, the generic residual local pure-gauge operators begin at canonical dimension six.",
+    "An analytic finite coupling redefinition changes the RG scheme but preserves the universal first two beta-function coefficients; prior reference [51] remains the scheme-control source."
+  ],
+  "negative_results": [
+    "Do not classify all R_{>=3} as irrelevant merely from polynomial field degree.",
+    "Canonical power counting does not by itself prove Bałaban polymer-norm contraction for the specific soft-kernel remainder.",
+    "Do not replace the exact reflection-positive blocked measure by a truncated dimension-six improved action when positivity custody matters; generic dimension-six improved actions can lose ordinary physical positivity [11]."
+  ],
+  "live_obligations": [
+    "Extract Bałaban's exact marginal/local coupling projection used in the 4d recursive coupling renormalization.",
+    "Express the soft-kernel local functional in that same coordinate system and identify its tr F^2 projection.",
+    "Determine whether any additional marginal structure survives gauge, reflection and lattice symmetries.",
+    "Prove the residual Taylor/localization remainder has the scaling and analyticity gain required by the inductive polymer assumptions, with cutoff-uniform constants.",
+    "Track how the finite soft-kernel coupling redefinition modifies the nonuniversal RG coefficients while preserving the universal asymptotic-freedom data.",
+    "Continue source numbering at [69]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 68,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R20_IRRELEVANT_REMAINDER_INDUCTIVE_NORM_20260915.md",
+    "ym/references/YM_REFERENCES_001_042_20260915.md",
+    "ym/references/YM_OPENING_SOURCE_BACKFILL_043_058_20260915.md",
+    "ym/references/YM_REFERENCES_059_20260915.md",
+    "ym/references/YM_REFERENCES_060_062_20260915.md",
+    "ym/references/YM_REFERENCES_063_066_20260915.md",
+    "ym/references/YM_REFERENCES_067_20260915.md",
+    "ym/references/YM_REFERENCES_068_20260915.md",
+    "ym/checkpoints/YM_HEAD_R20_20260915.json"
+  ],
+  "next_action": "YM-R21 local extraction / coupling-coordinate audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. Canonical power counting and scheme arguments are only structural reductions until Bałaban-norm closure is proved."
+}
