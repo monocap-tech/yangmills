@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R49_20260916.json",
+  "passes_completed_through": "YM-R50",
+  "live_cursor": "YM-R51",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 Eq. (2.29) D-family summability / Cammarota threshold audit",
+  "current_determination": "R50 closes the mathematical/source H(Z,Z0)/H(Z) identification layer. CMP116 explicitly gives the native nested index stack D -> Y0 -> P -> Z0 -> conditioning/product Gaussian -> second localization Z -> H(Z,Z0) -> H(Z), the connected-component factorization H(Z)=product H(Z_i), the single source term (2.14), and its pre-resummation majorant (2.26). Remaining source-to-project flattening is formalization dictionary debt, not an unknown source theorem. The native critical path moves to the later D/P/Z0/Z0' resummation bounds, beginning with Eq. (2.29).",
+  "major_new_results": [
+    "Native H(Z,Z0) is the fixed-Z0 output of CMP116's second weakening/random-walk localization; it is not a finite covariance-root piece.",
+    "Native H(Z) is the explicit sum over source Z0 whose enlarged seed lies in Z, after D/P terms have already been resummed into F(Z0,B).",
+    "The exact top-level source dependency stack is D -> Y0 -> P -> Z0 -> Z -> H(Z,Z0) -> H(Z).",
+    "CMP116 Eq. (2.10) explicitly proves connected-component factorization H(Z)=product_i H(Z_i).",
+    "CMP116 Eq. (2.14) is the single term to be bounded after fixing D,P,Z0,Z and weakening contour data.",
+    "CMP116 Eq. (2.26) is the native pre-resummation termWeight majorant, with Z\\Z0' decay, D-product decay, P-bond Gaussian suppression, and alpha5 volume factor.",
+    "The broad H(Z) source-identification and termwise-majorant obligation is exhausted; only project-specific finite-index flattening remains optional dictionary work."
+  ],
+  "negative_results": [
+    "Do not replace H(Z,Z0) by a fictitious finite exact root decomposition.",
+    "Do not treat D/P/Z0/Z0' resummation as part of the definition of H(Z); it is the proof of its bound.",
+    "Do not infer the project's exact finite index type from source notation alone.",
+    "Do not infer Lemma 3 directly from Eq. (2.26); Eq. (2.29), Eq. (2.31), Eq. (2.32)-(2.37) remain live.",
+    "Do not reopen CanonicalUjcEmbedding or RP-specific precision/root/Gaussian/Jacobian seams."
+  ],
+  "live_obligations": [
+    "Audit CMP116 Eq. (2.29) D-family summability, including large-kappa/small-alpha6 thresholds and uniformity.",
+    "Then audit Eq. (2.31) P-family carrier/count and entropy inequality.",
+    "Then audit Eq. (2.32)-(2.37) fixed-Z0' geometry and final exponent reserve before assembling Lemma 3/(2.38).",
+    "Keep project covariance/root/Hessian/Gaussian dictionaries as side records unless a later native gate makes them necessary.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R50_CMP116_HZ_TERMWISE_SOURCE_DICTIONARY_CLOSURE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R50_20260916.json"
+  ],
+  "next_action": "YM-R51 CMP116 Eq. (2.29) D-family summability / Cammarota threshold audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R50 closes only the native activity/source-object and pre-resummation termwise-majorant identification layer."
+}
