@@ -1,0 +1,40 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R33_20260916.json",
+  "passes_completed_through": "YM-R34",
+  "live_cursor": "YM-R35",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "primary-source dictionary recovery / minimal closure contract",
+  "current_determination": "R34 found no new mathematical obstruction but identified a real source-artifact/dictionary boundary. CMP116 source extracts verify that the post-Gaussian coordinates are product standard-Gaussian bond variables X(b), that generalized random-walk/root localization produces H(Z,Z0) and H(Z) with component factorization, and that H(Z) is localized in the interior of Z with respect to external gauge fields. The correct project fluctuation-support target is therefore a conservative Bond(Z)-type envelope, but the public extraction does not yet give the exact root-term-to-X(b) carrier map needed to promote that inclusion to a source theorem. Likewise U^c_{k+1}(X,alpha_0,alpha_1) is source-located on CMP116 p.15 with field estimates around (2.20)/(2.22), but its coordinate definition is absent from the public packet and was not recovered from the File Library. R32's smaller coercive complex subtube remains structurally available once that definition is supplied. The remaining UV interface is therefore two minimal source records, not a new analytic mechanism.",
+  "major_new_results": [
+    "The source species of fluctuation variables is fixed: dmu0 is the ultralocal product standard Gaussian over Lie-algebra bond variables X(b), with covariance-root nonlocality moved into G.",
+    "The natural gauge-source fluctuation-support contract is a conservative Bond(Z)-type envelope for localized H(Z), not a minimal support equality; exact source promotion awaits the root-term/X(b) carrier dictionary.",
+    "External active support remains distinct and source-backed at the envelope level by localization in the interior of Z.",
+    "The public source packet locates U^c_{k+1}(X,alpha_0,alpha_1) and its field-estimate window but does not expose the coordinate definition or an exact Cauchy collar.",
+    "The unresolved analytic-domain item is a provenance/dictionary gap: no source evidence forces an RG-shrinking radius or contradicts the R32 fixed-subtube construction."
+  ],
+  "negative_results": [
+    "Do not reconstruct U^c_{k+1}(X,alpha_0,alpha_1) from notation alone.",
+    "Do not import the scalar Dimock fluctuation-support convention into the four-dimensional gauge source as if it were CMP116.",
+    "Do not promote component factorization to a minimal fluctuation-support equality without the exact source carrier map.",
+    "Do not treat absence of the private primary-source packet from the public corpus as a mathematical obstruction."
+  ],
+  "live_obligations": [
+    "Recover or transcribe the exact definition-level source lines for U^c_{k+1}(X,alpha_0,alpha_1), including relation to the real domain and usable collar margin.",
+    "Recover the exact X(b) carrier/domain convention for localized H(Z) terms and component factorization, then map it to project fluctuationSupport conservatively.",
+    "Specify the minimum source-facing records CMP116ComplexDomainDefinition and CMP116FluctuationCarrierDictionary without collapsing external, fluctuation and full support roles.",
+    "Once these finite dictionaries are supplied, splice YM-R31/R32 root localization and YM-R28 epsilon1 stability into the RP blocker branch.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R34_SOURCE_ANALYTIC_DOMAIN_FLUCTUATION_CARRIER_20260916.md",
+    "ym/checkpoints/YM_HEAD_R34_20260916.json"
+  ],
+  "next_action": "YM-R35 primary-source dictionary recovery / minimal closure contract",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. R34 records a source-artifact/dictionary limitation and a derived target interface; the exact CMP116 analytic-domain and fluctuation-carrier statements remain to be transcribed from primary source."
+}
