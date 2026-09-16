@@ -1,0 +1,36 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R37_20260916.json",
+  "passes_completed_through": "YM-R38",
+  "live_cursor": "YM-R39",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "Hessian/propagator common-operator extraction",
+  "current_determination": "R38 types the CMP99 Green operator on its native gauge-fixed/Dirichlet source space rather than as an unrestricted ambient inverse. Under correct typing, projector identities arise only after embedding into ambient cochains, and sign/scale/one-half conventions are coordinate-dictionary data. The only unresolved common-operator seam is the exact CMP102 Delta_1 to CMP99 Delta_a identification/restriction/transport.",
+  "major_new_results": [
+    "An independent ambient projector hypothesis is unnecessary unless the primary source forces a projected inverse even on the native domain.",
+    "Normalization and scale factors belong to explicit coordinate transport rather than an additional analytic theorem.",
+    "Record B factors into a native CMP99 propagator record and a single CMP102-to-CMP99 Wilson-Hessian identification record."
+  ],
+  "negative_results": [
+    "Do not write Delta_1 = Delta_a = P_j on unrestricted ambient cochains.",
+    "Do not silently change CMP99's recorded Dirichlet domain.",
+    "Do not close the precision record from nomenclature alone."
+  ],
+  "live_obligations": [
+    "Determine whether CMP102 Delta_1 is explicitly constructed from the CMP99 Delta_a family.",
+    "Record any intermediate restriction/conjugation map rather than assuming literal equality.",
+    "Retain the R37 local O(g_j) defect and finite-range holomorphic dependence obligations.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R38_GAUGE_SLICE_NORMALIZATION_DICTIONARY_20260916.md",
+    "ym/checkpoints/YM_HEAD_R38_20260916.json"
+  ],
+  "next_action": "YM-R39 Hessian/propagator common-operator extraction",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. R38 is an operator-domain and dictionary minimization result, not a source proof of the unresolved Hessian identity."
+}
