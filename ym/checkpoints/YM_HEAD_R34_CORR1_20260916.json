@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R34_20260916.json",
+  "append_only_correction": "ym/passes/YM_R34_APPEND_ONLY_DOMAIN_SCALE_CORRECTION_20260916.md",
+  "passes_completed_through": "YM-R34",
+  "live_cursor": "YM-R35",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "Paper-I U_j^c coordinate definition / normalized-radius audit",
+  "current_determination": "R34 is corrected append-only as follows. The CMP119 source ledger explicitly records analytic extension on U_j^c(X,alpha_0j,alpha_1j) with alpha_0j=g_j*C0*(log g_j^-2)^q0 and alpha_1j=g_j*C1*(log g_j^-2)^q1, and separately records the three-condition gauge-invariant U_j^c definition window in equations (2.34)-(2.39). Thus the raw group-coordinate alpha widths shrink with g_j; the favorable fixed-tube statement from YM-R32 must be interpreted after canonical normalization U=exp(g_j A), where these bounds become logarithmic-size allowances and do not force collapse of a fixed bounded A-tube. The exact Paper-I coordinate conditions (i)-(iii) remain source-definition-pending. The fluctuation carrier branch is structurally closed at a conservative-envelope level: CMP116 source extraction says local component terms depend on fields restricted to Y0 plus a base-cube/collar enlargement, while the product-Gaussian species is bond-indexed X(b). The remaining fluctuationSupport work is therefore finite source-to-project bond/cube typing plus native localized-root agreement, not a new analytic theorem.",
+  "major_new_results": [
+    "Recovered source scaling alpha_0j = g_j*C0*(log g_j^-2)^q0 and alpha_1j = g_j*C1*(log g_j^-2)^q1 for the analytic local-action domain.",
+    "Corrected YM-R32: raw alpha widths are not scale independent; canonical normalized fields can nevertheless admit a fixed bounded tube because division by g_j removes the leading shrinkage.",
+    "Separated inductive alpha-domain widths from the smaller local Cauchy/coercivity collar used for derivative estimates.",
+    "CMP116 component localization supplies a conservative fluctuation carrier Y0 plus source base cube/collar; no minimal support equality is required.",
+    "CMP116 product coordinates X(b) are bond-indexed ultralocal Gaussian variables; covariance-root nonlocality remains handled by the native resummed localization package."
+  ],
+  "negative_results": [
+    "Do not describe alpha_0j or alpha_1j as fixed raw group-coordinate radii.",
+    "Do not infer the exact Paper-I U_j^c conditions (i)-(iii) from the CMP119 summary alone.",
+    "Do not identify activeSupport, fluctuationSupport and full polymer support.",
+    "Do not replace the source base-cube/collar carrier by a minimal-support equality or replace the resummed covariance root by a finite exact decomposition."
+  ],
+  "live_obligations": [
+    "Extract the exact Paper-I coordinate definition of U_j^c(X,alpha_0,alpha_1) and all conditions (i)-(iii).",
+    "Transform those inequalities under U=exp(g_j A) and determine a source-contained canonical Cauchy/coercivity collar with scale-uniform margin.",
+    "Complete the finite Y0/base-cube/bond-to-project fluctuationSupport dictionary; this is bookkeeping and should remain separate from the analytic-domain cursor.",
+    "Then instantiate the YM-R31/R32 root-derivative package and splice it into the YM-R28 epsilon1 stability result for the RP blocker.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R34_SOURCE_ANALYTIC_DOMAIN_FLUCTUATION_CARRIER_20260916.md",
+    "ym/checkpoints/YM_HEAD_R34_20260916.json",
+    "ym/passes/YM_R34_APPEND_ONLY_DOMAIN_SCALE_CORRECTION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R34_CORR1_20260916.json"
+  ],
+  "next_action": "YM-R35 Paper-I U_j^c coordinate definition / normalized-radius audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. The canonical-radius conclusion is conditional on the exact Paper-I source-to-coordinate dictionary; the append-only correction prevents the raw alpha widths from being misreported as scale independent."
+}
