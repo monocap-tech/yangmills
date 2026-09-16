@@ -1,0 +1,37 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R36_20260916.json",
+  "passes_completed_through": "YM-R37",
+  "live_cursor": "YM-R38",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "Delta_1/Delta_a/P_j gauge-slice and normalization dictionary",
+  "current_determination": "R37 shows that the analytic part of the native physical-precision package collapses to correct source identification, finite-range holomorphic local dependence, a flat/reference gap, and one volume-uniform local O(g_j) small-background defect estimate. Coercivity, weighted-resolvent decay, inverse-square-root decay and higher root derivatives are downstream consequences rather than independent source hypotheses.",
+  "major_new_results": [
+    "A fixed-range local kernel defect O(g_j) is sufficient; a separately sourced global operator-norm defect is unnecessary.",
+    "Uniform reference coercivity plus the O(g_j) defect yields real/complex coercivity at sufficiently weak coupling.",
+    "Finite range plus the gap yields weighted-resolvent decay; inverse-square-root decay and background derivatives then follow by the existing analytic functional calculus.",
+    "The remaining precision obstruction is primarily an exact source/operator dictionary, not a new analytic regularity package."
+  ],
+  "negative_results": [
+    "Do not source coercivity, root norm, root decay or higher root derivatives as independent physical hypotheses once the local defect/reference gap package is available.",
+    "Do not identify CMP102 Delta_1, CMP99 Delta_a and the project precision by nomenclature alone."
+  ],
+  "live_obligations": [
+    "Determine the exact gauge-fixed/Dirichlet source domain of the CMP99 inverse.",
+    "Determine projector-versus-native-identity status under coordinate transport.",
+    "Fix sign, normalization, scale and inner-product conventions between CMP99/CMP102 and P_j.",
+    "Retain the local O(g_j) defect and finite-range holomorphic dependence as source-facing precision obligations.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R37_EXACT_PRECISION_IDENTITY_SMALL_BACKGROUND_DEFECT_20260916.md",
+    "ym/checkpoints/YM_HEAD_R37_20260916.json"
+  ],
+  "next_action": "YM-R38 Delta_1/Delta_a/P_j gauge-slice and normalization dictionary",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. R37 is a dependency reduction conditional on exact source identification and a native local small-background precision estimate."
+}
