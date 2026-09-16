@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R57_20260916.json",
+  "passes_completed_through": "YM-R58",
+  "live_cursor": "YM-R59",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "effective-coupling interval / UV-window persistence audit",
+  "current_determination": "R58 closes the CMP122-II post-R E/R/B return map at mathematical/source level conditional on the source small-coupling interval. Eq. (1.101) writes the post-R action as A'_k plus the localized second-group R' terms and new first-group-derived boundary terms B'^(k). The second group already has the canonical-metric Eq. (1.100) R-sector form, while the first group is reassigned to the boundary sector. CMP122-II Theorem 1 then states that if the effective coupling sequence remains in (0,gamma] for sufficiently small gamma, the effective densities have the CMP119 Sect.2 form and satisfy all its conditions and bounds. Exact Eq. (1.102)/normalization and source-to-repository LocalActivity dictionaries remain custody/formalization work unless a later exact normalization identity requires them. The next true mathematical gate is persistence of the effective-coupling sequence in the small-coupling UV window.",
+  "major_new_results": [
+    "CMP122-II Eq. (1.101) returns the post-R action in the source form A_k = A'_k + sum_X R'^(k)(X) + sum_X B'^(k)(X).",
+    "First-group localized R' terms feed the new boundary sector B'^(k); second-group terms feed the post-R R sector.",
+    "The second-group Eq. (1.100) bound already has canonical polymer metric d_k(X), so the R-sector geometric class is restored before Theorem 1.",
+    "CMP122-II Theorem 1 certifies return of the full effective density to the CMP119 Sect.2 form/conditions/bounds under the small-coupling interval hypothesis.",
+    "The local complete-density/R-operation return map is therefore CLOSED conditional on effective-coupling-window persistence.",
+    "The next critical path changes from locality/resummation to coupling-flow/UV-window control."
+  ],
+  "negative_results": [
+    "Do not merge first-group B and second-group R sectors.",
+    "Do not identify source A'_k/R'^(k)/B'^(k) with repository LocalActivity fields without an explicit dictionary.",
+    "Do not claim Eq. (1.102) has been independently transcribed from the present packet; keep exact normalization details as custody debt unless later needed.",
+    "Do not assume the small-coupling interval is automatically preserved.",
+    "Do not infer continuum existence or mass gap from the lattice R-operation return map."
+  ],
+  "live_obligations": [
+    "Audit the effective-coupling recursion and UV-window persistence underlying CMP122-II Theorem 1.",
+    "Recover the precise CMP109/CMP119 coupling-flow equations used by the complete-density induction.",
+    "Separate finite RP coupling-coordinate calibration from genuine asymptotic-freedom/window persistence.",
+    "Determine whether a source theorem removes the small-coupling interval assumption or whether it remains the next theorem debt.",
+    "Keep exact p_0(g), Eq. (1.102) normalization, and source-to-Lean action dictionaries as side records unless a later frontier makes them critical.",
+    "No new source ID consumed; highest remains [80], next new source [81]."
+  ],
+  "highest_reference_number": 80,
+  "authoritative_files": [
+    "ym/passes/YM_R58_CMP122II_POST_R_ERB_RETURN_MAP_20260916.md",
+    "ym/checkpoints/YM_HEAD_R58_20260916.json"
+  ],
+  "next_action": "YM-R59 effective-coupling interval / UV-window persistence audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R58 closes only the CMP122-II post-R return map conditional on the source effective-coupling smallness hypothesis."
+}
