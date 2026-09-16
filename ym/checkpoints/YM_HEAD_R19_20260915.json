@@ -1,0 +1,49 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R18_20260915.json",
+  "passes_completed": ["YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19"],
+  "live_cursor": "YM-R20",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "irrelevant-remainder / inductive-norm audit",
+  "current_determination": "At quadratic order the reflection-adapted soft gauge kernel can be chosen to have exactly Bałaban's linear block average Q. Its fine-field Hessian is M+a Q^T Q, the same propagator family already used in the Gaussian/vector-field analysis. After integrating the fine field, however, fixed-a soft blocking is not identical to the hard constraint: if C=Q M^{-1}Q^T, the hard coarse Hessian is Delta_infty=C^{-1} while the soft one is Delta_a=(C+a^{-1}I)^{-1}. Their difference is -a^{-1} Delta_infty^2(I+a^{-1}Delta_infty)^{-1}, hence schematically p^4/a at low momentum when Delta_infty~p^2. The mismatch is therefore a candidate irrelevant higher-derivative operator rather than a generated mass. Fixed kappa does not become a hard constraint merely as g->0 in canonically rescaled fields; YM-R18 is corrected on that point. The remaining theorem deficit is inductive closure of this quadratic irrelevant correction plus the normalized kernel's cubic-and-higher local analytic remainder in Bałaban's polymer/effective-action norms.",
+  "major_new_results": [
+    "The soft matrix kernel can be path-weighted so its linearization is exactly the Bałaban gauge averaging operator Q.",
+    "The normalized weak-field kernel has leading conditional Gaussian form (a/2)||B-QA||^2.",
+    "The soft fine-field Green operator is (M+aQ^TQ)^{-1}, exactly the Gaussian operator family already present in Bałaban-style propagator analysis.",
+    "Hard coarse Hessian: Delta_infty=(QM^{-1}Q^T)^{-1}; soft coarse Hessian: Delta_a=(QM^{-1}Q^T+a^{-1}I)^{-1}.",
+    "The soft-hard quadratic difference is higher derivative at low momentum: Delta_a-Delta_infty ~ -a^{-1}p^4 when Delta_infty~p^2.",
+    "Linear gauge covariance Qd=dQ_0 prevents the Q^TQ term from being interpreted as a physical Proca mass.",
+    "Reflection-aligned straight-path averaging is compatible with positive-half-space support away from the reflection boundary."
+  ],
+  "correction_to_prior_state": "YM-R18's statement that fixed-kappa soft blocking automatically becomes the hard delta constraint as beta->infinity was coordinate-dependent and too strong. In canonically rescaled weak fields the soft width remains finite for fixed kappa/a. Exact hard recovery requires a->infinity; fixed a instead defines a distinct RG scheme whose leading difference is an irrelevant quadratic operator.",
+  "live_obligations": [
+    "Prove scale-uniform quasi-local bounds for E_a=Delta_a-Delta_infty.",
+    "Determine the RG scaling gain of E_a and whether it belongs to the existing irrelevant quadratic/effective-action sector.",
+    "Expand the normalized non-Abelian soft kernel beyond quadratic order and bound its analytic derivatives on Bałaban regular domains.",
+    "Show the cubic-and-higher kernel remainder localizes into polymer activities with the required exponential/tree decay and small coupling factors.",
+    "Check large-field/complete-density compatibility and reflection-factorization after localization.",
+    "Continue source numbering at [68]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 67,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R19_QUADRATIC_MATCHING_WEAK_FIELD_KERNEL_CLOSURE_20260915.md",
+    "ym/references/YM_REFERENCES_001_042_20260915.md",
+    "ym/references/YM_OPENING_SOURCE_BACKFILL_043_058_20260915.md",
+    "ym/references/YM_REFERENCES_059_20260915.md",
+    "ym/references/YM_REFERENCES_060_062_20260915.md",
+    "ym/references/YM_REFERENCES_063_066_20260915.md",
+    "ym/references/YM_REFERENCES_067_20260915.md",
+    "ym/checkpoints/YM_HEAD_R19_20260915.json"
+  ],
+  "next_action": "YM-R20 irrelevant-remainder / inductive-norm audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. The soft blocking construction is a candidate RG interface; quadratic compatibility does not establish nonlinear inductive closure or continuum equivalence."
+}
