@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R47_20260916.json",
+  "passes_completed_through": "YM-R48",
+  "live_cursor": "YM-R49",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "canonical norm / source-coordinate dictionary lock",
+  "current_determination": "R48 append-only corrects the R35/R47 provenance picture. The primary CMP109/Paper-I source is now directly recoverable and defines U_j^c by four conditions, not an inaccessible three-condition summary. Paper I also states an interior-space criterion: if the first three conditions hold with smaller constants, then for sufficiently small alpha_0' the multiscale fourth condition follows from the cited coarse-field estimate. CMP119 (2.34)-(2.39) is a later multiscale B/boundary refinement with a uniformly positive fractional margin, not the sole fundamental definition. Combining the source-normalized potential/derivative/curvature coordinates with alpha_r,j/g_j = C_r(log g_j^-2)^q_r closes the analytic embedding mechanism at source/mathematical level. CanonicalUjcEmbedding is therefore closed up to a finite project/source coordinate dictionary defining the canonical norm and any J normalization; no independent analytic source theorem remains.",
+  "major_new_results": [
+    "Paper I CMP109 printed pp.262-263 gives the fundamental U_j^c(X,alpha_0,alpha_1,gamma_0) definition with four conditions: regular real base, complex displacement, full complex curvature/source, and multiscale coarse-field regularity.",
+    "Paper I immediately gives a smaller-constants/interior-space criterion under which condition (iv) follows from conditions (i)-(iii); the fourth condition is not independent embedding debt once a strict normalized margin is established.",
+    "Paper I states analyticity constants alpha_0,alpha_1 may be chosen as positive absolute constants independent of X and j for the localized regular activity bound.",
+    "CMP119 (2.34)-(2.39) is a multiscale refinement/generalization whose margin m_{j,n}=1-beta(1-2^{-(j-n)}) is uniformly bounded below by 1-beta, e.g. 3/4 for beta=1/4.",
+    "A valid project CanonicalFieldNorm must dominate the source-normalized potential, scaled first derivative/curvature and source quantities; a raw unweighted bond sup norm is insufficient.",
+    "With mathcal U=exp(i g_j a), those source quantities are O(g_j ||a||_can) locally, and the logarithmically enlarged alpha_r,j/g_j allowances give a fixed canonical ball at sufficiently weak coupling.",
+    "CanonicalUjcEmbedding status: CLOSED UP TO FINITE COORDINATE DICTIONARY."
+  ],
+  "negative_results": [
+    "Do not retain the old statement that the exact Paper-I U_j^c definition is inaccessible.",
+    "Do not describe the fundamental Paper-I domain as a three-condition definition.",
+    "Do not treat CMP119 (2.34)-(2.39) as a verbatim replacement for Paper I; it is a later multiscale B/boundary refinement.",
+    "Do not use a raw unscaled bond sup norm as the canonical ball; scaled derivative/curvature/source controls are part of the source domain.",
+    "Do not claim condition (iv) automatically outside the Paper-I smaller-constants/interior criterion.",
+    "Do not reopen RP-specific precision/root/Gaussian/Jacobian obligations."
+  ],
+  "live_obligations": [
+    "Define the project CanonicalFieldNorm explicitly from the Paper-I normalized quantities in (1.11)-(1.16), with the CMP119 multiscale refinement included where the complete-density B sector needs it.",
+    "Record the exact fixed comparison constants between project canonical a and the source xi/eta-normalized logarithmic coordinates under mathcal U=exp(i g_j a).",
+    "If J is independently represented in the project, lock its source normalization in the same coordinate dictionary.",
+    "Then mark CanonicalUjcEmbedding fully closed and return to the remaining native H(Z)/D/P/Z0/Z0' source dictionaries or complete-density frontier.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R48_PAPER_I_NORMALIZED_DOMAIN_EXTRACTION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R48_20260916.json"
+  ],
+  "next_action": "YM-R49 canonical norm / source-coordinate dictionary lock",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R48 closes the source-level analytic embedding mechanism and leaves a finite project/source coordinate dictionary before CanonicalUjcEmbedding can be marked fully closed."
+}
