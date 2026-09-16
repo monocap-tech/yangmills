@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R48_20260916.json",
+  "passes_completed_through": "YM-R49",
+  "live_cursor": "YM-R50",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 H(Z) termwise/source dictionary closure",
+  "current_determination": "R49 closes CanonicalUjcEmbedding by fixing the final source/project coordinate dictionary. The key append-only correction is that the source potential, not the bare link logarithm, is the O(g_j) field: in Paper-I coordinates A'=g_j a_pot and U'=exp(i xi g_j a_pot). If one instead uses a dimensionless link-log variable a_link, then a_link=xi a_pot and its canonical norm must carry the inverse-xi conversion back to source-potential coordinates. With the source-potential norm controlling the potential, source covariant first difference and optional J/g_j component, the Paper-I potential inequalities are linear in g_j, the plaquette estimate has a compensating xi^2 exactly matching the source curvature allowance, and the Paper-I smaller-space argument supplies condition (iv). A fixed canonical Cauchy collar therefore embeds into U_j^c with constants independent of UV scale, volume and localization domain. The native analytic-domain gate is exhausted.",
+  "major_new_results": [
+    "Paper I uses xi=L^(-j) at the local j-scale and controls A and nabla_U^xi A directly in the logarithmic chart U^u=exp(i xi A).",
+    "The correct project source-potential chart is A'=g_j a_pot, U'=exp(i xi g_j a_pot).",
+    "The alternative chart U'=exp(i g_j a_link) is equivalent only with a_link=xi a_pot and an xi^(-1)-weighted canonical norm.",
+    "CanonicalFieldNorm is source-shaped: sup potential, source covariant first difference, and optional source component J/g_j; fixed geometry weights for a generated real background may be included separately.",
+    "Finite local BCH gives xi^(-2) plaquette variation <= C_plaq(g_j R+g_j^2 R^2), so no inverse lattice-spacing loss survives.",
+    "Paper-I absolute analytic constants plus its smaller-space/interior criterion yield a scale/volume-uniform fixed canonical ball and Cauchy collar.",
+    "CanonicalUjcEmbedding status: CLOSED."
+  ],
+  "negative_results": [
+    "Do not use an unweighted link-log sup norm as a scale-uniform canonical norm.",
+    "Do not write the unrescaled source chart as exp(i g_j a_pot); the xi factor is required.",
+    "Do not rewrite Paper-I (1.12)-(1.13) as bounds on xi A unless the variable/norm is explicitly changed.",
+    "Do not reopen RP-specific precision/root/Gaussian/Jacobian obligations.",
+    "Do not interpret this source-coordinate closure as a proof of four-dimensional Yang-Mills existence or the continuum mass gap."
+  ],
+  "live_obligations": [
+    "Extract the exact CMP116 H(Z,Z0)/H(Z) source index stack and finite-sum construction.",
+    "Separate source summand identity, termwise majorant and component factorization from project-only dictionary/formalization debt.",
+    "Audit the remaining Eq. (2.29), Eq. (2.31) and Eq. (2.37) summability dependencies only after the H(Z) termwise object is source-typed.",
+    "Keep covariance/root/Hessian/Gaussian project dictionaries as side records unless a native cluster-expansion gate makes them necessary.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R49_CANONICAL_NORM_SOURCE_COORDINATE_DICTIONARY_LOCK_20260916.md",
+    "ym/checkpoints/YM_HEAD_R49_20260916.json"
+  ],
+  "next_action": "YM-R50 CMP116 H(Z) termwise/source dictionary closure",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R49 closes only the native analytic-domain embedding/dictionary gate and returns the traversal to the unresolved native cluster-expansion source structure."
+}
