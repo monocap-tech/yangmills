@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R44_20260916.json",
+  "passes_completed_through": "YM-R45",
+  "live_cursor": "YM-R46",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native-localization uniformity / critical-path consolidation audit",
+  "current_determination": "R45 removes NativeInsertionSupportAnchor as an independent source theorem. The soft blocker path family is design data and can be required to have a uniformly bounded cover by CMP116 localization cubes around each anchor coarse link. The inserted support may be adjoined to the native Y0 seed before applying CMP116's existing rule that Z0 is the smallest localization domain containing Y0 and the selected P bonds. The bounded seed enlargement changes only fixed geometric constants. Summing over all local anchors does not create a volume-dependent amplitude because native localization-domain volume is controlled by tree distance, allowing anchor multiplicity to be absorbed by a finite decay-exponent loss. Uniform interpolation remains conditional on the separate CanonicalUjcEmbedding analytic-domain obligation.",
+  "major_new_results": [
+    "Blocker support is finite design data: fixed path families give a scale-independent localization-cube cover around each coarse-link anchor.",
+    "The blocker can reuse CMP116's native minimal-Z0 construction after adjoining its bounded support cover to the initial Y0 seed; no new localization mechanism is required.",
+    "A uniformly bounded seed enlargement costs only a constant amplitude factor or finite decay-margin loss.",
+    "The hidden multiplicity from placing the blocker at every coarse link is absorbed by native volume/tree-distance control, so no volume-dependent constant appears.",
+    "No blocker-specific support theorem remains; the exact source-to-project activeSupport/fluctuationSupport dictionary is a pre-existing formalization side record."
+  ],
+  "negative_results": [
+    "Do not require the blocker support to equal a pre-existing source Y0 exactly.",
+    "Do not introduce a separate blocker support dictionary; reuse the CMP116 localization/support dictionary.",
+    "Do not ignore anchor multiplicity; it must be absorbed using native geometric decay reserve.",
+    "Do not claim the source-to-project support dictionary itself is closed.",
+    "Do not remove the independent CanonicalUjcEmbedding analytic-domain obligation."
+  ],
+  "live_obligations": [
+    "Consolidate R36-R45 and identify the genuinely independent source-facing obligations remaining on the RP branch.",
+    "Audit whether all remaining native CMP116 localization/termwise assumptions are already obligations of the unmodified Bałaban step rather than modification-specific debt.",
+    "Keep CanonicalUjcEmbedding separate as the remaining Paper-I analytic-domain source fact.",
+    "Keep project covariance/root/Hessian/Gaussian and H(Z) index/summand dictionaries as side-record formalization tasks unless they re-enter the critical path.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R45_NATIVE_INSERTION_SUPPORT_ANCHOR_20260916.md",
+    "ym/checkpoints/YM_HEAD_R45_20260916.json"
+  ],
+  "next_action": "YM-R46 native-localization uniformity / critical-path consolidation audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R45 is a support-geometry dependency minimization conditional on the native CMP116 localization architecture and the still-open canonical analytic-domain embedding."
+}
