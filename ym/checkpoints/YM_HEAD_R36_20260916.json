@@ -1,0 +1,42 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R35_20260916.json",
+  "passes_completed_through": "YM-R36",
+  "live_cursor": "YM-R37",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "exact precision identity / small-background defect audit",
+  "current_determination": "R36 minimizes the provisional CanonicalUjcCollar. The only Paper-I-specific analytic fact needed downstream is CanonicalUjcEmbedding: a fixed canonical outer ball maps into U_j^c for sufficiently weak g_j. Inner evaluation radius and Cauchy margin are chosen geometrically. Precision analyticity, real/complex coercivity, resolvent decay, inverse-square-root/root decay and higher root derivatives belong to and are derived from an independent native precision certificate, not Paper I. The unbounded product-Gaussian variable X also requires no new source theorem: a moderate-fluctuation region supports the local chart/analytic expansion while the complementary Gaussian tail is superpolynomially small, preserving the O(g_j) integrated soft-activity amplitude. Combining native root localization with YM-R29 and YM-R28 shows the preferred RP blocker is hypothesis-neutral relative to the native CMP116 one-step closure package: once the native domain/precision/support dictionaries close, no additional source theorem is required solely by the blocker.",
+  "major_new_results": [
+    "CanonicalUjcCollar was over-specified; the Paper-I packet reduces to one CanonicalUjcEmbedding theorem with a fixed outer canonical radius and weak-coupling threshold.",
+    "Inner Cauchy radius/margin are choices, not source facts; fixed-order derivative bounds follow from outer-domain holomorphy and Cauchy estimates.",
+    "Native real coercivity, complex coercivity, resolvent/root decay and higher background root derivatives are consequences of the independent exact local precision certificate plus source-independent functional calculus.",
+    "A moderate-X / Gaussian-tail split removes the hidden need for a pointwise fixed tube in the unbounded product-Gaussian variable and preserves O(g_j) integrated amplitude.",
+    "Relative to the native Bałaban one-step package, the reflection-positive blocker adds zero independent source hypotheses."
+  ],
+  "negative_results": [
+    "Do not carry coercivity, derivative constants or root-decay fields inside the Paper-I analytic-domain record.",
+    "Do not impose a global pointwise logarithm/fixed complex tube on all unbounded Gaussian X; the tail must be handled by Gaussian integrability.",
+    "Do not treat the source-independent local-SPD formal shell as already identified with the physical Wilson Hessian.",
+    "Do not claim CanonicalUjcEmbedding until the exact Paper-I domain definition is recovered.",
+    "Do not merge analytic-domain, precision and support dictionaries."
+  ],
+  "live_obligations": [
+    "Identify CMP102 Delta_1 and CMP99 Delta_a/G(U) with the exact project fluctuation precision/Hessian, including sign, normalization, gauge slice and domain conventions.",
+    "Extract the flat/reference coercivity normalization and the exact local finite-range precision structure.",
+    "Prove or source the small-background defect P_j(exp(g_j A)) - P_0,j = O(g_j) in a volume-uniform local operator/kernel norm.",
+    "Determine whether those facts instantiate the source-independent local-SPD/weighted resolvent certificate without additional analytic assumptions.",
+    "Keep CanonicalUjcEmbedding source recovery and the finite fluctuation-support dictionary as separate native obligations.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R36_NORMALIZED_DOMAIN_SPLICE_HYPOTHESIS_MINIMIZATION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R36_20260916.json"
+  ],
+  "next_action": "YM-R37 exact precision identity / small-background defect audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. R36 is a dependency-minimization and derived-stability result conditional on the native Bałaban domain/precision/support dictionaries, which remain incompletely source-instantiated."
+}
