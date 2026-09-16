@@ -1,0 +1,49 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R25_20260915.json",
+  "passes_completed": ["YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19","YM-R20","YM-R21","YM-R22","YM-R23","YM-R24","YM-R25","YM-R26"],
+  "live_cursor": "YM-R27",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "epsilon_1 / localization-budget audit",
+  "current_determination": "For the explicit cutoff center C_e=U0 exp(sum_j w_j phi(U0^{-1}U_j)), the regular-chart BCH expansion has an anchor-commutator cancellation: log C_e(exp(gA)) = g QA + g^2 Ybar(A) + O(g^3), with Ybar the weighted quadratic path-ordering term. On a fixed complex canonical-field tube, all fixed-order derivatives of the nonlinear center defect are O(g^2), uniformly in RG scale once g is small enough that the cutoff is identically one. Inserting the center into the single translated heat kernel with t=g^2/a gives K_soft/K_Gauss = exp[g a <B-QA,Ybar(A)> + O(g^2)] = 1+O(g) in analytic norm. Thus the preferred RP blocker is genuinely a weak analytic perturbation of the Bałaban Gaussian block factor. The remaining source-level obligation is whether this O(g_k) raw local activity fits the exact epsilon_1/Cauchy budget of Parts I-II after Wilson-action extraction and survives generalized random-walk localization into the CMP116 Lemma-3 H(Z) bound.",
+  "major_new_results": [
+    "At order g^2, the commutators introduced by the distinguished anchor cancel against the outer BCH term, leaving log C = g QA + g^2 sum_j w_j Y_j + O(g^3).",
+    "The center defect N_g=log C-gQA has uniform fixed-order analytic derivative bounds O(g^2) on the fixed regular complex tube.",
+    "For W=log(V C^{-1}), the Ad-invariant inner product kills the apparent commutator contribution <B-QA,[B,QA]>, so the first heat-kernel exponent correction is g a <B-QA,Ybar(A)>.",
+    "The exact local single-center kernel differs from the Gaussian block factor by an analytic 1+O(g_k) local factor; in the Abelian case the O(g) center correction vanishes.",
+    "Finite block/path geometry makes the O(g_k) analytic bound uniform in the RG step, subject to the already-fixed complex tube and weak-coupling ceiling."
+  ],
+  "negative_results": [
+    "Do not infer full CMP116 polymer closure from the local 1+O(g_k) estimate; the epsilon_1 budget and random-walk localization constants still have to be checked.",
+    "Do not classify the O(g) cubic local factor as irrelevant solely by field degree; any Wilson-action projection generated after fluctuation integration must be extracted in the existing coupling coordinate.",
+    "No new source was consumed in YM-R26; the calculation is a project derivation using previously custodied Bałaban and compact-group heat-kernel inputs."
+  ],
+  "live_obligations": [
+    "Extract the exact definition/scaling of epsilon_1 in Bałaban Parts I-II and its dependence on g_k and the inductive constants.",
+    "Determine whether the O(g_k) soft-kernel analytic factor fits the raw activity assumptions after vacuum/Wilson-action extraction.",
+    "Track the new local term through the product-Gaussian change, weakening parameters, generalized random-walk expansions and CMP116 Lemma 3.",
+    "Determine whether any symmetry or local-extraction cancellation improves the source-side smallness from O(g_k) to a higher power if the epsilon_1 budget requires it.",
+    "Continue source numbering at [76]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 75,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R20_IRRELEVANT_REMAINDER_INDUCTIVE_NORM_20260915.md",
+    "ym/passes/YM_R21_LOCAL_EXTRACTION_COUPLING_COORDINATE_20260915.md",
+    "ym/passes/YM_R22_ANALYTIC_JET_POLYMER_NORM_CLOSURE_20260915.md",
+    "ym/passes/YM_R23_NORMALIZED_KERNEL_HOLOMORPHY_20260915.md",
+    "ym/passes/YM_R25_GLOBAL_CENTER_REFLECTION_EXTENSION_20260915.md",
+    "ym/passes/YM_R26_CUTOFF_CENTER_ANALYTIC_REMAINDER_20260915.md",
+    "ym/checkpoints/YM_HEAD_R26_20260915.json"
+  ],
+  "next_action": "YM-R27 epsilon_1 / localization-budget audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. The O(g_k) local kernel estimate is a weak-field project derivation; source-level inductive closure remains unproved."
+}
