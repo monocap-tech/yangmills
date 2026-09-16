@@ -1,0 +1,37 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R40_20260916.json",
+  "passes_completed_through": "YM-R41",
+  "live_cursor": "YM-R42",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "downstream one-step precision back-reference audit (CMP109/CMP116)",
+  "current_determination": "R41 cannot source-lock the first CMP102 definition of Delta_1 from the presently retrievable primary body. The prior candidate Delta_1 = Delta_a|a=1 remains unverified, and notation alone now carries no evidentiary weight because subscript-1 notation can denote first-step effective quadratic forms in related Balaban RG exposition. Record B therefore remains open only at the exact source/operator dictionary and local O(g_j) defect seam; generic coercivity/resolvent/root analysis remains closed downstream of that seam.",
+  "major_new_results": [
+    "The repository traversal has been restored append-only through R37-R41; repository authority now matches the live cursor.",
+    "The direct Delta_1 definition provenance gate remains unresolved because the exact primary definition window is not present in the retrievable source extract.",
+    "The inference route from the subscript 1 to the parameter value a=1 is explicitly ruled out as evidentially insufficient.",
+    "A downstream audit of already-numbered CMP109/CMP116 can potentially close the precision dictionary without consuming a new source."
+  ],
+  "negative_results": [
+    "Do not infer Delta_1 = Delta_a|a=1 from notation.",
+    "Do not mark record B closed from shared positivity and propagator estimates.",
+    "Do not invent the missing CMP102 definition or consume a new source before auditing the already-custodied downstream one-step operator formulas."
+  ],
+  "live_obligations": [
+    "Audit CMP109/CMP116 for the exact fluctuation precision/covariance entering the one-step Gaussian integral and its back-reference to CMP99/CMP102.",
+    "Determine the operator identity, native gauge/block domain and inverse relation from that downstream source spine.",
+    "Recover the local small-background/locality estimate sufficient for P_j(exp(g_j A))-P_0,j = O(g_j), or identify the precise remaining source theorem.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R41_DELTA1_DEFINITION_PROVENANCE_GATE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R41_20260916.json"
+  ],
+  "next_action": "YM-R42 downstream one-step precision back-reference audit (CMP109/CMP116)",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. R41 is a provenance-boundary and inference-correction pass; the physical precision dictionary remains source-open."
+}
