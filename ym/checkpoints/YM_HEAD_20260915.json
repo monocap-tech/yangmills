@@ -1,0 +1,64 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_20260914.json",
+  "passes_completed": [
+    "YM-R0",
+    "YM-R1",
+    "YM-R2",
+    "YM-R3",
+    "YM-R4",
+    "YM-R5",
+    "YM-R6",
+    "YM-R7",
+    "YM-R8",
+    "YM-R9",
+    "YM-R10",
+    "YM-R11",
+    "YM-R12",
+    "YM-R13",
+    "YM-R14",
+    "YM-R15"
+  ],
+  "live_cursor": "YM-R16",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "exact-pushforward custody",
+  "current_determination": "The live traversal has reduced the reflection-positivity custody question to the exact non-Abelian blocking map. Analytic background minimizers, Landau coordinates, propagators and polymer reorganizations may cross the reflection plane without destroying reflection positivity provided they are exact representations of an already reflection-positive coarse pushforward measure. The next obligation is therefore to establish or falsify Q Theta = Theta Q and pullback preservation of the positive-time algebra for one actual Bałaban averaging step, then classify later operations as exact reparametrizations or genuine approximations with controlled remainders.",
+  "major_negative_results": [
+    "A dimensionless lattice transfer gap is not the continuum physical mass without the lattice-spacing normalization.",
+    "RG contraction is not a Hamiltonian spectral-gap theorem.",
+    "A Langevin/Markov spectral gap is not definitionally the quantum Hamiltonian mass gap.",
+    "Coarse gappedness does not imply fine gappedness; compression can hide low-energy discarded states.",
+    "M/Lambda_YM normalization does not itself prove M > 0.",
+    "An order-one running coupling does not certify entry into a strong-coupling massive basin.",
+    "Bałaban UV polymer smallness and strong-coupling Haar-polymer smallness are different coordinate neighborhoods.",
+    "Generic Euclidean locality does not imply reflection positivity or a local Hamiltonian interaction norm."
+  ],
+  "major_positive_structures": [
+    "Common-observable exponential exponents are a known constructive pattern; the hard uniformity is over cutoff and volume in physical units.",
+    "Massive phases are open in several local interaction topologies (polymer, mixing/functional-inequality, Hamiltonian gap-stability).",
+    "Feshbach/spectral RG can preserve low-spectrum questions but does not generate the Yang-Mills gap by itself.",
+    "Reflection positivity is functorially preserved by an exact blocking pushforward if the blocking map intertwines reflection and preserves the positive-time algebra.",
+    "Bałaban block averaging and piecewise axial gauge appear geometrically compatible with half-space localization; the first visibly nonlocal analytic objects are the background minimizer/Landau propagator, which may nevertheless be only proof coordinates."
+  ],
+  "live_obligations": [
+    "Write one actual Bałaban non-Abelian block-average Q at a reflection-aligned scale and check Q Theta = Theta Q.",
+    "Check whether every positive-time coarse observable pulls back under Q to a positive-time fine observable.",
+    "Classify delta constraints, axial gauge, Landau change, background expansion, small/large-field partitions, localization, cluster expansion and R-operation as exact identities/reparametrizations versus approximations.",
+    "If approximation enters, identify the exact remainder and determine whether total-measure reflection positivity is retained.",
+    "Continue source numbering at [59]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 58,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/references/YM_REFERENCES_001_042_20260915.md",
+    "ym/references/YM_OPENING_SOURCE_BACKFILL_043_058_20260915.md",
+    "ym/checkpoints/YM_HEAD_20260915.json"
+  ],
+  "next_action": "YM-R16 exact-pushforward custody",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. Proposed 2026 solution programs remain audit targets unless independently validated and accepted."
+}
