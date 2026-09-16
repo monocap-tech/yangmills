@@ -1,0 +1,46 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R58_20260916.json",
+  "passes_completed_through": "YM-R59",
+  "live_cursor": "YM-R60",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "Paper-I beta-function / coupling-inequality extraction and UV tuning audit",
+  "current_determination": "R59 identifies CouplingWindowPersistence as the live native theorem boundary after closure of the small-field and large-field local machinery. CMP119 Eq. (2.24) gives the localized inverse-square coupling recursion 1/g_{j-1}^2(x)=1/g_j^2(x)+beta_j(g_{j-1}) phi_j(x). CMP119 Theorem 1 says RT-generated densities satisfy all inductive assumptions when the coupling sequence obeys the Paper-I recursive RG equations and inequalities (1.0.33). CMP122-II Theorem 1 retains the explicit hypothesis that the effective couplings remain in a sufficiently small interval (0,gamma], and the source explicitly says the stronger perturbative theorem intended to remove this assumption was not published there. Thus the published complete-density/R-operation result is conditional on global marginal-flow control. Finite prescribed windows can be kept weak after suitable initial-coupling margin if uniform beta-increment bounds are available, but the exact Paper-I inequalities/beta bounds remain to be extracted. The RP modification causes only a finite O(g^3) scheme shift and therefore requires only a fixed collar shrink, not a new flow theorem.",
+  "major_new_results": [
+    "CMP119 Eq. (2.24) source-verifies the localized inverse-square effective-coupling recursion.",
+    "CMP119 Theorem 1 is conditional on the Paper-I recursive RG equations and coupling inequalities (1.0.33).",
+    "CMP122-II Theorem 1 explicitly retains the small-effective-coupling interval hypothesis.",
+    "CMP122-II states that the stronger perturbative theorem intended to remove that assumption was not published in that paper.",
+    "CouplingWindowPersistence is therefore a genuine published-source theorem boundary rather than another polymer/localization obligation.",
+    "For a fixed finite number of steps, a uniform beta-increment bound plus sufficient inverse-square margin yields an elementary finite-window persistence estimate; this is conditional and not claimed as the exact source inequality.",
+    "The four-dimensional marginal coupling must not be assigned geometric per-step decay; irrelevant/polymer geometry carries the geometric contraction.",
+    "An RP finite scheme shift g_RP=g+O(g^3) preserves the native weak-coupling window after a fixed collar shrink and creates no independent flow theorem."
+  ],
+  "negative_results": [
+    "Do not claim CMP122-II proves small-coupling persistence from the bare coupling alone.",
+    "Do not treat the existence of the recursive coupling equation as a proof of global trajectory control.",
+    "Do not invent Paper-I inequality (1.0.33) details before extracting them.",
+    "Do not impose geometric decay on the four-dimensional marginal coupling.",
+    "Do not conflate RP scheme calibration with native asymptotic-freedom/window persistence.",
+    "Do not infer continuum existence or mass gap from conditional ultraviolet stability."
+  ],
+  "live_obligations": [
+    "Extract Paper-I equations (0.18), (0.20) and coupling inequalities (1.0.33) precisely.",
+    "Recover source bounds/sign/leading behavior of beta_j(g) sufficient to analyze weak-coupling trajectory persistence.",
+    "Determine finite-N versus uniform-in-UV-depth tuning and identify the exact global marginal-flow residue.",
+    "Search the published Balaban spine for any later theorem actually removing the CMP122-II coupling-window assumption.",
+    "Keep exact p_0(g), Eq. (1.102) normalization, source-to-Lean action dictionaries and numerical RP coupling calibration as side records unless later required.",
+    "No new source ID consumed; highest remains [80], next new source [81]."
+  ],
+  "highest_reference_number": 80,
+  "authoritative_files": [
+    "ym/passes/YM_R59_EFFECTIVE_COUPLING_UV_WINDOW_20260916.md",
+    "ym/checkpoints/YM_HEAD_R59_20260916.json"
+  ],
+  "next_action": "YM-R60 Paper-I beta-function / coupling-inequality extraction and UV tuning audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R59 only identifies and classifies the remaining native effective-coupling-window theorem boundary."
+}
