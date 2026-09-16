@@ -1,0 +1,42 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R34_CORR1_20260916.json",
+  "passes_completed_through": "YM-R35",
+  "live_cursor": "YM-R36",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "normalized-domain splice / hypothesis-minimization audit",
+  "current_determination": "The exact Paper-I coordinate conditions defining U_j^c(X,alpha_0,alpha_1) remain inaccessible in the current source corpus and must not be reconstructed from later notation. CMP119 nevertheless source-verifies the decisive scaling alpha_0j=g_j*C0*(log g_j^-2)^q0 and alpha_1j=g_j*C1*(log g_j^-2)^q1 and records that U_j^c is a gauge-invariant three-condition multiscale regularity domain. R35 isolates the minimum downstream source contract CanonicalUjcCollar: fixed canonical inner/outer radii, a scale/volume-uniform Cauchy margin, analytic local precision coefficients on the outer ball, and the real coercivity/Green margin. Under this contract R32 supplies a fixed sectorial complex precision subtube and R31 supplies tree-decaying covariance-root derivatives. Thus shrinking raw alpha widths do not by themselves imply shrinking normalized analytic jurisdiction; exact closure is now a single source-pending domain-embedding theorem rather than an opaque Paper-I dependency.",
+  "major_new_results": [
+    "Exact Paper-I U_j^c conditions (i)-(iii) were not recovered from GitHub, File Library, or accessible web primary artifacts; the source ledger itself marks them open.",
+    "For any local analytic defining functional F with F(1)=0, F(exp(g_j A))=g_j L_F(A)+O_R(g_j^2) on fixed canonical balls, so the source allowance alpha_rj/g_j=C_r(log g_j^-2)^q_r controls the normalized radius.",
+    "If q_r>0, any fixed bounded canonical ball is eventually admissible for that condition; if q_r=0, a sufficiently small fixed ball is admissible when its linearized norm lies below C_r with margin.",
+    "The minimum source theorem needed downstream is CanonicalUjcCollar, not the entire historical Paper-I construction.",
+    "Fluctuation-support carrier work remains a separate finite dictionary already narrowed in YM-R34."
+  ],
+  "negative_results": [
+    "Do not transcribe or invent Paper-I conditions (i)-(iii) from CMP119 summaries.",
+    "Do not treat the normalized-radius criterion as a theorem about Paper I until each defining functional and normalization is source-identified.",
+    "Do not interpret shrinking raw alpha_0j,alpha_1j as an automatic collapse of canonical Cauchy jurisdiction.",
+    "Do not merge the Paper-I analytic-domain obligation with the already-separated fluctuation-support dictionary."
+  ],
+  "live_obligations": [
+    "Assume only the explicitly source-pending CanonicalUjcCollar record and splice it through YM-R32 complex coercivity, YM-R31 root derivatives, YM-R29 localization stability, and YM-R28 epsilon1 closure.",
+    "Minimize the resulting hypothesis packet: identify which fields of CanonicalUjcCollar are actually independent and which follow from local finite-range analyticity plus real Green/coercivity bounds.",
+    "Keep exact Paper-I source recovery as a provenance task, but do not block derivation of consequences conditional on the minimal record.",
+    "Maintain the separate finite Y0/base-cube/bond-to-project fluctuationSupport dictionary.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R34_APPEND_ONLY_DOMAIN_SCALE_CORRECTION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R34_CORR1_20260916.json",
+    "ym/passes/YM_R35_PAPER_I_UJC_NORMALIZED_RADIUS_20260916.md",
+    "ym/checkpoints/YM_HEAD_R35_20260916.json"
+  ],
+  "next_action": "YM-R36 normalized-domain splice / hypothesis-minimization audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. CanonicalUjcCollar is an explicitly source-pending theorem-shaped contract until the exact Paper-I domain definition is recovered and checked."
+}
