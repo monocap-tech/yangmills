@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R53_20260916.json",
+  "passes_completed_through": "YM-R54",
+  "live_cursor": "YM-R55",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP119 complete-density entry / E-R-B handoff architecture",
+  "current_determination": "R54 closes the Paper-I/II regular small-field one-step mechanism for the current RP-compatibility traversal at mathematical/source level. CMP116 Eqs. (2.39)-(2.41) insert Lemma 3 into the exponentiated polymer series, restore the next-scale effective-action class under the E0/2 amplitude budget, and separately control the extra log-Z normalization term by a generalized random-walk expansion using the remaining E0/2 budget. Together with R49-R53 this leaves no genuinely mathematical compatibility obligation inside the native regular small-field one-step mechanism. Remaining D/P/Z0/Z0'/H(Z)/Gaussian/Hessian records are project/formalization dictionaries; an explicit numerical RP-induced coupling shift is optional scheme-calibration data, not an induction-closing theorem. The mathematical critical path now exits CMP116 and enters CMP119 complete-density E/R/B handoff and the CMP122 large-field R-operation architecture.",
+  "major_new_results": [
+    "CMP116 Eqs. (2.39)-(2.41) provide the post-Lemma-3 return map from H(Z) activity decay to the next-scale localized effective-action bound.",
+    "The effective-action contribution from the exponentiated H(Z) series uses O(1)*C3*epsilon1 <= E0/2.",
+    "The extra log Z^(k)(U_{k+1}) - log Z^(k)(1) normalization term is separately localized by generalized random-walk expansion and assigned the remaining E0/2 budget.",
+    "Paper-I/II small-field one-step closure is mathematically exhausted for the current RP-compatibility branch.",
+    "The numerical finite RP coupling-scheme shift remains optional calibration data, not a small-field induction blocker.",
+    "The next genuine mathematical frontier is the full-density handoff: CMP119 density/T-operation E/R/B architecture followed by CMP122-I/II large-field R-operation control."
+  ],
+  "negative_results": [
+    "Do not treat Lemma 3 alone as the complete one-step endpoint; the post-Lemma effective-action and normalization handoff is required.",
+    "Do not keep source-to-Lean CMP116 dictionaries on the mathematical critical path once the source objects and estimates are closed.",
+    "Do not infer complete-density closure, continuum construction, OS reconstruction, or a continuum mass gap from regular small-field closure.",
+    "Do not promote the uncomputed numerical RP coupling shift into a theorem deficit unless a later exact scheme/Lambda comparison requires it."
+  ],
+  "live_obligations": [
+    "Enter CMP119 at the complete-density handoff and recover the exact density decomposition around (2.18)-(2.23).",
+    "Type the regular E, localized R, and boundary/large-field B sectors and identify which inherit the closed CMP116 small-field estimates.",
+    "Identify the first genuinely new large-field obligation deferred to CMP122-I/II.",
+    "Keep CMP116 formalization dictionaries and exact RP coupling calibration as side records unless later frontiers require them.",
+    "No new source ID consumed; highest remains [80], next new source [81]."
+  ],
+  "highest_reference_number": 80,
+  "authoritative_files": [
+    "ym/passes/YM_R54_SMALL_FIELD_ONE_STEP_EXIT_GATE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R54_20260916.json"
+  ],
+  "next_action": "YM-R55 CMP119 complete-density entry / E-R-B handoff architecture",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R54 closes only the regular small-field one-step compatibility branch and explicitly moves the research cursor to the still-open complete-density/large-field problem."
+}
