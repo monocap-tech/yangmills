@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R16_20260915.json",
+  "passes_completed": [
+    "YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17"
+  ],
+  "live_cursor": "YM-R18",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "kernel replacement / reflection-positive blocking",
+  "current_determination": "On the regular small-field chart, invariant-distance averaging is compatible with gauge covariance, orientation reversal and reflection covariance when the block/path geometry is reflection aligned. A closely related Federbush block-spin construction explicitly uses Balaban-type averaging at small field and a suitable continuous large-field extension, but differs slightly from Balaban's original definition and does not install the full RP contract for that original map. Moreover, a globally continuous fully symmetric idempotent group mean is topologically overconstrained: restriction to a maximal torus and passage to pi_1 yields nA=I, impossible for n>1. Thus the global blocking object need not and generally should not be demanded to be a canonical continuous symmetric deterministic mean. The next candidate is a positive local gauge/reflection-covariant blocking kernel.",
+  "major_new_results": [
+    "Small-field Karcher/Frechet-type averaging has the desired gauge and inversion covariance by uniqueness plus bi-invariance of the group metric.",
+    "Federbush 1987 supplies an explicit precedent for a continuous large-field extension of a Balaban-type block-spin map, while stating that his definition differs slightly from Balaban's original one.",
+    "A continuous permutation-symmetric idempotent n-mean on a maximal torus is impossible for n>1 by the induced pi_1 map: permutation symmetry gives equal integer coordinate maps A and diagonal idempotency gives nA=I.",
+    "Therefore full global symmetry, continuity and idempotent averaging cannot all be demanded simultaneously from a deterministic extension."
+  ],
+  "correction_to_prior_state": "CMP 119 (1988) supplies complete-density machinery including large-field domains and preservation of density form, but its abstract's completion/convergence statement is for superrenormalizable models. It must not be promoted by itself to a theorem completing the full 4d Yang-Mills RG construction.",
+  "live_obligations": [
+    "Formulate a global positive normalized blocking kernel K(dV|U) on compact G with exact endpoint gauge covariance.",
+    "Require and prove reflection covariance and positive-half-space locality of K^*.",
+    "Prove the abstract theorem: if K^* intertwines reflection and maps the coarse positive algebra into the fine positive algebra, then an RP fine measure induces an RP coarse measure.",
+    "Test an invariant-distance/Haar Gibbs barycenter kernel as a concrete candidate.",
+    "Determine whether a soft kernel can reproduce or perturbatively approximate the hard Bałaban delta constraint without losing the UV inductive estimates.",
+    "Continue source numbering at [63]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 62,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/references/YM_REFERENCES_001_042_20260915.md",
+    "ym/references/YM_OPENING_SOURCE_BACKFILL_043_058_20260915.md",
+    "ym/references/YM_REFERENCES_059_20260915.md",
+    "ym/references/YM_REFERENCES_060_062_20260915.md",
+    "ym/checkpoints/YM_HEAD_R17_20260915.json"
+  ],
+  "next_action": "YM-R18 kernel replacement / reflection-positive blocking",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. Proposed solution programs remain audit targets unless independently validated and accepted."
+}
