@@ -1,0 +1,53 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R20_20260915.json",
+  "passes_completed": ["YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19","YM-R20","YM-R21"],
+  "live_cursor": "YM-R22",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "analytic-jet / polymer-norm closure",
+  "current_determination": "Bałaban's 4d small-field RG uses the coefficient g_k^{-2} multiplying the lattice Wilson gauge action A(U_k) as the marginal coupling coordinate. The reflection-adapted soft kernel has zero tree-level projection onto that coordinate because its quadratic soft-hard defect begins at p^4. Cubic/quartic kernel vertices may regenerate a local A(U_k) term after fluctuation integration; extracting that coefficient is a finite coupling/scheme redefinition. After vacuum and A(U) extraction, the local gauge/reflection-even remainder begins at canonical dimension six. The live theorem deficit is quantitative closure of this complementary activity in Bałaban's actual analytic/localized polymer norms.",
+  "major_new_results": [
+    "The relevant marginal projector is onto the lattice Wilson action A(U), not an externally imposed continuum F^2 coordinate.",
+    "The p^4 quadratic soft-hard defect has zero classical projection onto the p^2 Wilson kinetic direction.",
+    "A finite shift of the inverse-square coupling, g^{-2} -> g^{-2}+c, is equivalent to an analytic ordinary-coupling redefinition g -> g - (c/2)g^3 + O(g^5).",
+    "Under gauge, reflection and CP-even symmetry, no additional relevant/marginal pure-gauge local coordinate is required beyond vacuum energy and the Wilson/F^2 direction.",
+    "The exact RP measure must remain untruncated; local extraction is bookkeeping for the RG coordinate, not a replacement of the measure."
+  ],
+  "negative_results": [
+    "Do not classify the full nonlinear soft-kernel remainder as irrelevant before extracting its Wilson-action projection.",
+    "Do not infer Bałaban polymer-norm contraction from canonical dimension alone.",
+    "Do not treat the dimension-six local expansion as an RP-preserving effective action truncation."
+  ],
+  "live_obligations": [
+    "Extract Bałaban Parts I-II analytic field domains and activity norms at equation/theorem level.",
+    "Identify the precise local/Taylor extraction operation used to define and subtract the Wilson-action coefficient.",
+    "Bound the soft-kernel remainder on the same complex analytic domain after marginal extraction.",
+    "Track support diameter, background-field derivatives and Cauchy radii through one RG step.",
+    "Prove or falsify an L^{-2+O(g^2)} scale gain for the dimension-six local jet plus exponential polymer localization with cutoff-uniform constants.",
+    "Continue source numbering at [69]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 68,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R20_IRRELEVANT_REMAINDER_INDUCTIVE_NORM_20260915.md",
+    "ym/passes/YM_R21_LOCAL_EXTRACTION_COUPLING_COORDINATE_20260915.md",
+    "ym/references/YM_REFERENCES_001_042_20260915.md",
+    "ym/references/YM_OPENING_SOURCE_BACKFILL_043_058_20260915.md",
+    "ym/references/YM_REFERENCES_059_20260915.md",
+    "ym/references/YM_REFERENCES_060_062_20260915.md",
+    "ym/references/YM_REFERENCES_063_066_20260915.md",
+    "ym/references/YM_REFERENCES_067_20260915.md",
+    "ym/references/YM_REFERENCES_068_20260915.md",
+    "ym/checkpoints/YM_HEAD_R21_20260915.json"
+  ],
+  "next_action": "YM-R22 analytic-jet / polymer-norm closure",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. The local-extraction identification is a structural reduction; equation-level details from CMP 109 remain subject to primary-text verification where the current environment could not render the PDF."
+}
