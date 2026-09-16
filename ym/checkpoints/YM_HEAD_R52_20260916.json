@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R51_20260916.json",
+  "passes_completed_through": "YM-R52",
+  "live_cursor": "YM-R53",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 Eq. (2.32)-(2.37) fixed-Z0' post-P geometry / exponent-reserve audit",
+  "current_determination": "R52 closes the CMP116 Eq. (2.31) P-stage at source/mathematical level. The native carrier is the four-positive-direction carrier: page-12 source data put P inside Y0^{c,*}, whose bonds are contained in Y0^c, and require P-bonds to lie in the interior of Z0; therefore both endpoints lie in Z0\\Y0. Positive orientation uniquely encodes each eligible bond by a gap cube and one of four coordinate directions. Hence |EligibleCarrier| <= 4|Z0\\Y0|. The factor-eight incidence carrier is only a conservative formalization fallback for an unpromoted source-to-Lean coordinate dictionary. The powerset bound combined with the source gap factor reproduces the Eq. (2.31) scalar gate 4*M^4*exp(-2*rho) <= rho with rho=gamma2*epsilon1^2/(20*gk^2). The P-stage combinatorial sum is closed; the next native seam is the post-P/fixed-Z0' resummation and exponent reserve in (2.32)-(2.37).",
+  "major_new_results": [
+    "Native CMP116 P-bonds are contained in both Y0^c and the interior of Z0, so their endpoints lie in Z0\\Y0.",
+    "Positive orientation gives a native carrier gapCubes x four positive directions, with cardinality at most 4*|Z0\\Y0|.",
+    "The source-neutral factor-eight incidence carrier is not the native mathematical carrier; it is a formalization fallback only.",
+    "The powerset identity and 1+x<=exp(x) give the source entropy bound from the carrier count.",
+    "The primary scalar gate is exactly 4*M^4*exp(-2*rho)<=rho, rho=gamma2*epsilon1^2/(20*gk^2).",
+    "rho>=4*M^4, equivalently the stronger sufficient 80*M^4*gk^2<=gamma2*epsilon1^2, is only a reducer and not the source theorem.",
+    "CMP116 Eq. (2.31) P-stage combinatorial sum is CLOSED at source/mathematical level."
+  ],
+  "negative_results": [
+    "Do not replace the native factor 4 with factor 8 solely because of the independent Lean incidence fallback.",
+    "Do not use the source lower bound on |P| as the eligible-carrier upper bound.",
+    "Do not replace the native entropy bracket by the stronger sufficient rho>=4*M^4 inequality.",
+    "Do not claim the post-P Eq. (2.32)-(2.37) resummation is closed yet.",
+    "Do not interpret this as a proof of four-dimensional Yang-Mills existence or continuum mass gap."
+  ],
+  "live_obligations": [
+    "Audit CMP116 Eq. (2.32)-(2.37) fixed-Z0' resummation geometry, component product, and residual exponent reserve.",
+    "Identify exactly how Z0, Z0' and the final Z geometry combine in the post-P weight.",
+    "Lock alpha5/C3 and the half-exponent reserve into the final Lemma-3/(2.38) activity bound.",
+    "Keep project-only PIndex/encoded-first-coordinate, covariance/root/Hessian/Gaussian dictionaries as side formalization records.",
+    "No new source ID consumed; highest remains [80], next new source [81]."
+  ],
+  "highest_reference_number": 80,
+  "authoritative_files": [
+    "ym/passes/YM_R52_EQ231_P_FAMILY_CARRIER_ENTROPY_20260916.md",
+    "ym/checkpoints/YM_HEAD_R52_20260916.json"
+  ],
+  "next_action": "YM-R53 CMP116 Eq. (2.32)-(2.37) fixed-Z0' post-P geometry / exponent-reserve audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R52 closes only the native Eq. (2.31) P-stage carrier/count and entropy mechanism."
+}
