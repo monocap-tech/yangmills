@@ -1,0 +1,50 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R26_20260915.json",
+  "passes_completed": ["YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19","YM-R20","YM-R21","YM-R22","YM-R23","YM-R24","YM-R25","YM-R26","YM-R27"],
+  "live_cursor": "YM-R28",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "Lemma-3 perturbative stability / constant-level localization audit",
+  "current_determination": "The CMP116 epsilon_1 budget is parametrically compatible with the new O(g_k) reflection-positive blocker term. The source entropy condition uses rho=gamma_2 epsilon_1^2/(20 g_k^2), hence after r=epsilon_1/g_k it depends only on r and imposes a finite lower ratio epsilon_1 >= r_* g_k. The Lemma-3/post-exponentiation smallness conditions impose an absolute upper bound epsilon_1 <= epsilon_* once the other inductive parameters are fixed. Thus for sufficiently small g_k there is a nonempty wedge r_* g_k <= epsilon_1 <= epsilon_*, and an analytic blocker perturbation C_soft g_k can fit by choosing a finite ratio r above both the source entropy threshold and the constant needed to reserve budget for C_soft. No extra power improvement from O(g_k) to O(g_k^{1+eta}) is forced by source scaling. The remaining theorem deficit is constant-level stability of the entire CMP116 localization/resummation proof under the added bounded-support analytic activity.",
+  "major_new_results": [
+    "CMP116 Eq. (2.31) creates a lower comparison epsilon_1/g_k >= finite threshold, not an upper requirement epsilon_1=o(g_k).",
+    "CMP116 Lemma-3 and post-exponentiation restrictions create an absolute upper smallness bound epsilon_1 <= epsilon_*.",
+    "Therefore the source-shaped weak-coupling parameter region contains a wedge r_* g_k <= epsilon_1 <= epsilon_* for sufficiently small g_k.",
+    "The YM-R26 raw blocker term C_soft g_k is parametrically absorbable into the epsilon_1 budget; no higher coupling power is required solely by CMP116 scaling.",
+    "Rigorous closure still requires re-running all constants because the original activity already consumes part of epsilon_1."
+  ],
+  "negative_results": [
+    "Do not claim the O(g_k) term is already absorbed without a constant-level reserve argument.",
+    "Do not interpret epsilon_1 as merely an arbitrary activity norm independent of g_k; CMP116 Eq. (2.31) couples it quantitatively to g_k.",
+    "Do not require an O(g_k^{1+eta}) cancellation unless a later source inequality, not yet found, imposes it."
+  ],
+  "live_obligations": [
+    "Add a bounded-support analytic activity of norm C_soft g_k to the CMP116 raw one-step integrand and track it through the product-Gaussian change and weakening-parameter localization.",
+    "Determine how the added term changes epsilon_2, C_3, alpha_6 allocation, the P-bond entropy estimate, and the post-Lemma-3 E_0/2 reserve.",
+    "Prove or falsify a perturbative stability statement |H_new(Z)| <= C_3' (epsilon_1 + C_soft g_k) exp(-c' d(Z)) with UV-uniform constants.",
+    "After Wilson-action extraction, verify the modified complementary activity closes the next-step inductive action without disturbing exact reflection positivity of the underlying kernel measure.",
+    "No new source number was consumed in YM-R27; next new source remains [76]."
+  ],
+  "highest_reference_number": 75,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R20_IRRELEVANT_REMAINDER_INDUCTIVE_NORM_20260915.md",
+    "ym/passes/YM_R21_LOCAL_EXTRACTION_COUPLING_COORDINATE_20260915.md",
+    "ym/passes/YM_R22_ANALYTIC_JET_POLYMER_NORM_CLOSURE_20260915.md",
+    "ym/passes/YM_R23_NORMALIZED_KERNEL_HOLOMORPHY_20260915.md",
+    "ym/passes/YM_R25_GLOBAL_CENTER_REFLECTION_EXTENSION_20260915.md",
+    "ym/passes/YM_R26_CUTOFF_CENTER_ANALYTIC_REMAINDER_20260915.md",
+    "ym/passes/YM_R27_EPSILON1_LOCALIZATION_BUDGET_20260915.md",
+    "ym/checkpoints/YM_HEAD_R27_20260915.json"
+  ],
+  "next_action": "YM-R28 Lemma-3 perturbative stability / constant-level localization audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. Parametric compatibility of the O(g_k) blocker with epsilon_1 does not establish the source constants or the modified cluster expansion."
+}
