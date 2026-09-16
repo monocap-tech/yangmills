@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R55_20260916.json",
+  "passes_completed_through": "YM-R56",
+  "live_cursor": "YM-R57",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP122-II localization/exponentiation / R-prime pre-split audit",
+  "current_determination": "R56 closes the CMP122-I basic-R reserve-preservation gate at mathematical/source level. CMP119 feeds fresh E/R/B expressions into the R operation with improved decay schematically (1+4 beta)kappa. CMP122-I representation (1.63) contains intermediate C_k^(n)(X,U_k^(n)) terms analytic on the stated enlarged source domain, and Eq. (1.70) gives |C_k^(n)(X,(U,J))| <= C_0 exp(-(1+3 beta)kappa d_m(X)) for X in D_m. Hence Part I preserves a positive 3 beta kappa excess over the canonical rate, spending at most one beta unit at architecture level. C_k^(n) is not the final R'^(k) or B'^(k) family; CMP122-II still performs localization, exponentiation, placement summation and the first/second-group split before returning to the CMP119 class.",
+  "major_new_results": [
+    "C_k^(n) is conservatively typed as an intermediate source-indexed family in CMP122-I representation (1.63); n is not identified with RG scale, component number or perturbative order.",
+    "CMP122-I Eq. (1.70) supplies analytic polymer-local decay C_0 exp(-(1+3 beta)kappa d_m(X)) on the stated enlarged source domain.",
+    "Comparing CMP119 fresh-term reserve (1+4 beta)kappa with CMP122-I output (1+3 beta)kappa shows the basic Part-I R step spends at most beta kappa of decay reserve at architecture level.",
+    "CMP122-I therefore answers the first large-field preservation question positively: the basic R step retains stronger-than-canonical locality/decay.",
+    "C_k^(n) must not be identified with CMP122-II R'^(k); Part II remains the theorem-bearing localization/exponentiation and post-R return stage."
+  ],
+  "negative_results": [
+    "Do not infer the meaning of the source index n beyond its role in representation (1.63) without further extraction.",
+    "Do not identify C_k^(n) with final R'^(k) or B'^(k).",
+    "Do not relabel Eq. (1.70) as a global scalar remainder or mass-gap estimate.",
+    "Do not claim the full R operation is closed from CMP122-I; the source explicitly completes the proof in Part II.",
+    "Do not infer continuum existence or mass gap from this lattice large-field reserve bound."
+  ],
+  "live_obligations": [
+    "Audit CMP122-II Eqs. (1.98)-(1.100): exponentiated R' construction, pre-split metric d_{k,union Y_i}, and (1+beta/2)kappa decay.",
+    "Recover the first-group versus second-group split and the sharp second-group exp(-p_0(g_k)) exp(-kappa d_k(X)) bound.",
+    "Then audit Eq. (1.101)-(1.102) post-R action decomposition and Theorem-1 return to CMP119 Sect.2.",
+    "Keep the exact internal C_k^(n) symbol dictionary as source/formalization custody work unless a later mathematical gate requires it.",
+    "No new source ID consumed; highest remains [80], next new source [81]."
+  ],
+  "highest_reference_number": 80,
+  "authoritative_files": [
+    "ym/passes/YM_R56_CMP122I_BASIC_R_OPERATION_CK_SUPPRESSION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R56_20260916.json"
+  ],
+  "next_action": "YM-R57 CMP122-II localization/exponentiation / R-prime pre-split audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R56 closes only the CMP122-I intermediate large-field reserve-preservation stage."
+}
