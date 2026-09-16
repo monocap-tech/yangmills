@@ -1,0 +1,59 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R22_20260915.json",
+  "passes_completed": ["YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19","YM-R20","YM-R21","YM-R22","YM-R23"],
+  "live_cursor": "YM-R24",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "coercivity / complex-tube window audit",
+  "current_determination": "A convex mixture of translated compact-group heat kernels provides a globally defined gauge-covariant and reflection-adaptable blocking kernel that is exactly Markov-normalized on the physical group and admits holomorphic continuation to the complexified group without any field-dependent normalization Z(U). This removes the zero-free-normalizer obstruction of YM-R22 if the kernel is treated as a raw analytic density rather than by taking a pointwise logarithm. Its weak-field quadratic form equals (a/2) sum_j w_j ||B-P_j A||^2, which decomposes into the desired average penalty (a/2)||B-QA||^2 plus a positive path-variance operator D. D annihilates pure gauge directions but generally has a dimension-four F^2 component, so the heat-kernel mixture requires a tree-level Wilson-coupling/field normalization calibration before the dimension-six remainder can be treated as irrelevant. The remaining analytic issue is small-time holomorphic growth: with t_k=g_k^2/a, complex growth is controlled schematically by exp(C a R_k^2) on a canonical complex radius R_k. This must be compatible with the Bałaban analytic radius while a remains large enough to retain the coercive Q^*Q term needed for random-walk localization.",
+  "major_new_results": [
+    "A heat-kernel path mixture is exactly normalized by Haar invariance and avoids any U-dependent partition function/zero-free-log problem.",
+    "Compact-group heat kernels admit holomorphic continuation to the complexification, so the raw kernel density is in the correct analytic category without Re or dagger operations.",
+    "The quadratic Hessian contains an extra positive path-variance operator D = sum w P_j^*P_j - Q^*Q = (1/2)sum_ij w_iw_j(P_i-P_j)^*(P_i-P_j).",
+    "D annihilates pure gauge fields but generically begins at curvature-squared/F^2 because path differences are loop circulations; therefore a tree-level marginal Wilson-action calibration is required.",
+    "After marginal extraction, the residual local path-variance discretization begins at dimension six.",
+    "Zero-free normalization is replaced by a coercivity-versus-holomorphic-growth window: decreasing heat-kernel concentration improves complex-tube bounds but weakens the Q^*Q coercive mass used in localization."
+  ],
+  "negative_results": [
+    "The normalized heat-kernel mixture does not reproduce the pure M+aQ^*Q Hessian unless the path variance D vanishes.",
+    "Do not describe the resulting coupling shift automatically as an O(g^3) tangent-to-identity scheme change; for a generic fixed path mixture it can already alter the tree-level kinetic normalization and must be explicitly calibrated.",
+    "Do not require a holomorphic log of the heat-kernel mixture; complex zeros of the mixture are irrelevant if the kernel is inserted as a raw analytic factor before cluster exponentiation.",
+    "Holomorphic continuation for each fixed heat time does not by itself give the cutoff-uniform complex-tube bounds required by the 4d Bałaban induction."
+  ],
+  "live_obligations": [
+    "Extract the actual Bałaban complex analytic radius R_k or equivalent Cauchy domain at the 4d small-field step.",
+    "Determine whether fixed a>0 yields exp(C a R_k^2) heat-kernel growth compatible with the raw-activity smallness budget uniformly over the UV window.",
+    "If not, determine whether a scale-dependent a_k can satisfy both a lower coercivity bound for M_k+a_kQ_k^*Q_k and an upper holomorphic-growth bound.",
+    "Compute and subtract the dimension-four Wilson-action projection of the path-variance operator D for a reflection/hypercubic path family.",
+    "After calibration, prove a CMP116 Lemma-3-type exponential polymer bound for the heat-kernel raw activity.",
+    "Continue source numbering at [74]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 73,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R20_IRRELEVANT_REMAINDER_INDUCTIVE_NORM_20260915.md",
+    "ym/passes/YM_R21_LOCAL_EXTRACTION_COUPLING_COORDINATE_20260915.md",
+    "ym/passes/YM_R22_ANALYTIC_JET_POLYMER_NORM_CLOSURE_20260915.md",
+    "ym/passes/YM_R23_NORMALIZED_KERNEL_HOLOMORPHY_20260915.md",
+    "ym/references/YM_REFERENCES_001_042_20260915.md",
+    "ym/references/YM_OPENING_SOURCE_BACKFILL_043_058_20260915.md",
+    "ym/references/YM_REFERENCES_059_20260915.md",
+    "ym/references/YM_REFERENCES_060_062_20260915.md",
+    "ym/references/YM_REFERENCES_063_066_20260915.md",
+    "ym/references/YM_REFERENCES_067_20260915.md",
+    "ym/references/YM_REFERENCES_068_20260915.md",
+    "ym/references/YM_REFERENCES_069_070_20260915.md",
+    "ym/references/YM_REFERENCES_071_073_20260915.md",
+    "ym/checkpoints/YM_HEAD_R23_20260915.json"
+  ],
+  "next_action": "YM-R24 coercivity / complex-tube window audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. The heat-kernel mixture is a candidate RG modification; its cutoff-uniform analytic bounds and polymer closure remain unproved."
+}
