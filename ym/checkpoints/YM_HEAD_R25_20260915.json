@@ -1,0 +1,50 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R24_20260915.json",
+  "passes_completed": ["YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19","YM-R20","YM-R21","YM-R22","YM-R23","YM-R24","YM-R25"],
+  "live_cursor": "YM-R26",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "cutoff-center analytic remainder / one-step activity closure",
+  "current_determination": "The global-center problem for the preferred single translated heat-kernel blocker is structurally closed by an explicit cutoff-logarithm construction. Anchor each coarse link to a canonical straight fine path U0; form relative endpoint loops R_j=U0^{-1}U_j; apply a smooth conjugation- and inversion-invariant cutoff times the local logarithm, phi(R)=chi(R)log R, with chi supported strictly inside the logarithm chart; and define C_e(U)=U0 exp(sum_j w_j phi(R_j)). This center is globally smooth, endpoint-gauge covariant, exactly orientation covariant, reflection covariant under an equivariant path assignment, and half-space local for reflection-aligned path families. On the regular small-field chart chi=1, so the center is complex analytic and has jet C_e(exp(gA))=exp(g(QA)_e+O(g^2)). The YM-R17 no-global-mean obstruction is avoided because the center is not permutation symmetric among all paths; the distinguished straight path is geometrically covariant rather than physically symmetry-breaking. The remaining UV obligation is quantitative analytic control of the O(g) nonlinear center/heat-kernel remainder through the CMP116 localization and activity bound.",
+  "major_new_results": [
+    "An explicit global center exists without a canonical symmetric group mean: C_e=U0 exp(sum_j w_j phi(U0^{-1}U_j)) with phi=chi log on a regular chart and zero outside the cutoff support.",
+    "Gauge covariance follows because relative loops transform by conjugation at the endpoint; orientation covariance follows from phi(R^{-1})=-phi(R).",
+    "Reflection covariance and positive-half-space locality are obtained by choosing the path family equivariantly and keeping positive-link paths inside the positive half-space, with separate boundary treatment at the reflection plane.",
+    "On the regular chart the cutoff is identically one, so the center is holomorphic there and its linear jet is exactly the weighted path average Q.",
+    "A canonical straight fine path can serve as the distinguished anchor without destroying hypercubic covariance; the topology obstruction is avoided by giving up permutation symmetry of all paths, not by giving up lattice symmetry.",
+    "The single translated heat-kernel blocker can therefore simultaneously have exact normalization, gauge/RP covariance, the Bałaban Gaussian Hessian, and a globally defined center."
+  ],
+  "negative_results": [
+    "No global holomorphic center is claimed; the cutoff extension is only smooth outside the regular chart, and large-field sectors must remain in exact nonperturbative bookkeeping.",
+    "The construction does not by itself prove Bałaban polymer-norm closure or the continuum theory.",
+    "Do not return to the path-mixture heat kernel unless an additional small-cumulant theorem is supplied; the single-center kernel is the preferred UV object."
+  ],
+  "live_obligations": [
+    "Bound the nonlinear jet C_e(exp(gA)) exp(-gQA) on the fixed complex regular tube, including first and higher derivatives with constants uniform in RG scale.",
+    "Combine those bounds with compact-group small-time heat-kernel asymptotics for t_k=g_k^2/a to isolate the principal Gaussian and obtain a raw local factor 1+O(g_k) (or exp of an O(g_k) analytic functional).",
+    "Extract vacuum and Wilson-action components and identify the complementary local jet.",
+    "Insert the resulting local perturbation into the CMP116 product-Gaussian/random-walk localization chain and prove a Lemma-3-type exponentially localized H_soft(Z) bound.",
+    "Keep RP custody at the exact kernel level; do not truncate the blocked measure to the local jet.",
+    "No new source number was consumed in YM-R25; next new source remains [76]."
+  ],
+  "highest_reference_number": 75,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R20_IRRELEVANT_REMAINDER_INDUCTIVE_NORM_20260915.md",
+    "ym/passes/YM_R21_LOCAL_EXTRACTION_COUPLING_COORDINATE_20260915.md",
+    "ym/passes/YM_R22_ANALYTIC_JET_POLYMER_NORM_CLOSURE_20260915.md",
+    "ym/passes/YM_R23_NORMALIZED_KERNEL_HOLOMORPHY_20260915.md",
+    "ym/passes/YM_R25_GLOBAL_CENTER_REFLECTION_EXTENSION_20260915.md",
+    "ym/checkpoints/YM_HEAD_R25_20260915.json"
+  ],
+  "next_action": "YM-R26 cutoff-center analytic remainder / one-step activity closure",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. The explicit global center is a derived candidate construction whose quantitative constructive-RG closure remains unproved."
+}
