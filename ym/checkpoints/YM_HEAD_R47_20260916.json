@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R46_20260916.json",
+  "passes_completed_through": "YM-R47",
+  "live_cursor": "YM-R48",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP119 (2.34)-(2.39) explicit normalized-domain inequality extraction",
+  "current_determination": "R47 separates native field-uniformity from the canonical-domain inclusion. Direct inspection of CMP116 printed pages 15-17 shows that its complex-field perturbative estimates are already uniform over the native U^c domain: field dependence enters through local source parameters such as O(alpha_0+alpha_1), is gathered with the remaining native small parameters into alpha_5, and feeds the termwise/resummation bound without an additional volume-dependent field constant. Therefore no separate CMP116 field-uniformity theorem is needed once U^c membership and the native parameter hierarchy hold. The remaining analytic gate is CanonicalUjcEmbedding. CMP119 now supplies a source locator for the actual three defining multiscale regularity/gauge conditions around (2.34)-(2.39), so the gate is reduced to finite inequality transcription plus the exact source small-field coordinate normalization relative to U=exp(g_j A).",
+  "major_new_results": [
+    "CMP116 field-uniformity is internal to the native termwise estimate: on U^c the perturbative operator errors are controlled by O(exp(-cM))+O(alpha_0+alpha_1) and related local source parameters.",
+    "CMP116 printed page 17 gathers those errors into alpha_5 and proceeds under a native smallness condition; no independent volume-dependent field constant is introduced.",
+    "CanonicalUjcEmbedding is now a finite definition/coordinate audit rather than a broad theorem search.",
+    "CMP119 locates the three defining U_j^c multiscale regularity/gauge conditions around (2.34)-(2.39) and source-verifies alpha_0,j=g_j C_0(log g_j^-2)^q_0 and alpha_1,j=g_j C_1(log g_j^-2)^q_1.",
+    "The remaining coordinate seam is the exact normalization relating Balaban's small complex field variables, including eta/L factors, to the project canonical A in U=exp(g_j A)."
+  ],
+  "negative_results": [
+    "Do not infer CanonicalUjcEmbedding solely from the alpha/g logarithmic scaling.",
+    "Do not introduce a separate CMP116 field-uniformity theorem beyond the native termwise estimate.",
+    "Do not identify the source small complex field coordinate with project A until the eta/L/g_j normalization is extracted.",
+    "Do not confuse CMP116 equations (2.20)/(2.22) with CMP119 equations carrying the same numbers.",
+    "Do not reopen RP-specific precision/root/Gaussian/Jacobian obligations."
+  ],
+  "live_obligations": [
+    "Transcribe the three CMP119 U_j^c defining conditions (2.34)-(2.39) exactly.",
+    "Extract the source small-field coordinate normalization and identify its relation to g_j and project A.",
+    "Substitute U=exp(g_j A) into each defining condition and test a fixed canonical ball with scale/volume-uniform constants.",
+    "Keep H(Z) index/summand/support/resummation and covariance/root/Hessian/Gaussian project dictionaries as separate native/side-record formalization tasks.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R47_NATIVE_ANALYTIC_DOMAIN_FIELD_UNIFORMITY_GATE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R47_20260916.json"
+  ],
+  "next_action": "YM-R48 CMP119 (2.34)-(2.39) explicit normalized-domain inequality extraction",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R47 closes only the native field-uniformity classification and narrows CanonicalUjcEmbedding to an explicit source-definition/coordinate check."
+}
