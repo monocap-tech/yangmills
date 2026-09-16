@@ -1,0 +1,52 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R17_20260915.json",
+  "passes_completed": [
+    "YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18"
+  ],
+  "live_cursor": "YM-R19",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "quadratic matching / weak-field kernel closure",
+  "current_determination": "A stochastic blocking kernel does not preserve reflection positivity merely by commuting with reflection and mapping positive-side observables to positive-side observables, because a Markov pullback is not multiplicative. A sufficient replacement is reflected Gram factorization; in particular, a reflection-covariant kernel that conditionally factorizes between positive and negative half-spaces preserves RP. A globally defined gauge-covariant soft link kernel of matrix-Fisher type, exp[beta*kappa*ReTr(V Q(U)^dagger)] with Haar normalization and local gauge-covariant matrix Q(U), evades the deterministic group-mean topology obstruction and has the correct weak-field Gaussian scaling. The remaining unproved interface is whether a reflection-adapted version of this soft gauge kernel closes inside Bałaban's 4d non-Abelian weak-field inductive estimates.",
+  "major_new_results": [
+    "Reflection covariance plus positive-side locality is insufficient for a stochastic kernel; an explicit two-spin reflected kernel gives a negative RP form.",
+    "Reflected Gram factorization is a sufficient abstract condition for an RP fine measure to induce an RP coarse measure.",
+    "Conditional product factorization of a Markov kernel across reflection half-spaces is a practical sufficient criterion.",
+    "A soft gauge blocking kernel coupling coarse V directly to a gauge-covariant matrix Q[U] is globally defined and avoids logarithm/cut-locus/global-mean obstructions.",
+    "Because the blocking action is multiplied by beta~g^-2, a fixed-kappa soft kernel has weak-field width O(g) and becomes a hard saddle constraint as beta tends to infinity.",
+    "Rigorous non-gauge block-spin literature provides exact Gaussian-weight RG algebra, and an exact fermionic comparison shows exponential-weight blocking can have better uniform locality than delta blocking."
+  ],
+  "negative_results": [
+    "Do not use K*Theta=Theta K* and K*(A_+) subset A_+ alone as a stochastic RP theorem.",
+    "The standard published fixed-point gauge blocking geometry is not installed as RP; its smeared Q receives contributions from an associated hypercube and the half-space support condition still has to be enforced/audited.",
+    "No source audited so far proves that replacing Bałaban's hard/nonlinear gauge average by the reflection-adapted soft matrix kernel preserves the full 4d non-Abelian inductive estimates."
+  ],
+  "live_obligations": [
+    "Extract the quadratic/linearized Bałaban gauge averaging and Gaussian/vector-field RG operator.",
+    "Expand the soft matrix gauge kernel to second order in Lie-algebra fields and match the exact quadratic coefficient and normalization.",
+    "Compare gauge-zero-mode handling, gauge fixing, Hessian, induced covariance and Schur-complement operator.",
+    "Verify reflection-aligned support for the linear averaging map.",
+    "Bound cubic and higher local remainders and test whether they fit Bałaban's inductive effective-action/polymer norms with cutoff-uniform constants.",
+    "Continue source numbering at [67]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 66,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/references/YM_REFERENCES_001_042_20260915.md",
+    "ym/references/YM_OPENING_SOURCE_BACKFILL_043_058_20260915.md",
+    "ym/references/YM_REFERENCES_059_20260915.md",
+    "ym/references/YM_REFERENCES_060_062_20260915.md",
+    "ym/references/YM_REFERENCES_063_066_20260915.md",
+    "ym/checkpoints/YM_HEAD_R18_20260915.json"
+  ],
+  "next_action": "YM-R19 quadratic matching / weak-field kernel closure",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. Candidate blocking kernels remain research constructions until their constructive RG and continuum obligations are proved."
+}
