@@ -1,0 +1,52 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R27_20260915.json",
+  "passes_completed": ["YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19","YM-R20","YM-R21","YM-R22","YM-R23","YM-R24","YM-R25","YM-R26","YM-R27","YM-R28"],
+  "live_cursor": "YM-R29",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "local-log / covariance-root localization audit",
+  "current_determination": "At the scalar-constant/combinatorial level, CMP116 Lemma 3 is perturbatively stable under the added O(g_k) RP-blocker activity. With epsilon_tilde = epsilon_1 + C_soft g_k, epsilon_2 changes linearly, C3 is unchanged, the D-stage smallness inequalities consume only finite reserve, the P-stage entropy rate rho = gamma2 epsilon_tilde^2/(20 g_k^2) improves monotonically, and the post-Lemma-3 closure is recovered by taking g_k sufficiently small. Hence no additional power improvement beyond O(g_k) is forced. The remaining theorem deficit is geometric/analytic rather than scalar: transport the new bounded-support local analytic factor through the covariance-root change and weakening/random-walk localization into the same exponentially localized H(Z,Z0)/H(Z) activity class used by CMP116.",
+  "major_new_results": [
+    "The Lemma-3 constant chain is stable under epsilon_1 -> epsilon_tilde = epsilon_1 + C_soft g_k, conditional on source-compatible localization of the new term.",
+    "C3 is independent of epsilon_1 in the extracted source formula; only the final amplitude C3 epsilon_1 changes.",
+    "The D-stage source smallness conditions worsen linearly with epsilon_tilde but retain the same geometry and decay exponent.",
+    "The P-stage Eq. (2.31) entropy bound improves when epsilon_tilde/g_k increases.",
+    "For epsilon_tilde = r g_k with finite r above the entropy and blocker-budget thresholds, all absolute smallness constraints hold for sufficiently small g_k."
+  ],
+  "negative_results": [
+    "Do not claim the modified blocker satisfies Lemma 3 solely from scalar budget compatibility; the covariance-root/localization theorem for the new activity remains open.",
+    "Do not spend decay exponent or alter alpha6 unless the localization proof actually requires it; constant-level closure does not.",
+    "Do not truncate the exact RP kernel measure; the local activity remains a proof coordinate on the small-field analytic chart."
+  ],
+  "live_obligations": [
+    "On the fixed complex tube, prove a uniform zero-free bound for 1+E_soft and define V_soft = log(1+E_soft) with analytic norm O(g_k).",
+    "Compose V_soft with the CMP116 covariance-root map and derive derivative/locality bounds for the resulting product-Gaussian integrand.",
+    "Introduce weakening parameters/random-walk localization and prove exponentially decaying local root pieces for the new term.",
+    "Match the support/enlargement geometry to the source H(Z,Z0)/H(Z) construction and establish a Lemma-3-compatible termwise weight.",
+    "After this geometric localization, reuse the YM-R28 epsilon_tilde constant chain and perform Wilson-action extraction at the next effective-action step.",
+    "No new source ID was consumed in YM-R28; next new source remains [76]."
+  ],
+  "highest_reference_number": 75,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R20_IRRELEVANT_REMAINDER_INDUCTIVE_NORM_20260915.md",
+    "ym/passes/YM_R21_LOCAL_EXTRACTION_COUPLING_COORDINATE_20260915.md",
+    "ym/passes/YM_R22_ANALYTIC_JET_POLYMER_NORM_CLOSURE_20260915.md",
+    "ym/passes/YM_R23_NORMALIZED_KERNEL_HOLOMORPHY_20260915.md",
+    "ym/passes/YM_R25_GLOBAL_CENTER_REFLECTION_EXTENSION_20260915.md",
+    "ym/passes/YM_R26_CUTOFF_CENTER_ANALYTIC_REMAINDER_20260915.md",
+    "ym/passes/YM_R27_EPSILON1_LOCALIZATION_BUDGET_20260915.md",
+    "ym/passes/YM_R28_LEMMA3_PERTURBATIVE_STABILITY_20260915.md",
+    "ym/checkpoints/YM_HEAD_R28_20260915.json"
+  ],
+  "next_action": "YM-R29 local-log / covariance-root localization audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. Constant-level perturbative stability does not replace the missing source-compatible root/localization theorem for the modified blocker."
+}
