@@ -1,0 +1,53 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_20260915.json",
+  "passes_completed": [
+    "YM-R0",
+    "YM-R1",
+    "YM-R2",
+    "YM-R3",
+    "YM-R4",
+    "YM-R5",
+    "YM-R6",
+    "YM-R7",
+    "YM-R8",
+    "YM-R9",
+    "YM-R10",
+    "YM-R11",
+    "YM-R12",
+    "YM-R13",
+    "YM-R14",
+    "YM-R15",
+    "YM-R16"
+  ],
+  "live_cursor": "YM-R17",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "global averaging / branch-domain audit",
+  "current_determination": "The complete Bałaban architecture does not reveal an uncontrolled approximation as the first reflection-positivity custody defect. Later background, propagator, cluster, localization and R-operation machinery may be nonlocal or non-manifestly positive while remaining exact representations of a blocked measure. The unresolved RP obligation is concentrated in the global nonlinear blocking operation: reflection covariance, positive-half-space support, gauge covariance, global measurability/definition across large-field sectors, and compatibility with the complete-density RG. On a reflection-aligned block geometry, the desired Q Theta = Theta Q and positive-algebra pullback identities are derivable conditionally on a reflection-compatible branch/regularity domain, but they are not yet installed as a global theorem from Bałaban's primary averaging paper.",
+  "major_new_result": "CMP 119 (1988) explicitly describes complete effective densities including large-field domains and preservation of their form under RG, so the 1987 small-field restriction must not be treated as the complete measure.",
+  "negative_result": "No first uncontrolled approximation was found whose error alone accounts for loss of reflection positivity in the complete Bałaban program.",
+  "live_obligations": [
+    "Extract the exact nonlinear non-Abelian averaging formula and its branch/regularity hypotheses from Bałaban CMP 98 equations (1)-(5), (11), (14)-(15).",
+    "Determine whether the averaging operation is globally defined/measurable on all lattice configurations or only analytically controlled on a regular domain.",
+    "Test reflection covariance under an aligned time reflection, including orientation reversal and logarithm/inverse identities.",
+    "Test positive-half-space support for every coarse link used by the positive algebra.",
+    "If deterministic global Q fails, formulate the minimal reflection-positive blocking kernel that agrees with Q on the regular domain.",
+    "Continue source numbering at [60]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 59,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/references/YM_REFERENCES_001_042_20260915.md",
+    "ym/references/YM_OPENING_SOURCE_BACKFILL_043_058_20260915.md",
+    "ym/references/YM_REFERENCES_059_20260915.md",
+    "ym/checkpoints/YM_HEAD_R16_20260915.json"
+  ],
+  "next_action": "YM-R17 global averaging / branch-domain audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. Proposed 2026 solution programs remain audit targets unless independently validated and accepted."
+}
