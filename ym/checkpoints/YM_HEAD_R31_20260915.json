@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R29_20260915.json",
+  "passes_completed_through": "YM-R31",
+  "live_cursor": "YM-R32",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "complex precision/coercivity / exact source-domain audit",
+  "current_determination": "Background derivatives of the covariance root do not require an independent new localization technology once a uniform complex resolvent certificate is available. For f(A)=A^{-1/2}, higher background derivatives are finite sums of resolvent chains containing local derivatives D^m A. Uniform exponential resolvent decay plus finite-range/local derivative support implies n! K^n times exponential decay in a tree length connecting the kernel endpoints and all background insertion supports; the Taylor/weakening factorial compensates the n! growth. Thus the native root-localization mechanism reduces upstream to a volume/scale-uniform complex coercivity/resolvent bound and local analytic derivative bounds for the exact 4d Bałaban gauge precision, plus downstream support/enlargement bookkeeping. Real-field positivity alone does not discharge the complex tube.",
+  "major_new_results": [
+    "Higher background derivatives of A^{-1/2} are resolvent-chain sums; local precision derivatives force tree-decaying insertion geometry when the contour resolvent is exponentially localized.",
+    "The resulting derivative bound has analytic growth n! K^n exp(-mu' T), and the weakening/Taylor 1/n! coefficients remove the factorial cost.",
+    "A fixed complex resolvent tube can in principle be obtained volume-uniformly from real coercivity plus a local finite-range operator-norm perturbation bound, provided the tube radius is smaller than a fixed fraction of the coercivity margin.",
+    "CMP99 external-field propagator stability and covariance decay align with this route, while CMP116 remains responsible for the model-specific weakening/interpolation and support localization.",
+    "The covariance-root frontier is therefore reduced to complex precision/coercivity and source dictionary, not a mysterious square-root decay theorem."
+  ],
+  "negative_results": [
+    "Do not infer complex-background resolvent control from real positivity alone.",
+    "Do not identify off-diagonal root decay with external-field support locality.",
+    "Do not replace CMP116's resummed root localization by an exact finite root-piece identity.",
+    "Higham-Relton [78] is only a general higher-Frechet-derivative control source, not a Yang-Mills locality theorem."
+  ],
+  "live_obligations": [
+    "Extract the exact complex weak-field domain for the 4d Bałaban gauge precision and the source form of its coercivity/resolvent-sector bound.",
+    "Determine whether the coercivity/resolvent constants are uniform in UV scale and volume over that complex domain.",
+    "Extract or derive local analytic bounds for first and higher link derivatives of the precision and restricted precisions.",
+    "Then instantiate the R31 resolvent-chain/tree-decay lemma and return to the CMP116 weakening/support-enlargement dictionary.",
+    "Continue source numbering at [79]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 78,
+  "authoritative_files": [
+    "ym/passes/YM_R31_COMPLEX_BACKGROUND_RESOLVENT_DERIVATIVE_20260915.md",
+    "ym/references/YM_REFERENCES_078_20260915.md",
+    "ym/checkpoints/YM_HEAD_R31_20260915.json"
+  ],
+  "next_action": "YM-R32 complex precision/coercivity / exact source-domain audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. R31 is a structural functional-calculus reduction conditional on native complex precision/resolvent hypotheses that remain source-unverified at the exact 4d Yang-Mills level."
+}
