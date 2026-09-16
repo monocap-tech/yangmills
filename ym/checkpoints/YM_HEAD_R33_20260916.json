@@ -1,0 +1,39 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R32_20260915.json",
+  "passes_completed_through": "YM-R33",
+  "live_cursor": "YM-R34",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "source analytic-domain definition / fluctuation-carrier dictionary audit",
+  "current_determination": "CMP116 source localization is sufficient at the envelope level for external gauge-field support: after the product-Gaussian change and generalized random-walk/root localization, H(Z,Z0) and H(Z) are formed, and the source states H(Z) is localized in the interior of Z with respect to external gauge fields. Thus the project only needs a finite dictionary from source M1-cube interiors to an active-support envelope; no minimal-support equality or fixed-radius Z0-to-Z neighborhood theorem is required. Fluctuation support remains a distinct field: component factorization strongly indicates an X-variable carrier but the exact product-Gaussian coordinate support has not yet been extracted. CMP116 also locates the complex analytic domain U^c_{k+1}(X,alpha_0,alpha_1), but the current extraction does not contain its coordinate definition or an exact nested Cauchy collar, so that collar cannot yet be claimed from source. YM-R32 supplies a derived smaller coercive subdomain once the source domain definition is extracted.",
+  "major_new_results": [
+    "Z0 is source-identified as the smallest localization domain containing Y0 and P, with P bonds in its interior; post-Gaussian random-walk localization enlarges this to connected M1-cube domains and final activity carrier Z.",
+    "External-field locality can be consumed conservatively as supp_ext H(Z) subset IntBond(Z); no minimal-support theorem is needed.",
+    "The Z0-to-Z relation should remain the source combinatorial random-walk envelope, not be replaced by an invented fixed-thickness metric collar.",
+    "External/active support and fluctuation support are separate obligations; the latter still needs the exact X(b)-coordinate carrier/component-factorization dictionary.",
+    "The source analytic-domain locator U^c_{k+1}(X,alpha_0,alpha_1) is known, but the coordinate definition and exact Cauchy collar are not yet extracted."
+  ],
+  "negative_results": [
+    "Do not claim an exact finite covariance-root decomposition or fixed-radius Z0-to-Z enlargement.",
+    "Do not identify external active support with fluctuation support or full target support.",
+    "Do not attribute a specific inner/outer Cauchy-collar formula to CMP116 until U^c_{k+1}(X,alpha_0,alpha_1) is transcribed at definition level."
+  ],
+  "live_obligations": [
+    "Extract the exact coordinate definition of U^c_{k+1}(X,alpha_0,alpha_1) and the field bounds around CMP116 (2.20)/(2.22).",
+    "Extract the exact X(b) fluctuation-variable carrier used in H(Z) and component factorization (2.10).",
+    "Build the finite source-to-project domain dictionary for M1 cubes/bonds, Z0, enlarged localization domains, final Z, active support and fluctuation support.",
+    "Then combine the YM-R31/R32 complex root package with YM-R28 epsilon1 stability for the RP blocker.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R33_CAUCHY_COLLAR_SUPPORT_ENLARGEMENT_20260916.md",
+    "ym/checkpoints/YM_HEAD_R33_20260916.json"
+  ],
+  "next_action": "YM-R34 source analytic-domain definition / fluctuation-carrier dictionary audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. Source locality is used only as a conservative support envelope until the exact bond/cube and fluctuation-coordinate dictionaries are proved."
+}
