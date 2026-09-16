@@ -1,0 +1,35 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R38_20260916.json",
+  "passes_completed_through": "YM-R39",
+  "live_cursor": "YM-R40",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "a=1 definition lock / A-prime transport extraction",
+  "current_determination": "R39 finds a strong notation/source-dependency candidate that CMP102 Delta_1 is related to the a=1 member of CMP99 Delta_a, but the literal defining equality has not been extracted. The remaining seam is therefore definition-level provenance plus coordinate/domain transport, not yet a verified common-operator theorem.",
+  "major_new_results": [
+    "The current source spine directly couples CMP102's variational construction to CMP99 propagator estimates, so no separate analytic apparatus is visible between the two records.",
+    "The Delta_1 = Delta_a|a=1 identification remains a working source dictionary, not a theorem/literature fact, until the primary definition is recovered.",
+    "Even a confirmed a=1 specialization must still be transported from the CMP102 A-prime source coordinate/native domain into project physical coordinates."
+  ],
+  "negative_results": [
+    "Do not infer the a=1 specialization from notation alone.",
+    "Do not close record B before the exact Delta_1 definition is source-locked.",
+    "Do not identify the source quadratic operator directly with unrestricted project cochains."
+  ],
+  "live_obligations": [
+    "Identify the homogeneous constrained fluctuation space occupied by A-prime.",
+    "Recover the first source definition of Delta_1 and determine literal specialization versus explicit conjugation/restriction.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R39_HESSIAN_PROPAGATOR_COMMON_OPERATOR_EXTRACTION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R39_20260916.json"
+  ],
+  "next_action": "YM-R40 a=1 definition lock / A-prime transport extraction",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. The candidate Delta_1/Delta_a identification remains source-definition-pending."
+}
