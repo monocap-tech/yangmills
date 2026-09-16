@@ -1,0 +1,46 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R54_20260916.json",
+  "passes_completed_through": "YM-R55",
+  "live_cursor": "YM-R56",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP122-I basic R-operation entry / intermediate C_k^(n) large-field suppression audit",
+  "current_determination": "R55 types the CMP119 complete-density architecture and identifies the first genuinely new large-field theorem burden. CMP119 writes rho_k as a sum of characteristic/domain terms T_k exp(A_k); T_k factorizes over disjoint large-field components and over ordered one-step operations; A_k splits as the canonical gauge action plus regular E_k, localized R_k, boundary/large-field B_k, and scalar normalization. The closed CMP116 small-field output feeds the regular E sector. R and B are distinct polymer-local sectors, with source bounds g_j^kappa0 exp(-kappa d_j(X)) and B0 exp(-kappa d_j(X)), respectively. Newly generated E/R/B terms receive stronger decay reserve such as kappa -> (1+4 beta) kappa specifically for the subsequent R operation. Therefore the first new mathematical obligation is the large-field R-operation return map restoring the CMP119 E/R/B class; CMP122-I/II are the correct next jurisdiction.",
+  "major_new_results": [
+    "CMP119 complete density has source form rho_k(V_k)=sum chi_k(Omega_k)*T_k*exp(A_k).",
+    "T_k is a large-field domain/integration-history carrier, factorizing over disjoint last-region components and over ordered one-step T^(j) operations.",
+    "CMP119 Eq. (2.23) separates the effective action into canonical gauge action, E_k regular sector, R_k localized remainder, B_k boundary/large-field sector, and scalar mathcalE_k.",
+    "The closed CMP116 Paper-I/II small-field one-step feeds the CMP119 E sector; it is not reopened by complete-density bookkeeping.",
+    "CMP119 Eq. (2.31) gives |R^(j)(X,(U,J))| <= g_j^kappa0 exp(-kappa d_j(X)).",
+    "CMP119 Eq. (2.42) gives |B^(j)(X,(U,J),A,{S_i cap X})| < B0 exp(-kappa d_j(X)).",
+    "Fresh CMP119 E/R/B expressions carry improved decay such as (1+4 beta)kappa as reserve for the R operation.",
+    "The first genuinely new large-field theorem burden is the R-operation return map; CMP122-I Eq. (1.70) and CMP122-II (1.98)-(1.101)/Theorem 1 are the next source spine."
+  ],
+  "negative_results": [
+    "Do not merge E_k, R_k and B_k into a generic remainder.",
+    "Do not treat T_k as a local polymer activity.",
+    "Do not reopen CMP116 regular small-field closure merely because CMP119 wraps it in a complete density.",
+    "Do not claim CMP122 closure from the CMP119 target form alone.",
+    "Do not replace polymer-local R-operation bounds by a bare scalar geometric recurrence.",
+    "Do not infer continuum existence or a mass gap from the lattice complete-density architecture."
+  ],
+  "live_obligations": [
+    "Audit CMP122-I basic R-operation construction and the intermediate C_k^(n) bound at Eq. (1.70).",
+    "Determine the metric/domain geometry and reserve expenditure producing the (1+3 beta)kappa large-field decay.",
+    "Identify the exact CMP122-I to CMP122-II handoff before R-prime exponentiation/localization.",
+    "Then audit CMP122-II (1.98)-(1.101) post-R split and Theorem-1 return to the CMP119 Sect.2 class.",
+    "Keep exact E/R/B LocalActivity dictionaries and RP numerical coupling calibration as side records unless later frontiers require them.",
+    "No new source ID consumed; highest remains [80], next new source [81]."
+  ],
+  "highest_reference_number": 80,
+  "authoritative_files": [
+    "ym/passes/YM_R55_CMP119_COMPLETE_DENSITY_ERB_HANDOFF_20260916.md",
+    "ym/checkpoints/YM_HEAD_R55_20260916.json"
+  ],
+  "next_action": "YM-R56 CMP122-I basic R-operation entry / intermediate C_k^(n) large-field suppression audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R55 identifies the complete-density architecture and the next large-field theorem-bearing stage only."
+}
