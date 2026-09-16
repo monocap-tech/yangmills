@@ -1,0 +1,40 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R43_20260916.json",
+  "passes_completed_through": "YM-R44",
+  "live_cursor": "YM-R45",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native insertion support-anchor / localization-domain audit",
+  "current_determination": "R44 removes exact project covariance-root reconstruction from the RP blocker critical path. CMP116 itself localizes the post-(2.6) product-Gaussian integrand through its generalized random-walk/resolvent machinery into native H(Z,Z0) and H(Z) activities, and the source audit explicitly records that the later bounds concern resummed H(Z), not an exact finite root-piece equality. Interpolating the native integrand by the blocker factor exp(t V_soft) and differentiating in t inserts one O(g_k) bounded-support analytic factor; rerunning the same native localization yields the source-native activity difference H_soft(Z)=H_1(Z)-H_0(Z) with O(g_k) exponentially localized amplitude, conditional only on source-domain/support anchoring and uniformity of the native localization estimates along the interpolation. The remaining blocker-specific seam is therefore finite support/domain typing, not a root/Hessian theorem.",
+  "major_new_results": [
+    "Exact finite/project reconstruction of (C^(k))^(1/2) is not source-native output and is removed from the blocker critical path.",
+    "The blocker is compared at native activity level by H_soft(Z)=H_1(Z)-H_0(Z), where H_t is obtained by applying CMP116's own localization construction to G_native*exp(t V_soft).",
+    "One t-derivative inserts exactly one O(g_k) local factor; native random-walk connectivity supplies the same exponential localization geometry after finite exponent loss.",
+    "The source-to-Lean H(Z,Z0)/H(Z) dictionary remains open for full formal reconstruction but is not an additional blocker-specific mathematical hypothesis when the splice is kept in source-native activity coordinates.",
+    "The remaining blocker-specific object is NativeInsertionSupportAnchor: finite support/block geometry into CMP116 Y0/Z0/enlargement language."
+  ],
+  "negative_results": [
+    "Do not require a finite exact covariance-root piece decomposition before proving blocker activity localization.",
+    "Do not identify source H(Z) with a project LocalActivity merely from the printed display; that formal dictionary remains separate.",
+    "Do not claim CMP116 explicitly states a generic arbitrary-perturbation stability theorem; R44 is a derived interpolation argument using the same native localization estimates.",
+    "Do not reopen the Delta_1/Delta_a/P_j precision seam for blocker localization."
+  ],
+  "live_obligations": [
+    "Identify the finite initial support of V_soft in CMP116 source localization-domain terms Y0/Z0 and any fixed enlargement.",
+    "Verify the native localization estimates apply uniformly to the interpolated integrands G_t on the source analytic domain.",
+    "Keep full project covariance/root reconstruction and the H(Z) source-to-Lean index/summand dictionary as side-record formalization tasks.",
+    "Keep CanonicalUjcEmbedding as a separate Paper-I domain obligation.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R44_NATIVE_ACTIVITY_INSERTION_STABILITY_20260916.md",
+    "ym/checkpoints/YM_HEAD_R44_20260916.json"
+  ],
+  "next_action": "YM-R45 native insertion support-anchor / localization-domain audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R44 is a dependency-minimization and conditional activity-stability derivation inside the native CMP116 localization architecture."
+}
