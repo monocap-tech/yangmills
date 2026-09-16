@@ -1,0 +1,40 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R42_20260916.json",
+  "passes_completed_through": "YM-R43",
+  "live_cursor": "YM-R44",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 (2.7)-(2.10) localization-domain dictionary minimization",
+  "current_determination": "R43 separates source-internal CMP116 Gaussian normalization from project-level measure transport. CMP116 (2.5)-(2.6) already represents the conditioned/localized fluctuation integral in product standard Gaussian coordinates dmu0(X) after B'=(C^(k))^(1/2)X, so the determinant/Jacobian is already spent inside the native source rewrite. A stronger project theorem identifying that pushforward with a separately named physicalGaussian still requires coordinate, physical-law, and normalized-pushforward dictionaries, but the RP blocker does not need that theorem: R26 writes it as a multiplicative analytic factor relative to the same Gaussian reference, so under the existing native change of variables it becomes composition with the covariance root and creates no second Jacobian. The blocker-critical covariance record therefore minimizes to a source-native CMP116ProductGaussianChart plus native root localization/support typing.",
+  "major_new_results": [
+    "The source-native X-space is a finite product standard Gaussian chart after conditioning/localization, with one-coordinate density dX(b) exp(-|X(b)|^2/2)/(2*pi)^(dim(g)/2).",
+    "C^(k)(Z0) remains typed as the covariance datum produced by the source conditioning/localization convention; it is not identified with a naive matrix compression or Delta_k inverse.",
+    "The determinant/Jacobian is not new blocker-specific theorem debt: CMP116's own Eq. (2.6) rewrite has already absorbed it at source level.",
+    "The project-level pushforward equality to physicalGaussian remains an independent transport/dictionary obligation, but is removed from the RP blocker critical path.",
+    "The critical-path NativeFluctuationCovarianceCertificate is minimized to CMP116ProductGaussianChart plus native root localization and support/domain translation."
+  ],
+  "negative_results": [
+    "Do not claim Eq. (2.5)-(2.6) alone proves the repository physicalGaussian pushforward theorem.",
+    "Do not introduce a second Jacobian when multiplying the native integrand by the RP soft activity.",
+    "Do not identify C^(k)(Z0) with a simple coordinate restriction or Delta_k inverse without the source definition.",
+    "Do not require the Delta_1/Delta_a/P_j precision dictionary or O(g_j) precision defect before using the native product-Gaussian chart."
+  ],
+  "live_obligations": [
+    "Minimize CMP116 (2.7)-(2.10) root/localization-domain debt at the level of native H(Z,Z0) and H(Z) activities.",
+    "Identify the minimal source theorem/dictionary showing that a bounded-support analytic O(g_k) factor inserted in the post-(2.6) integrand remains in the native localized H(Z) class.",
+    "Keep project physicalGaussian pushforward normalization and the Delta_1/Delta_a/P_j precision dictionary as side-record reconstruction tasks, not blocker gates.",
+    "Keep CanonicalUjcEmbedding and the finite localization/support dictionary as separate native obligations.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R43_CMP116_PRODUCT_GAUSSIAN_CHART_JACOBIAN_MINIMIZATION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R43_20260916.json"
+  ],
+  "next_action": "YM-R44 CMP116 (2.7)-(2.10) localization-domain dictionary minimization",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R43 is a source-interface minimization: it removes project-level Gaussian pushforward/Jacobian reconstruction from the RP blocker critical path while leaving that transport theorem and the native root/support dictionaries explicitly open."
+}
