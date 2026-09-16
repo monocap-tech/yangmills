@@ -1,0 +1,56 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R21_20260915.json",
+  "passes_completed": ["YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19","YM-R20","YM-R21","YM-R22"],
+  "live_cursor": "YM-R23",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "normalized-kernel holomorphy / zero-free-radius audit",
+  "current_determination": "Bałaban Part II supplies a source-shaped inductive target in terms of localized analytic polymer activities H(Z) with exponential tree-distance decay, followed by polymer exponentiation into the next effective action. The soft RP kernel must therefore be inserted before this activity estimate, not justified afterward by engineering dimension alone. The naive matrix-Fisher weight written with Re Tr(V Q^dagger) is not literally holomorphic on complexified field variables. A holomorphic repair is available by replacing adjoints with reverse-orientation inverses on the complexified group, but the normalized Markov kernel then introduces a local normalization Z(U); constructive use of -log Z(U) requires a uniform zero-free complex tube and Cauchy bounds compatible with Bałaban's analytic domain. This normalization/holomorphy requirement is now the first concrete analytic interface, followed by the need to prove a Lemma-3-type localized H_soft(Z) bound after propagator/random-walk localization.",
+  "major_new_results": [
+    "The operative induction target is a localized activity H(Z) with exponential polymer tree-distance decay; canonical dimension is only preliminary bookkeeping.",
+    "The soft-kernel modification must enter the source chain before Bałaban CMP116 Lemma 3 and survive the same Gaussian/product-measure change, weakening-parameter localization, and polymer exponentiation.",
+    "The real-group matrix-Fisher expression Re Tr(V Q^dagger) requires a holomorphic complexification before Bałaban-style Cauchy estimates can apply.",
+    "A holomorphic complexified potential can be formed from Q_plus(U)=sum w U_gamma and Q_sharp(U)=sum w U_gamma^{-1}, using Tr(V Q_sharp)+Tr(V^{-1}Q_plus).",
+    "The resulting normalized kernel creates a new zero-free-normalization/Cauchy-radius obligation for Z(U), which is not discharged by the quadratic matching of YM-R19."
+  ],
+  "negative_results": [
+    "Do not infer Bałaban polymer-norm closure from the dimension-six classification alone.",
+    "Do not treat finite support of the blocking paths as equivalent to localized H(Z) support after nonlocal propagator/minimizer insertion.",
+    "Do not treat Re/dagger notation as automatically holomorphic on the complex analytic domain.",
+    "Do not import analytic-radius constants from Dimock scalar models or lower-dimensional QED into 4d pure Yang-Mills."
+  ],
+  "live_obligations": [
+    "Determine whether the blocking kernel can be normalized with a field-independent constant while retaining gauge covariance and weak-field quadratic matching.",
+    "For the holomorphic matrix-Fisher candidate, prove or falsify a zero-free complex tube for Z(U) with radius compatible with Bałaban's analytic field domain and uniform in UV scale/volume.",
+    "Compare normalized heat-kernel or convex-mixture gauge blocking kernels that are Markov-normalized by construction.",
+    "Preserve the YM-R18 reflected half-space factorization and YM-R19 Hessian/operator structure for any replacement kernel.",
+    "After selecting a normalized analytic kernel, construct its one-step localized activity H_soft(Z) and prove the CMP116 Lemma-3-type exponential bound.",
+    "Continue source numbering at [71]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 70,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R20_IRRELEVANT_REMAINDER_INDUCTIVE_NORM_20260915.md",
+    "ym/passes/YM_R21_LOCAL_EXTRACTION_COUPLING_COORDINATE_20260915.md",
+    "ym/passes/YM_R22_ANALYTIC_JET_POLYMER_NORM_CLOSURE_20260915.md",
+    "ym/references/YM_REFERENCES_001_042_20260915.md",
+    "ym/references/YM_OPENING_SOURCE_BACKFILL_043_058_20260915.md",
+    "ym/references/YM_REFERENCES_059_20260915.md",
+    "ym/references/YM_REFERENCES_060_062_20260915.md",
+    "ym/references/YM_REFERENCES_063_066_20260915.md",
+    "ym/references/YM_REFERENCES_067_20260915.md",
+    "ym/references/YM_REFERENCES_068_20260915.md",
+    "ym/references/YM_REFERENCES_069_070_20260915.md",
+    "ym/checkpoints/YM_HEAD_R22_20260915.json"
+  ],
+  "next_action": "YM-R23 normalized-kernel holomorphy / zero-free-radius audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. The soft-kernel closure remains a candidate modification until analytic normalization and source-shaped polymer bounds are proved."
+}
