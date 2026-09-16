@@ -1,0 +1,42 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R29_20260915.json",
+  "passes_completed_through": "YM-R30",
+  "live_cursor": "YM-R31",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "complex-background resolvent derivative / weakening-interpolation audit",
+  "current_determination": "The native Bałaban root-localization obligation splits into an operator quasi-locality part and an external-background localization/support part. If the gauge-fixed precision A_k is uniformly coercive with a scale-uniform spectral window and finite-range/exponentially localized kernel, then the covariance root C_k^(1/2)=A_k^(-1/2) inherits exponential off-diagonal decay by analytic functional calculus; this spatial root-decay component is therefore structurally derivable and need not be treated as an independent mysterious root theorem. CMP116 requires more: localization of the root's dependence on external gauge fields. Functional-calculus derivatives insert local precision variations between exponentially decaying resolvents, producing one-insertion and higher tree-like quasi-local decay, which is the mechanism weakening/interpolation can localize. The unresolved native package is now uniform complex-background resolvent/derivative bounds plus the exact CMP116 Z0-to-Z enlargement/support dictionary and component factorization.",
+  "major_new_results": [
+    "Uniform finite-range/coercive precision implies exponential covariance-root decay A_k^(-1/2) by analytic matrix functional calculus.",
+    "Off-diagonal root-kernel decay is weaker than CMP116 root localization because kernel entries can still depend nonlocally on external gauge fields.",
+    "Cauchy functional calculus gives D f(A)[H_b] as a contour integral of resolvent-H_b-resolvent; local H_b plus exponential resolvent decay yields exponential decay in the tree connecting endpoints and the varied background bond.",
+    "Higher background/weakening derivatives produce chains of local insertions and resolvents, giving the source-shaped tree geometry needed for polymer localization.",
+    "The root-localization field should be decomposed into operator quasi-locality and external-background/support localization rather than represented as an exact finite root-piece identity."
+  ],
+  "negative_results": [
+    "Do not equate exponential decay of C^(1/2)(x,y) with localization of its dependence on the external gauge background.",
+    "Do not assert that CMP89/CMP95/CMP96 Green-function decay alone supplies CMP116 (2.7)-(2.10) support/enlargement and component-factorization data.",
+    "Do not replace CMP116's infinite/resummed generalized random-walk localization by an exact finite decomposition."
+  ],
+  "live_obligations": [
+    "Extract uniform complex-background propagator/resolvent bounds and spectral domain from CMP95/96/99.",
+    "Establish one-background-link derivative decay for the precision/resolvent and covariance root.",
+    "Extend to multiple weakening derivatives and identify the resulting tree metric and summability constants.",
+    "Map the derivative/tree localization to CMP116 (2.7)-(2.10) special domain/enlargement and component factorization.",
+    "Close the remaining source-to-project activeSupport/fluctuationSupport dictionary.",
+    "Continue source numbering at [78]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 77,
+  "authoritative_files": [
+    "ym/passes/YM_R29_LOCAL_LOG_COVARIANCE_ROOT_LOCALIZATION_20260915.md",
+    "ym/passes/YM_R30_NATIVE_ROOT_LOCALIZATION_SOURCE_DICTIONARY_20260915.md",
+    "ym/references/YM_REFERENCES_076_077_20260915.md",
+    "ym/checkpoints/YM_HEAD_R30_20260915.json"
+  ],
+  "next_action": "YM-R31 complex-background resolvent derivative / weakening-interpolation audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. R30 reduces a native constructive-RG source interface and leaves uniform complex-background derivative/localization estimates unproved."
+}
