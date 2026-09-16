@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R50_20260916.json",
+  "passes_completed_through": "YM-R51",
+  "live_cursor": "YM-R52",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 Eq. (2.31) P-family carrier/count and entropy audit",
+  "current_determination": "R51 closes CMP116 Eq. (2.29) at native mathematical/source level. Primary Cammarota CMP85 was consumed as [80], and the relevant result is Cammarota Theorem 2, the general polymer Mayer-convergence theorem, not Theorem 1 on correlation decay. Its proof uses tree reduction and leaf-stripping and exposes the scalar reserve epsilon/(1-epsilon) < 1/(e-1), so epsilon < 1/e suffices. CMP116 Eq. (2.30) gives d_k(Y) >= |Y|/(24 M^4). Since localization domains are connected subsets of a fixed bounded-degree four-dimensional cube graph, rooted domain entropy is at most exponential with a scale/volume-independent constant C_ent. Therefore w(Y)=alpha6 exp(-delta*kappa*d_k(Y)) satisfies the Cammarota cardinality regime when delta*kappa is sufficiently large relative to log C_ent and alpha6 is sufficiently small. The adapted D-family sum is then uniformly finite and can be made <=1 by shrinking alpha6. Only repository-specific DIndex/DParts flattening remains formalization dictionary work.",
+  "major_new_results": [
+    "Cammarota reference [26] behind CMP116 Eq. (2.29) is now directly consumed as cumulative source [80].",
+    "The relevant Cammarota result is Theorem 2 (general polymer Mayer convergence), not Theorem 1 (correlation decay).",
+    "Cammarota's tree proof exposes epsilon/(1-epsilon) < 1/(e-1), equivalently epsilon < 1/e, as a sufficient scalar convergence reserve.",
+    "CMP116 Eq. (2.30) converts D-stage decay into cardinality decay with lambda=delta*kappa/(24 M^4).",
+    "Fixed-degree localization geometry gives a rooted connected-domain entropy constant C_ent independent of volume and RG depth.",
+    "Choosing C_ent exp(-lambda) below the Cammarota reserve and then alpha6 sufficiently small yields a uniform D-family sum; shrinking alpha6 further gives the source normalization <=1.",
+    "CMP116 Eq. (2.29) status: CLOSED at mathematical/source level."
+  ],
+  "negative_results": [
+    "Do not cite Cammarota Theorem 1 as the theorem behind Eq. (2.29).",
+    "Do not import Cammarota's spin-system hypotheses into the Balaban D-stage adaptation.",
+    "Do not claim optimized numerical kappa/alpha6 thresholds; uniform existence is enough and is what the source uses.",
+    "Do not confuse the repository DIndex/DParts dictionary with a remaining analytic theorem.",
+    "Do not infer P/Z0/Z0' closure from Eq. (2.29)."
+  ],
+  "live_obligations": [
+    "Audit CMP116 Eq. (2.31) P-family carrier and entropy bound.",
+    "Resolve the source bond-carrier/base-endpoint issue for P and any factor-4 versus factor-8 incidence carrier consequence.",
+    "Then audit Eq. (2.32)-(2.37) fixed-Z0' and final summation geometry.",
+    "Keep repository source-to-Lean DIndex/DParts flattening as optional side-record formalization work.",
+    "Highest cumulative source ID is 80; next new source is [81]."
+  ],
+  "highest_reference_number": 80,
+  "authoritative_files": [
+    "ym/references/YM_REFERENCES_080_20260916.md",
+    "ym/passes/YM_R51_EQ229_CAMMAROTA_THRESHOLD_CLOSURE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R51_20260916.json"
+  ],
+  "next_action": "YM-R52 CMP116 Eq. (2.31) P-family carrier/count and entropy audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R51 closes only the native D-stage polymer summability gate used inside CMP116 Lemma 3."
+}
