@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R31_20260915.json",
+  "passes_completed_through": "YM-R32",
+  "live_cursor": "YM-R33",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "Cauchy-collar / support-enlargement dictionary audit",
+  "current_determination": "The complex-background resolvent obstruction is structurally closed modulo the native precision dictionary. CMP99 supplies a real positive/decaying background-propagator regime and CMP116 supplies a fixed-parameter complex analytic field domain U^c_{k+1}(X,alpha_0,alpha_1). Once the exact local finite-range precision A_k(U) is identified, the source uniform inverse/decay bound yields a real coercivity margin m_0>0. Local analyticity and bounded coordination then give ||A_k(U_c)-A_k(U_r)|| <= K_loc delta with K_loc independent of volume. Restricting to a smaller fixed source-contained complex tube delta <= m_0/(2K_loc) gives Re <v,A_k(U_c)v> >= (m_0/2)||v||^2 uniformly in UV scale and volume. Hence (A_k(U_c)+r)^(-1) has a uniform sectorial bound and the R31 higher-root-derivative/tree-decay calculus applies. The remaining native interface is the exact source-to-project precision/domain dictionary and the Cauchy-collar/support-enlargement convention used by CMP116 weakening localization.",
+  "major_new_results": [
+    "Real uniform inverse/Green bounds plus positivity imply a scale/volume-uniform real coercivity margin for the identified precision.",
+    "Finite-range local analyticity makes the complex precision perturbation O(delta) in operator norm with no extensive volume factor.",
+    "A smaller fixed complex subtube inside the CMP116 analytic domain therefore has uniform sectorial coercivity Re A >= m_0/2 and uniform resolvent bounds.",
+    "The covariance-root Stieltjes/resolvent integral is uniformly controlled on this subtube, so YM-R31 root derivative/tree decay becomes available once the precision dictionary is supplied.",
+    "No source evidence forces a complex analytic radius collapsing with the RG step; fixed inductive parameters alpha_0, alpha_1 are compatible with a fixed Cauchy collar."
+  ],
+  "negative_results": [
+    "Do not attribute the derived complex-sectorial inequality directly to CMP99.",
+    "Do not infer uniform coercivity from finite-dimensional positive definiteness without the source uniform inverse/decay bound.",
+    "Do not claim the whole printed CMP116 complex domain is coercive; only a smaller fixed source-contained subtube has been structurally justified.",
+    "Do not treat notation similarity as the missing CMP99/CMP116-to-project precision dictionary."
+  ],
+  "live_obligations": [
+    "Extract the exact source-to-project identification among CMP99 Delta_a/G(U)/C^(k), the CMP116 covariance, and the project precision/covariance variables.",
+    "Extract the inner evaluation domain and outer complex analytic/Cauchy domain used by CMP116, including the role of alpha_0 and alpha_1.",
+    "Extract the exact Z0-to-Z enlargement/interpolation convention in CMP116 (2.7)-(2.10) and map it to activeSupport/fluctuationSupport without asserting a finite root decomposition.",
+    "Then combine the R31-R32 complex root-derivative package with the already-closed YM-R28 epsilon_1 stability result.",
+    "Continue source numbering at [80]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R32_COMPLEX_PRECISION_COERCIVITY_SOURCE_DOMAIN_20260915.md",
+    "ym/references/YM_REFERENCES_079_20260915.md",
+    "ym/checkpoints/YM_HEAD_R32_20260915.json"
+  ],
+  "next_action": "YM-R33 Cauchy-collar / support-enlargement dictionary audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. R32 is a perturbative operator reduction conditional on the exact Bałaban precision/domain dictionary and source uniform Green bounds."
+}
