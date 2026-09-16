@@ -1,0 +1,52 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-15",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R23_20260915.json",
+  "passes_completed": ["YM-R0","YM-R1","YM-R2","YM-R3","YM-R4","YM-R5","YM-R6","YM-R7","YM-R8","YM-R9","YM-R10","YM-R11","YM-R12","YM-R13","YM-R14","YM-R15","YM-R16","YM-R17","YM-R18","YM-R19","YM-R20","YM-R21","YM-R22","YM-R23","YM-R24"],
+  "live_cursor": "YM-R25",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "global center / reflection-covariant extension audit",
+  "current_determination": "The feared UV collapse between a positive heat-kernel coercivity coefficient and Bałaban's complex Cauchy radius is not supported by the available source extraction: the relevant fast-field analytic radius is reported as a fixed positive hat_alpha_1(gamma), uniform in the RG step while the running coupling remains below the weak-coupling threshold. After factoring the leading heat-kernel Gaussian into the reference measure, the residual local geometric factor is perturbative on such a fixed tube. However, the convex path-mixture kernel from YM-R23 has a stronger defect: in canonically normalized variables its g->0 limit is a mixture of distinct Gaussians, so higher cumulants can remain O(1) and the Gaussian fixed-point transformation is not preserved. The preferred kernel is now a single translated heat kernel rho_t(V C(U)^-1) centered on a global gauge/reflection-covariant block map C(U) whose regular-chart derivative is Bałaban's linear Q. Federbush supplies precedent for a continuous large-field extension of a Bałaban-type local analytic average, but the OS reflection/half-space and exact Bałaban-jet contracts remain to be proved.",
+  "major_new_results": [
+    "Distinguish the full physical small-field threshold from the local complex Cauchy tube used for polymer derivatives; the latter is reported source-side as step-uniform in the weak-coupling regime.",
+    "For a single translated heat kernel, after canonical scaling X=gY and t=g^2/a, the leading Gaussian is part of the reference covariance; the residual local heat-kernel factor is perturbative on any fixed complex tube.",
+    "The convex path-mixture kernel has a non-Gaussian O(1) canonical g->0 limit unless all path centers coincide, so quadratic Hessian agreement alone is insufficient for Bałaban-inductive closure.",
+    "A single translated heat kernel centered at a globally extended deterministic block map simultaneously gives field-independent normalization, holomorphic heat-kernel continuation, and the correct Gaussian fixed-point limit.",
+    "The topological no-mean result from YM-R17 does not forbid such a center because full global permutation symmetry/idempotency is unnecessary outside the regular chart."
+  ],
+  "negative_results": [
+    "Do not infer full weak-field compatibility of a stochastic block kernel from its Hessian alone.",
+    "Do not charge the entire complex growth of the leading heat-kernel Gaussian against the polymer interaction budget when that Gaussian is incorporated into the reference measure.",
+    "Do not continue using the convex path mixture as the preferred candidate without a separate small-cumulant parameter-window theorem.",
+    "The exact step-uniform Bałaban analytic radius still requires direct primary-text verification; source [75] is retained only as a secondary locator/audit."
+  ],
+  "live_obligations": [
+    "Audit Federbush's global continuous extension for endpoint gauge covariance, inversion/orientation covariance, and compatibility with an aligned OS reflection plane.",
+    "Construct or identify a global center C_e(U) whose small-field analytic jet equals Bałaban's local average and whose linear term is the same Q used in the Gaussian propagator machinery.",
+    "Require positive-half-space support: a positive coarse link center may use only positive-half-space fine links, with separate reflection-plane treatment.",
+    "Establish global measurability/continuity sufficient for the Markov kernel and local complex analyticity/derivative bounds sufficient for the UV cluster expansion.",
+    "For the resulting single-center heat kernel, prove a uniform small-g analytic remainder estimate after extracting the leading Gaussian and then feed it into the CMP116 Lemma-3 activity localization.",
+    "Continue source numbering at [76]; repeated sources reuse existing IDs."
+  ],
+  "highest_reference_number": 75,
+  "authoritative_files": [
+    "ym/governance/YM_APPEND_ONLY_CUSTODY_PROTOCOL_20260914.md",
+    "ym/passes/YM_R0_R15_TRAVERSAL_LEDGER_20260915.md",
+    "ym/passes/YM_R16_EXACT_PUSHFORWARD_CUSTODY_20260915.md",
+    "ym/passes/YM_R17_GLOBAL_AVERAGING_BRANCH_DOMAIN_20260915.md",
+    "ym/passes/YM_R18_REFLECTION_POSITIVE_BLOCKING_KERNEL_20260915.md",
+    "ym/passes/YM_R20_IRRELEVANT_REMAINDER_INDUCTIVE_NORM_20260915.md",
+    "ym/passes/YM_R21_LOCAL_EXTRACTION_COUPLING_COORDINATE_20260915.md",
+    "ym/passes/YM_R22_ANALYTIC_JET_POLYMER_NORM_CLOSURE_20260915.md",
+    "ym/passes/YM_R23_NORMALIZED_KERNEL_HOLOMORPHY_20260915.md",
+    "ym/passes/YM_R24_COERCIVITY_COMPLEX_TUBE_WINDOW_20260915.md",
+    "ym/references/YM_REFERENCES_071_073_20260915.md",
+    "ym/references/YM_REFERENCES_074_075_20260915.md",
+    "ym/checkpoints/YM_HEAD_R24_20260915.json"
+  ],
+  "next_action": "YM-R25 global center / reflection-covariant extension audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a positive continuum mass gap is claimed. The single-center heat-kernel block transformation remains a candidate until its global reflection-covariant center and source-shaped polymer bounds are proved."
+}
