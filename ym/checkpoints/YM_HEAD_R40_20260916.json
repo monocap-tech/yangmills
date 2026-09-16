@@ -1,0 +1,36 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R39_20260916.json",
+  "passes_completed_through": "YM-R40",
+  "live_cursor": "YM-R41",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "direct Delta_1 definition provenance / record-B closure gate",
+  "current_determination": "R40 types the translated fluctuation A-prime on the homogeneous block/gauge-constrained tangent slice, conditional on the source translation definition. This removes any reason to carry an independent native ambient projector. The exact primary definition of Delta_1 is still missing, so the candidate Delta_1 = Delta_a|a=1 identification remains unverified.",
+  "major_new_results": [
+    "Conditional on the standard source translation A = HB + A-prime, linearity yields the homogeneous fluctuation slice ker(L_eta^j Q_j) intersect ker(RD^*).",
+    "Projectors are ambient transport artifacts once the fluctuation operator is stated natively on that homogeneous slice.",
+    "The remaining common-operator closure gate is a direct source-definition provenance question."
+  ],
+  "negative_results": [
+    "Do not promote the homogeneous-slice derivation to a verbatim source theorem without the translation definition.",
+    "Do not infer Delta_1 = Delta_a|a=1 from notation.",
+    "Do not reopen coercivity/resolvent/root analysis before the definition lock is settled."
+  ],
+  "live_obligations": [
+    "Locate the first primary definition of Delta_1 in CMP102.",
+    "Classify it as literal a=1 specialization, explicit restriction/conjugation, or a genuinely distinct operator.",
+    "Retain the R37 local O(g_j) defect as a separate source-facing obligation.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R40_DELTA1_DEFINITION_LOCK_APRIME_TRANSPORT_20260916.md",
+    "ym/checkpoints/YM_HEAD_R40_20260916.json"
+  ],
+  "next_action": "YM-R41 direct Delta_1 definition provenance / record-B closure gate",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or a continuum mass gap is claimed. The Delta_1/Delta_a common-operator identity remains source-definition-pending."
+}
