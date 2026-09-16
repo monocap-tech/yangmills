@@ -1,0 +1,40 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R45_20260916.json",
+  "passes_completed_through": "YM-R46",
+  "live_cursor": "YM-R47",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native analytic-domain / field-uniformity gate",
+  "current_determination": "R46 consolidates R36-R45 and classifies the remaining dependencies. The RP modification now has zero independent source-facing theorem obligations relative to the native Balaban one-step/complete-density package. Its modification-specific mechanics—exact RP-compatible blocking kernel, global center, O(g_k) analytic jet, Gaussian-tail control, Lemma-3 reserve absorption, native activity interpolation stability, and bounded support anchoring—have been isolated as internal derivations/design facts. The surviving external/source obligations are native: CanonicalUjcEmbedding, CMP116 field-uniform termwise/localization/support/resummation dictionaries, side-record covariance/root/Hessian/Gaussian transport, and the native complete-density/large-field closure package. The RP-specific audit therefore reaches a natural STOP and the critical path resets to the native analytic-domain/field-uniformity seam.",
+  "major_new_results": [
+    "Independent source-facing RP-modification obligation set is empty relative to the native Balaban closure package.",
+    "Uniformity of the R44 interpolation requires no separate t-uniform source theorem: it follows from native CMP116 field-uniformity on the source analytic domain plus the R26 O(g_k) bound and CanonicalUjcEmbedding.",
+    "CanonicalUjcEmbedding and CMP116 p.15-p.16 field-uniform/termwise localization data remain native source gates.",
+    "Delta_1/Delta_a/P_j, project physicalGaussian transport, exact root reconstruction and project H(Z) dictionaries remain useful side-record reconstruction tasks but are not blocker gates.",
+    "The RP-specific audit reaches STOP; future work should return to the native source baseline."
+  ],
+  "negative_results": [
+    "Do not state that the RP branch is fully proved; the result is conditional/source-hypothesis neutrality relative to the still-open native Balaban package.",
+    "Do not continue precision/root/project-coordinate reconstruction on the blocker critical path unless a later native gate makes it necessary.",
+    "Do not introduce a separate interpolation-uniformity source theorem; native field-uniform estimates plus the bounded analytic insertion suffice.",
+    "Do not merge native mathematical source obligations with project formalization/dictionary side records."
+  ],
+  "live_obligations": [
+    "Audit CanonicalUjcEmbedding against the native CMP109/CMP116 analytic-domain definitions.",
+    "Extract/verify CMP116 printed p.15-p.16 field-uniform estimates around (2.20)/(2.22) and their dependence on U^c_{k+1}(X,alpha_0,alpha_1).",
+    "Determine whether one fixed normalized canonical ball feeds those native termwise estimates uniformly in scale/volume.",
+    "Keep CMP116 H(Z) index/summand/support/resummation and covariance/root/Hessian/Gaussian dictionaries as native/side-record obligations.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R46_NATIVE_LOCALIZATION_UNIFORMITY_CRITICAL_PATH_CONSOLIDATION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R46_20260916.json"
+  ],
+  "next_action": "YM-R47 native analytic-domain / field-uniformity gate",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R46 is a dependency-classification result showing source-hypothesis neutrality of the RP modification relative to the incompletely source-instantiated native Balaban closure package."
+}
