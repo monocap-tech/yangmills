@@ -1,0 +1,45 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R56_20260916.json",
+  "passes_completed_through": "YM-R57",
+  "live_cursor": "YM-R58",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP122-II Eq. (1.101)-(1.102) post-R E/R/B return-map audit",
+  "current_determination": "R57 closes CMP122-II localization/exponentiation through Eq. (1.100) at mathematical/source level. R'^(k) is the localized exponentiated Part-II activity, distinct from CMP122-I C_k^(n). Eq. (1.99) gives the pre-split analytic bound O(1)c1 exp(-(1+beta/2)kappa d_{k,union Y_i}(X)); comparison with R56 shows the displayed Part-I to Part-II reserve decreases from (1+3 beta)kappa to (1+beta/2)kappa, leaving positive reserve above the canonical rate. The source then splits terms into first and second groups. For the second group, whose localization domains are disjoint from the indicated large-field region, c1=exp(-p_0(g_k)) and the metric becomes d_k(X), yielding Eq. (1.100): |R'^(k)(X,(U,J))| <= exp(-p_0(g_k)) exp(-kappa d_k(X)). The exact definition/asymptotics of p_0(g) are not yet extracted, so no stronger asymptotic label is promoted. The next mathematical gate is the Eq. (1.101)-(1.102) post-R repartition and return to CMP119 Sect. 2.",
+  "major_new_results": [
+    "R'^(k) is the post-localization/exponentiation CMP122-II activity family, distinct from C_k^(n).",
+    "Eq. (1.99) gives pre-split decay with modified metric d_{k,union Y_i}(X) and rate (1+beta/2)kappa.",
+    "The displayed architecture-level reserve decreases from CMP122-I (1+3 beta)kappa to CMP122-II (1+beta/2)kappa while remaining stronger than canonical kappa.",
+    "The first/second-group split is substantive: first-group terms feed the boundary route; second-group terms are disjoint from the indicated large-field region and feed the R route.",
+    "Eq. (1.100) restores canonical d_k(X) decay for the second group and supplies amplitude exp(-p_0(g_k)).",
+    "The large-field amplitude exp(-p_0(g_k)) and polymer-distance decay exp(-kappa d_k(X)) are distinct resources.",
+    "Placement/localization entropy is already absorbed in the native Eq. (1.99) output; its fine-grained reserve allocation is not a separate downstream theorem gate."
+  ],
+  "negative_results": [
+    "Do not identify C_k^(n) with R'^(k).",
+    "Do not replace d_{k,union Y_i}(X) by d_k(X) before the second-group specialization.",
+    "Do not collapse first-group boundary terms and second-group R terms.",
+    "Do not assign the entire displayed reserve loss to placement entropy without a source extraction proving that allocation.",
+    "Do not call exp(-p_0(g_k)) quantitatively nonperturbative until p_0(g) is explicitly sourced.",
+    "Do not replace polymer-local bounds by a bare scalar recurrence.",
+    "Do not infer continuum existence or mass gap from this lattice bound."
+  ],
+  "live_obligations": [
+    "Audit CMP122-II Eq. (1.101)-(1.102) post-R action split and identify first-group -> B' and second-group -> R maps.",
+    "Determine how A_k, A'_k, R'^(k), and B'^(k) reassemble the post-R action/density.",
+    "Verify the CMP122-II Theorem-1 return to CMP119 Sect. 2 under the small-coupling interval.",
+    "Locate exact p_0(g) definition/asymptotics only if later quantitative suppression classification requires it.",
+    "No new source ID consumed; highest remains [80], next new source [81]."
+  ],
+  "highest_reference_number": 80,
+  "authoritative_files": [
+    "ym/passes/YM_R57_CMP122II_RPRIME_LOCALIZATION_EXPONENTIATION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R57_20260916.json"
+  ],
+  "next_action": "YM-R58 CMP122-II Eq. (1.101)-(1.102) post-R E/R/B return-map audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R57 closes only the CMP122-II localization/exponentiation and second-group bound through Eq. (1.100)."
+}
