@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R41_20260916.json",
+  "passes_completed_through": "YM-R42",
+  "live_cursor": "YM-R43",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 covariance-coordinate / Jacobian closure audit",
+  "current_determination": "R42 finds that the source-native dependency direction for the blocker is covariance-first rather than precision-first. CMP116 directly consumes the one-step fluctuation covariance C^(k) and its square root through B'=(C^(k))^(1/2)X and then localizes that root by resolvent/series and generalized random-walk methods. Delta_k remains a separate integrand operand. Therefore the unresolved CMP102 Delta_1 / CMP99 Delta_a / project-precision identity and the O(g_j) precision defect remain legitimate structural/provenance problems but are not prerequisites for the RP-blocker root-localization splice. The critical record is minimized to a NativeFluctuationCovarianceCertificate plus the existing support dictionary.",
+  "major_new_results": [
+    "CMP116 equations (2.5)-(2.6) source-identify the product-Gaussian change B'=(C^(k))^(1/2)X using the native covariance root.",
+    "CMP116 equations (2.7)-(2.10) localize the covariance root directly; a prior exact Hessian/precision identification is not the source-native prerequisite.",
+    "Delta_k remains a distinct argument in the localized integrand, so Delta_k, Delta_1, Delta_a and (C^(k))^-1 must not be collapsed by notation.",
+    "The former NativeLocalPrecisionCertificate is over-strong for the RP blocker and is replaced on the critical path by NativeFluctuationCovarianceCertificate.",
+    "The local O(g_j) precision-defect estimate is demoted from unavoidable native source debt to an optional sufficient reconstruction route."
+  ],
+  "negative_results": [
+    "Do not require the CMP102 Delta_1 definition lock before consuming CMP116 covariance-root localization.",
+    "Do not infer Delta_k=(C^(k))^-1 from the current extracted formulas.",
+    "Do not claim the exact CMP99-to-CMP116 C^(k) normalization/back-reference until its Part-I/Part-II dictionary is extracted.",
+    "Do not replace the source root localization by a finite-range equality or omit the Gaussian Jacobian/normalization."
+  ],
+  "live_obligations": [
+    "Extract the exact CMP116/CMP109 finite-dimensional coordinate dictionary for B', C^(k), (C^(k))^(1/2), and X.",
+    "Determine whether determinant/Jacobian normalization is already absorbed in the displayed product-Gaussian transformation.",
+    "Map the native covariance/root coordinates and localization domains to the project fluctuation-support representation.",
+    "Optionally recover the explicit CMP99/CMP109 back-reference identifying the earlier C^(k)(A) normalization with the one-step covariance; this is no longer blocker-critical.",
+    "Keep the Delta_1/Delta_a/P_j precision dictionary as a separate structural side record rather than a blocker gate.",
+    "No new source ID consumed; next new source remains [80]."
+  ],
+  "highest_reference_number": 79,
+  "authoritative_files": [
+    "ym/passes/YM_R42_DOWNSTREAM_ONE_STEP_PRECISION_BACKREFERENCE_AUDIT_20260916.md",
+    "ym/checkpoints/YM_HEAD_R42_20260916.json"
+  ],
+  "next_action": "YM-R43 CMP116 covariance-coordinate / Jacobian closure audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R42 is a source-dependency minimization: it identifies the native covariance/root object consumed by CMP116 and demotes the unresolved precision/Hessian dictionary from the RP blocker critical path without claiming that dictionary solved."
+}
