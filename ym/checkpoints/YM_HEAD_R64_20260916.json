@@ -1,0 +1,45 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R63_20260916.json",
+  "passes_completed_through": "YM-R64",
+  "live_cursor": "YM-R65",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "Paper-I beta extraction / marginal-defect orthogonality and UV-defect amplitude audit",
+  "current_determination": "R64 separates source-attested coordinate triangularity from the stronger dynamical projection triangularity hypothesized in R63. CMP119 Eq. (2.24) prescribes the localized coupling sequence from g_{j-1}, beta_j(g_{j-1}) and phi_j with no explicit E/R/B argument, while Eq. (2.25) places the regular contribution in the complementary coordinate after subtracting beta_j(g_{j-1}) A(phi_j,U_k). Thus DeclaredCoordinateTriangularity and MarginalSubtractionArchitecture are source-attested. This does not yet prove the Banach-map identity D_K T_x=0 for arbitrary nearby complete densities, nor exact zero-marginal projection of the residual activity; the Paper-I definition of beta_j must be recovered. Cross-cutoff use also requires CrossDepthMarginalTailCoherence because beta_j, phi_j and Lambda_j are scale-indexed. If canonical generated trajectories with a common coupling tail are coherent under reindexing, the R62 comparison can set delta x=0 and reduce loss of memory to the complementary sector without a full stable graph. Published absolute activity bounds do not yet give a two-trajectory derivative contraction. A second possible closure route is now visible: because the extra layer occurs at g_UV^(N)->0 and several complementary sectors carry positive powers of g, the one-layer compatibility defect may itself vanish summably, but the Paper-I E-sector bound (I.1.18) remains unextracted.",
+  "major_new_results": [
+    "CMP119 Eq. (2.24) source-attests triangularity of the declared running-coupling coordinate with respect to the named E/R/B coordinates.",
+    "CMP119 Eq. (2.25) source-attests the marginal-subtraction architecture: beta_j A(phi_j,U) is removed from each regular scale contribution.",
+    "Declared-coordinate triangularity is distinguished from general projection triangularity D_K T_x=0; only the former is presently source-attested.",
+    "The full R63 stable graph is no longer the default theorem target if canonical cross-cutoff trajectories share a coherent prescribed coupling tail.",
+    "CrossDepthMarginalTailCoherence is isolated as a separate indexed source obligation involving beta_j, phi_j and the regular-domain sequence.",
+    "Complementary-coordinate dependence on g is source-visible, so only one-way triangularity is expected.",
+    "A second endpoint-Cauchy route is identified: summably small UV one-layer defects plus bounded propagation may replace uniform strict complementary contraction."
+  ],
+  "negative_results": [
+    "Do not infer D_K T_x=0 merely from the displayed scalar form of Eq. (2.24).",
+    "Do not infer exact zero marginal projection of the residual regular activity from Eq. (2.25) before recovering the Paper-I beta extraction definition.",
+    "Do not infer cross-depth tail nesting from a scale-indexed within-trajectory recursion without a reindexing/coherence theorem.",
+    "Do not infer two-trajectory contraction from absolute CMP116/CMP119/CMP122 activity bounds.",
+    "Do not use the R-sector g^kappa0 bound as a bound on the entire one-layer defect before extracting the E-sector bound.",
+    "Do not infer continuum construction or a mass gap from coordinate triangularity or UV-defect smallness."
+  ],
+  "live_obligations": [
+    "Recover the Paper-I definition of beta_j around CMP109 equations (0.18) and (0.20).",
+    "Determine whether beta_j is exactly the local Wilson-action marginal projection and whether the residual has zero marginal extraction.",
+    "Establish CrossDepthMarginalTailCoherence under the N to N+1 scale/domain reindexing.",
+    "Extract Paper-I inequality (I.1.18) sufficiently to quantify the E-sector amplitude of the one-layer UV defect.",
+    "Determine whether the one-layer marginal defect is exactly zero, summably small, or requires R63 stable-graph compensation.",
+    "If needed after the defect audit, derive a complementary two-trajectory Lipschitz/contraction estimate in the native complete-density norm."
+  ],
+  "highest_reference_number": 84,
+  "authoritative_files": [
+    "ym/passes/YM_R64_NATIVE_ONE_STEP_DERIVATIVE_TRIANGULARITY_20260916.md",
+    "ym/checkpoints/YM_HEAD_R64_20260916.json"
+  ],
+  "next_action": "YM-R65 Paper-I beta extraction / marginal-defect orthogonality and UV-defect amplitude audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, or positive mass gap is claimed. R64 only refines the native one-step RG coordinate structure and the remaining cross-cutoff theorem obligations."
+}
