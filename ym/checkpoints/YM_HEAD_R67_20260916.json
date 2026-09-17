@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R66_20260916.json",
+  "passes_completed_through": "YM-R67",
+  "live_cursor": "YM-R68",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "projected local-jet norm / one-step quotient contraction audit",
+  "current_determination": "R67 localizes the collapsed regular-E ultraviolet-memory problem to the interior bulk local jet and retypes its dynamics as a scale-by-scale quotient flow modulo the vacuum and Wilson/F^2 directions. CMP119 source-attests repeated beta*A subtraction, but the exact CMP109 definition of beta_j as a local projection remains unrecovered. Conditional on exact bulk Wilson projection plus gauge/reflection/hypercubic symmetries, the residual local pure-gauge jet begins at canonical dimension six, giving a tree-level L^-2 coefficient gain. Because nonlinear RG can regenerate marginal F^2 pieces, the correct object is J_j^irr=ker Loc_j or J_j/span{1,A} with T_hat_j=(1-Loc_{j+1})T_j, and the native target is ||T_hat_j K|| <= q_j||K|| with q_j <= C L^(-2+epsilon_j)<1. Analyticity alone does not give this strict gain. Boundary B terms remain separate.",
+  "major_new_results": [
+    "Collapsed local E transport is a projected quotient-flow problem, not a once-subtracted Taylor remainder problem.",
+    "Conditional on exact vacuum/F^2 extraction and source symmetries, the bulk local residual starts at dimension six.",
+    "Canonical dimension six yields a derived tree-level L^-2 one-step gain.",
+    "Nonlinear marginal regeneration is handled by re-extracting vacuum/Wilson components at every scale.",
+    "RenormalizedLocalJetQuotientContraction is the precise local theorem target and is weaker than a full stable-manifold theorem.",
+    "The exact CMP109 beta-projection definition remains at the source boundary rather than being reconstructed."
+  ],
+  "negative_results": [
+    "Do not identify beta_j with an exact local projector before CMP109 extraction.",
+    "Do not classify relevance by polynomial degree in the gauge potential.",
+    "Do not assume a dimension-six input can never regenerate F^2 under nonlinear RG.",
+    "Do not infer L^-2 from analyticity or polymer locality alone.",
+    "Do not fold boundary/collar B terms into the bulk local-jet theorem.",
+    "Do not infer continuum construction or a mass gap from local-jet quotient contraction."
+  ],
+  "live_obligations": [
+    "Recover or source-bound the Paper-I local extraction definition underlying beta_j.",
+    "Identify a native projected local-jet norm modulo vacuum/Wilson directions.",
+    "Extract or prove a one-step strict contraction for that quotient, ideally L^-2 plus weak-coupling corrections.",
+    "Keep repeated descendant geometry for extended E terms separate from local quotient scaling.",
+    "Keep boundary B memory and cross-depth marginal-tail coherence as separate obligations."
+  ],
+  "highest_reference_number": 84,
+  "authoritative_files": [
+    "ym/passes/YM_R67_PAPER_I_LOCAL_JET_EXTRACTION_SCALING_20260916.md",
+    "ym/checkpoints/YM_HEAD_R67_20260916.json"
+  ],
+  "next_action": "YM-R68 projected local-jet norm / one-step quotient contraction audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, or positive mass gap is claimed. R67 derives the theorem grammar and keeps the exact source projector and native contraction estimate open."
+}
