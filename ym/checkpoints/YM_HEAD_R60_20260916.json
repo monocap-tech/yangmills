@@ -1,0 +1,42 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R59_20260916.json",
+  "passes_completed_through": "YM-R60",
+  "live_cursor": "YM-R61",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "tuned endpoint / physical-scale normalization audit",
+  "current_determination": "R60 corrects the quantifier structure of the coupling-window obligation. With the native inverse-square recursion x_j=g_j^{-2}=x_{j-1}-beta_j, positive beta drift makes the effective coupling grow toward coarser scales. Therefore one fixed bare coupling cannot be the all-depth UV target. Under an upper beta corridor 0<=beta_j<=b_+, fixed-depth persistence through N steps follows from g_0<=(gamma^{-2}+N b_+)^{-1/2}. Under a positive two-sided corridor and a fixed weak endpoint, the tuned bare coupling necessarily scales as g_0^(N)~N^{-1/2}. The live global object is therefore an N-dependent TunedUVWeakCouplingTrajectory, not FixedBareCouplingAllDepthPersistence. Exact CMP109 equations (0.18),(0.20), inequalities (1.0.33), beta constants and error terms remain source-unextracted and are not reconstructed from modern secondary claims. The published Balaban spine located through CMP122-II still does not source-attest the missing second-order all-depth coupling-flow theorem; Dimock [81] independently corroborates that historical publication boundary.",
+  "major_new_results": [
+    "FixedBareCouplingAllDepthPersistence is retyped as the wrong target for an asymptotically free UV construction.",
+    "For prescribed depth N, an upper beta corridor yields the sufficient weak-window condition g_0<=(gamma^{-2}+N b_+)^{-1/2}.",
+    "With a positive two-sided beta corridor and fixed weak endpoint, the tuned bare sequence satisfies g_0^(N)~N^{-1/2}.",
+    "The canonical marginal-flow object is TunedUVWeakCouplingTrajectory: for each N choose g_0^(N)->0 so the whole N-step path stays in the CMP119/CMP122-II weak-coupling jurisdiction.",
+    "The N^{-1/2} scaling is a conditional derivation from a beta corridor, not promoted as the exact CMP109 theorem.",
+    "The published-source search found no later Bałaban spine item that can presently be attested as the missing second-order coupling-flow theorem."
+  ],
+  "negative_results": [
+    "Do not require one fixed g_0 to remain weak for arbitrarily many RG steps.",
+    "Do not identify the derived N^{-1/2} tuning law with Bałaban's exact printed inequalities before primary extraction.",
+    "Do not import modern beta coefficients or normalization conventions into CMP109 without source verification.",
+    "Do not interpret the missing second-order publication as absence of Paper-I recursive coupling renormalization.",
+    "Do not infer continuum existence or a mass gap from tuned weak-coupling trajectories alone."
+  ],
+  "live_obligations": [
+    "Determine the correct endpoint/physical-scale normalization held fixed as N tends to infinity.",
+    "Derive a minimal abstract existence/uniqueness theorem for the tuned bare sequence from a positive continuous beta corridor.",
+    "Recover exact CMP109 equations (0.18), (0.20), inequalities (1.0.33), beta sign, constants and error terms from primary text if obtainable.",
+    "Keep finite-depth trajectory existence, uniform inductive constants, and continuum observable convergence as separate obligations.",
+    "Highest cumulative reference is [81]; [82] is next."
+  ],
+  "highest_reference_number": 81,
+  "authoritative_files": [
+    "ym/passes/YM_R60_UV_TUNING_QUANTIFIER_20260916.md",
+    "ym/checkpoints/YM_HEAD_R60_20260916.json"
+  ],
+  "next_action": "YM-R61 tuned endpoint / physical-scale normalization audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R60 only corrects the UV-tuning quantifiers and derives conditional finite-depth/tuned-sequence scaling from an abstract beta corridor."
+}
