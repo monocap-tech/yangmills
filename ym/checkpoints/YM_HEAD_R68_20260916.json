@@ -1,0 +1,45 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R67_20260916.json",
+  "passes_completed_through": "YM-R68",
+  "live_cursor": "YM-R69",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "primary CMP109 irrelevance-chain extraction / custody audit",
+  "current_determination": "R68 retypes the R67 sharp projected L^-2 local-jet contraction as an over-specified sufficient target. CMP116's published cluster step is source-attested as absolute inductive closure, not presently as a strict quotient operator contraction. A new secondary locator [85], explicitly historical/not correctness-assessed by AIRR and conditional in v2, points to CMP109 Eqs. (3.34), (4.14)-(4.15), (5.37), (5.42), and especially candidate irrelevance bound (0.29) of source-scale shape |V^(j)(X,U_k)| <= C a_j^(4+alpha) exp(-kappa d_j(X)) with alpha>0. This candidate is NOT primary-verified. Conditionally, such a bound plus uniform rooted polymer summability implies an O(a_j^alpha) defect on every fixed four-dimensional physical region, because the O(a_j^-4) root count cancels the a_j^4 factor. Fixed-ratio UV refinement then gives geometric/summable L^(-alpha N) loss of E-sector UV memory for every alpha>0. Thus PositiveAlphaSourceScaleIrrelevance is the minimal candidate native target; the exact Paper-I beta/Wilson projection identity and Eq. (0.29) hypotheses remain primary-source obligations. Large-field/boundary sectors remain separate.",
+  "major_new_results": [
+    "Sharp L^-2 projected local-jet contraction is sufficient but over-specified for the cross-cutoff E-memory problem.",
+    "A secondary traceability locator identifies a concrete CMP109 Taylor/Ward/beta/irrelevance equation chain, but primary verification is still mandatory.",
+    "Conditional fixed-region counting lemma: C a^(4+alpha) exp(-kappa d) plus rooted polymer summability gives O(a^alpha) total E-defect in four dimensions.",
+    "Any uniform alpha>0 yields geometric summability under fixed-ratio UV refinement.",
+    "Source-scale irrelevance of canonical generated activities is logically distinct from a Frechet quotient-contraction theorem for arbitrary perturbations.",
+    "Reference [85] is custodied as a secondary AI-assisted audit target, not as theorem evidence."
+  ],
+  "negative_results": [
+    "Do not cite [85] as proof of CMP109 Eq. (0.29), (5.37), or (5.42).",
+    "Do not retain the v1 unconditional-discharge claim; v2 explicitly changes the status to traceable/conditional.",
+    "Do not reverse the UV/IR direction of the source-scale irrelevance factor.",
+    "Do not demand alpha=2 when any uniform alpha>0 suffices for fixed-region summability.",
+    "Do not infer boundary/large-field convergence from the candidate small-polymer E bound.",
+    "Do not infer continuum Yang-Mills existence, OS reconstruction, thermodynamic convergence, or a mass gap."
+  ],
+  "live_obligations": [
+    "Obtain and inspect primary CMP109 Eqs. (0.29), (3.34), (4.14)-(4.15), (5.37), and (5.42).",
+    "Verify the exact definition and norm of V^(j), the allowed polymer class, and whether the bound is directly on later-scale variables U_k.",
+    "Verify the exact beta_j extraction/sign/normalization and whether it is the Wilson/F^2 projection needed for repeated quotienting.",
+    "Verify the positive alpha statement, constants, scale orientation, volume uniformity and RG window.",
+    "If the primary bound is verified, promote the O(a^alpha) fixed-region E-sector summability lemma and reconnect it to the R62 cross-cutoff defect.",
+    "If the locator is inaccurate, revoke the source-scale route and return to native complementary/projected difference contraction."
+  ],
+  "highest_reference_number": 85,
+  "authoritative_files": [
+    "ym/references/YM_REFERENCES_085_20260916.md",
+    "ym/passes/YM_R68_PROJECTED_LOCAL_JET_SOURCE_SCALE_IRRELEVANCE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R68_20260916.json"
+  ],
+  "next_action": "YM-R69 primary CMP109 irrelevance-chain extraction / custody audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, Osterwalder-Schrader reconstruction, thermodynamic limit, or positive mass gap is claimed. R68 provides a conditional reduction whose decisive source equations remain unverified against CMP109."
+}
