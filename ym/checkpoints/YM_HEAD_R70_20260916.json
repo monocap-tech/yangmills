@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R69_20260916.json",
+  "passes_completed_through": "YM-R70",
+  "live_cursor": "YM-R71",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "cross-depth marginal-tail coherence / beta-map cocycle audit",
+  "current_determination": "R70 reconstructs the Eq. (0.29) object/index dictionary without promoting the secondary locator [85] to primary theorem custody. Writing eta_N=L^-N and a_(N,j)=L^j eta_N gives the exact cross-depth identity a_(N+1,j+1)=a_(N,j), so physical-scale alignment is closed. The extra ultraviolet layer in the depth-(N+1) construction produces the first scale-indexed regular correction at the depth-N bare physical scale. The safe type of Paper-I V^(j) is the irrelevant regular residual after vacuum and designated beta/Wilson extraction; the exact plus/minus sign formula remains a primary-source detail because [85] v1 and v2 are not safe substitutes for CMP109 conventions. Conditional on vacuum normalization and marginal-tail coherence, the small-field regular component of the one-layer cross-cutoff defect is structurally V^(1). If primary Eq. (0.29) confirms ||V^(1)(X)|| <= C (L eta_(N+1))^(4+alpha) exp(-kappa d_1(X)) with alpha>0 and uniform rooted summability, then the fixed-region regular defect is O(L^-alpha N), hence summable. The shared-tail source-scale factor is invariant under j->j+1 reindexing, so any tail agreement must come from genuine beta/coupling/domain coherence rather than an indexing artifact.",
+  "major_new_results": [
+    "CrossDepthPhysicalScaleAlignment closes exactly: a_(N+1,j+1)=a_(N,j).",
+    "The extra depth-(N+1) ultraviolet layer produces the first generated regular correction at the depth-N bare physical scale.",
+    "Paper-I V^(j) is safely typed as the irrelevant regular residual after vacuum and marginal extraction, while the exact sign convention remains primary-source pending.",
+    "Conditional on marginal-tail coherence, the one-layer regular small-field defect is structurally a V^(1) contribution.",
+    "The candidate Eq. (0.29) factor on the extra layer is L^-N(4+alpha); d=4 root counting leaves L^-alpha N, summable for every alpha>0.",
+    "The correctly shifted shared tail preserves the same physical source-scale factor, so index shift itself supplies no extra irrelevance."
+  ],
+  "negative_results": [
+    "Do not infer coupling-tail coherence from physical-scale coherence.",
+    "Do not promote the v1 secondary V^(j)=E^(j) +/- beta A sign convention to a primary equality.",
+    "Do not treat j->j+1 as a physical suppression factor on the shared tail.",
+    "Do not apply the Paper-I small-field regular bound to R/B/large-field sectors without separate dictionaries.",
+    "Do not promote [85] to primary theorem custody or infer continuum Yang-Mills construction from conditional E-sector summability."
+  ],
+  "live_obligations": [
+    "Audit cross-depth marginal-tail coherence for the beta maps, cutoff functions, domains and tuned scalar sequence.",
+    "Determine whether uniqueness of the backward scalar tuning forces g_(j+1)^(N+1)=g_j^(N) once the shifted source recursion is identified.",
+    "Directly extract CMP109 Eq. (0.29), including V^(j), alpha, native norm, hypotheses and uniform constants.",
+    "Keep boundary/large-field cross-cutoff transport separate from the regular E-sector route.",
+    "Retain projected quotient contraction/stable-fiber machinery as fallback if source-scale irrelevance or marginal-tail coherence fails."
+  ],
+  "highest_reference_number": 85,
+  "authoritative_files": [
+    "ym/passes/YM_R70_EQ029_OBJECT_DICTIONARY_CROSS_DEPTH_INDEX_20260916.md",
+    "ym/checkpoints/YM_HEAD_R70_20260916.json",
+    "ym/references/YM_REFERENCES_085_20260916.md"
+  ],
+  "next_action": "YM-R71 cross-depth marginal-tail coherence / beta-map cocycle audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, OS reconstruction, infinite-volume limit, or positive mass gap is claimed. Eq. (0.29) remains a primary-source gate and the regular-sector summability result remains conditional."
+}
