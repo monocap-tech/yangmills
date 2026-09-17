@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R71_20260916.json",
+  "passes_completed_through": "YM-R72",
+  "live_cursor": "YM-R73",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "marginal leakage from source-labelled V / beta-extraction dependence audit",
+  "current_determination": "R72 separates the absolute perturbative beta remainder from the actual cross-depth beta-map mismatch. On the common bulk interior, write the aligned inverse-square increment as B_(N,j)=B_univ+r_(N,j); the universal scale-homogeneous part cancels under R70 physical-scale alignment, so the scalar obstruction is delta r_(N,j)=r_(N+1,j+1)-r_(N,j). The secondary traced law 2 b0 log L + O(g^2) does not make O(g^2) a cross-depth error, especially near the fixed endpoint g_*. Exact shift covariance is the zero-defect special case. Abstract backward inverse stability shows that a summable beta-map shift defect suffices for summable marginal-tail mismatch; any geometric L^(-alpha N) defect remains summable under polynomial inverse amplification. The two plausible bulk sources of a nonzero delta r are genuine regulator-depth dependence of the native beta extraction or marginal leakage from the inherited extra-UV irrelevant residual. CMP119's declared scalar grammar points toward zero canonical leakage but does not prove it. Conditional on the candidate Paper-I positive-alpha residual bound and a bounded marginal extraction functional, nonzero leakage would naturally inherit the same summable source-depth factor.",
+  "major_new_results": [
+    "BetaRemainderCrossDepthDifference is identified as the exact scalar obstruction after universal bulk beta terms cancel.",
+    "Absolute O(g^2) beta remainders are not cross-depth mismatch estimates.",
+    "Exact NativeBetaMapShiftCovariance is the special case delta r=0.",
+    "SummableBetaMapShiftDefect plus backward inverse stability implies SummableMarginalTailMismatch.",
+    "A geometric L^(-alpha N) shift defect survives polynomial inverse-map amplification and remains summable.",
+    "MarginalLeakageFromExtraUVResidual is identified as the next native object if exact canonical triangularity is not available."
+  ],
+  "negative_results": [
+    "Do not use the absolute O(g^2) correction as the N versus N+1 beta-map difference.",
+    "Do not use g_0^(N)->0 to control common steps near the fixed endpoint g_*.",
+    "Do not infer exact shift covariance from suppressed N-dependence in source notation.",
+    "Do not infer zero marginal leakage from declared coordinate syntax alone.",
+    "Do not promote a positive-alpha beta-mismatch bound before primary Eq. (0.29) and the beta-extraction map are sourced.",
+    "Do not infer continuum Yang-Mills existence or a mass gap from scalar mismatch summability."
+  ],
+  "live_obligations": [
+    "Determine whether Paper-I beta_j depends only on the fresh one-step local fluctuation functional or can depend on inherited regular activities.",
+    "Determine whether the source-labelled extra-UV V^(1) can regenerate a later Wilson/F^2 coefficient.",
+    "If leakage is nonzero, extract a bounded projection/Lipschitz map from the analytic jet norm to the marginal coefficient.",
+    "Combine that bound with the candidate positive-alpha source-depth estimate to test delta r_N=O(L^-alpha N).",
+    "Keep PrimaryEq029PositiveAlphaBound and exact beta-map shift covariance as independent source gates."
+  ],
+  "highest_reference_number": 85,
+  "authoritative_files": [
+    "ym/passes/YM_R72_BETA_MAP_SHIFT_MISMATCH_SUMMABILITY_20260916.md",
+    "ym/checkpoints/YM_HEAD_R72_20260916.json",
+    "ym/references/YM_REFERENCES_085_20260916.md"
+  ],
+  "next_action": "YM-R73 marginal leakage from source-labelled V / beta-extraction dependence audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, or positive mass gap is claimed. Exact beta-map shift covariance and any positive-alpha cross-depth beta mismatch estimate remain unproved source obligations."
+}
