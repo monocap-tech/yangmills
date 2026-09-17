@@ -1,0 +1,42 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R68_20260916.json",
+  "passes_completed_through": "YM-R69",
+  "live_cursor": "YM-R70",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "Eq. (0.29) object/dictionary reconstruction and cross-depth index audit",
+  "current_determination": "R69 did not promote the secondary traceability manuscript [85] to primary theorem custody. CMP109 [7] is verified as the correct primary paper, but the claimed equation-level chain (3.34)->(4.14),(4.15)->(5.37)->(5.42)->(0.29) is not directly extracted in the accessible audited primary-source corpus. Conditional on the candidate Eq. (0.29) shape ||V^(j)(X)|| <= C (L^j eta)^(4+alpha) exp(-kappa d_j(X)) with alpha>0, fixed four-dimensional root counting leaves a net factor (L^j eta)^alpha = L^{-alpha(N-j)}, which is geometrically summable in ultraviolet depth. This shows any positive excess exponent is enough for the fixed-region E-sector route. R69 also rejects [85]'s generic dyadic 2^-2 claim as not following from its displayed 4+alpha formula unless alpha=2 or a separate two-power theorem is supplied. The live object is the dictionary identifying the actual fresh depth-(N+1) one-layer marginal-subtracted E defect with the Paper-I V^(j) object, while direct primary Eq. (0.29) extraction remains a source gate.",
+  "major_new_results": [
+    "Primary CMP109 identity/role is verified, but Eq. (0.29) and the claimed Taylor-Ward-beta chain remain unextracted at primary equation level.",
+    "Conditional on an a^(4+alpha) source-scale activity bound, four-dimensional root counting leaves a^alpha, hence geometric UV summability for every alpha>0.",
+    "The sharp L^-2 quotient contraction is stronger than necessary if a positive-alpha Paper-I source-scale bound applies directly to the one-layer defect.",
+    "The generic dyadic net factor from a^(4+alpha) after d=4 volume counting is 2^-alpha per UV step, not universally 2^-2.",
+    "The minimal cross-cutoff source object is OneLayerDefectToPaperIVjDictionary."
+  ],
+  "negative_results": [
+    "Do not promote [85] to primary theorem custody.",
+    "Do not identify alpha>0 with alpha=2 or quote a universal 2^-2 factor without a separate theorem.",
+    "Do not identify Paper-I V^(j) with CMP119 E^(j) or the R62 one-layer defect solely by notation.",
+    "Do not infer cutoff/volume-uniform constants until Eq. (0.29) is directly inspected.",
+    "Do not infer the full RG-Cauchy M1 consumer or continuum Yang-Mills construction from the conditional fixed-region summability calculation."
+  ],
+  "live_obligations": [
+    "Directly extract CMP109 Eq. (0.29), including the definition of V^(j), the exponent/range of alpha, norm, hypotheses, and constant uniformity.",
+    "Determine the exact type relation between Paper-I V^(j), CMP119 scale-indexed E^(j), and the fresh one-layer cross-cutoff defect Delta_N.",
+    "Audit depth-N versus depth-(N+1) index shifting at the first common physical scale.",
+    "Show that vacuum/Wilson marginal retuning preserves the positive-alpha remainder estimate in the common-scale comparison.",
+    "Retain the projected quotient-contraction theorem as fallback if the positive-alpha one-layer dictionary fails."
+  ],
+  "highest_reference_number": 85,
+  "authoritative_files": [
+    "ym/passes/YM_R69_PRIMARY_CMP109_IRRELEVANCE_CHAIN_CUSTODY_20260916.md",
+    "ym/checkpoints/YM_HEAD_R69_20260916.json",
+    "ym/references/YM_REFERENCES_085_20260916.md"
+  ],
+  "next_action": "YM-R70 Eq. (0.29) object/dictionary reconstruction and cross-depth index audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, or positive mass gap is claimed. The positive-alpha estimate remains conditional until primary CMP109 extraction and the one-layer defect dictionary are closed."
+}
