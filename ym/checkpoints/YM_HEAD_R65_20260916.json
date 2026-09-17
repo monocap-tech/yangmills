@@ -1,0 +1,45 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R64_20260916.json",
+  "passes_completed_through": "YM-R65",
+  "live_cursor": "YM-R66",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "source-scale E transport / fixed-observable ultraviolet-memory audit",
+  "current_determination": "R65 audits the alternative proposed in R64 that the one-layer cross-cutoff defect might itself vanish as the tuned UV coupling goes to zero. CMP119 source-attests exact subtraction of the vacuum value and the designated beta_j A term from each regular E contribution, but the exact Paper-I extraction functional defining beta_j remains untranscribed, so universal projector orthogonality is still open. The currently extracted regular E bounds are fixed small-budget bounds of E_0/epsilon_1 type and do not source-attest a positive g-power. The CMP119 R sector does carry g_j^kappa0 suppression and therefore the extra UV R defect vanishes along the tuned trajectory; by contrast the recorded B bound has no explicit g-small amplitude. Hence full one-layer defect vanishing in the raw complete-density norm is not established. This exposes a topology correction: an ultraviolet E increment may remain O(1) in the native rescaled induction norm yet become irrelevant when transported across many scales to fixed physical observables. ScaleSeparatedETransport is therefore the next live alternative to a full complementary two-trajectory contraction theorem.",
+  "major_new_results": [
+    "Prescribed vacuum and beta_j A subtraction from the regular E coordinate are source-attested.",
+    "Exact extraction orthogonality is narrowed to the missing Paper-I definition of beta_j/local extraction.",
+    "The source-attested E bounds are fixed small-budget/locality bounds, not presently g-vanishing bounds.",
+    "The R-sector g^kappa0 suppression makes the extra-UV-layer R defect vanish and, under the abstract N^-1/2 tuning law, summable for sufficiently large kappa0 modulo polymer summability.",
+    "The recorded B-sector amplitude has no explicit g-small prefactor in the raw complete-density norm.",
+    "Full UV defect smallness in the native complete-density norm is therefore not closed.",
+    "Complete-density-norm Cauchy is retyped as sufficient but not obviously necessary; fixed-observable/source-scale loss of UV memory is a distinct possible continuum topology.",
+    "ScaleSeparatedETransport is the new live obligation."
+  ],
+  "negative_results": [
+    "Do not infer universal Loc_A(E_res)=0 from the visible beta subtraction without the Paper-I extraction definition.",
+    "Do not infer E_0 or epsilon_1 tends to zero with g from currently extracted source statements.",
+    "Do not promote R-sector g^kappa0 smallness to the complete E/R/B density.",
+    "Do not infer B-coordinate norm smallness solely from rare large-field support without a weighted norm theorem.",
+    "Do not require strongest-native-norm Cauchy if fixed gauge-invariant observables can converge in a weaker physical topology.",
+    "Do not infer continuum Yang-Mills construction or a mass gap from scale-separated irrelevance alone."
+  ],
+  "live_obligations": [
+    "Recover the exact Paper-I beta/local-extraction definition and decide exact marginal projection orthogonality.",
+    "Audit the scale provenance E_k=sum_j E^(j) for decay of an extra ultraviolet regular increment at a fixed endpoint.",
+    "Search Paper I/II for a source-native irrelevant scale gain stronger than same-scale E_0 exp(-kappa d_j) boundedness.",
+    "Define the weakest fixed-observable topology sufficient for cross-cutoff uniqueness and later OS reconstruction.",
+    "If no source-scale transport theorem exists, return to NativeComplementaryDifferenceContraction as the primary loss-of-memory theorem."
+  ],
+  "highest_reference_number": 84,
+  "authoritative_files": [
+    "ym/passes/YM_R65_PAPER_I_ORTHOGONALITY_UV_DEFECT_AMPLITUDE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R65_20260916.json"
+  ],
+  "next_action": "YM-R66 source-scale E transport / fixed-observable ultraviolet-memory audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum state convergence, or positive mass gap is claimed. R65 only classifies which parts of the one-layer UV defect are source-attested to vanish and identifies the next transport/topology theorem boundary."
+}
