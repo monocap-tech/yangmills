@@ -1,0 +1,42 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R70_20260916.json",
+  "passes_completed_through": "YM-R71",
+  "live_cursor": "YM-R72",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "beta-map shift covariance / cross-depth mismatch summability audit",
+  "current_determination": "R71 proves abstractly that cross-depth marginal-tail coherence follows from common endpoint normalization, backward uniqueness of the scalar one-step maps, and exact shift covariance of those maps under (N,j)->(N+1,j+1). R70 already closed physical-scale alignment and R61 supplied the abstract uniqueness grammar, so the scalar branch is reduced to NativeBetaMapShiftCovariance. CMP119 source-attests the localized recursion and phi_j=1 on the interior, which removes the cutoff function from the bulk cocycle; any phi/domain mismatch near boundaries is retyped into the boundary/B sector. The current source corpus does not establish beta_(j+1)^(N+1)=beta_j^(N) exactly. Secondary reference [85] v2 gives structural evidence for a scale-homogeneous leading flow g_(k+1)^-2 = g_k^-2 + 2 b0 log L + O(g_k^2), but remains a locator rather than primary custody. Exact tail equality is stronger than necessary: a summable beta-map shift defect plus inverse-map stability would suffice as a fallback.",
+  "major_new_results": [
+    "CrossDepthMarginalTailCoherence is reduced algebraically to NativeBetaMapShiftCovariance once endpoint and backward uniqueness are fixed.",
+    "Bulk phi_j localization drops out because CMP119 has phi_j=1 on the common interior.",
+    "Boundary/localized coupling mismatches are retyped into the B/boundary sector rather than the bulk marginal coordinate.",
+    "Endpoint equality plus scale alignment alone does not imply tail coherence.",
+    "SummableMarginalTailMismatch is identified as a weaker sufficient fallback to exact tail equality."
+  ],
+  "negative_results": [
+    "Do not infer exact beta-map shift covariance from suppressed N-dependence in source notation.",
+    "Do not promote the secondary 2 b0 log L + O(g^2) formula to an exact cocycle theorem.",
+    "Do not mix boundary phi_j/domain effects into the bulk scalar recursion.",
+    "Do not require exact tail equality when a summable scalar mismatch would suffice for fixed-observable convergence.",
+    "Do not infer continuum Yang-Mills existence or a mass gap from scalar cocycle closure."
+  ],
+  "live_obligations": [
+    "Extract which parameters enter the native Paper-I beta_j map besides g and fixed L.",
+    "Test parameter invariance under the aligned cross-depth index shift.",
+    "Determine whether finite-volume/domain effects break exact bulk beta-map covariance or only produce boundary-localized corrections.",
+    "If exact equality is unavailable, bound the beta-map shift defect and prove summable marginal-tail mismatch using inverse-map stability.",
+    "Keep PrimaryEq029PositiveAlphaBound as an independent source gate."
+  ],
+  "highest_reference_number": 85,
+  "authoritative_files": [
+    "ym/passes/YM_R71_CROSS_DEPTH_MARGINAL_TAIL_COCYCLE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R71_20260916.json",
+    "ym/references/YM_REFERENCES_085_20260916.md"
+  ],
+  "next_action": "YM-R72 beta-map shift covariance / cross-depth mismatch summability audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, or positive mass gap is claimed. Exact beta-map shift covariance remains open; [85] remains secondary traceability only."
+}
