@@ -1,0 +1,46 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R62_20260916.json",
+  "passes_completed_through": "YM-R63",
+  "live_cursor": "YM-R64",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native one-step derivative / triangularity audit",
+  "current_determination": "R63 identifies the R62 loss-of-regulator-memory residue as a nonhyperbolic rigorous-RG stable-fiber/mixed-boundary theorem species. In normalized coordinates X_k=(x_k,K_k), x_k=g_k^{-2} is marginal and K_k denotes complementary complete-density coordinates. The linearized finite-horizon stable fiber delta x_k=H_k delta K_k satisfies H_N=0 and H_k=(a_k-H_{k+1}c_k)^{-1}(H_{k+1}A_k-b_k); the effective transverse multiplier is A_k+c_k H_k. Hence strict complementary contraction plus sufficiently controlled cross derivatives yields cross-cutoff loss of memory after marginal retuning. The key native fork is whether Balaban's local extraction makes the coupling recursion exactly triangular in (g,K), in which case b_k=0 and the theorem reduces largely to irrelevant difference contraction, or whether a nontrivial stable graph is required. Published absolute ultraviolet-stability bounds do not by logical form provide these derivative estimates. Dimock III 'Convergence' is convergence of the scalar phi^4_3 expansion leading to a stability bound, not cross-cutoff Yang-Mills state convergence. Bauerschmidt-Brydges-Slade supplies a rigorous control example showing that the mixed-boundary stable-manifold theorem species is standard but not automatically applicable to non-Abelian gauge theory.",
+  "major_new_results": [
+    "RenormalizedStableFiberLossOfMemory is typed as a nonhyperbolic stable-manifold / mixed-boundary RG theorem species.",
+    "A finite-horizon linearized stable-fiber graph recursion and effective transverse multiplier were derived.",
+    "The whole RG map need not contract because the gauge coupling is marginal; contraction is needed only transverse to the tuned marginal trajectory.",
+    "Pure Yang-Mills is a codimension-one stable-fiber candidate after normalization, subject to completeness of the audited marginal-coordinate classification.",
+    "The highest-value source fork is NativeTriangularity versus genuine activity-to-coupling leakage.",
+    "Dimock III convergence was classified as expansion/stability convergence rather than cross-cutoff state convergence.",
+    "Reference [84] demonstrates the required theorem grammar in other 4d rigorous RG systems but does not solve the Yang-Mills instantiation."
+  ],
+  "negative_results": [
+    "Do not demand contraction in the marginal coupling direction.",
+    "Do not infer stable-fiber contraction from one-trajectory ultraviolet stability.",
+    "Do not infer a derivative contraction constant below one from analyticity alone.",
+    "Do not import the Bauerschmidt-Brydges-Slade theorem into Yang-Mills without source-native hypothesis verification.",
+    "Do not interpret Dimock III's title 'Convergence' as convergence of separately tuned Yang-Mills cutoff states.",
+    "Do not infer continuum construction or a mass gap from stable-fiber closure alone."
+  ],
+  "live_obligations": [
+    "Decide from Paper I/CMP119 whether the exact coupling update is triangular with respect to complementary activities after local extraction.",
+    "Extract native normalization conditions eliminating local marginal projections of E/R/B or polymer activities.",
+    "Find or derive one-step Fréchet/difference estimates for the complete-density RG map.",
+    "Establish a strict derivative contraction in the irrelevant sector or identify the missing theorem precisely.",
+    "If triangularity fails, quantify activity-to-coupling and coupling-to-activity cross derivatives for the stable graph."
+  ],
+  "highest_reference_number": 84,
+  "authoritative_files": [
+    "ym/passes/YM_R63_NATIVE_STABLE_FIBER_TWO_TRAJECTORY_20260916.md",
+    "ym/checkpoints/YM_HEAD_R63_20260916.json",
+    "ym/references/YM_REFERENCES_083_20260916.md",
+    "ym/references/YM_REFERENCES_084_20260916.md"
+  ],
+  "next_action": "YM-R64 native one-step derivative / triangularity audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, or positive mass gap is claimed. R63 identifies the theorem species and the exact one-step hypotheses still missing."
+}
