@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R60_20260916.json",
+  "passes_completed_through": "YM-R61",
+  "live_cursor": "YM-R62",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "endpoint-density Cauchy / cross-cutoff compatibility audit",
+  "current_determination": "R61 fixes the endpoint normalization type. A terminal dimensionless coupling is insufficient: the renormalization datum is (scheme, mu_*, g_*), or equivalently a scheme-dependent Lambda parameter once the beta flow is known. In a constant inverse-square-drift model Lambda_disc = mu exp[-(log L/b) g^{-2}] is exactly invariant, making the R60 N^{-1/2} bare-coupling law equivalent to dimensional transmutation. Abstractly, if the native inverse-square beta increments are positive, uniformly bounded and the one-step maps are invertible, then every weak endpoint admits a unique depth-N backward-tuned scalar trajectory with the entire trajectory remaining in the weak collar. This scalar theorem is a derivation, not a source-attested CMP109 theorem until the exact Paper-I inequalities are extracted. More importantly, equal endpoint coupling across cutoff depths does not imply convergence of the full endpoint effective density: irrelevant/localized coordinates may retain N-dependence. EndpointDensityConvergence is therefore the next cross-cutoff continuum-construction obligation. Endpoint normalization/Lambda selection does not prove mass generation and remains separate from the later UV-to-IR massive-basin handoff.",
+  "major_new_results": [
+    "Renormalization endpoint typed as (scheme, mu_*, g_*), not g_* alone.",
+    "Endpoint scale-coupling condition and scheme-dependent Lambda are alternative labels of the same RG trajectory once the beta flow is known.",
+    "Constant inverse-square drift gives the discrete invariant Lambda_disc = mu exp[-(log L/b) g^{-2}].",
+    "Positive bounded invertible beta corridor implies unique backward scalar tuning to a fixed weak endpoint for every finite UV depth.",
+    "Backward tuning yields x_*+N b_- <= x_0^(N) <= x_*+N b_+ and therefore g_0^(N) ~ N^{-1/2} while every intermediate coupling remains <= g_*.",
+    "Fixing the endpoint marginal coordinate across N does not force equality or convergence of irrelevant/localized endpoint-density coordinates.",
+    "EndpointDensityConvergence is identified as the next cross-cutoff obligation."
+  ],
+  "negative_results": [
+    "Do not hold a dimensionless endpoint coupling fixed without a scale and coupling scheme.",
+    "Do not identify the constant-drift Lambda_disc with Bałaban's exact Lambda parameter.",
+    "Do not identify Bałaban's lattice coupling numerically with a modern continuum scheme without matching.",
+    "Do not infer mass generation from the existence of an RG-invariant scale.",
+    "Do not infer cross-cutoff convergence from exact RG identities internal to one cutoff depth.",
+    "Do not infer convergence of irrelevant coordinates from endpoint coupling tuning."
+  ],
+  "live_obligations": [
+    "Extract exact CMP109 equations (0.18), (0.20), and inequalities (1.0.33) to source-attest or falsify the positive invertible beta corridor.",
+    "Compare tuned depth-N and depth-(N+1) effective densities at the same reference scale.",
+    "Determine whether CMP119/CMP122 constants are uniform in N strongly enough for Cauchy, compactness, or subsequential endpoint-density convergence.",
+    "Separate partition-function stability, normalized-measure convergence, local-observable convergence, OS reconstruction, and later IR mass generation.",
+    "Keep the UV-to-massive-IR handoff as a separate later obligation."
+  ],
+  "highest_reference_number": 81,
+  "authoritative_files": [
+    "ym/passes/YM_R61_TUNED_ENDPOINT_PHYSICAL_SCALE_NORMALIZATION_20260916.md",
+    "ym/checkpoints/YM_HEAD_R61_20260916.json"
+  ],
+  "next_action": "YM-R62 endpoint-density Cauchy / cross-cutoff compatibility audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence or continuum mass gap is claimed. R61 only types the renormalization endpoint and identifies the stronger cross-cutoff convergence obligation beyond scalar coupling tuning."
+}
