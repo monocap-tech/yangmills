@@ -1,0 +1,51 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R61_20260916.json",
+  "passes_completed_through": "YM-R62",
+  "live_cursor": "YM-R63",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native stable-fiber / two-trajectory loss-of-memory audit",
+  "current_determination": "R62 reduces endpoint-density convergence to a cross-cutoff compatibility problem plus a renormalized two-trajectory loss-of-memory theorem. The depth-N and depth-(N+1) tuned models can be compared after the finer model is RG-blocked once to the first common lattice scale. Their normalized difference there is the one-layer compatibility defect Delta_N. Exact cylindrical consistency of the Wilson bare family is not expected because one blocking step generates the complete effective interaction class. If vacuum and marginal coordinates are aligned, a bounded compatibility defect together with a uniform contraction of differences along a renormalized stable fiber yields a summable endpoint Cauchy estimate; however Bałaban's published ultraviolet-stability chain supplies absolute/one-trajectory effective-density control, not by logical form this two-trajectory contraction. Fixed-endpoint weak subsequential compactness is insufficient and is essentially automatic at fixed finite lattice because the compact gauge group gives compact configuration space. The live theorem deficit is loss of UV-regulator memory, including marginal leakage from complementary perturbations.",
+  "major_new_results": [
+    "Defined the canonical one-layer cross-cutoff compatibility defect Delta_N by comparing the depth-(N+1) model after one RG step with the depth-N bare model at their first common scale.",
+    "Separated endpoint coupling equality from MarginalTailCoherence; the former does not automatically make tuned scalar trajectories nest across cutoff depths.",
+    "Derived a sufficient endpoint Cauchy theorem: if ||Delta_N||<=D_N and the shared N-layer RG contracts differences by Q_N, then ||rho_*^(N+1)-rho_*^(N)||<=D_N Q_N; summability of D_N Q_N gives full Cauchy convergence.",
+    "Identified that the needed estimate is a two-trajectory/stable-fiber estimate, strictly stronger than preservation of an inductive class or absolute bounds on each remainder.",
+    "Distinguished ultraviolet stability, weak subsequential compactness, full cross-cutoff Cauchy convergence, observable convergence, OS reconstruction, and the later thermodynamic/mass-gap obligations.",
+    "Recorded the nonlinear marginal-leakage issue: an initially irrelevant defect may regenerate the Wilson-action coordinate, so contraction must be formulated on a renormalized stable fiber or as a coupled marginal/irrelevant difference system."
+  ],
+  "negative_results": [
+    "Uniform effective-density bounds do not imply the endpoint sequence is Cauchy.",
+    "Subsequential compactness at fixed finite endpoint lattice is too weak to establish regulator-independent continuum convergence.",
+    "Exact cylindrical consistency of the one-plaquette Wilson bare family is the wrong target because RG blocking generates extended/localized interactions.",
+    "Endpoint scalar coupling equality does not by itself imply cross-depth marginal tail coherence.",
+    "Engineering irrelevance does not by itself imply nonlinear two-trajectory contraction.",
+    "Ultraviolet stability must not be promoted to convergence of gauge-invariant expectations or to OS continuum reconstruction.",
+    "No thermodynamic-limit or mass-gap conclusion follows from R62."
+  ],
+  "source_custody": [
+    "Added [82] Sourav Chatterjee (2016), The leading term of the Yang-Mills free energy, to clarify the standard distinction between ultraviolet stability of effective actions and continuum construction.",
+    "Append-only correction recorded: canonical [22] is CMP122-II and [31] is CMP122-I; R59-R61 historical files remain unchanged despite their citation-ID drift."
+  ],
+  "live_obligations": [
+    "Search CMP109/CMP119/CMP122 for difference estimates or derivative bounds on the RG map rather than only absolute single-trajectory bounds.",
+    "Establish or falsify MarginalTailCoherence for the tuned depth-N family.",
+    "Bound the one-layer Wilson-to-effective compatibility defect in the native complete-density norm.",
+    "Control marginal leakage from complementary density perturbations and determine whether endpoint tuning defines a stable fiber.",
+    "Find a uniform or summable two-trajectory loss-of-memory estimate sufficient for endpoint Cauchy convergence.",
+    "Keep observable convergence, OS reconstruction, infinite-volume limit and mass generation as later distinct obligations."
+  ],
+  "highest_reference_number": 82,
+  "authoritative_files": [
+    "ym/passes/YM_R62_ENDPOINT_DENSITY_CAUCHY_CROSS_CUTOFF_20260916.md",
+    "ym/checkpoints/YM_HEAD_R62_20260916.json",
+    "ym/references/YM_REFERENCES_082_20260916.md",
+    "ym/references/YM_REFERENCE_CORRECTION_022_031_20260916.md"
+  ],
+  "next_action": "YM-R63 native stable-fiber / two-trajectory loss-of-memory audit",
+  "safety_boundary": "No proof of 4d Yang-Mills existence or continuum mass gap is claimed. R62 only identifies and reduces the cross-cutoff convergence theorem required beyond ultraviolet stability."
+}
