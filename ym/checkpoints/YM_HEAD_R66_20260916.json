@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R65_20260916.json",
+  "passes_completed_through": "YM-R66",
+  "live_cursor": "YM-R67",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "Paper-I local jet / exact extraction order and canonical L^-2 scaling audit",
+  "current_determination": "R66 splits the R65 ScaleSeparatedETransport obligation into an extended/polymer geometry sector and a collapsed-local Taylor-jet sector. CMP119 retains the source index j of each regular E^(j) contribution. CMP116 Eq. (2.36) source-attests a fine-to-coarse localization metric gain 2 d_k(Z_i) >= L d_{k+1}(Z_i'), so conditional iteration would strongly suppress far-UV components whose endpoint descendants have positive coarse diameter. This mechanism gives no suppression to a component collapsed into one endpoint block. The remaining local contribution is precisely where exact vacuum/F^2 extraction and canonical irrelevance matter: if the stored local residual has no dimension <=4 pure-gauge component, its generic local jet begins at dimension six and should acquire L^-2 per scale at tree level. That is structurally identified but not yet source-attested as a Bałaban Yang-Mills theorem. At fixed finite endpoint volume, a summable sup-norm endpoint action defect is enough to make bounded cylindrical observable expectations Cauchy, so complete-density native-norm Cauchy is stronger than necessary. The decisive live residue is now CollapsedLocalEJetIrrelevance, together with the exact Paper-I beta/Taylor extraction needed to justify it.",
+  "major_new_results": [
+    "CMP116 Eq. (2.36) source-attests the one-step scale-transfer geometry 2 d_k >= L d_{k+1}.",
+    "Conditional iteration of the metric gain strongly suppresses source components whose endpoint descendants retain positive coarse tree diameter.",
+    "Polymer/localization geometry cannot suppress a zero-diameter local component; spatial diameter and source-depth are distinct resources.",
+    "ScaleSeparatedETransport decomposes into ExtendedEGeometricTransport and CollapsedLocalEJetIrrelevance.",
+    "After exact vacuum and F^2 extraction, the expected surviving pure-gauge local jet begins at dimension six and has tree-level L^-2 scaling; this remains a derived target, not a source theorem.",
+    "At fixed finite endpoint volume, summable endpoint action sup-norm defects imply Cauchy expectations for bounded cylindrical observables by an elementary normalized-density perturbation bound."
+  ],
+  "negative_results": [
+    "Do not infer source-depth decay from the same-scale E_0 exponential polymer bound alone.",
+    "Do not apply the CMP116 metric gain to a zero-diameter local endpoint component and claim ultraviolet suppression.",
+    "Do not promote dimension-six/L^-2 local scaling to a Bałaban theorem before recovering the Paper-I extraction and Taylor normalization.",
+    "Do not use spatial locality or an assumed mass gap to remove a UV operator inserted in the same physical region as the observable.",
+    "Do not equate fixed-finite-volume observable convergence with OS reconstruction or infinite-volume completion.",
+    "Do not infer continuum Yang-Mills existence or a mass gap from R66."
+  ],
+  "live_obligations": [
+    "Recover the exact Paper-I definition of beta_j and determine whether it is an exact local projection onto the Wilson/F^2 direction.",
+    "Extract the normalization/Taylor conditions on the residual regular activity after vacuum and beta subtraction.",
+    "Determine whether the native one-step rescaling theorem yields an explicit L^-2 or other strict gain for the collapsed local residual.",
+    "Build or reject an iterated descendant dictionary for the CMP116 one-step localization metric gain.",
+    "Retain NativeComplementaryDifferenceContraction as fallback if local-jet transport cannot be source-closed."
+  ],
+  "highest_reference_number": 84,
+  "authoritative_files": [
+    "ym/passes/YM_R66_SOURCE_SCALE_E_TRANSPORT_FIXED_OBSERVABLE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R66_20260916.json"
+  ],
+  "next_action": "YM-R67 Paper-I local jet / exact extraction order and canonical L^-2 scaling audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, Osterwalder-Schrader reconstruction, or positive mass gap is claimed. R66 only reduces the regular-sector ultraviolet-memory problem to source-native geometric transport plus a collapsed-local jet theorem."
+}
