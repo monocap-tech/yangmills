@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-22",
+  "lineage_date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R74_20260922.json",
+  "passes_completed_through": "YM-R75",
+  "live_cursor": "YM-R76",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "one-step vacuum-polarization rescaling covariance / paired marginal-residual audit",
+  "current_determination": "R75 substantially resolves BetaIndexSemantics at the secondary equation-traceability level. Reference [85] explicitly defines eta_k=L^k eta as the spacing at blocking level k, calls beta_j the scale-dependent coefficients, and traces beta_(j+1)(g_j) to the scale-(j+1) vacuum-polarization tensor via CMP109 Eq. (5.42). Thus j is typed as blocking/source scale rather than a separately displayed total UV-depth parameter. Total depth N enters through eta=L^-N. R70 physical-scale alignment therefore reduces exact beta-map shift covariance to rescaling/stationarity of the fresh one-step vacuum-polarization extraction at aligned scales. The peer-reviewed CMP109 abstract supports the repeated one-step RG architecture, but direct primary equation-level custody of this stationarity theorem remains open. The beta branch and the regular Eq. (0.29) positive-alpha branch are now paired outputs of the same local Taylor/Ward/vacuum-polarization decomposition.",
+  "major_new_results": [
+    "BetaIndexSemantics is blocking/source scale at the secondary equation-traceability level.",
+    "The traced beta coefficient beta_(j+1)(g_j) is extracted from the scale-(j+1) vacuum-polarization tensor.",
+    "Total UV depth N enters the locator through eta=L^-N rather than as a separate beta argument.",
+    "OneStepVacuumPolarizationRescalingCovariance implies NativeBetaMapShiftCovariance and hence, with R71 hypotheses, exact marginal-tail coherence.",
+    "The beta stationarity gate and PrimaryEq029PositiveAlphaBound are paired marginal/residual outputs of one Taylor/Ward decomposition."
+  ],
+  "negative_results": [
+    "Do not promote [85]'s equation transcription to primary theorem custody.",
+    "Do not infer exact stationarity solely because k is a blocking-level label.",
+    "Do not treat N as a beta argument when traced notation introduces it only through eta.",
+    "Do not equate physical-scale alignment with equality of one-step vacuum-polarization functionals without the covariance theorem.",
+    "Do not infer continuum Yang-Mills existence or a mass gap from scalar coherence."
+  ],
+  "live_obligations": [
+    "Reconstruct the scale-j vacuum-polarization tensor from CMP109 equations (5.37), (5.42) and the one-step RG geometry.",
+    "Determine whether the one-step polarization problem is dimensionless/stationary after canonical lattice rescaling.",
+    "Identify every scale-dependent input to Pi_j and test aligned-scale invariance.",
+    "Audit the marginal beta projection and complementary V^(j) Eq. (0.29) remainder as one paired local decomposition.",
+    "Keep summable polarization mismatch and generic stable-fiber control as fallbacks."
+  ],
+  "highest_reference_number": 85,
+  "authoritative_files": [
+    "ym/passes/YM_R75_BETA_INDEX_SEMANTICS_PHYSICAL_SCALE_STATIONARITY_20260922.md",
+    "ym/checkpoints/YM_HEAD_R75_20260922.json",
+    "ym/references/YM_REFERENCES_085_20260916.md"
+  ],
+  "next_action": "YM-R76 one-step vacuum-polarization rescaling covariance / paired marginal-residual audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, or positive mass gap is claimed. Primary one-step vacuum-polarization stationarity and PrimaryEq029PositiveAlphaBound remain open."
+}
