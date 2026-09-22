@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-22",
+  "lineage_date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R72_20260916.json",
+  "passes_completed_through": "YM-R73",
+  "live_cursor": "YM-R74",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "beta-family hidden-parameter / autonomy audit",
+  "current_determination": "R73 collapses the apparent marginal-leakage branch on the canonical generated family. CMP119 writes beta_j as an indexed scalar function beta_j(g_{j-1}) while retaining previously generated regular history separately in the scale-labelled E_k sum. Therefore there is no independent native V-to-beta input coordinate to estimate: any ultraviolet-history dependence of later canonical beta values is already encoded in the indexed beta family and belongs to R72's BetaRemainderCrossDepthDifference. This does not prove general Banach-map triangularity D_K T_x=0 for arbitrary perturbations. The native scalar frontier is now the hidden-parameter/autonomy question for beta_j: determine which suppressed data besides g, fixed L, and aligned physical scale can distinguish beta_(N+1,j+1) from beta_(N,j). A bounded V-to-Wilson extraction map remains only a synthetic fallback; combined with the candidate positive-alpha V bound it would imply summable beta leakage.",
+  "major_new_results": [
+    "Canonical generated CMP119 beta maps have no explicit inherited E/R/B or V argument; inherited regular history is stored separately in E_k.",
+    "MarginalLeakageFromExtraUVResidual is not an independent native coordinate on the canonical generated family and is retyped into BetaFamilyCrossDepthDifference.",
+    "General projection triangularity for arbitrary Banach perturbations remains open.",
+    "The cheapest native cutoff comparison is direct exact/summable shift covariance of the indexed beta family.",
+    "A bounded analytic V-to-Wilson projection remains a valid but stronger fallback route."
+  ],
+  "negative_results": [
+    "Do not introduce a separate canonical V-to-beta obstruction beyond the indexed beta-family mismatch.",
+    "Do not infer D_V beta=0 for arbitrary perturbations from source-coordinate syntax.",
+    "Do not use an absolute O(g^2) beta remainder as a cross-depth mismatch estimate.",
+    "Do not assume the suppressed beta scale index contains no hidden domain/history data.",
+    "Do not infer continuum Yang-Mills existence or a positive mass gap from scalar-branch closure."
+  ],
+  "live_obligations": [
+    "Recover the hidden parameter dependence of Paper-I/CMP119 beta_j beyond the running coupling.",
+    "Separate bulk-local beta data from domain/finite-volume/boundary data.",
+    "Decide whether aligned physical scale plus fixed L makes the canonical bulk beta family autonomous.",
+    "If autonomy fails, identify and bound the hidden-parameter cross-depth defect.",
+    "Keep PrimaryEq029PositiveAlphaBound as an independent regular-sector source gate."
+  ],
+  "highest_reference_number": 85,
+  "authoritative_files": [
+    "ym/passes/YM_R73_MARGINAL_LEAKAGE_V_BETA_DEPENDENCE_20260916.md",
+    "ym/checkpoints/YM_HEAD_R73_20260916.json",
+    "ym/references/YM_REFERENCES_085_20260916.md"
+  ],
+  "next_action": "YM-R74 beta-family hidden-parameter / autonomy audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, or positive mass gap is claimed. General projection triangularity, beta-family autonomy, and primary Eq. (0.29) custody remain open."
+}
