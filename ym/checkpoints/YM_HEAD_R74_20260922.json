@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-09-22",
+  "lineage_date": "2026-09-16",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R73_20260916.json",
+  "passes_completed_through": "YM-R74",
+  "live_cursor": "YM-R75",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "beta-index semantics / physical-scale stationarity audit",
+  "current_determination": "R74 shows that in the source-attested CMP119 canonical coordinates the explicit beta-function argument list is only {j,g}. Finite-volume/domain sequences, large-field history, background fields, and inherited E/R/B/V coordinates are not independent displayed beta arguments; boundary localization is external through phi_j and disappears in the bulk where phi_j=1. Therefore the hidden-parameter problem collapses to the semantics of the index j itself. If j is only a rescaled RG-step label, beta is autonomous; if it encodes only physical scale, R70's aligned-scale identity still gives exact cross-depth shift covariance. Only an absolute-depth/history meaning of j can create a genuine canonical scalar mismatch. Accessible primary extraction does not yet decide this. Proof dependence on scale-dependent domains/background machinery must not be confused with functional dependence of the beta coefficient.",
+  "major_new_results": [
+    "SourceVisibleBetaArguments is reduced to {j,g}.",
+    "Direct finite-volume, regular-domain, large-field-history, background-field, and inherited-activity beta arguments are absent from the canonical CMP119 representation.",
+    "Bulk boundary dependence is externalized through phi_j and separated into the boundary/B sector.",
+    "PhysicalScaleLocalityOfBeta is sufficient for exact NativeBetaMapShiftCovariance because a_(N+1,j+1)=a_(N,j).",
+    "The entire native scalar source gate is reduced to BetaIndexSemantics."
+  ],
+  "negative_results": [
+    "Do not confuse parameters used in proving beta-function existence with functional arguments of beta_j.",
+    "Do not infer finite-volume/domain dependence from full-action dependence.",
+    "Do not infer autonomy solely from beta_j(g); j may hide absolute-depth data.",
+    "Do not require independence from physical scale, since physical-scale dependence is harmless under aligned scales.",
+    "Do not promote secondary perturbative beta formulas to exact source custody.",
+    "Do not infer continuum Yang-Mills existence or a mass gap from scalar autonomy."
+  ],
+  "live_obligations": [
+    "Recover Paper-I definitions of the indexed beta-functions and determine what j parameterizes.",
+    "Determine whether the one-step extraction is formulated after rescaling to a fixed dimensionless lattice problem.",
+    "Test whether beta_j^(N) factors through physical scale a_(N,j) or is independent of j.",
+    "If an absolute-depth datum exists, identify and bound its cross-depth shift.",
+    "Keep PrimaryEq029PositiveAlphaBound as the independent regular-sector gate."
+  ],
+  "highest_reference_number": 85,
+  "authoritative_files": [
+    "ym/passes/YM_R74_BETA_FAMILY_HIDDEN_PARAMETER_AUTONOMY_20260922.md",
+    "ym/checkpoints/YM_HEAD_R74_20260922.json",
+    "ym/references/YM_REFERENCES_085_20260916.md"
+  ],
+  "next_action": "YM-R75 beta-index semantics / physical-scale stationarity audit",
+  "safety_boundary": "No proof of four-dimensional Yang-Mills existence, continuum-limit construction, or positive mass gap is claimed. BetaIndexSemantics and primary Eq. (0.29) custody remain open source gates."
+}
