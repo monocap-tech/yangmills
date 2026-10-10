@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R79_20261010.json",
+  "passes_completed_through": "YM-R80",
+  "live_cursor": "YM-R81",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "source-native constrained Green/operator and projector locality; full Pi and primary Eq029",
+  "current_determination": "Finite-propagation positive precision and a uniform two-sided spectral corridor imply exponentially decaying inverse. The same extends to constrained covariance if the fixed gauge-slice projector has uniformly finite propagation. A quantitative same-projector cross-cutoff inverse defect is controlled by aligned precision error. Nearest-neighbor constraint equations can nonetheless produce a global projector, so native gauge-slice locality remains an essential open condition. CMP109 primary equation windows still unavailable, and neither native gate is discharged.",
+  "new_mathematical_results": [
+    "Neumann estimate: for 0<mI<=C<=MI, propagation ell, q=1-m/M, ||E_x C^-1 E_y||<=m^-1 q^ceil(d/ell).",
+    "For finite-range P, A=PCP+I-P, X_P=P A^-1P has uniform exponential decay from m'=min(m,1), M'=max(M,1), enlarged ell_A.",
+    "With same P and epsilon=||C1-C0||, ||E_x Delta X_P E_y||<=(epsilon/M'^2) sum_(k>=K) k q_A^(k-1), K=max(1,ceil((d-2ell_P)_+/ell_A)); summability transfers to a 4D second-moment defect.",
+    "Local nearest-neighbor constraint Qv=v_j-v_(j+1) has projector P=J/n; local-background constrained logdet has distant mixed derivative -1/(2n^2), refuting automatic exponential locality."
+  ],
+  "classifications": {
+    "AbstractFiniteRangeInverse": "DERIVED",
+    "AbstractFixedProjectorConstrainedInverse": "DERIVED",
+    "AbstractAlignedInverseDifference": "DERIVED",
+    "NativeConstrainedProjectorOrGreenLocality": "OPEN",
+    "NativeAlignedPrecisionDifference": "OPEN",
+    "NativeFullPolarizationSecondMoment": "OPEN",
+    "PrimaryOneStepVacuumPolarizationStationarity": "OPEN",
+    "PrimaryEq029PositiveAlphaBound": "OPEN",
+    "SchurProve2MeExactProvenance": "OPEN"
+  },
+  "evidence_limits": [
+    "Primary Bałaban CMP109 Eqs (5.37),(5.42),(0.29) uninspected; Springer preview and Euclid iframe only.",
+    "Finite-range P is only one sufficient hypothesis and not assumed for native gauge/block constraints.",
+    "No source-uniform condition number, aligned epsilon or complete polarization decomposition recovered.",
+    "No positive-alpha nonlinear/polymer theorem proved."
+  ],
+  "highest_reference_number": 86,
+  "authoritative_files": [
+    "ym/terminology/YM_R80_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R80_CONSTRAINED_INVERSE_LOCALITY_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R80_20261010.json"
+  ],
+  "next_action": "YM-R81 primary gauge/projector/Green operator custody; prove direct native constrained locality or identify alternative source estimate; independently Eq029 and full Pi",
+  "safety_boundary": "No 4D continuum Yang-Mills existence, OS reconstruction or positive mass gap; native R75 gates remain open."
+}
