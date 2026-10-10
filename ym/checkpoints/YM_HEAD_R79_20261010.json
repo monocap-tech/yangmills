@@ -1,0 +1,40 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R78_20261010.json",
+  "passes_completed_through": "YM-R79",
+  "live_cursor": "YM-R80",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "primary CMP109 full polarization source dictionary / constrained propagator and aligned defect locality / paired Eq029",
+  "current_determination": "YM-R79 derives an abstract finite local-insertion polarization kernel identity for the Gaussian log determinant and a rank/propagator-based locality plus cross-cutoff mismatch theorem, without global eliminated-mode factor. It proves a strict-coercivity/local-vertex counterexample when inverse locality is missing. The original CMP109 Eq windows remain uninspected and full Pi/non-Gaussian/positive-alpha native obligations stay open.",
+  "new_mathematical_results": [
+    "Pi^G_xy=1/2 Tr(X W_xy - X V_x X V_y) for local background insertions into a positive finite Gaussian precision C(b).",
+    "|Pi^G_xy|<=1/2[r_w G0 w 1_{d<=Rw}+r G^2 v^2 exp(-2 kappa(d(x,y)-2R)_+)] under support, rank and propagator locality hypotheses.",
+    "|Delta Pi^G_xy|<=1/2[r_w(w delta_X0+G0 delta_W)1_{d<=Rw}+r(2Gv^2 delta_X+2G^2 v delta_V)e^{-2kappa(d-2R)_+}]. Summable delta parameters yield summable 4D second moments.",
+    "C_n=I+J/n with rank-one local vertices is uniformly strictly coercive but Pi^G_(1,n)=-1/(8n^2), refuting exponential locality without constrained inverse decay."
+  ],
+  "evidence_limits": [
+    "No source-readable CMP109 (5.37),(5.42),(0.29) in retrieved publisher/Euclid records; [85] stays secondary.",
+    "The local Gaussian theorem is finite-dimensional and not an identified Bałaban source object.",
+    "Non-Gaussian/gauge/measure/localization contributions to full Pi not estimated; positive-alpha V bound not sourced.",
+    "Prove2Me exact Schur Lean ID/receipt [86] unresolved."
+  ],
+  "native_gates": {
+    "PrimaryOneStepVacuumPolarizationStationarity": "OPEN",
+    "SummableFullPolarizationSecondMomentDefect": "OPEN",
+    "PrimaryEq029PositiveAlphaBound": "OPEN",
+    "NativeGaussianLocalInsertionTransfer": "CONDITIONAL",
+    "AbstractGaussianLocalityAndMismatch": "DERIVED"
+  },
+  "highest_reference_number": 86,
+  "authoritative_files": [
+    "ym/terminology/YM_R79_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R79_LOCAL_INSERTION_DETERMINANT_POLARIZATION_20261010.md",
+    "ym/checkpoints/YM_HEAD_R79_20261010.json"
+  ],
+  "next_action": "YM-R80 original source Eq windows and native gauge-fixed local insertion / full Pi / Eq029 dictionary",
+  "safety_boundary": "No continuum Yang-Mills existence, OS/positivity reconstruction, positive mass gap, or native R75 gate discharged."
+}
