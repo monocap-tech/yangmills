@@ -1,0 +1,46 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R80_20261010.json",
+  "passes_completed_through": "YM-R81",
+  "live_cursor": "YM-R82",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP99 C^(k)(A) to CMP102 Delta_1 to CMP109 one-step covariance exact source dictionary; aligned Green defect and Eq029",
+  "current_determination": "The existing project source-custody ledger already locates Bałaban CMP99 Thm 3.15 covariance exponential decay (source-audited previously, not reexamined at printed page level in R81), with companion Green positivity/regularity. The true gate is identifying that covariance on the precise CMP109 one-step gauge/block slice and establishing summable ALIGNED differences. R81 derives a weighted moving-projector Schur/resolvent transfer and an explicit counterexample showing ordinary projector norm convergence cannot control a distance-squared polarization moment. No native beta or Eq029 gates closed.",
+  "evidence": {
+    "primary_abstracts": [
+      "Bałaban CMP89 1983 positivity and Green decay uniform in lattice spacing: reference [77].",
+      "Bałaban CMP99 1985 RG propagators in background field: reference [79]."
+    ],
+    "previous_project_visual_audit": [
+      "YM-R32 / [79]: G(U)=(Delta_a|Omega_0)^-1, CMP99 Thm 3.3,3.11,3.12,3.15 equation locators; fresh print pages not retrieved."
+    ],
+    "unverified": [
+      "CMP99 covariance <-> CMP102 Delta_1 <-> CMP109 one-step fluctuation covariance operator identity.",
+      "Aligned cross-depth gauge-slice transport and summable kernel difference; full Pi and Eq029 primary equation windows."
+    ]
+  },
+  "new_mathematical_results": [
+    "With weighted algebra bounds ||P_i||<=Kp, ||C_i||<=Kc, ||A_i^-1||<=R, ||Delta X||<=Kp^4 R^2 deltaC+[2 Kp R +Kp^2 R^2(2KpKc+1)]deltaP, A_i=P_i C_i P_i+I-P_i.",
+    "Rank-one projector Pn=|sqrt(1-1/n^2)e0+(1/n)e_n><...| has ||Pn-P0||op=1/n, but distant mixed logdet background derivative difference times n^2 tends to -1/2."
+  ],
+  "classifications": {
+    "abstract_moving_projector_transfer": "DERIVED",
+    "native_background_covariance_decay": "SOURCE_LOCATED_PREVIOUSLY",
+    "CMP99_CMP109_covariance_dictionary": "OPEN",
+    "full_polarization_second_moment": "OPEN",
+    "PrimaryOneStepVacuumPolarizationStationarity": "OPEN",
+    "PrimaryEq029PositiveAlphaBound": "OPEN"
+  },
+  "highest_reference_number": 86,
+  "authoritative_files": [
+    "ym/terminology/YM_R81_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R81_MOVING_PROJECTOR_SOURCE_COVARIANCE_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R81_20261010.json"
+  ],
+  "next_action": "YM-R82 original CMP99/CMP102/CMP109 covariance operator/domain crosswalk and source-native aligned covariance difference or direct Green defect",
+  "safety_boundary": "No continuum Yang-Mills existence, reconstruction, positive mass gap, or source-certified closure of native R75 gates."
+}
