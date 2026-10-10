@@ -1,0 +1,50 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R75_20260922.json",
+  "passes_completed_through": "YM-R76",
+  "live_cursor": "YM-R77",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "primary one-step vacuum-polarization equation reconstruction / paired Eq029 quantitative bound",
+  "current_determination": "Finite real 1+n Schur scalar-pivot PSD implication is an independently verifiable algebraic theorem but exact Prove2Me theorem UUID/Lean proof provenance was not retrieved. The native gauge-fixed block/Hessian/Gaussian determinant/jet normalization is not source-locked; even a valid Schur complement cannot by positivity alone imply cross-cutoff stationarity or an Eq029 positive-alpha localized polymer remainder. Both native gates remain OPEN. Conditional Schur stability lemma and explicit counterexamples to incorrect positivity-to-covariance/locality transfers have been recorded.",
+  "schur_provenance": {
+    "claim": "user-reported Prove2Me accepted bordered PSD Schur theorem",
+    "provenance_status": "UNVERIFIED_EXACT_IDENTIFIER",
+    "theorem_id": null,
+    "lean_declaration": null,
+    "mathematical_special_case_proved_here": true
+  },
+  "native_candidate_classification": {
+    "finite_gauge_fixed_gaussian": "CONDITIONAL",
+    "covariance_decomposition": "CONDITIONAL",
+    "effective_action_hessian": "CONDITIONAL",
+    "local_taylor_ward_beta": "OPEN / NOT IMPLIED BY SCHUR PSD",
+    "eq029_irrelevant_activity": "OBSTRUCTED AS POSITIVITY-ONLY TRANSFER"
+  },
+  "new_mathematical_results": [
+    "For C_i>=cI, ||B_i||<=K, ||S1-S0|| <= ||DeltaA||+2K/c||DeltaB||+K^2/c^2||DeltaC||.",
+    "Finite PSD and even uniform strict coercivity do not imply exponential off-diagonal decay: B_n=J_n/(2n), A_n=C_n=I_n yields S_n=I_n-J_n/(4n)>=3I_n/4.",
+    "Equal reduced Hessian does not identify Gaussian polarization from (1/2)logdet C(t)."
+  ],
+  "live_obligations": [
+    "Recover exact Prove2Me theorem UUID and Lean proof record for provenance; no inferred ID.",
+    "Primary CMP109 Eqs (5.37),(5.42),(0.29) direct extraction and domain/constants.",
+    "Native gauge-fixed precision/covariance block identification and Hessian operator-definition/normalization custody.",
+    "Full one-step polarization with determinant, measure, gauge and interaction contributions; aligned-scale covariance or summable C2 jet mismatch.",
+    "Uniform bounded Loc_F2 on physical-scale-aligned jets and beta coefficient correspondence.",
+    "Eq029 positive-alpha polymer estimate and first-common-scale one-layer dictionary with cutoff/volume/coupling uniformity."
+  ],
+  "highest_reference_number": 86,
+  "reference_86_status": "PROVISIONAL_EXTERNAL_PROVENANCE_NOT_FORMAL_VERIFICATION",
+  "authoritative_files": [
+    "ym/passes/YM_R76_SCHUR_COMPLEMENT_VACUUM_POLARIZATION_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R76_20261010.json",
+    "ym/references/YM_REFERENCES_086_20261010.md",
+    "ym/terminology/YM_R76_TERMINOLOGY_REGISTRY_20261010.md"
+  ],
+  "next_action": "YM-R77 reconstruct source-native Pi and primary Eq029 exact source equations; test cross-cutoff jets and marginal/residual pairing",
+  "safety_boundary": "No continuum Yang-Mills existence, continuum construction or positive mass gap; no verified native Schur positivity transfer or discharge of R75 gates."
+}
