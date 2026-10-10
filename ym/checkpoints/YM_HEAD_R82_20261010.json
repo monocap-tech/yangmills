@@ -1,0 +1,39 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R81_20261010.json",
+  "passes_completed_through": "YM-R82",
+  "live_cursor": "YM-R83",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native CMP116 normalized covariance/interaction/counterterm transport to complete CMP109 polarization and Eq029",
+  "current_determination": "Earlier R42/R43 primary-source audits show CMP116 uses normalized product Gaussian via B'=(C^(k))^(1/2)X; the CMP99 Delta_a/CMP102 Delta_1 identity is not a prerequisite for the covariance-first route. R82 independently proves an exact normalized finite Gaussian covariance/potential interpolation identity with explicit separate interaction and deterministic counterterm channels, an external mixed-response density bound, and orthogonal chart invariance. Native C,V,K, gauge/volume normalization, full polarization and primary Eq029 remain open.",
+  "proof_outputs": [
+    "Exact normalized comparison logZ(C1,V1)-logZ(C0,V0) = (1/2)integral_t sum_ab DeltaC_ab E_tilt[d_a V1 d_b V1-d_ab V1] - integral_s E_tilt[Delta V].",
+    "Density-normalized mixed external covariance-response bound 1/2(eps_munu M0+eps_mu Mnu+eps_nu Mmu+eps0 M_munu) under stated row-sum and insertion derivative bounds.",
+    "Orthogonal source chart transport of C and V leaves Z and external derivatives identical without requiring small raw matrix difference.",
+    "Even Delta C=0 does not control full polarization if V or K differs; individual covariance locality does not imply summable cutoff mismatch."
+  ],
+  "source_evidence": {
+    "CMP116": "PREVIOUSLY_SOURCE_LOCATED_R42_R43_PRODUCT_GAUSSIAN_ROOT_CHART",
+    "CMP99": "PREVIOUSLY_SOURCE_LOCATED_R32_COVARIANCE_DECAY",
+    "CMP102_Delta1_to_Deltaa": "OPEN_PRECISION_SIDE_GATE",
+    "CMP109_537_542_029": "OPEN_PRIMARY_EQUATION_TEXT"
+  },
+  "live_obligations": [
+    "Source-native CMP109 and CMP116 covariance C, interaction V, deterministic K and their correct normalization, conditional carrier, gauge chart and physical-scale alignment.",
+    "Full beta tensor/momentum projection, localized covariance response and interaction/counterterm kernels with a summable spatial second-moment mismatch.",
+    "Direct original CMP109 Eq (0.29) V^(j), positive alpha, polymer norms, uniformity and one-layer cross-cutoff dictionary.",
+    "Separate P2M Schur theorem [86] exact acceptance URI/Lean proof provenance."
+  ],
+  "highest_reference_number": 86,
+  "authoritative_files": [
+    "ym/terminology/YM_R82_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R82_COVARIANCE_FIRST_INTERPOLATION_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R82_20261010.json"
+  ],
+  "next_action": "YM-R83 use source-native covariance-root chart to identify and bound full normalized fluctuation effective action response, independently audit Eq029",
+  "safety_boundary": "No native YM gate closed, continuum 4D Yang-Mills, Osterwalder-Schrader construction or strictly positive mass gap proved."
+}
