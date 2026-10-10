@@ -1,0 +1,32 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R76_20261010.json",
+  "passes_completed_through": "YM-R77",
+  "live_cursor": "YM-R78",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "primary CMP109 equation recovery / full polarization second-moment mismatch and paired Eq029 remainder",
+  "current_determination": "A rigorous abstract second-moment extraction estimate and a uniformly coercive convolution counterexample show unweighted operator-norm closeness cannot control the beta-type mixed Fourier jet. A weighted Schur-algebra and C2-jet conditional transfer are derived, but no native Yang-Mills gauge-fixed inverse locality or full polarization dictionary is source-verified. Primary CMP109 equation gates and the positive-alpha residual remain open.",
+  "newly_derived": [
+    "If sum_z exp(kappa|z|_1)||D(z)||<=epsilon, then ||partial_mu partial_nu Dhat(0)||<=4/(e^2 kappa^2) epsilon for dimensionless Fourier convention; for mu!=nu sharpen to 1/(e^2 kappa^2).",
+    "K_n=(T_{n(e1+e2)}+T_{-n(e1+e2)})/(2n^2) gives ||K_n||op=n^-2 but mixed Fourier derivative -1, even with P_n=2I+K_n>=I.",
+    "Weighted Schur bound: ||Delta S||k<=||Delta A||k+2KR||Delta B||k+K^2R^2||Delta C||k, assuming weighted inverse norms R and cross-block norms K."
+  ],
+  "evidence_limits": [
+    "No direct primary CMP109 equation-window access; [85] remains a secondary locator.",
+    "No native Pi, Fourier projection, gauge slice or uniform determinant/cumulant normalization identified.",
+    "P2M theorem UUID/Lean declaration [86] unresolved; no native Schur proof certified.",
+    "Schur positivity cannot supply source weighted inverse locality or positive-alpha polymer remainder."
+  ],
+  "authoritative_files": [
+    "ym/terminology/YM_R77_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R77_POLARIZATION_MOMENT_WEIGHTED_SCHUR_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R77_20261010.json"
+  ],
+  "highest_reference_number": 86,
+  "next_action": "YM-R78 direct primary Eq (5.37)/(5.42)/(0.29) source and full Pi source/difference dictionary",
+  "safety_boundary": "No continuum Yang-Mills existence, full construction or mass gap; no closure of either native R75 gate."
+}
