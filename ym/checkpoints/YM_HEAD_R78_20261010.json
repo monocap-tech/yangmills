@@ -1,0 +1,38 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R77_20261010.json",
+  "passes_completed_through": "YM-R78",
+  "live_cursor": "YM-R79",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "primary CMP109 Pi/beta/Eq029 equations plus volume-normalized full Gaussian/non-Gaussian polarization dictionary",
+  "current_determination": "YM-R78 derives an exact finite Gaussian effective-action formula and a quantitative normalized mixed logdet jet mismatch theorem; an explicit growing-mode counterexample demonstrates why an unnormalized determinant polarization cannot be controlled without mode-count/volume budget. This completes the abstract Gaussian two-term identification beyond R76 Schur reduced Hessian, but its native gauge/momentum/measure/locality inputs and CMP109 primary equations remain unavailable, so neither R75 gate closes.",
+  "new_mathematical_results": [
+    "Gamma_G(r,t)=1/2<r,(A-BC^-1B*)r>+1/2 logdet C(t) - (m/2)log(2pi), on finite positive Gaussian eliminated carrier with fixed Lebesgue chart.",
+    "For f_i=(1/(2m))logdet C_i and C_i>=cI, first derivatives bounded K1, mixed second K2, |d_munu(f1-f0)| <= 1/2[d_munu C /c+K1(d_mu C+d_nu C)/c^2+(K2/c^2+2K1^2/c^3)d0 C].",
+    "C_m(s,t)=exp(st/m)I_m shows ||d_st(C_m-I_m)(0)||=1/m but d_st(1/2 logdet C_m)(0)=1/2 independent of m."
+  ],
+  "live_obligations": [
+    "Direct primary CMP109 (5.37),(5.42),(0.29) equation access, including exact domains/normalizations and beta tensor source.",
+    "Actual source gauge-fixed Hessian/measure and Gaussian determinant source-parameter/C2 trace budget, including volume and eliminated-mode count.",
+    "Full one-step Pi includes non-Gaussian vertices/cumulants, gauge Jacobians and localization; prove or bound physical-scale aligned full second-moment defect.",
+    "Primary Eq029 positive-alpha activity estimate, exact V/E one-layer dictionary and rooted summability.",
+    "Exact Prove2Me Schur theorem UUID and accepted Lean proof provenance still open, independently."
+  ],
+  "evidence_limits": [
+    "Project Euclid full/pdf yielded iframe-only text; original CMP109 Eqs (5.37),(5.42),(0.29) not directly inspected.",
+    "All new finite Gaussian estimates abstract; no Yang-Mills-specific source-verified transfer.",
+    "No continuum Yang-Mills theory or mass gap proved."
+  ],
+  "highest_reference_number": 86,
+  "authoritative_files": [
+    "ym/terminology/YM_R78_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R78_GAUSSIAN_DETERMINANT_JET_DIMENSION_BUDGET_20261010.md",
+    "ym/checkpoints/YM_HEAD_R78_20261010.json"
+  ],
+  "next_action": "YM-R79 primary source Eq window recovery and native full polarization trace-per-root / Eq029 pairing",
+  "safety_boundary": "No continuum YM existence, OS axioms, positive mass gap, primary stationarity or Eq029 native theorem closure."
+}
