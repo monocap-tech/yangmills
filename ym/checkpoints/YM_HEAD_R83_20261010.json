@@ -1,0 +1,42 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R82_20261010.json",
+  "passes_completed_through": "YM-R83",
+  "live_cursor": "YM-R84",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 two-marked analytic activity insertion derivative and zero-free source bridge to cross-cutoff Eq029 positive-alpha budget",
+  "current_determination": "R83 derives an exact two-source mixed background derivative identity for normalized product-Gaussian interaction interpolation, including one expectation, three covariance and third cumulant responses plus deterministic counterterm. Under an explicit two-source rooted decay assumption it proves a four-dimensional weighted second-moment transfer. Counterexamples show single-step real-amplitude locality, arbitrary complex-log interpolation and vanishing nonsummable UV defects do not close native Yang-Mills cross-cutoff claims. Original CMP109 (5.37),(5.42),(0.29) source windows and native alpha remain open.",
+  "new_mathematical_results": [
+    "Delta Gamma_xy=Delta K_xy+int_s [<D_xy>-Cov(D_x,W_sy)-Cov(D_y,W_sx)-Cov(D,W_sxy)+kappa3(D,W_sx,W_sy)], for normalized product Gaussian and D=W1-W0.",
+    "If |F_N,z(x,y)|<=A eps_N exp(-kappa(|x-z|+|y-z|)) and deterministic moment defect<=k_N, then ||DeltaGamma_N||M2<=k_N+4A S0(kappa)S2(kappa)eps_N on Z4.",
+    "Uniform analytic bidisc radius r with sup-norm eps bounds mixed derivative by eps/r^2; real uniform smallness alone does not.",
+    "Complex-valued W_s=i pi s tanh(kY) has nonzero endpoint partition values but can cross Z_s=0; an independent interpolation zero-free hypothesis is necessary.",
+    "A local difference of order 1/N remains non-summable over UV depth despite tending to zero."
+  ],
+  "source_status": {
+    "CMP116_product_gaussian_and_cluster_activity": "PREVIOUS_SOURCE_LOCATED_R42_R45",
+    "CMP116_two_marked_crosscutoff_derivative_stability": "OPEN",
+    "CMP109_537_542_029_original_equations": "OPEN",
+    "PrimaryEq029PositiveAlphaBound": "OPEN",
+    "CommonCutoffPhysicalScaleFullPiProjection": "OPEN",
+    "Prove2MeSchurExactLeanReceipt": "OPEN"
+  },
+  "evidence_limits": [
+    "R44/R45 single step O(g) activity insertion does not supply cross-cutoff summable epsilon_N.",
+    "Uniform two-marked cumulant response, complex zero-free interpolation and source Cauchy collar are extra hypotheses.",
+    "Root count and physical momentum normalization must be derived in the actual native 4D source metric.",
+    "No claim of native Yang-Mills existence, OS reconstruction or mass gap."
+  ],
+  "highest_reference_number": 86,
+  "authoritative_files": [
+    "ym/terminology/YM_R83_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R83_TWO_SOURCE_CUMULANT_ROOTED_MOMENT_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R83_20261010.json"
+  ],
+  "next_action": "YM-R84 primary CMP116 two-marked insertion derivative/analytic collar and source CMP109 Eq029 full ultraviolet count",
+  "safety_boundary": "No native source gate or 4D Yang-Mills mass gap closed."
+}
