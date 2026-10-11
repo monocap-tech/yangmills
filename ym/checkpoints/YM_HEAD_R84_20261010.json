@@ -1,0 +1,42 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R83_20261010.json",
+  "passes_completed_through": "YM-R84",
+  "live_cursor": "YM-R85",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 post-exponent connected-log activity cross-cutoff rooted analytic norm and primary CMP109 positive-alpha one-layer source dictionary",
+  "current_determination": "R84 recovers prior source audit R50 showing CMP116 H(Z) is a pre-exponent polymer activity, not a term of log partition. It derives an exact abstract two-marked Cauchy/tree bound for a source-hypothesized connected-log difference with a rooted exponential analytic norm E_N, which implies summable polarization second moments when sum_N(E_N+k_N)<infinity. Uniform analytic cluster exponentiation implies complex interpolation zero-freeness if available for the whole family. Neither the cross-cutoff connected-log representation nor positive-alpha E_N are source verified; native Yang-Mills gates stay open.",
+  "new_mathematical_results": [
+    "Assume DeltaGamma_N=Delta K_N+sum_(z,X)h_(N,z,X) with analytic radius r, halo R, connected tree length ell(X), E_N=sup_z sum_X exp(nu ell(X))sup|h|. Then two-mark root response <=2 exp(nu R)E_N/r² exp[-nu/2(d(x,z)+d(y,z))].",
+    "Consequently ||DeltaGamma_N||M2<=k_N+[8 exp(nu R)/r²]S0(nu/2)S2(nu/2) E_N on the 4D lattice under common source chart and rooted counting.",
+    "An exact holomorphic uniform connected-cluster identity Z_s=exp(F_s) enforces interpolation zero-freeness; endpoint exponentiation does not.",
+    "For Z=1+h, h=a+delta b_x b_y, d_xy logZ(0)=delta/(1+a), not delta=d_xy h(0).",
+    "A single-site analytic h_N=N^-1 b_z² has perfect locality/fixed collar but nonsummable rooted UV amplitude."
+  ],
+  "source_status": {
+    "CMP116_HZ_pre_exponent": "PREVIOUSLY_SOURCE_LOCATED_YM_R50",
+    "CMP116_field_uniform_analytic_domain": "PREVIOUSLY_SOURCE_LOCATED_YM_R47",
+    "CMP116_crosscutoff_connected_log_derivative": "OPEN",
+    "CMP109_537_542_029_original_equations": "OPEN",
+    "PrimaryEq029PositiveAlphaBound": "OPEN",
+    "FullSourceBetaProjection": "OPEN"
+  },
+  "evidence_limits": [
+    "Prior R47/R50 primary page audits were consulted, not re-inspected in freshly accessed CMP116 PDF.",
+    "Publisher CMP116 article preview and Project Euclid iframe did not furnish original equations; CMP109 windows still not directly verified.",
+    "E_N norm is a sufficient abstract hypothesis for CONNECTED-LOG difference, not a result quoted from CMP116 H(Z).",
+    "No native source-supplied positive UV alpha or first-common-scale activity correspondence established."
+  ],
+  "highest_reference_number": 86,
+  "authoritative_files": [
+    "ym/terminology/YM_R84_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R84_TWO_MARKED_CONNECTED_LOG_CLUSTER_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R84_20261010.json"
+  ],
+  "next_action": "YM-R85 source-native CMP116 exponentiated connected log activity and original CMP109 Eq029 positive alpha cross-cutoff rooted comparison",
+  "safety_boundary": "No continuum 4D Yang-Mills existence, OS axioms or strictly positive mass gap; neither native R75 gate discharged."
+}
