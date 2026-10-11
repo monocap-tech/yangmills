@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R86_20261010.json",
+  "passes_completed_through": "YM-R87",
+  "live_cursor": "YM-R88",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native CMP116 source-regular-input finite-support insertion stability versus growing extra-UV-root perturbation; primary CMP109 Eq029 and marginal-tail",
+  "current_determination": "YM-R87 establishes that an Eq(0.29)-type first-layer regular bound alone cannot control CMP116 cross-cutoff activity difference without marginal and multi-sector matching, source transport and a quantitative stability modulus. It derives an abstract uniform Banach-holomorphic one-step activity Lipschitz estimate 2h/rho and a normalized Gaussian complex ratio/response lemma. Counterexamples prove zero regular residual may coexist with nonzero marginal polarization, and an analytic input radius collapsing with the UV scale can destroy activity smallness. Primary Eq(0.29), first-layer dictionary and native Lipschitz/source coupling gate remain open.",
+  "new_mathematical_results": [
+    "Holomorphic F:B(0,rho)->polymer Banach A uniformly bounded ||F||<=h implies ||F(v1)-F(v0)||<=2h/rho||v1-v0|| for ||v_i||<=rho/2.",
+    "Normalized Gaussian ratio: if |d|<=eps on complex collar, Q=sup int|e^-W|/|Z0|, q=Q(e^eps-1)<1, then |log(Z1/Z0)|<=-log(1-q) and mixed response <=[-log(1-q)]/r^2 (twice for repeated coordinates).",
+    "Zero regular residual with different marginal Wilson coefficient generates nonzero background polarization; regular smallness alone is insufficient.",
+    "F_N(v)=h v/rho_N on shrinking analytic radius rho_N->0 maps v_N=rho_N/2->0 to activity difference h/2.",
+    "Candidate per UV root a_N^(4+alpha) times O(a_N^-4) roots gives fixed physical volume O(a_N^alpha) conditionally, not yet an act_eps_N bound."
+  ],
+  "evidence_limits": [
+    "Original CMP109 (5.37),(5.42),(0.29) still inaccessible in directly inspected primary text; secondary [85] only.",
+    "Uniform holomorphy in irrelevant INPUT coordinate does not follow from CMP116 external-field analyticity; native common map and norm unresolved.",
+    "Common polymer carrier, couplings/marginal coefficient, R/B and gauge-measure sectors remain unmatched.",
+    "Per-physical-region root counting is not automatically a per-CMP116-polymer weighted difference bound."
+  ],
+  "native_gates": {
+    "PrimaryEq029PositiveAlphaBound": "OPEN",
+    "MarginalTailCoherence": "OPEN",
+    "NativeOneLayerRegularInputToActivity": "OPEN",
+    "MultiSectorBoundaryTransport": "OPEN",
+    "FullPolarizationMoment": "OPEN"
+  },
+  "highest_reference_number": 87,
+  "authoritative_files": [
+    "ym/terminology/YM_R87_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R87_FIRST_COMMON_SCALE_REGULAR_STABILITY_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R87_20261010.json"
+  ],
+  "next_action": "YM-R88 source native CMP116 local insertion Lipschitz and anchor count; no invented full input-ball theorem; primary CMP109 Eq029 and scalar compatibility",
+  "safety_boundary": "No Yang-Mills continuum existence, reflection-positive OS construction, or positive mass gap; prior R75 source gates remain open."
+}
