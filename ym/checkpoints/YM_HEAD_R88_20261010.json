@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R87_20261010.json",
+  "passes_completed_through": "YM-R88",
+  "live_cursor": "YM-R89",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 environment-uniform marked input insertion, tagged weakening tree, and positive-alpha first-layer source/sector alignment",
+  "current_determination": "YM-R88 derives an abstract many-anchor telescoping theorem with a uniform single-root replacement bound tethered to the output polymer. It yields a volume-independent anchored output activity-difference norm <= C u_* S0(mu) exp(beta)/(1-C_ent exp(beta-mu))^2, avoiding the R87 global Banach input analytic radius. It establishes by counterexample that derivatives only at the empty input environment do not control collective insertions. No native CMP116 uniform arbitrary-partial-insertion estimate or primary CMP109 Eq(0.29) alpha has been verified, and scalar/large-field sectors remain open.",
+  "new_mathematical_results": [
+    "tau(Z,x)>=|Z|-1+dist(x,Z) for connected lattice output Z and marked root x.",
+    "Under uniform S and x one-anchor difference |H_Z(S+x)-H_Z(S)|<=C u_x e^{-mu tau}, anchored output delta_A(beta)<=C u_* S0(mu)e^beta/(1-C_ent e^(beta-mu))^2 whenever q=C_ent e^(beta-mu)<1.",
+    "Mixed independent input interpolation t_x=s gives same bound if all partial derivatives are uniformly tethered; no global regular-input Banach holomorphy required.",
+    "H_Z(t)=c product_x t_x has every first insertion derivative zero at all-off state but collective difference c.",
+    "Per-root O(a_N^(4+alpha)) times fixed physical volume O(a_N^-4) roots gives conditional O(a_N^alpha), not directly the native beta extraction norm."
+  ],
+  "evidence_limits": [
+    "R44/R45 CMP116 fixed-support O(g) insertion is not an arbitrary-environment uniform marked estimate.",
+    "Microscopic tau/animal metric is not yet source-identified with CMP116 d_k and root count.",
+    "Primary original CMP109 Eqs (5.37),(5.42),(0.29), positive alpha, V^(1) and first-layer chart remain uninspected.",
+    "Marginal beta, large-field/boundary and gauge-measure differences remain independent."
+  ],
+  "native_gates": {
+    "AbstractManyAnchorReplacement": "DERIVED",
+    "NativeUniformTaggedWeakening": "OPEN",
+    "CommonCouplingAndSourceCarrier": "OPEN",
+    "NativePrimaryEq029PositiveAlpha": "OPEN",
+    "FullPolarizationAndBoundary": "OPEN"
+  },
+  "highest_reference_number": 87,
+  "authoritative_files": [
+    "ym/terminology/YM_R88_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R88_MANY_ANCHOR_SOURCE_INSERTION_STABILITY_20261010.md",
+    "ym/checkpoints/YM_HEAD_R88_20261010.json"
+  ],
+  "next_action": "YM-R89 source-native CMP116 tagged weakening in all partial environments with total UV smallness bootstrap; Eq029 + coupling/sector",
+  "safety_boundary": "No 4D continuum Yang-Mills existence, OS reconstruction or positive mass gap; no source-certified R75 gate closed."
+}
