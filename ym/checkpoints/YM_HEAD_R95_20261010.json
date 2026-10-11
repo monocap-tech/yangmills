@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "BLOCKED_PRIMARY_ARTICLE_EQUATION_ACCESS",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R94_20261010.json",
+  "passes_completed_through": "YM-R95",
+  "live_cursor": "YM-R96",
+  "live_cursor_consumed": false,
+  "live_cursor_status": "SOURCE_RECEIPT_REQUIRED",
+  "live_frontier_title": "Original CMP109 Eq(0.29)/(5.37)/(5.42) and CMP116 Eq(2.1) source receipt; no unsourced theorem promotion",
+  "current_determination": "R95 independently reconfirms original Springer CMP109 is a preview of subscription content; Project Euclid article PDF URL renders one-line iframe HTML to available reader; direct requests to primary hosts yield network connection errors. Scholarly/author-mirror searches provide citations/metadata rather than original equation pages. R94 external manifest hashes remain useful file-identity metadata but actual PDF/text bytes were not retrieved. Primary alpha/V^(1), beta and input mapping remain unverified. Research route is on hard source-input hold.",
+  "new_math_results": [],
+  "new_source_evidence": [
+    "Original Springer article 10.1007/BF01215223 labels full article as subscription preview and offers institutional login/paid PDF; abstract only.",
+    "Project Euclid primary cmp/1104116842 PDF endpoint returns HTML iframe, not original PDF bytes, in available browser.",
+    "Original file externally hash-identified by earlier public manifest but bytes absent from public GitHub and current working session.",
+    "Alternate web search and current client did not retrieve original formula pages."
+  ],
+  "source_status": {
+    "CMP109_OriginalEq029": "NOT_VERIFIED",
+    "CMP109_OriginalEq537_Eq542": "NOT_VERIFIED",
+    "CMP116_OriginalEq21": "NOT_FRESHLY_VERIFIED",
+    "ExternalPDFHash": "EXTERNAL_MANIFEST_ONLY",
+    "CMP119_ExistingSourceAudit": "PREVIOUSLY_SOURCE_LOCATED",
+    "NativeYangMillsCrossCutoffConvergence": "OPEN"
+  },
+  "evidence_limits": [
+    "No equation-level original CMP109 content in session; no target PDF screenshot analysis occurred because no source PDF was accessible.",
+    "No new positive-alpha or V^(1) source theorem claimed.",
+    "Potential institutional/legal access is a route suggestion, not a completed step.",
+    "R95 avoids generating another conditional polymer lemma without source input."
+  ],
+  "highest_reference_number": 87,
+  "authoritative_files": [
+    "ym/terminology/YM_R95_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/source_requests/YM_R95_CMP109_PRIMARY_ACCESS_MATRIX_20261010.md",
+    "ym/passes/YM_R95_PRIMARY_EQUATION_ACCESS_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R95_20261010.json"
+  ],
+  "next_action": "YM-R96 inspect bona fide original source if provided/acquired, otherwise maintain hard source hold and shift to an independently sourced frontier if appropriate",
+  "safety_boundary": "No 4D Yang-Mills continuum existence, OS reconstruction, positive mass gap, or native R75 gate closure."
+}
