@@ -1,0 +1,48 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN_PRIMARY_ARTIFACT_NOT_MOUNTED",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R93_20261010.json",
+  "passes_completed_through": "YM-R94",
+  "live_cursor": "YM-R95",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "SOURCE FIRST: original CMP109 Eq(0.29)/(5.37)/(5.42) and CMP116 Eq(2.1) scan receipt, positive alpha and exact V^(1) input typing",
+  "current_determination": "External public machine-readable manifest now gives exact SHA256 and byte sizes for an externally cached original CMP109 PDF (5,490,078 bytes, SHA 1c2d2e...fbe2a) and text extraction (131,507 bytes, SHA 289a4916...e2db6), plus CMP116 PDF SHA. The external runtime files are NOT in public GitHub or mounted locally; publisher/Euclid sources remain inaccessible at original equation level. Thus new primary artifact custody METADATA is recorded, while Eq029 alpha/V^(1) and beta original remain unverified. No new abstract theorem: deliberate source-first stop.",
+  "external_primary_provenance": {
+    "manifest_url": "https://github.com/lluiseriksson/THE-ERIKSSON-PROGRAMME/blob/main/source-packets/manifests/source-artifact-manifest.json",
+    "cmp109_pdf_name": "balaban-rg-I-cmp109-1104116842.pdf",
+    "cmp109_pdf_bytes": 5490078,
+    "cmp109_pdf_sha256": "1c2d2e500fd1e6a1a7981fed259cc2354ebcf64e473fd564bfc3f2c4d7dfbe2a",
+    "cmp109_text_name": "text/balaban-rg-I-cmp109-1104116842.txt",
+    "cmp109_text_bytes": 131507,
+    "cmp109_text_sha256": "289a4916e90124ea54a81dd9ee20791a2f1d88b3bc177d1c8ce5bdd18b6e2db6",
+    "cmp116_pdf_sha256": "ee39523a0f7b83af958513c7bd6f9c7731934b40355ef5d6b0f7a68ee6d022fc",
+    "archive_mount_status": "EXTERNAL_ONLY_NOT_ACCESSIBLE",
+    "nearby_cmp109_equation_locator": "(0.24)-(0.26), printed 257, PDF page 9, secondary project-local text 363-380; not Eq029"
+  },
+  "primary_claims": {
+    "Eq029PositiveAlpha": "NOT_VERIFIED",
+    "Eq537And542": "NOT_VERIFIED",
+    "V1NativeDefinitionAndNormalization": "NOT_VERIFIED",
+    "CMP116Eq21ExactMayerPotential": "NOT_FRESHLY_READ",
+    "CrossCutoffSourceTypedInput": "OPEN",
+    "FullMassGap": "UNPROVED"
+  },
+  "evidence_limits": [
+    "A public external manifest asserts exists=true in its OWN source_root; it is not a public PDF nor a byte stream of original article.",
+    "Project Euclid returned Incapsula challenge/iframe; Springer PDF inaccessible; no primary equations read or screenshots rendered.",
+    "No secondary Eq029 exponent promoted.",
+    "General CMP116 source architecture and abstract transfer lemmas remain valid only as previously classified."
+  ],
+  "highest_reference_number": 87,
+  "authoritative_files": [
+    "ym/terminology/YM_R94_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/source_requests/YM_R94_CMP109_EXACT_EXTERNAL_ARTIFACT_RECEIPT_20261010.md",
+    "ym/passes/YM_R94_EXTERNAL_PRIMARY_MANIFEST_SOURCE_ACCESS_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R94_20261010.json"
+  ],
+  "next_action": "YM-R95 obtain original CMP109 pages/bytes and verify first-layer Eq029/V^(j) and native CMP116 Eq2.1; if inaccessible, maintain hard source-access blocker; no more generic transfer passes",
+  "safety_boundary": "No 4D continuum Yang-Mills existence, OS axioms or positive mass gap; prior R75 gates remain open."
+}
