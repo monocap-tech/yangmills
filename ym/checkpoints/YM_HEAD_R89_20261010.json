@@ -1,0 +1,48 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R88_20261010.json",
+  "passes_completed_through": "YM-R89",
+  "live_cursor": "YM-R90",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 marked weakening (2.14)/(2.26) derivative and tagged D/P/Z0/Z0' resummation; primary CMP109 Eq029",
+  "current_determination": "R89 derives an exact local coarse-fiber insertion budget U_N<=S0 sup_v sum_(pi(x)=v)u_x, with exact S0=((1+e^-sigma)/(1-e^-sigma))^4 on Z4. Conditional on per-root a_N^(4+alpha) and O(a_N^-4) roots per localization cube, U_N=O(a_N^alpha) uniformly over all partial insertion subsets. A source-local admissibility margin plus a native uniform tagged activity derivative then yields an explicit common weighted KP bootstrap; neither source hypothesis is verified by field analyticity/Lemma 3 alone. Native Eq029, tagged response and complete-density marginal/boundary gates remain OPEN.",
+  "new_mathematical_results": [
+    "U_N(sigma)=sup_y sum_x u_x e^-sigma d(pi(x),y) <= S0(sigma) sup_v sum_(pi(x)=v)u_x, S0=((1+e^-sigma)/(1-e^-sigma))^4.",
+    "If fiber count<=C a_N^-4 and u_x<=C' a_N^(4+alpha), alpha>0, then U_N<=CC'S0 a_N^alpha for every partial t in [0,1]^A.",
+    "Assumed |partial_(t_x)H_Z(t)|<=Ctag u_x exp[-mu tau(Z,pi(x))] uniformly => |H_Z(t)-H_Z(0)|<=Ctag |Z| U_N(mu) exp[-mu(|Z|-1)].",
+    "Define q0=C_ent exp(a+nu-lambda_H c_M), q1=C_ent exp(a+nu-mu), theta0=B h exp(a+nu-lambda_H c_M)/(1-q0). If theta0<a, q0,q1<1 and U_N<= (a-theta0)(1-q1)^2/(B Ctag exp(a+nu)), all intermediate polymer activities satisfy common weighted KP.",
+    "Small per-root u_x alone does not imply small coarse-local budget if fiber multiplicity grows."
+  ],
+  "source_evidence": {
+    "CMP116_localized_HZ_and_Lemma3": "PREVIOUSLY_SOURCE_LOCATED_R44_R54",
+    "CMP119_vacuum_beta_subtraction": "PREVIOUSLY_SOURCE_LOCATED_R65_R70",
+    "CMP109_Eq029": "OPEN_PRIMARY",
+    "NativeTaggedInsertionDerivative": "OPEN",
+    "NativeLocalInputAdmissibility": "OPEN"
+  },
+  "native_gates": {
+    "AbstractCoarseRootDensityBootstrap": "DERIVED",
+    "NativeTaggedWeakeningAndKPMargin": "OPEN",
+    "PrimaryEq029PositiveAlpha": "OPEN",
+    "MarginalTailCoherence": "OPEN",
+    "BoundaryLargeFieldAndFullPi": "OPEN"
+  },
+  "highest_reference_number": 87,
+  "evidence_limits": [
+    "Input v_x, fine-to-coarse map pi_N and root fiber growth are not verified source definitions.",
+    "CMP116 source smallness is known for its native field/cluster parameters, not necessarily additive rooted perturbation input norm.",
+    "Derivative of product-Gaussian integrand does not alone establish tagged bound after weakening/resummation.",
+    "R87 multi-sector defect and CMP109 Eq(0.29) remain independent unproved gates."
+  ],
+  "authoritative_files": [
+    "ym/terminology/YM_R89_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R89_LOCAL_BUDGET_TAGGED_KP_BOOTSTRAP_20261010.md",
+    "ym/checkpoints/YM_HEAD_R89_20261010.json"
+  ],
+  "next_action": "YM-R90 source-verify tagged differentiation of CMP116 (2.14)/(2.26) and its uniform D/P/Z0/Z0' resummation; primary CMP109 Eq029 and scalar/sector transport",
+  "safety_boundary": "No four-dimensional continuum Yang-Mills existence, Osterwalder-Schrader reconstruction or positive mass gap; R75 native gates not closed."
+}
