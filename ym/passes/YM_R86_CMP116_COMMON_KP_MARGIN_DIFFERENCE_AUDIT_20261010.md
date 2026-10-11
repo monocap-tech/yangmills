@@ -45,36 +45,39 @@ One may choose nu small enough that it consumes only a portion of the source dec
 
 Suppose on that SAME source-identified carrier the physically aligned pre-exponent activity difference satisfies
   d_(N,Z)=sup_b|w_(N+1,shifted)(Z,b)-w_N(Z,b)|
-           <= eta_N exp[-lambda_D d_(k+1)(Z)].
+           <= act_eps_N exp[-lambda_D d_(k+1)(Z)].
 Put t_D=exp[-(lambda_D c_M-a-nu)]. If C_ent t_D<1, the R85 anchored difference norm obeys
   delta_N = sup_z sum_(Z: anchor(Z)=z) d_(N,Z) exp[(a+nu)|Z|]
-          <= eta_N t_D/(1-C_ent t_D),
+          <= act_eps_N t_D/(1-C_ent t_D),
 because the number of anchored n-polymers is bounded by C_ent^(n-1).
 
 Combining with R85 (common KP => connected-log E_N<=delta_N) and R84 gives, for uniform complex Cauchy radius r and halo R,
   ||DeltaGamma_N||M2
     <= k_N + [8 exp(nu R)/r^2]S0(nu/2)S2(nu/2)
-          [t_D/(1-C_ent t_D)] eta_N.
-Hence sum_N(k_N+eta_N)<infty is a sufficient abstract route to summable polarization-type moments. Exact physical source beta/F2 projection and scale/volume normalization remain separate assumptions.
+          [t_D/(1-C_ent t_D)] act_eps_N.
+Hence sum_N(k_N+act_eps_N)<infty is a sufficient abstract route to summable polarization-type moments. Exact physical source beta/F2 projection and scale/volume normalization remain separate assumptions.
 
 The generic CMP116 one-step endpoint bounds give only
   d_(N,Z) <= 2 h exp[-lambda_H d(Z)],
-so the evident eta_N is at best 2h, which need not tend to zero. They DO NOT supply a summable cross-cutoff difference. A per-root CMP109 Eq (0.29) bound with extra UV power a_N^(4+alpha) would be a candidate if its norm, marginal subtraction, first-common-scale identity, and 4D physical root count are primary-verified; no such promotion occurs here.
+so the evident act_eps_N is at best 2h, which need not tend to zero. They DO NOT supply a summable cross-cutoff difference. A per-root CMP109 Eq (0.29) bound with extra UV power a_N^(4+alpha) would be a candidate if its norm, marginal subtraction, first-common-scale identity, and 4D physical root count are primary-verified; no such promotion occurs here.
 
 ## 4. Negative controls, including moving carriers and coupling window
 
-(1) Identical one-step KP envelopes can conceal an O(h) aligned cutoff difference: a single polymer has w_0=0, w_1=h/2 at every N. All analytic bounds and KP conditions are uniform, but logZ difference log(1+h/2) never vanishes. Decay reserve and KP alone cannot generate eta_N.
+(1) Identical one-step KP envelopes can conceal an O(h) aligned cutoff difference: a single polymer has w_0=0, w_1=h/2 at every N. All analytic bounds and KP conditions are uniform, but logZ difference log(1+h/2) never vanishes. Decay reserve and KP alone cannot generate act_eps_N.
 (2) Distinct source polymer carriers cannot be compared by zero extension without a verified conditioning/extra-shell embedding, because missing degrees of freedom and changed gauge charts may alter weights, normalizations and counterterms.
 (3) Even if a common KP threshold can be met within one weak-coupling region, the R59/R75 coupling-persistence gate is not automatically settled. The RG trajectories being compared must actually remain in that region.
 (4) A counterterm/marginal difference k_N and the full Pi/Ward Fourier second-moment normalization are independent of activity KP convergence.
 
 ## 5. Determination
 
-CLOSED ABSTRACT: explicit sufficient common weighted KP scalar inequalities from CMP116-shaped activity exponential decay and bounded-degree polymer counting; explicit eta_N-to-delta_N entropy transfer; composition with R85/R84 to two-mark moment consumer.
+CLOSED ABSTRACT: explicit sufficient common weighted KP scalar inequalities from CMP116-shaped activity exponential decay and bounded-degree polymer counting; explicit act_eps_N-to-delta_N entropy transfer; composition with R85/R84 to two-mark moment consumer.
 PREVIOUSLY SOURCE-LOCATED: CMP116 Lemma 3 endpoint (2.38), post-exponentiation margin (2.39)-(2.41), D/P/Z0/Z0' resummation and Cammarota threshold (R50-R54).
 CONDITIONAL NATIVE: actual H_(N,j)(Z), H_(N+1,j+1)(Z) source-identical carrier/complex domain/parameter ceiling and direct common KP scalar inequalities.
-OPEN NATIVE: epsilon/eta_N ultraviolet suppression on the actual first-common-scale activity difference; CMP109 (0.29) original bound and relation to V^(j), full beta/F2 normalization and all deterministic sector defects; coupling-window uniformity.
+OPEN NATIVE: epsilon/act_eps_N ultraviolet suppression on the actual first-common-scale activity difference; CMP109 (0.29) original bound and relation to V^(j), full beta/F2 normalization and all deterministic sector defects; coupling-window uniformity.
 
 Next YM-R87 (UNCONSUMED): source-test the first-common-scale ONE-LAYER COMPARISON, especially whether CMP109 source marginal subtraction isolates an irrelevant V^(1) defect meeting a scale-power and whether the CMP116 cluster transform is Lipschitz for that defect on its actual conditioned/gauge carrier. Alternatively prove that the candidate V^(j) estimate is insufficient to control the source activity difference without a further coupling/sector match. Continue source access to exact CMP109 (0.29), including alpha and uniform quantifiers; no invented alpha.
 
 No continuum Yang-Mills existence, Osterwalder-Schrader reconstruction, or positive mass gap is claimed.
+
+## Notation guardrail
+The activity-difference prefactor **act_eps_N** must not be confused with R70's ultraviolet lattice spacing **eta_N=L^(-N)**; the latter is a geometric scale, whereas act_eps_N is a new unproved bound. If a positive-alpha primary theorem ever yields act_eps_N=O(eta_N^alpha), that implication needs separate source/dictionary verification.
