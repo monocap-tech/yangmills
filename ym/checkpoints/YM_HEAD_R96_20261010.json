@@ -1,0 +1,47 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "CMP109_PRIMARY_EQUATION_SOURCE_HOLD;ALTERNATE_SOURCE_BACKED_FRONT_ACTIVE",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R95_20261010.json",
+  "passes_completed_through": "YM-R96",
+  "live_cursor": "YM-R97",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "reflection-positive kernel to OS observable transfer and physical-time uniform clustering; mass gap independently of CMP109 source-held UV comparison",
+  "held_source_cursor": "CMP109_Original_029_537_542_SOURCE_RECEIPT_PENDING",
+  "current_determination": "R96 did not recover CMP109 original Eq029 despite focused attempts; remains source held. R96 pivoted to visually verified original 1984 Balaban–Imbrie–Jaffe proceedings (2D/3D Abelian Higgs illustrative setting) explicitly separating spacing-uniform UV stability from physical-distance clustering/mass gap; contemporary Douglas 2026 review also separates continuum existence and gap. An exact finite SU2 gauge-invariant alternating positive density construction proves uniform density bounds do not entail cutoff Cauchy. The spectral theorem shows uniform physical-time exponential correlations for a DENSE gauge-invariant centered observable family imply a gap AFTER OS reconstruction. This is abstract and not native 4D Yang–Mills proof.",
+  "proof_outputs": [
+    "On a finite SU2 link lattice, normalized gauge-invariant rho_N=1+(-1)^N eps (Tr U_p/2) satisfy 1-eps<=rho_N<=1+eps, but E_N(Tr U_p/2)=(-1)^N eps/4, so density bounds don't imply cutoff Cauchy.",
+    "If physical OS Hilbert H has positive Hamiltonian H and one m>0 with <FΩ,e^-tH FΩ> <= A_F e^-mt for all t>=0 and dense centered gauge-invariant family, spectral projections show spec(H|Ωperp) subset [m,infty).",
+    "1984 Balaban/Imbrie/Jaffe original source printed pp.79-81 explicitly separates UV stability and infrared gap; model treated in detail is Abelian Higgs 2D/3D, not 4D pure YM."
+  ],
+  "source_provenance": {
+    "new_reference_88": "Balaban Imbrie Jaffe Exact Renormalization Group for Gauge Theories (1984), primary author-hosted https://uva.theopenscholar.com/files/john-imbrie/files/exactrg.pdf, original scanned pp79-81 visually inspected",
+    "new_reference_89": "Michael R Douglas The Yang-Mills Millennium problem Nature Reviews Physics 8 86-97 (2026), doi 10.1038/s42254-025-00909-2, publisher summary verified",
+    "original_CMP109_029": "NOT_ACCESSIBLE_PRIMARY",
+    "original_CMP109_537_542": "NOT_ACCESSIBLE_PRIMARY"
+  },
+  "native_gates": {
+    "CMP109PrimaryAlpha": "OPEN_PARKED",
+    "UVAmplitudeToCrosscutoffCauchy": "OPEN",
+    "ReflectionPositiveContinuumOS": "OPEN",
+    "UniformPhysicalTimeClustering": "OPEN",
+    "PositiveMassGap": "OPEN"
+  },
+  "evidence_limits": [
+    "Abstract SU2 densities are not claimed to satisfy Bałaban RG recursion or reflection positivity.",
+    "1984 primary treats superrenormalizable Abelian Higgs and is not a proof for 4D pure YM.",
+    "Spectral gap consumer assumes OS Hilbert space and a dense physical observable family plus common clustering mass.",
+    "CMP122 bounds retained with their original source-coupling preconditions, not recast as unconditional."
+  ],
+  "highest_reference_number": 89,
+  "authoritative_files": [
+    "ym/terminology/YM_R96_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/references/YM_REFERENCES_088_089_20261010.md",
+    "ym/passes/YM_R96_UV_STABILITY_VS_MASS_GAP_PRIMARY_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R96_20261010.json"
+  ],
+  "next_action": "YM-R97 source-backed Osterwalder-Seiler reflection positivity/transfer matrix and exact gap observable criterion; hold CMP109 Eq029 until primary PDF",
+  "safety_boundary": "No Yang-Mills 4D continuum existence, OS reconstruction, mass gap; source-backed separation and abstract counterexample only."
+}
