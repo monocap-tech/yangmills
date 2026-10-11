@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R91_20261010.json",
+  "passes_completed_through": "YM-R92",
+  "live_cursor": "YM-R93",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native CMP116 tagged source index/seed ownership versus original CMP109 Eq(0.29) V^(1) and first-common-scale normalization",
+  "current_determination": "R92 rigorously derives a generic one-marked rooted hard-core connected-log bound of order u_x e^{-theta dist(x,z)} t/(1-C_ent t) under explicit rooted weighted KP susceptibility and tagged input decay, plus an exact ghost-polymer partition identity for an independently adjoined seed. It separates original Cammarota CMP116 D-family summability from later KP connected-log bounds and identifies a quantifier trap for sums including empty D. These are abstract tools only; actual source CMP116 marked indices and primary CMP109 Eq(0.29) positive alpha remain unverified.",
+  "new_mathematical_results": [
+    "Under uniform T_(nu,p)(Y)<=e^{a|Y|} and |r_x(Y)|<=u_x exp(-lambda_m|Y|-sigma dist(x,Y)), the rooted marked contribution at z in Y is <=u_x e^{-theta dist(x,z)} t/(1-C_ent t), t=e^{-(lambda_m-a-nu-theta)}, theta<=sigma, C_ent t<1.",
+    "For one optional ghost seed g, Xi_aug=Xi+v_g Xi_compatible; if |log Xi_compatible-log Xi|<=A_g and |v_g|e^{A_g}<1, then |logXi_aug-logXi|<=-log(1-|v_g|e^{A_g}).",
+    "Replacement marking yields one small factor u, not epsilon1*u; new seed independent of ordinary D may require distinct localization/index ownership.",
+    "An unqualified nonnegative D-family sum including empty D cannot be <=1 in presence of positive nonempty terms; exact source fixed-Y0 quantifier needed."
+  ],
+  "evidence": {
+    "CammarotaTheorem2": "PRIOR_PRIMARY_SOURCE_AUDIT_YM_R51",
+    "CMP116Unmarked": "PRIOR_PRIMARY_SOURCE_AUDIT_YM_R50_R54",
+    "WeightedKP": "GENERAL_REFERENCES_87_AND_2026_CMP_RESTATEMENT",
+    "CMP116NativeMarkedD": "OPEN",
+    "CMP109OriginalEq029": "OPEN",
+    "FirstCommonScaleAndMarginal": "OPEN"
+  },
+  "native_gates": {
+    "AbstractOneMarkedReplacement": "DERIVED",
+    "AbstractGhostSeed": "DERIVED",
+    "NativeDStageMarkedSource": "OPEN",
+    "NativeTagPZ0Z0Prime": "OPEN",
+    "PrimaryEq029PositiveAlpha": "OPEN",
+    "FullOneStepPolarization": "OPEN"
+  },
+  "highest_reference_number": 87,
+  "authoritative_files": [
+    "ym/terminology/YM_R92_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R92_ONE_MARKED_CAMMAROTA_GHOST_SEED_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R92_20261010.json"
+  ],
+  "next_action": "YM-R93 prioritize original CMP109 equation pages and native CMP116 mark/seed ownership; avoid further abstract transfer until sourced",
+  "safety_boundary": "No 4D continuum Yang-Mills existence, reflection-positive OS axioms or mass gap, and no closure of R75 original native gates."
+}
