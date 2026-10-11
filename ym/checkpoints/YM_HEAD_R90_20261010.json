@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R89_20261010.json",
+  "passes_completed_through": "YM-R90",
+  "live_cursor": "YM-R91",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "direct tagged CMP116 source (2.14)/(2.26) positive marked majorant with source smallness replacement and conditional resummation; original CMP109 Eq029",
+  "current_determination": "YM-R90 proves a conditional positive-majorant tagged-resummation lemma: differentiated termwise source bounds with uniform input factor, attachment decay and at most polynomial mark multiplicity pass through absolute D/P/Z0/Z0' resummation, spending a strict exponent portion. Source unmarked Lemma-3 bound alone does not imply tagged derivative bounds, nor does frozen chart insertion control moving covariance/cutoff/gauge operators. Differentiation may replace an epsilon1 factor; separate tagged positive majorant with prefactor C_tag u_x is the weaker correct source target. Original CMP109 Eq029 and native R75 gates remain open.",
+  "new_mathematical_results": [
+    "If sum_i M_i<=h e^-lambda_H d(Z) and |partial_tx T_i|<=Cins u_x(1+d)^p e^-sigma dist(pi(x),Z) M_i, then |partial_tx H_Z|<=Cins h C_(p,theta)u_x e^{-(lambda_H-theta)d-sigma dist}, C_(p,theta)=sup_s(1+s)^p e^-theta s.",
+    "With d>=c_M(|Z|-1), mu<=min((lambda_H-theta)c_M,sigma), tagged bound <=Cins h C_(p,theta)u_x e^-mu tau(Z,pi(x)).",
+    "For moving source operators L_t, derivative is L_t(G_t')+L_t'(G_t), so potential-only tagging is incomplete.",
+    "Unmarked amplitudes can stay bounded while insertion derivatives blow up as u->0: sin(t/u).",
+    "Source marked derivative can replace rather than multiply an epsilon1 factor: marked C_tag u_x majorant required unless additional source proof gives h*u_x."
+  ],
+  "source_evidence": {
+    "CMP116_unmarked_term_and_resummation": "PREVIOUSLY_SOURCE_AUDITED_R50_R54",
+    "CMP116_tagged_term": "OPEN",
+    "CMP109_537_542_029": "OPEN_PRIMARY",
+    "SourceEq029AlphaAndFirstLayer": "OPEN",
+    "MarginalBoundaryAndMeasure": "OPEN"
+  },
+  "evidence_limits": [
+    "No fresh primary equation pages establish marked CMP116 bounds; publisher abstract only.",
+    "Unmarked endpoint |H| estimate does not automatically supply absolute sum of marked term majorants.",
+    "Frozen source localization index and charts need to be justified under a real two-cutoff comparison.",
+    "Metric and seed dictionary into native tree distance not independently verified for one mark."
+  ],
+  "highest_reference_number": 87,
+  "authoritative_files": [
+    "ym/terminology/YM_R90_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R90_TAGGED_TERMWISE_MAJORANT_RESUMMATION_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R90_20261010.json"
+  ],
+  "next_action": "YM-R91 native source marked factor replacement and tree tether in CMP116 term (2.14)/(2.26), full moving-source derivative and Eq029/coupling",
+  "safety_boundary": "No Yang-Mills continuum existence, OS reconstruction, positive mass gap, or native R75 gate closure."
+}
