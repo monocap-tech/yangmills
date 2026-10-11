@@ -1,0 +1,41 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R85_20261010.json",
+  "passes_completed_through": "YM-R86",
+  "live_cursor": "YM-R87",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP109 original first-common-scale one-layer marginal-subtracted V^(1) to native CMP116 activity-difference eta_N with coupling/sector match",
+  "current_determination": "YM-R86 recovers the original CMP116 source-published Lemma-3 H(Z) decay coefficient lambda_H=(1-8delta)Lkappa/2 and post-exponent return-map lambda_eff=(1-10delta)Lkappa/2, exposing a positive decay reserve delta Lkappa. It derives an explicit sufficient common weighted KP scalar threshold from local animal entropy and source-shaped activity bound, plus an independent eta_N-to-anchored difference criterion. The one-step source bound supplies no decaying eta_N by itself; the primary CMP109 Eq(0.29) positive-alpha V and first-common-scale dictionary are still unverified. No native YM gate closed.",
+  "new_mathematical_results": [
+    "Common KP sufficient: t=e^{-(lambda_H c_M-a-nu)}, c_M=1/(24M^4); require C_ent t<1 and B h t/(1-C_ent t)<=a, h=C3 epsilon1.",
+    "Under d_N(Z)<=eta_N e^{-lambda_D d(Z)}, t_D=e^{-(lambda_D c_M-a-nu)}, rooted difference delta_N<=eta_N t_D/(1-C_ent t_D).",
+    "Combine with R85/R84: ||DeltaGamma_N||M2<=k_N+8 e^{nu R}S0(nu/2)S2(nu/2)eta_N*t_D/[(r^2)(1-C_ent t_D)].",
+    "Individual bounded activities w0=0, w1=h/2 satisfy common KP but have persistent nonzero cutoff log difference; KP margin doesn't create UV alpha."
+  ],
+  "source_evidence": {
+    "CMP116_Lemma3_Eq238_and_PostExponent_239_241": "PREVIOUSLY_SOURCE_AUDITED_R53_R54",
+    "CMP116_Metric_Entropy": "PREVIOUSLY_SOURCE_AUDITED_R51",
+    "General_KP_Reference": "[87]",
+    "NativeCrossCutoffCommonCarrier": "OPEN",
+    "PositiveAlpha_OneLayer_Difference": "OPEN",
+    "CMP109Eq029_Primary": "OPEN"
+  },
+  "evidence_limits": [
+    "The common weighted KP inequalities are sufficient abstract checks; native source parameter hierarchy/weak-coupling window and common carrier remain unverified.",
+    "Source one-step h bound alone only yields eta_N<=2h, not UV-summable suppression.",
+    "No direct primary CMP109 (5.37),(5.42),(0.29) equation windows accessed or alpha promoted.",
+    "Deterministic counterterm and physical beta/F2 normalization excluded from KP conclusion."
+  ],
+  "authoritative_files": [
+    "ym/terminology/YM_R86_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R86_CMP116_COMMON_KP_MARGIN_DIFFERENCE_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R86_20261010.json"
+  ],
+  "highest_reference_number": 87,
+  "next_action": "YM-R87 source one-layer CMP109 V^(1) marginal-subtracted discrepancy to native H(Z) difference under a common weak-coupling and RG chart",
+  "safety_boundary": "No continuum Yang-Mills, OS construction or positive mass gap. R75 native stationarity and Eq029 gates OPEN."
+}
