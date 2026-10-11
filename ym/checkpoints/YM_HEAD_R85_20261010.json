@@ -1,0 +1,38 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R84_20261010.json",
+  "passes_completed_through": "YM-R85",
+  "live_cursor": "YM-R86",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native CMP116 common weighted KP margin plus pre-exponent cross-cutoff difference norm and primary Eq029 ultraviolet exponent",
+  "current_determination": "YM-R85 closes an ABSTRACT coefficientwise marked-cluster transfer: under common polymer carrier, uniform weighted rooted KP susceptibility, and anchored pre-exponent activity-difference delta_N, the connected-log difference rooted norm E_N is <=delta_N. Combined with R84 this controls two-mark polarization second moments when delta_N and deterministic k_N are summable. Common KP gives interpolation zero-free logs but cannot create positive UV alpha. No native CMP116 cross-cutoff delta_N or CMP109 Eq029 source theorem has been proved.",
+  "new_mathematical_results": [
+    "Coefficientwise telescoping of cluster monomials yields an anchored connected-log weighted difference E_N<=sup_z sum_(gamma anchored z) d_gamma exp(nu|gamma|+a_gamma) under explicit rooted weighted KP susceptibility.",
+    "With common uniform analytic radius r and halo R, ||DeltaGamma_N||M2 <=k_N +8 exp(nu R) S0(nu/2) S2(nu/2) delta_N/r^2.",
+    "Uniform holomorphic convergent cluster log along activity interpolation implies no partition zeros on that domain.",
+    "Single-polymer w0=-1+epsilon, w1=-1+2epsilon gives delta w->0 but Delta logZ=log2, proving zero-distance margin is needed.",
+    "Common strict KP alone leaves possibility of nonsummable persistent UV defect."
+  ],
+  "source_status": {
+    "CMP116_pre_exponent_activity_and_cluster_log": "PREVIOUS_SOURCE_LOCATED_R50",
+    "CMP116_field_uniform_complex_domain": "PREVIOUS_SOURCE_LOCATED_R47",
+    "KoteckyPreiss_convergence": "GENERAL_THEOREM_CITED_87",
+    "CommonCrosscutoffKPMargin": "OPEN_NATIVE",
+    "PreExponentDifferenceUVAlpha": "OPEN_NATIVE",
+    "PrimaryCMP109Eq029": "OPEN_PRIMARY",
+    "FullBetaProjection": "OPEN"
+  },
+  "highest_reference_number": 87,
+  "authoritative_files": [
+    "ym/terminology/YM_R85_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/references/YM_REFERENCES_087_20261010.md",
+    "ym/passes/YM_R85_MARKED_POLYMER_KP_DIFFERENCE_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R85_20261010.json"
+  ],
+  "next_action": "YM-R86 test source CMP116 bound for common weighted KP and quantitative activity difference, source Eq029 alpha and full one-layer bridge",
+  "safety_boundary": "No continuum 4D Yang-Mills existence, OS reconstruction or positive mass gap; original native R75 gates remain open."
+}
