@@ -1,0 +1,37 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R92_20261010.json",
+  "passes_completed_through": "YM-R93",
+  "live_cursor": "YM-R94",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "primary CMP109 Eq(0.29), Eq(5.37)/(5.42), native CMP116 Eq(2.1) exact remainder-to-Mayer-input identification; no more generic transfer",
+  "current_determination": "R93 was a source-first forensic investigation. Original CMP109 key equation pages remained inaccessible via publisher/Euclid/SciSpace and absent from Project/Library. It derives an exact fixed-complete-carrier Mayer identity showing a dormant baseline Y activity w_Y(0)=0 can be activated through w'_Y(0)=v_Y, unifying R91 replacement and R92 ghost-seed descriptions when the source Y carrier is fixed. No original Eq029 alpha/V^(1), native CMP116 activity normalization, or cross-cutoff chart/density mapping verified. Explicit source-access packet records the blocked evidence.",
+  "new_mathematical_results": [
+    "For a fixed complete finite index family P, exp(sum_Y(V_Y+t v_Y))=sum_(D subset P)prod_(Y in D)(exp(V_Y+t v_Y)-1), exactly.",
+    "w'_Y(t)=v_Y exp(V_Y+t v_Y), so a previously zero activity w_Y(0)=0 has nonzero derivative when v_Y!=0; its D singleton contributes without a ghost index.",
+    "The ghost/new-seed category remains needed only when an input cannot be indexed by a fixed common Y carrier or changes measure, covariance, conditioning, cutoff, gauge chart.",
+    "|w'_Y|<=|v_Y|exp(Re(V_Y+t v_Y)); marked O(u_x) factor needs source-uniform potential and derivative bounds."
+  ],
+  "source_status": {
+    "CMP109_Original_029": "NOT_ACCESSED_PRIMARY",
+    "CMP109_Original_537_542": "NOT_ACCESSED_PRIMARY",
+    "CMP116_Mayer_2_1": "PREVIOUSLY_SOURCE_LOCATED_GENERAL_INDEX_R50_NOT_FRESH_FORMULA",
+    "External_CMP109_Secondary": "SECONDARY_ONLY",
+    "Project_Files_CMP109_PDF": "NOT_FOUND",
+    "NativeExtraLayerToPotential": "OPEN",
+    "NativeMultiSectorCompatibility": "OPEN"
+  },
+  "highest_reference_number": 87,
+  "authoritative_files": [
+    "ym/terminology/YM_R93_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/source_requests/YM_R93_CMP109_EQ029_PRIMARY_SOURCE_PACKET_20261010.md",
+    "ym/passes/YM_R93_PRIMARY_SOURCE_MAYER_CARRIER_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R93_20261010.json"
+  ],
+  "next_action": "YM-R94 obtain exact original CMP109 Eq029 and CMP116 Eq2.1 window, verify type/alpha and carrier, otherwise hard source obstruction report",
+  "safety_boundary": "No Yang-Mills 4D continuum, OS reconstruction or positive mass gap; no native R75 gate closed."
+}
