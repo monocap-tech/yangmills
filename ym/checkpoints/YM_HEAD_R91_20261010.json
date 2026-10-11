@@ -1,0 +1,42 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-10",
+  "custody_state": "OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R90_20261010.json",
+  "passes_completed_through": "YM-R91",
+  "live_cursor": "YM-R92",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "one-marked CMP116 D-family Cammarota tree bound for epsilon1 replacement/adjoined seed, moving Gaussian response and original CMP109 Eq029",
+  "current_determination": "YM-R91 isolates the exact algebraic replacement-factor issue in tagged CMP116 term bounds: replacing one original epsilon1 activity generates a marked series O(u_x) with squared convergence-margin denominator, not generally O(epsilon1*u_x). New marked seeds are distinct from replacements and need extra source indices. A positive tagged-resummation theorem is derived conditionally, while an exact Gaussian covariance-variation identity identifies separate moving-chart terms. No primary marked CMP116 estimate or CMP109 Eq(0.29) is verified; native Yang-Mills gates remain open.",
+  "new_mathematical_results": [
+    "For a term R_D product_Y w_Y, tagged derivative is R_D sum_{Y in D} r_{x,Y} product_{Y'neq Y} w_Y', avoiding division by possibly zero w_Y.",
+    "If unmarked n-activity positive majorant <=K^n epsilon^n and K epsilon<1, replacement tag of size u has sum <=K u/(1-K epsilon)^2, without an extra epsilon factor.",
+    "A new seed with D empty cannot be represented by differentiating preexisting D activities; separate marked indexing and support hull are needed.",
+    "If a source-positive marked sum is <=Ctag u(1+d)^p e^-lambda d-sigma dist, arbitrary finite exponent spend yields a tree-attachment bound of order u.",
+    "For finite SPD varying Gaussian C_t, d E_{C_t}[F_t]=E_{C_t}[dF_t]+1/2 sum_ab dC_ab E_{C_t}[d_ab F_t]."
+  ],
+  "classifications": {
+    "AbstractReplacementSeries": "DERIVED",
+    "AbstractMarkedPositiveResummation": "DERIVED_CONDITIONALLY",
+    "NativeCMP116MarkedD": "OPEN",
+    "PrimaryCMP109Eq029PositiveAlpha": "OPEN",
+    "NativeCrossCutoffFullPolarization": "OPEN",
+    "NativeMarginalAndLargeField": "OPEN"
+  },
+  "evidence_limits": [
+    "Native CMP116 (2.26) is an UNMARKED positive majorant; source marked-family version not extracted from original paper.",
+    "Original CMP109 (5.37),(5.42),(0.29) and V^(1) definition/alpha unavailable in inspected primary pages; secondary [85] not promoted.",
+    "True cross-cutoff carrier may have moving Gaussian, gauge, conditioning and boundary terms; frozen tagged proof alone incomplete.",
+    "Scalar replacement series illustrates combinatorial mechanism, not an exact CMP116 D-sum equality."
+  ],
+  "highest_reference_number": 87,
+  "authoritative_files": [
+    "ym/terminology/YM_R91_TERMINOLOGY_REGISTRY_20261010.md",
+    "ym/passes/YM_R91_MARKED_FACTOR_REPLACEMENT_D_STAGE_AUDIT_20261010.md",
+    "ym/checkpoints/YM_HEAD_R91_20261010.json"
+  ],
+  "next_action": "YM-R92 one-marked Cammarota D-family/rooted tree source and source-aligned CMP116 tag, optional single-coordinate analytic input path; primary CMP109 Eq029",
+  "safety_boundary": "No 4D continuum Yang-Mills existence, OS reconstruction, positive mass gap, or closure of native R75 gates."
+}
