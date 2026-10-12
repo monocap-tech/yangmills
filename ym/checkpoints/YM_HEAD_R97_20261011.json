@@ -1,0 +1,50 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-11",
+  "custody_state": "CMP109_PRIMARY_IMAGE_HELD;THIRDPARTY_PRIMARY_TEXT_RECEIPT;OS_FINITE_SOURCE_ACTIVE",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R96_20261010.json",
+  "passes_completed_through": "YM-R97",
+  "live_cursor": "YM-R98",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP109 original-image receipt and history-sensitive beta comparison; physical-time clustering lane parallel",
+  "current_determination": "Finite Wilson lattice OS/transfer positivity is source-attested; explicit abstract counterexamples show reflection-invariant cutoff does not preserve RP and strict positive transfer does not imply cutoff-uniform physical mass gap. Uniform physical mass m requires ||T_a on centered||<=exp(-m a) with correct physical-time scaling. An accessible third-party OCR transcript of CMP109 [7] explicitly identifies beta_j dependence on ALL preceding couplings, correcting an inference in R74–R75. Original EQ029/537/542 formula images remain held.",
+  "new_reference_ids": [
+    90,
+    91,
+    92
+  ],
+  "highest_reference_number": 92,
+  "source_levels": {
+    "OsterwalderSeiler1978": "PUBLISHER_PRIMARY_ABSTRACT",
+    "Luscher1977": "ORIGINAL_PREPRINT_VISUALLY_INSPECTED",
+    "LuscherWeisz1984": "PUBLISHER_PRIMARY_ABSTRACT",
+    "CMP109_BetaHistory": "THIRDPARTY_PRIMARY_TEXT_WITNESS",
+    "CMP109_Eq029_537_542": "EXACT_ORIGINAL_IMAGE_STILL_NOT_VERIFIED"
+  },
+  "new_math_results": [
+    "Independent uniform plus/minus spins are reflection positive, but reflection-invariant cutoff to opposite spins gives reflected norm -1.",
+    "For normalized positive self-adjoint T_a with unique vacuum, gap>=m iff ||T_a(I-P_a)||<=exp(-m a).",
+    "T_a=diag(1,exp(-a^2)) is strictly positive for every a but physical gap a vanishes.",
+    "Printed CMP109 p.298 OCR prose rules out inferring history-independence from compact beta_j(g_(j-1)) notation."
+  ],
+  "native_gates": {
+    "full_R25_R26_RP": "CONDITIONAL_REFLECTION_PLANE_FACTORIZATION",
+    "restricted_small_field_RP": "OPEN",
+    "beta_history_sensitive_crosscutoff_stationarity": "OPEN",
+    "Eq029_original_images_alpha_constants": "OPEN_SOURCE",
+    "cutoff_Cauchy_and_OS": "OPEN",
+    "uniform_physical_time_clustering": "OPEN",
+    "four_dimensional_mass_gap": "OPEN"
+  },
+  "authoritative_files": [
+    "ym/passes/YM_R97_WILSON_RP_PHYSICAL_GAP_CMP109_HISTORY_AUDIT_20261011.md",
+    "ym/checkpoints/YM_HEAD_R97_20261011.json",
+    "ym/references/YM_REFERENCES_090_092_20261011.md",
+    "ym/terminology/YM_R97_TERMINOLOGY_REGISTRY_20261011.md",
+    "ym/source_receipts/YM_R97_CMP109_TEXT_EXTRACTION_RECEIPT_20261011.md"
+  ],
+  "next_action": "YM-R98 audit original image CMP109 and historical beta-polarization marked mismatch; parallel physical-time RP clustering",
+  "safety_boundary": "No continuum pure 4D Yang-Mills, no OS construction, no positive mass gap claimed."
+}
