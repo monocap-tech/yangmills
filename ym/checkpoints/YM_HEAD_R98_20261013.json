@@ -1,0 +1,45 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-13",
+  "custody_state": "CMP109_IMAGE_SOURCE_HOLD;HISTORY_SENSITIVE_BETA_FRONT_ACTIVE",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R97_20261011.json",
+  "passes_completed_through": "YM-R98",
+  "live_cursor": "YM-R99",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP109 beta history derivative in full polarization; history-age versus spatial locality",
+  "current_determination": "Primary CMP109 third-party text witness expressly admits beta_j dependence on all preceding couplings, invalidating R74–R75 negative inference from compact beta_j(g_(j-1)) notation. R98 derives a conditional explicit history insertion/response mismatch inequality and constructs a PSD, lattice Ward-transverse, spatially finite-range polarization whose marginal coefficient has undiminished sensitivity to earliest coupling. Thus spatial locality does not imply history-age decay or beta shift covariance. No native beta or Eq029 gate is discharged; original Eq029/537/542 images remain source-held.",
+  "new_mathematical_results": [
+    "Aligned history prefix insertion decomposition and bound delta beta <= tau + A theta^j |delta prefix| + A sum_(r<j) theta^(j-r-1)|delta g_r|, under uniform history derivative sensitivity.",
+    "Weighted second spatial moment of source-normalized history-variation Pi controls beta coefficient derivative, when Eq(1.22)/(5.42) Fourier typing is valid.",
+    "W_mu nu(p)=delta_mu nu |d|^2-d_mu conj(d_nu) is finite range, PSD and Ward transverse; Pi=h0 W has beta=h0 for all j, so spatial positivity/locality do not imply history response decay."
+  ],
+  "source_provenance": {
+    "CMP109": [
+      7
+    ],
+    "thirdparty_text_blob": "f1aec083a3a6470c67a2c1205ca740c2583fe37a",
+    "printed_p298_beta_history": "THIRDPARTY_TEXT_WITNESS_VERIFIED",
+    "original_formula_images": "NOT_ACCESSED",
+    "original_029": "NOT_VERIFIED_EXACT",
+    "original_537_542": "NOT_VERIFIED_EXACT",
+    "CMP116_one_layer_dictionary": "OPEN"
+  },
+  "native_status": {
+    "primary_beta_history_response": "OPEN",
+    "aligned_prefix_geometry_defect": "OPEN",
+    "beta_map_shift_covariance": "OPEN",
+    "original_eq029_positive_alpha": "OPEN_SOURCE_IMAGE",
+    "CMP116_one_layer_tagged_activity": "OPEN",
+    "continuum_cauchy_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R98_HISTORY_SENSITIVE_POLARIZATION_RESPONSE_AUDIT_20261013.md",
+    "ym/checkpoints/YM_HEAD_R98_20261013.json",
+    "ym/terminology/YM_R98_TERMINOLOGY_REGISTRY_20261013.md"
+  ],
+  "next_action": "YM-R99 decompose source one-step full Pi historical derivative into Gaussian log normalization, inherited interaction, chart/covariance and beta subtraction, seeking an actual history-age bound or marked cutoff-difference alternative; original CMP109 images still needed.",
+  "safety_boundary": "No 4D continuum Yang-Mills theory, OS reconstruction, or mass gap claimed."
+}
