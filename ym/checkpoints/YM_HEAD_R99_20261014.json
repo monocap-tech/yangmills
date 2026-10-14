@@ -1,0 +1,43 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-14",
+  "custody_state": "CMP109_PRIMARY_IMAGE_HELD;NATIVE_FULL_HISTORY_RESPONSE_CUTSET_OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R98_20261013.json",
+  "passes_completed_through": "YM-R99",
+  "live_cursor": "YM-R100",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "frozen-current CMP109 inherited-history two-trajectory marked difference / original Eq029 image custody",
+  "current_determination": "R99 obtains exact finite normalized Gaussian score identity for historical derivatives allowing a fixed sharp cutoff; moving cutoffs contribute a separate boundary-flux channel that can generate a nonzero quadratic background historical response even with fixed covariance and interaction. CMP109 thirdparty original-paper OCR identifies current constrained Gaussian versus inherited prior-coupling interaction but does not certify independence of all hidden chart/cutoff data. True age-of-history attenuation requires a dynamical variational contraction or marked full-polarization difference, not spatial covariance decay or source E absolute bounds. Native beta and Eq029 gates remain open.",
+  "new_math_results": [
+    "Gaussian-score identity d_h log E_C[chi e^U] = <U_h> +1/2<Y*C^-1 C_h C^-1Y-Tr(C^-1 C_h)> for fixed possibly sharp chi on a finite common carrier.",
+    "Moving hard cutoff chi=1_{Y<=h+b} gives d_h d_b² logPhi(h+b) at zero equal sqrt(2/pi)*(4/pi-1)>0, despite U=0 and C=1.",
+    "Abstract one-step variational product v_j=L_(j-1)...L_(s+1)J_s gives age decay only with independent native ||L||<=q<1 on repeatedly extracted quotient; later injections require Duhamel sum.",
+    "Vanishing nonlinear integrand at g=0 does not alone bound prior-history derivative without uniform analyticity."
+  ],
+  "source_status": {
+    "CMP109_1987_identity": "SOURCE_METADATA_VERIFIED_AND_THIRD_PARTY_TEXT_WITNESS",
+    "CMP109_2_13": "THIRD_PARTY_OCR_SOURCE_GRAMMAR",
+    "CMP109_beta_prior_history": "THIRD_PARTY_OCR_EXPLICIT_PROSE",
+    "CMP109_eq029_537_542": "ORIGINAL_IMAGE_HARD_SOURCE_HOLD",
+    "CMP116_one_marked_history_source": "OPEN"
+  },
+  "native_gates": {
+    "fixed_step_Gaussian_history_independence": "CONDITIONAL",
+    "off_trajectory_history_differentiability": "OPEN",
+    "full_historical_Pi_second_moment": "OPEN",
+    "history_age_decay_or_summable_beta_mismatch": "OPEN",
+    "crosscutoff_geometry_cutoff_flux": "OPEN",
+    "Eq029_alpha_V1_dictionary": "OPEN",
+    "full_continuum_OS_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R99_FULL_HISTORY_RESPONSE_GAUSSIAN_SCORE_CUTOFF_AUDIT_20261014.md",
+    "ym/checkpoints/YM_HEAD_R99_20261014.json",
+    "ym/terminology/YM_R99_TERMINOLOGY_REGISTRY_20261014.md"
+  ],
+  "next_action": "YM-R100 source-typed frozen-current inherited E_k historical insertion and a two-trajectory difference theorem, avoiding unsourced history-coordinate extension; keep original CMP109 equation images held.",
+  "safety_boundary": "No 4D continuum Yang-Mills existence, reflection-positive OS continuum, or positive mass gap claimed."
+}
