@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-14",
+  "custody_state": "CMP109_ORIGINAL_IMAGES_HELD;TWO_TRAJECTORY_ENDPOINT_REDUCTION_CERTIFIED_ABSTRACT",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R99_20261014.json",
+  "passes_completed_through": "YM-R100",
+  "live_cursor": "YM-R101",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native frozen-current E_k to CMP109 (2.13) and CMP116 potential difference dictionary",
+  "current_determination": "Two actual admissible histories sharing a finite normalized Gaussian carrier and sharp cutoff satisfy the exact endpoint ratio Z1/Z0=<exp(U1-U0)>_rho0 without an off-trajectory history interpolation. Under explicit pointwise derivative bounds, real mixed-background log-response is stable; under full common-dominated complex weight mismatch eta<1, a holomorphic ratio gives a Cauchy second-jet bound. Distinct cutoffs can create nonzero background quadratic mismatch even with identical Gaussian and U, so current source chart/normalization/marginal mismatch remains load-bearing. No native history decay, Eq029 alpha or beta closure established.",
+  "new_math_results": [
+    "Exact real endpoint interaction log-ratio and |log(Z1/Z0)|<=epsilon under uniform |U1-U0|<=epsilon on common fixed Gaussian+chi.",
+    "Real mixed background estimate epsilon2+(exp(2epsilon)-1)(K2+3K1^2)+4K1 epsilon1+2 epsilon1^2.",
+    "Common-dominated complex endpoint weight ratio eta<1 implies holomorphic log and |partial_xy log(Z1/Z0)|<=-log(1-eta)/(r_x r_y), avoiding intermediate history/complex interpolation zero crossing.",
+    "Same Gaussian/U but different sharp half-Gaussian cutoffs gives log ratio=-2 b_x b_y, a cutoff-only mixed background mismatch."
+  ],
+  "source_status": {
+    "CMP109_1987": "PAPER_ID_VERIFIED_THIRD_PARTY_OCR_TEXT",
+    "CMP109_2_13": "OCR_SOURCE_INTERACTION_AND_NORMALIZATION_CONTEXT",
+    "CMP109_029_537_542": "ORIGINAL_IMAGE_UNVERIFIED",
+    "CMP116_native_marked_Ek_difference": "OPEN",
+    "Prove2Me_Schur": "NONLOADBEARING_PENDING_EXACT_ID"
+  },
+  "native_gates": {
+    "canonical_pair_same_current_carrier": "OPEN",
+    "current_marginal_coupling_match": "OPEN",
+    "cutoff_and_gaussian_geometry_match": "OPEN",
+    "inherited_E_difference_source_potential": "OPEN",
+    "rooted_complex_2mark_weight_difference_UV_gain": "OPEN",
+    "primary_eq029_alpha": "OPEN",
+    "beta_marginal_tail": "OPEN",
+    "large_field_Cauchy_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R100_ACTUAL_HISTORY_ENDPOINT_RATIO_CARRIER_AUDIT_20261014.md",
+    "ym/checkpoints/YM_HEAD_R100_20261014.json",
+    "ym/terminology/YM_R100_TERMINOLOGY_REGISTRY_20261014.md"
+  ],
+  "next_action": "YM-R101 source first: CMP109 inherited E_k difference and CMP116 native potential input on actual aligned source charts; identify coupling, cutoff, Gaussian and marginal obstructions. Original Eq029/537/542 images held.",
+  "safety_boundary": "No continuum 4D Yang-Mills theory, reflection-positive OS reconstruction or positive mass gap asserted."
+}
