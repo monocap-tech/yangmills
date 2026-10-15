@@ -1,0 +1,47 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-14",
+  "custody_state": "CMP99_3_DOMAIN_MARK_TEXT_RECOVERED;CMP116_FIXEDPOINT_STABILITY_CONDITIONAL;CROSS_HISTORY_SOURCE_MOTION_OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R102_20261014.json",
+  "passes_completed_through": "YM-R103",
+  "live_cursor": "YM-R104",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP99(3) background-variation random-walk marked source estimates and native current-gauge carrier transport",
+  "current_determination": "CMP99(3) Theorem3.14/Eq3.154 from third-party full text genuinely supplies a spatial domain-sequence difference with extra exp(-delta distance-to-domain-change) due to random-walk cancellation, but not a different-background or inherited coupling-history mark. Later constrained covariance Theorem3.15 has single-trajectory decay, with two-history marked extension still unverified. CMP116 nonlinear Hk substitutions are fixed points of D and A0 equations; endpoint stability inequalities derived under a common weighted q<1 margin expose explicit propagator, nonlinear source and chart difference terms. No source-uniform marked eta or summable history-age response established.",
+  "new_results": [
+    "Native CMP99(3) Thm3.14 source-text scope recovered and restricted to spatial two-domain comparison.",
+    "Exact domain-vs-background operator telescoping on common carriers.",
+    "Abstract contraction fixed-point endpoint inequality and explicit CMP116 D/A0/Hfast conditional bounds with denominators 1-q_D and 1-q_A.",
+    "Same domain with different local background can give order-one operator difference; per-N contractions q_N->1 can amplify vanishing input difference to order-one fixed-point difference."
+  ],
+  "source_provenance": {
+    "CMP99_3_text_blob": "ce5af9ff9165b3e1a995f4c141c0bc0ca9fc6743",
+    "CMP99_3_Thm314": "THIRD_PARTY_PRIMARY_PAPER_TEXT_WITNESS_NOT_ORIGINAL_IMAGE",
+    "CMP99_3_Thm315": "SINGLE_TRAJECTORY_TEXT_WITNESS",
+    "CMP116_text_blob": "2de28469578fcdc14270f57516b190234f9c8812",
+    "CMP116_implicit_maps": "TEXT_WITNESS",
+    "CMP109_029_537_542": "ORIGINAL_IMAGE_HARD_SOURCE_HOLD"
+  },
+  "native_gates": {
+    "domain_pair_same_background_admissibility": "CONDITIONAL",
+    "marked_constrained_covariance_extension": "OPEN",
+    "background_coupling_dependent_operator_motion": "OPEN",
+    "CMP116_uniform_weighted_contraction_and_Lipschitz": "OPEN",
+    "CMP116_s_derivative_marked_positive_sum": "OPEN",
+    "actual_two_cutoff_carrier_match": "OPEN",
+    "historical_relative_E_rooted_norm": "OPEN",
+    "beta_history_and_Eq029_alpha": "OPEN",
+    "large_field_continuum_OS_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md",
+    "ym/checkpoints/YM_HEAD_R103_20261014.json",
+    "ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md",
+    "ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md"
+  ],
+  "next_action": "YM-R104 source-audit CMP99(3) background-analytic Lipschitz/marked perturbation estimates under same domain; check compatibility with CMP116 fixed-point source norms and actual gauge/cutoff chart transport. Do not confuse spatial domain mark with history age.",
+  "safety_boundary": "No continuum Yang-Mills existence, OS reconstructed physical continuum or positive mass gap claimed."
+}
