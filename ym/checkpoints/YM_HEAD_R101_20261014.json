@@ -1,0 +1,47 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-14",
+  "custody_state": "CMP116_SINGLE_TRAJECTORY_SOURCE_TEXT_DICTIONARY_RECOVERED;CMP109_EQ_IMAGES_HELD;NATIVE_TWO_HISTORY_RELATIVE_SOURCE_GATE_OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R100_20261014.json",
+  "passes_completed_through": "YM-R101",
+  "live_cursor": "YM-R102",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 inherited E_k localization map linearity and two-history relative rooted potential audit",
+  "current_determination": "The full third-party primary-paper transcription of CMP116 explicitly types the previously uncertain native SINGLE-TRAJECTORY source chain: Lemma1 (1.33) localizes inherited E_k difference to V'_k(Y); Lemma2 (1.41) combines it with current P^(k) to full pre-Mayer potential V_k(Y); Eq(2.1) uses V_k for Mayer expansion; Eq(2.3) separately handles sharp chi; H(Z) and connected log follow; Lemma3 gives unmarked absolute activity bound. On a synchronized common current Gaussian/cutoff chart, subtraction of two actual histories gives Delta E_k(Phi_b)-Delta E_k(Phi_0) exactly. Termwise Mayer activation is algebraically controlled by Delta V. NONE of these establishes a relative/source-history UV-decaying estimate or a shared two-cutoff source carrier. CMP116 input V_k must not be equated with CMP109 marginal-subtracted output V^(j).",
+  "source_provenance": {
+    "CMP116_text_blob": "2de28469578fcdc14270f57516b190234f9c8812",
+    "CMP116_lemma1_133": "THIRD_PARTY_PRIMARY_PAPER_TEXT_WITNESS",
+    "CMP116_lemma2_141": "THIRD_PARTY_PRIMARY_PAPER_TEXT_WITNESS",
+    "CMP116_mayer_21_cutoff_23": "THIRD_PARTY_PRIMARY_PAPER_TEXT_WITNESS_OCR_SIGN_PENDING",
+    "CMP116_lemma3_238": "THIRD_PARTY_PRIMARY_PAPER_TEXT_WITNESS_EXACT_CONSTANT_PENDING_IMAGE",
+    "CMP109_text_blob": "f1aec083a3a6470c67a2c1205ca740c2583fe37a",
+    "CMP109_eq029_537_542": "ORIGINAL_IMAGE_NOT_VERIFIED"
+  },
+  "new_results": [
+    "One-trajectory CMP109 inherited E_k -> CMP116 Lemma1 V'_k -> Lemma2 V_k -> Mayer Eq(2.1) -> H(Z) -> connected log: source text identified.",
+    "On verified shared current P,Phi carrier, D=Delta E_k(Phi_b)-Delta E_k(Phi_0) follows by literal endpoint subtraction.",
+    "On common potential indices, Delta w=e^(V1)-e^(V0) and |Delta w|<=|Delta V|exp(max(Re V0,Re V1)), no baseline division.",
+    "Source single-trajectory absolute localized V/H bounds do not imply two-history UV-summable difference; ±epsilon local potential example."
+  ],
+  "native_gates": {
+    "two_history_common_source_carrier": "OPEN",
+    "CMP116_localization_linear_in_inherited_E": "OPEN",
+    "CMP116_history_difference_rooted_analytic_UV_gain": "OPEN",
+    "current_coupling_beta_and_Wilson_reextraction": "OPEN",
+    "Gaussian_cutoff_chart_and_boundary_mismatch": "OPEN",
+    "CMP109_final_eq029_positive_alpha_and_V1_dictionary": "OPEN_SOURCE_IMAGE",
+    "source_beta_polarization_moment_difference": "OPEN",
+    "large_field_continuum_OS_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R101_CMP109_CMP116_INHERITED_POTENTIAL_DICTIONARY_20261014.md",
+    "ym/checkpoints/YM_HEAD_R101_20261014.json",
+    "ym/terminology/YM_R101_TERMINOLOGY_REGISTRY_20261014.md",
+    "ym/source_receipts/YM_R101_CMP116_FULLTEXT_SOURCE_WITNESS_20261014.md"
+  ],
+  "next_action": "YM-R102 source-audit CMP116 Lemma1 localization operator linearity/current-history independent propagator chart; derive or obstruct native relative potential estimate from two canonical histories, without conflating input V_k with final Eq029 output V^(j).",
+  "safety_boundary": "No continuum YM construction, full OS limit, or strictly positive physical mass gap claimed."
+}
