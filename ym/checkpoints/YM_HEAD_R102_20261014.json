@@ -1,0 +1,44 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-14",
+  "custody_state": "CMP116_LEMMA1_FROZEN_APPARATUS_LINEARITY_DERIVED;TWO_HISTORY_OPERATOR_MOTION_OPEN;CMP109_ORIGINAL_IMAGES_HELD",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R101_20261014.json",
+  "passes_completed_through": "YM-R102",
+  "live_cursor": "YM-R103",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "CMP116 weakened propagator/minimizer operator motion under aligned cutoff pair; marked spatial-vs-history difference",
+  "current_determination": "CMP116 full-paper third-party OCR (fixed blob 2de28469578fcdc14270f57516b190234f9c8812) exposes weakened propagators, nonlinear background substitution, fundamental-theorem-of-calculus derivatives and connected-domain summations. Those operations are linear in an inherited analytic E-input when the entire source apparatus is frozen, so conditional L_sigma(E1-E0) is exact. For actual histories with different source apparatus, delta localized V'=L_sigma1(delta E)+(L_sigma1-L_sigma0)E0; no native uniform rooted Lipschitz M, moving-apparatus eta or summable history-age gain has been established. Mayer and log-cluster stages remain nonlinear; Eq029 output distinct from input V_k.",
+  "new_math_results": [
+    "Exact frozen-weakening external linearity of fixed source analytic input under composition, s-differentiation, integration and absolutely convergent connected-domain sums.",
+    "Two-history moving-localization split L1 E1-L0 E0=L1(E1-E0)+(L1-L0)E0 on common typed carrier.",
+    "Conditional rooted Lipschitz bound ||delta V'||<=M||delta E||+eta||E0|| with M,eta source-unverified.",
+    "Toy counterexamples show operator movement can cause output difference even when delta E=0; single-trajectory absolute output bounds do not imply uniform operator norm or relative decay."
+  ],
+  "source_status": {
+    "CMP116_lemma1_weakened_text": "THIRD_PARTY_PRIMARY_PAPER_OCR_WITNESS",
+    "CMP116_weakening_19_110": "TEXT_GRAMMAR_VERIFIED_NOT_ORIGINAL_IMAGE",
+    "CMP116_lemma1_133": "TEXT_WITNESS_SINGLE_TRAJECTORY",
+    "CMP109_eq029_537_542": "ORIGINAL_IMAGE_NOT_VERIFIED",
+    "CMP99_3_marked_domain": "PREVIOUS_SOURCE_LEDGER_ONLY_FOR_THIS_PASS"
+  },
+  "native_gates": {
+    "common_canonical_two_history_sigma": "OPEN",
+    "frozen_source_localization_identification": "CONDITIONAL",
+    "uniform_rooted_operator_norm": "OPEN",
+    "moving_propagator_minimizer_comparison": "OPEN",
+    "summable_historical_input_difference": "OPEN",
+    "Mayer_conditional_Gaussian_cutoff": "OPEN",
+    "beta_polarization_and_Eq029": "OPEN",
+    "continuum_OS_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R102_CMP116_FROZEN_LOCALIZATION_LINEARITY_20261014.md",
+    "ym/checkpoints/YM_HEAD_R102_20261014.json",
+    "ym/terminology/YM_R102_TERMINOLOGY_REGISTRY_20261014.md"
+  ],
+  "next_action": "YM-R103 inspect source-native CMP99(3) marked domain difference and CMP116 nonlinear weakened H_k source equations for an operator-motion estimate, distinguishing spatial boundary discrepancy from coupling-history age.",
+  "safety_boundary": "No continuum four-dimensional Yang-Mills construction, OS physical theory or positive mass gap."
+}
