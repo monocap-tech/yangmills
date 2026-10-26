@@ -16,6 +16,7 @@
 | Document | Purpose |
 | --- | --- |
 | **[Research status and evidence ledger](RESEARCH_STATUS.md)** | What was actually established, under what hypotheses, and which native gates remain open |
+| **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
 | **[YM-R103 investigation](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md)** | Latest source-text result, two-history operator decomposition, fixed-point stability interface, and counterexamples |
 | **[R103 source receipt](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md)** | Primary-paper locations, third-party text provenance, and the original-image verification boundary |
 | **[Terminology registry](ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md)** | Definitions and distinctions specific to the current frontier |
