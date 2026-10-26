@@ -1,0 +1,81 @@
+# Research status and evidence ledger
+
+**Snapshot:** 2026-10-26 (public-facing summary of the last completed native checkpoint, **YM-R103**, dated 2026-10-14).  
+**Next native cursor:** YM-R104, **not consumed**.  
+**Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
+
+This page is an index, not an independent theorem or a replacement for the pass records. The [R103 checkpoint](ym/checkpoints/YM_HEAD_R103_20261014.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+
+## Evidence levels
+
+| Label | Meaning |
+| --- | --- |
+| **Abstract derivation** | Mathematical statement proved under its explicitly written hypotheses; applicability to the actual Bałaban RG objects may remain open. |
+| **Source-text witness** | A primary paper's theorem or construction was located in a third-party text transcription. Original publisher page-image verification of formulas may still be outstanding. |
+| **Secondary locator** | A non-primary source identifies notation or equation structure. It is not itself custody of the claimed primary theorem. |
+| **Conditional native interface** | A plausible application to the actual lattice-gauge/cutoff objects, contingent on specific not-yet-proved hypotheses. |
+| **Open native gate** | The project does not have an adequate source-backed or self-contained proof for the required implication. |
+| **Counterexample / negative control** | Demonstrates that a tempting *general inference* is invalid; it does not refute the specific desired Yang–Mills theorem. |
+
+The labels describe the research notebook's internal evidence assessment, **not independent peer review**. “Source-text witness” must not be promoted to exact equation custody if OCR has damaged indices, signs, constants, or hypotheses.
+
+## Selected results and their limits
+
+| Pass | Finding in the research record | Evidence and limitation |
+| --- | --- | --- |
+| [R75](ym/passes/YM_R75_BETA_INDEX_SEMANTICS_PHYSICAL_SCALE_STATIONARITY_20260922.md) | The scale label on the traced marginal beta coefficient is a blocking/source-scale label. Aligned physical lattice spacings reduce the desired scalar comparison to covariance of the **fresh one-step vacuum-polarization extraction**. | **Secondary locator + abstract implication.** Physical-scale matching does not by itself prove equality of the one-step polarization tensors. |
+| [R102](ym/checkpoints/YM_HEAD_R102_20261014.json) | On a fixed localization apparatus, localization is linear in its analytic input. For actual differing histories, a second operator-motion term remains. | **Abstract algebra / conditional native interface.** No uniform rooted history-response norm was established. |
+| [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | Bałaban CMP 99(3), Theorem 3.14, concerns differences between **two admissible spatial domain sequences**. Common-overlap random-walk cancellation produces extra spatial-distance decay. | **Third-party primary-paper text witness**, with exact original-image formula custody outstanding. This is not a theorem about different backgrounds or inherited couplings. |
+| [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | An operator change can be split into a domain-motion term and a background/coefficient-motion term **once both objects are on a common carrier**. Uniform-contraction fixed-point difference inequalities are proved abstractly. | **Abstract derivations; native hypotheses open.** The necessary common weighted norm, contraction margin, operator bounds, and carrier transport have not been certified for the two histories. |
+| [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | Same-domain/different-background and nonuniform-contraction toy examples prevent automatic promotion of spatial locality or per-instance contraction to historical stability. | **Negative controls.** These locate invalid shortcuts, not a disproof of the target theorem. |
+
+Source provenance and page/line locations for R103 are recorded in its [source receipt](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md); current terms are disambiguated in the [terminology registry](ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md).
+
+## Native unresolved obligations
+
+This table transcribes and groups the open gates of [YM-R103](ym/checkpoints/YM_HEAD_R103_20261014.json); it does not close or reclassify them.
+
+| Gate | Status | Minimum next evidence |
+| --- | --- | --- |
+| Same-background, two-domain admissibility on the *actual* compared cutoffs | **Conditional** | Show both domain sequences meet the exact source hypotheses with matching local coefficients. |
+| Domain-marked comparison for the constrained covariance and any needed square-root/root carrier | **Open** | Verify propagation of the CMP99(3) mark beyond Theorem 3.14 to the later covariance construction. |
+| Background/coupling-dependent operator motion | **Open** | Obtain a quantitative difference estimate in a shared admissible background chart. |
+| CMP116 nonlinear minimizer uniform weighted contraction and Lipschitz response | **Open** | Common source Banach space, domain, and a **uniform** contraction margin. |
+| Weakening-parameter derivatives and positively summable marked estimates | **Open** | A compatible complex domain and rooted resummation estimate for moving propagators and nonlinear compositions. |
+| True two-cutoff gauge/carrier matching | **Open** | Explicit identification of constraints, Gaussian carriers, normalization, and source charts. |
+| Historical relative input estimate for inherited E terms | **Open** | A source-native weighted norm with the needed history-age or UV-excess decay. |
+| Vacuum-polarization / beta-history covariance and Bałaban Eq. (0.29) positive-alpha residual | **Open** | Verified primary formulas and an estimate in the actual marginal/residual decomposition, rather than formal alignment alone. |
+| Large-field control, continuum limit, OS reconstruction and physical mass gap | **Open** | Complete construction with the required volume/cutoff limits and independently proved reconstruction and spectral properties. |
+
+**Original-image hold:** The exact original page images for CMP 109 Eq. (0.29), (5.37), and (5.42) were not certified in the last checkpoint. The CMP99(3) Eq. (3.154) OCR symbols also require direct image checking.
+
+## Why domain locality is not yet history stability
+
+For a common typed operator carrier, the R103 decomposition is
+
+```text
+K(Ω1,U1) − K(Ω0,U0)
+  = [K(Ω1,U1) − K(Ω0,U1)]      (domain motion)
+  + [K(Ω0,U1) − K(Ω0,U0)]      (background/coefficient motion)
+```
+
+The source-text domain mark potentially controls the first bracket **under its own hypotheses**. It does not, alone, bound the second bracket or establish that two cutoff-dependent Gaussian/gauge carriers have been identified. Spatial distance to a changed domain boundary and *age of an RG history perturbation* are different quantities.
+
+## Gate-closure rule
+
+To mark a native gate closed, a new pass must:
+
+1. State the exact theorem/estimate, including fields, scales, cutoff indices, function spaces, and constants.
+2. Cite the primary source *at equation/page level* or provide a self-contained proof; flag any unverified transcription.
+3. Establish an explicit interface to the actual two-cutoff objects, not just an analogous abstract lemma.
+4. Verify uniformity and summability in the needed cutoff, volume, scale, and source norms.
+5. State any remaining assumptions and provide a counterexample check against the nearest tempting invalid inference.
+6. Update the checkpoint and terminology/source receipts without rewriting historical passes.
+
+## Immediate next work
+
+**YM-R104 (native, open):** source-audit CMP99(3) background-analytic derivative/Lipschitz estimates at fixed domains; compare with CMP116 weighted fixed-point and weakening operations; establish or obstruct a true common current/gauge carrier. Preserve the distinction between spatial-domain marks and history-age response.
+
+**YM-EXT-01 (proposed external comparison, not a completed pass):** use [EXTERNAL_RECONCILIATION.md](EXTERNAL_RECONCILIATION.md) to test external accounts against these *specific* native gates.
+
+There is **no proof-completion schedule implied** by the number of passes, pages, or formal lines written.
