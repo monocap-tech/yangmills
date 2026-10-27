@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R105 (completed as applicability/negative-control audit on 2026-10-26); YM-R106 (unconsumed).  
+**Research frontier:** YM-R106 (completed as finite-Wilson test-cospan and conditional law cutset on 2026-10-26); YM-R107 (unconsumed).  
 **Prepared:** 2026-10-26.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -28,6 +28,8 @@ The project also derives an elementary but useful *conditional* fixed-point stab
 ```
 
 Its abstract proof is not a proof that a uniform source-weighted `q`, matched nonlinear charts, or appropriately marked operator differences exist for the actual two-cutoff construction. R103 gives counterexamples against making those transfers without hypotheses.
+
+**YM-R106 addition:** an explicit aligned SU(2) finite-Wilson loop observable cospan compares two full normalized cutoff laws through their gauge-invariant half-trace, while an exact abstract coupling criterion requires equality of the *distributions* of the shared source data (or pays their TV mismatch). Proper small-field sectors have positive full Wilson complement probability. The joint-law inequality must keep matched-fiber response, data-law TV and complement masses separate; **none has a native uniform bound yet**. See [YM-R106](ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md).
 
 ## Target-specification hold
 
