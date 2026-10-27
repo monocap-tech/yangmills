@@ -1,0 +1,81 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-26",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R109_20261026.json",
+  "passes_completed_through": "YM-R110",
+  "live_cursor": "YM-R111",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_PRE_LINEARIZATION_CHI_PULLBACK_TYPED;SOURCE_CONSTRAINED_GAUSSIAN_EXPONENTIAL_LAW_DEFINED;EXACT_CUTOFF_AND_INTERACTION_TILT_DECOMPOSITION;CONDITIONAL_GAUSSIAN_TV_TAIL_KL_GATES;ACTUAL_TWO_CUTOFF_HISTORY_OPEN",
+  "completed_scope": "Source printed-page CMP109 (2.1),(2.3),(2.9)-(2.13) checked. Corrected pre-linearization chi versus final Gaussian B event, constructed conditional fixed-background normalized fluctuation law and rigorous conditional cutoff/interactions/Gaussian comparison estimates. Source chart norm, quantitative parameters and two-cutoff pairing remain open.",
+  "positive_results": [
+    "Source Eq (2.9) cutoff on pre-linearization B' must be pulled back along later nonlinear/rescaled Gaussian coordinate changes rather than treated as a box in final B.",
+    "Source (2.13) defines (subject to real positive integrability) normalized finite-step law nu proportional to pulled-back chi times full exp interaction relative to constrained Gaussian C^(k).",
+    "Exact partition split Z=p E_{gaussian conditioned chi}[exp R] and TV cutoff/interaction bound q+tanh(osc R/4).",
+    "Conditional pulled-back Gaussian tail gate in actual source theta branch, separating chart exit, nonlinear correction, covariance component variance and bond count; fixed and coupling-scaled thresholds have different asymptotics.",
+    "Conditional common-coordinate 2-Gaussian KL/Pinsker comparison; actual independent UV histories have no certified shared Gaussian coordinate passport.",
+    "Source background-dependent Gaussian normalization Z^(k)(U(V)) cancels in conditional fixed-U B law but not in pushed coarse V law."
+  ],
+  "source_provenance": {
+    "CMP109_printed_scan": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "inspected_pdf_page_indices_zero_based": [
+      5,
+      6,
+      16,
+      17,
+      18,
+      19
+    ],
+    "inspected_printed_pages": [
+      254,
+      255,
+      265,
+      266,
+      267,
+      268
+    ],
+    "verified_equations": [
+      "(0.15)",
+      "(0.17)",
+      "(0.19)",
+      "(2.1)",
+      "(2.3)",
+      "(2.9)",
+      "(2.10)",
+      "(2.12)",
+      "(2.13)"
+    ],
+    "scan_type": "PRINTED_PAGE_IMAGES_THIRD_PARTY_HOST_NO_PUBLISHER_CHAIN",
+    "CMP102b_original_images": "OPEN",
+    "CMP98_original_images": "OPEN",
+    "CMP109_029_537_542": "OPEN"
+  },
+  "native_gates": {
+    "FP_orbit_normalizer": "CLOSED_SOURCE_IMAGE_R109",
+    "chi_pre_to_gaussian_pullback_type": "LOCATED_SOURCE_FORMULA_QUANTITATIVE_PHI_OPEN",
+    "constrained_gaussian_covariance": "SOURCE_IMAGE_LOCATED",
+    "conditional_B_law": "CONSTRUCTED_UNDER_POSITIVE_REAL_FINITE_HYPOTHESES",
+    "source_cutoff_partition_split": "EXACT",
+    "source_nonGaussian_osc_TV_gate": "PROVED_CONDITIONAL_ACTUAL_OSC_OPEN",
+    "source_Gaussian_exit_bound": "PROVED_CONDITIONAL_DELTA_V_CHART_OPEN",
+    "source_threshold_branch": "TWO_ALTERNATIVES_VISIBLY_CONFIRMED_NO_UNIFORM_RATE",
+    "common_coordinate_gaussian_comparison": "PROVED_CONDITIONAL_ACTUAL_PAIR_PASSPORT_OPEN",
+    "background_determinant_in_coarse_V_density": "MUST_TRANSPORT_OPEN",
+    "actual_M_source_choice": "OPEN",
+    "actual_Omega_V_two_UV_history_pair": "OPEN",
+    "source_full_normalized_coarse_V_law": "OPEN",
+    "uniform_summability_and_large_field": "OPEN",
+    "beta_Eq029": "OPEN",
+    "continuum_OS_positive_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R110_CMP109_FLUCTUATION_PULLBACK_GAUSSIAN_LAW_20261026.md",
+    "ym/source_receipts/YM_R110_CMP109_FLUCTUATION_SOURCE_RECEIPT_20261026.md",
+    "ym/terminology/YM_R110_TERMINOLOGY_REGISTRY_20261026.md",
+    "ym/checkpoints/YM_HEAD_R110_20261026.json"
+  ],
+  "next_action": "YM-R111 choose actual CMP109 M and legal odd L>11 on aligned pair; reconstruct Phi including quadratic constraint-linearizing D, chart event and source threshold; compute/prove delta variance exit and inherited E/determinant transport, then a true common observable/coarse data law; do not claim UV rate.",
+  "safety_boundary": "Conditional normalized one-step fluctuation measure does not entail full Wilson/RG two-cutoff probability law, continuum Yang-Mills existence, OS reconstruction or mass gap."
+}
