@@ -1,0 +1,16 @@
+# YM-R104 — additive terminology registry (2026-10-26)
+
+Native pass: [YM-R104](../passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md). Historical terms R1–R103 retained without modification.
+
+- **CMP99RelativeBackgroundCorridor:** CMP99(3) (3.35)–(3.38), especially (3.37): source-local complex background chart \(U'U\), \(U'=e^{i\eta A}\), with specified scale-dependent bounds on \(A\) and covariant derivatives. **Not** the statement that arbitrary two cutoff histories share a chart.
+- **CMP99Theorem34Analyticity:** source-text analytic continuation of listed same-domain propagators and projectors around a regular \(U\) in the above corridor, with bounds from Theorems 3.1–3.3. Original publisher image not inspected.
+- **BackgroundResolventSmallness:** CMP99(3) (3.64)–(3.65) for \(G'\), (3.84)–(3.86) for main \(G\): same-domain relative-background operator perturbation in an admissible chart; eligible remainders gain source relative-size parameter \(\alpha_1\). **Not** history-age or UV-depth decay.
+- **RelativeAmplitudeVsHistoryAge:** \(\alpha_1\) measures the smallness admitted by (3.37); no identification \(\alpha_1=O(L^{-cN})\) for actual cutoff backgrounds was recovered.
+- **IntermediateBackgroundAdmissibility:** to telescope \(K(\Omega_1,U_1)-K(\Omega_0,U_0)\) via \(K(\Omega_0,U_1)\), that intermediate must exist in the common chart and both domain sequences must be source-admissible for the same \(U_1\).
+- **GaugeCovarianceNotCarrierMatch:** CMP99(3) (3.33)–(3.34) gives gauge covariance *on a fixed source lattice*. An actual \(N\) versus \(N+1\) transporter must additionally identify variables, constraints, fluctuation Gaussian spaces, domain geometry, and normalization.
+- **CMP116AnalyticMinimizerCorridor:** CMP116 (1.11)–(1.18), (1.23)–(1.25), (1.33)–(1.36) describe analytic weakener/nonlinear-source maps and localized single-apparatus estimates on specified complex domains. **Not** a uniform two-history minimizer difference estimate.
+- **NativeBackgroundPairChartGap:** absence of an explicit transported \(U_{N+1,j+1}=e^{i\eta A_{N,j}}U_{N,j}\) representation with admissible (3.37) norm and summable source-relative amplitude. Primary live frontier for YM-R105.
+- **CovarianceCarrierRootGap:** CMP99(3) (3.156)–(3.158), (3.185)–(3.187) describe constrained Gaussian covariance/decay on a source trajectory; no verified equality or perturbation bound for two cutoff-dependent parametrizations \(C_N,C_{N+1}\), covariance roots or normalizations.
+- **SourceTextPositiveNativeTransferOpen:** category for a **real source lemma** whose analogous native two-cutoff application has *not* been proved. It is neither “invented abstract lemma” nor “native closure.”
+
+Evidence: third-party paper transcriptions pinned in [R104 source receipt](../source_receipts/YM_R104_CMP99_BACKGROUND_RESPONSE_RECEIPT_20261026.md), with publisher bibliographic identification independently confirmed. No new bibliography [93]; no mass-gap or continuum existence claim.
