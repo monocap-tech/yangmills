@@ -1,0 +1,65 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R124_20261027.json",
+  "passes_completed_through": "YM-R125",
+  "live_cursor": "YM-R126",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP102_SECT_G_PROP9_EQ190_PRIMARY_IMAGES_UNRECOVERED;CONDITIONAL_HK_DERIVATIVE_EXPONENTIAL_KERNEL_YIELDS_UNIFORM_ROW_SUM_COTH4;CONDITIONAL_TWO_INDEPENDENT_UV_WINDING_OBSERVABLE_W1_BOUND_WITH_CUTOFF_EXIT_Q;TV_REFUTED_BY_DIRAC_NEGATIVE_CONTROL;ACTUAL_SOURCE_NORMALIZED_OMEGA_V_COVARIANCE_OPEN",
+  "positive_results": [
+    "CMP109 original p265 after (2.3) refers Hk(B') analytic regularity to CMP102 Sect G [15], CMP109 p271 (3.8)-(3.9) cites Prop9 Eq(190) for exponential derivative decay. CMP102 original mathematical pages not recovered, only publisher preview and independent secondary map.",
+    "Conditional original fine-link Hk derivative kernel ||D_b' H_b(tB')||<=A exp(-kappa d1(b,b')), H(0)=0, theta bounded independent B': ||H||inf<=m A coth(kappa/2)^4 theta, m<=4 oriented bonds per site in 4D; uniform in volume if A,kappa uniform.",
+    "Combining conditional C_H with R124 physical plaquette transfer gives sufficient R122 chart 666(epsilon0 eta_k^2+4 eta m A coth(kappa/2)^4 theta)<1 on complete source-supported halo.",
+    "Given two actual normalized cutoff histories with same prescribed Omega,V and aligned winding cycles, GOOD events with each stage real source M delta yield scalar Wilson errors e_i=sum_j n_ij delta_ij and bad probabilities q_i.",
+    "Conditional Wasserstein-1 and 1-Lipschitz expectation discrepancy bounded by min(2,e0+e1+2(q0+q1)); no explicit inter-UV coupling of full fields required once normalized marginal laws and common V exist.",
+    "Total variation does NOT follow from closeness to V: delta masses at +/-epsilon have W1=2epsilon but TV=1; exact code verifies arithmetic.",
+    "No source actual Hk A/kappa, b0 constrained derivative, Omega collars, source q_i/normalization or paired UV law proved."
+  ],
+  "source_provenance": {
+    "CMP109_original_paper_source": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_original_paper_OCR_blob": "f1aec083a3a6470c67a2c1205ca740c2583fe37a",
+    "CMP109_OCR_lines": [
+      [
+        853,
+        864
+      ],
+      [
+        895,
+        961
+      ],
+      [
+        1128,
+        1142
+      ]
+    ],
+    "CMP102_DOI": "https://doi.org/10.1007/BF01229381",
+    "CMP102_Springer_preview": "https://link.springer.com/article/10.1007/BF01229381",
+    "CMP102_original_Prop9_Eq190": "UNRECOVERED",
+    "CMP102_secondary_crosswalk": "https://rikai.mugen-giken.com/physics/gauge-rg-papers/balaban-prereq-variational",
+    "computation": "ym/computations/YM_R125_KERNEL_ROW_SUM_AND_WINDING_LAW_20261027.py"
+  },
+  "native_gates": {
+    "Hk_source_analytical_reference": "SOURCE_REF_LOCATED",
+    "CMP102_original_prop9_kernel": "UNRECOVERED_SOURCE_IMAGE_NO_NUMERIC_A_KAPPA",
+    "uniform_four_dimensional_row_sum": "PROVED_CONDITIONAL",
+    "physical_R122_original_field_entry": "CONDITIONAL_ON_SOURCE_A_KAPPA_CHART_OMEGA",
+    "common_V_winding_scalar_transport": "PROVED_CONDITIONAL_ON_ACTUAL_M_HISTORY_AND_ALIGNED_HOMOLOGY",
+    "two_independent_UV_normalized_winding_W1": "PROVED_CONDITIONAL_ON_NORMALIZED_LAWS_E_Q",
+    "TV_from_winding_W1": "FALSE_COUNTEREXAMPLE",
+    "full_OMEGA_V_source_law_normalization": "OPEN",
+    "CMP99_Ak_Deltak_original_precision": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R125_CMP102_KERNEL_GATE_AND_WINDING_OBSERVABLE_LAW_20261027.md",
+    "ym/source_receipts/YM_R125_CMP102_HK_AND_WINDING_LAW_SOURCE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R125_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/computations/YM_R125_KERNEL_ROW_SUM_AND_WINDING_LAW_20261027.py",
+    "ym/checkpoints/YM_HEAD_R125_20261027.json"
+  ],
+  "next_action": "YM-R126 obtain original CMP102 Sect G Proposition 9 (182-190) source source estimates for Hk, exact weighted norms, Ω regional collars and constrained special b0 chart, then native χ_k cutoff-exit q_i and normalized conditional Ω,V law sufficient to instantiate R125 winding W1. CMP99 reduced Gaussian late covariance still independent.",
+  "safety_boundary": "Row-sum and normalized scalar W1 are conditional. No actual source two-UV law, total variation, existence, OS reconstruction or physical mass gap."
+}

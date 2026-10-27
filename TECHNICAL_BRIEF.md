@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R124 (source Landau fluctuation curvature and global winding Wilson preservation, 2026-10-27); YM-R125 (unconsumed).  
+**Research frontier:** YM-R125 (CMP102 derivative kernel source gate and conditional winding-observable Wasserstein, 2026-10-27); YM-R126 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -65,7 +65,13 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 
 **R124 physical/global source caution:** On a legal real SU2 original fine field after the source Landau gauge change, ηphysical≤ηbackground+4η||Hk||∞. Hk≤CH θk on all original bonds is still a CMP102 source obligation; no numeric CH or uniform Ω halo is certified. Independently flat periodic SU2 configurations share η=0 yet differ in winding Wilson trace. The genuine CMP109 M preserves flat winding exactly when source ribbons are contractible; near-flat aligned winding error ≤n times the R122 local bound. Global winding data should be preserved via the full V, not by curvature-only labels. [R124](ym/passes/YM_R124_FLUCTUATION_CURVATURE_CHART_AND_GLOBAL_HOLONOMY_PASSPORT_20261027.md).
 
+**YM-R125 evidence boundary:** CMP102 Sect G Prop9/(190) original-page numerical Hk kernel is UNRECOVERED. A hypothetical 4D uniformly decaying independent-bond derivative gives CH=mA coth(κ/2)^4 and conditional physical chart. For two actual normalized cutoff laws with same Ω,V and aligned winding, the Wilson scalar pushforwards satisfy W1≤e0+e1+2(q0+q1) if each history has valid all-stage source M error e_i and bad-event probability q_i. Source q_i/normalizers and the actual two histories are OPEN. W1 does not imply TV. [R125](ym/passes/YM_R125_CMP102_KERNEL_GATE_AND_WINDING_OBSERVABLE_LAW_20261027.md).
+
 ## Evidence anchors
+
+- [YM-R125 checkpoint](ym/checkpoints/YM_HEAD_R125_20261027.json)
+- [YM-R125 source/kernel and law audit](ym/passes/YM_R125_CMP102_KERNEL_GATE_AND_WINDING_OBSERVABLE_LAW_20261027.md)
+- [YM-R125 exact row-sum and TV negative control](ym/computations/YM_R125_KERNEL_ROW_SUM_AND_WINDING_LAW_20261027.py)
 
 - [YM-R124 checkpoint](ym/checkpoints/YM_HEAD_R124_20261027.json)
 - [YM-R124 physical and winding audit](ym/passes/YM_R124_FLUCTUATION_CURVATURE_CHART_AND_GLOBAL_HOLONOMY_PASSPORT_20261027.md)
