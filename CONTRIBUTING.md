@@ -8,7 +8,7 @@ This is an **open, unproved, AI-assisted research notebook** on aspects of Bała
 2. Name the **native pass, theorem/equation, source page, and repository commit** you are checking.
 3. Provide the **full hypotheses**, including group, norms, scales, field domains, quantifiers, and uniformity constants if known. Say explicitly when an original page image or precise notation has **not** been checked.
 4. Classify your finding as a **source correction, verified abstract lemma, conditional interface, obstruction/counterexample, or candidate native proof**. Do not mark a source locator or analogy as theorem closure.
-5. Explain how your conclusion affects one of the live YM-R103/R104 gates and provide a minimal independent way to audit it.
+5. Explain how your conclusion affects one of the live YM-R104/R105 gates and provide a minimal independent way to audit it.
 
 A minimal report can use:
 
@@ -25,7 +25,7 @@ Remaining assumptions:
 ## Research-history policy
 
 - Keep completed YM-R1–R103 passes and canonical checkpoints append-only where practicable; use [dated errata](REVIEW_ERRATA_20261026.md) rather than silently rewriting historical claims.
-- Do not rename or consume **YM-R104** without conducting the native research audit and updating its evidence ledger.
+- Do not rename or consume **YM-R105** without conducting the native research audit and updating its evidence ledger. YM-R104 is preserved as a source-text positive result with two-history transfer still open.
 - Keep speculative comparison **YM-EXT-01** distinct from native theorem proof.
 - Third-party manuscripts and original articles should be linked and attributed, not bulk copied. Supply only material you have rights to contribute.
 - Declare when text, proof searches, computations, or mathematical statements were AI-assisted, and what was independently checked. Never imply an AI output is formally verified without the actual artifacts and theorem statement.
