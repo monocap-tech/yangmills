@@ -1,0 +1,59 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R117_20261027.json",
+  "passes_completed_through": "YM-R118",
+  "live_cursor": "YM-R119",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_SYMMETRIC_CONTOUR_VS_CMP98_SINGLE_CONTOUR_LOCAL_HALF_PLAQUETTE_CURL_EXACT;GAUGE_FIXING_SLICE_SHEAR_PURE_GRADIENT;CMP98_CMP99_GAUGE_SIGNATURE_COMMON_CHART_TEST;CMP99_NESTED_SITE_GAUGE_SHELL_OUTPUT_SOURCE_TYPED;FULL_M_DERIVATIVE_COVARIANCE_AND_TWO_UV_LAW_OPEN",
+  "completed_scope": "Read CMP98 (11),(14),(15), CMP99 (3.13)-(3.19),(3.114)-(3.115) and original citation [5]=CMP98, CMP109 (0.4),(0.8),(0.11),(0.12). Derived and independently executed exact rational four-edge test: new symmetric path contour linearization differs from fixed xy path by -1/2 plaquette curl, annihilates pure gauge gradients, but has nontrivial curvature response; source gauge-fixing slice shear remains a pure gradient. Discovered a conditional gauge-action/source-signature conflict if CMP98 endpoint rule and CMP99 averaged-site rule are assumed same Q and background. Typed actual nested annular site Q' and conditional full coarse averaging difference decomposition. No full CMP109 link derivative, source covariance or UV histories.",
+  "positive_results": [
+    "Exact local source-shaped CMP109 (0.11) versus CMP98-style fixed path first variation: (Fnew-Fold)A=-1/2 dA(p) on two shortest paths to displacement (1,1).",
+    "Executed independent rational Python four-bond test: curl grad=0, difference -curl/2, source-local example -1/2, one-row norm squared 2 old versus 1 sym; reproducible script in repository.",
+    "If the two contour gauges have identical based-gradient right inverse F K=I, their gauge-slice projectors differ by -K(Fnew-Fold), a pure gauge shift despite curvature-sensitive coordinate difference.",
+    "SU2 identity traced Wilson loop first derivative vanishes in all directions, so use Lie-algebra plaquette flux or second-order trace for detecting curvature response.",
+    "Source CMP98 (11) endpoint gauge covariance and CMP99 (3.115) gauge-site averaging must not be combined as equal Q on a shared source domain without resolving D_c(E-Q')=0; declared two-block model refutes unconditional identification.",
+    "CMP99 complete Q' has annular shell outputs at multiple scales; source regional cross-shell lift rank and Omega Dirichlet compatibility remain open.",
+    "Full old/new coarse averaging difference separates into conditional coarse pure-gauge and transverse terms; neither is assigned a source numerical bound."
+  ],
+  "source_provenance": {
+    "CMP98_OCR_blob": "1442f25d63ef4189608e73bff05c2a359c16c01d",
+    "CMP99_OCR_blob": "ce5af9ff9165b3e1a995f4c141c0bc0ca9fc6743",
+    "CMP109_OCR_blob": "f1aec083a3a6470c67a2c1205ca740c2583fe37a",
+    "CMP109_image_past": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "new_original_page_images": "NONE; ORIGINAL_PAPER_OCR_TEXT_RE_READ",
+    "source_equations": [
+      "CMP98 (11),(14),(15)",
+      "CMP99 (3.13)-(3.19),(3.114)-(3.115)",
+      "CMP109 (0.4),(0.8),(0.11),(0.12)"
+    ],
+    "rational_computation": "ym/computations/YM_R118_CONTOUR_CURVATURE_MATRIX_20261027.py",
+    "CMP99_late_3157_3158": "UNREADABLE_ORIGINAL_OCR_IMAGES_OPEN"
+  },
+  "native_gates": {
+    "CMP109_symmetric_two_contour_first_variation": "EXACT_SOURCE_SHAPED_LOCAL_CALCULATION",
+    "four_edge_rational_verification": "EXECUTED_PASS",
+    "gauge_gradient_annihilation": "EXACT",
+    "source_same_based_gauge_slice_shear": "DERIVED_ON_IDENTICAL_FINITE_CHART",
+    "CMP98_vs_CMP99_same_gauge_signature": "REFUTE_NAIVE_IDENTIFICATION; ACTUAL_SOURCE_BACKGROUND_MATCH_OPEN",
+    "full_CMP98_vs_CMP109_M_link_derivative": "OPEN",
+    "CMP99_nested_Qprime_shell_output": "SOURCE_TYPED_RANK_OPEN",
+    "regional_Omega_Dirichlet_collar_and_homology": "OPEN",
+    "CMP99_late_Deltak_Ak_source_image": "OPEN",
+    "CMP109_source_uniform_Q_and_variance": "OPEN",
+    "two_UV_prescribed_V_and_Omega_normalized_law": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R118_CMP98_CMP99_CMP109_CONTOUR_CURVATURE_AND_GAUGE_SIGNATURE_AUDIT_20261027.md",
+    "ym/source_receipts/YM_R118_CONTOUR_AND_INTERTWINER_SOURCE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R118_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/computations/YM_R118_CONTOUR_CURVATURE_MATRIX_20261027.py",
+    "ym/checkpoints/YM_HEAD_R118_20261027.json"
+  ],
+  "next_action": "YM-R119 source resolve CMP98 (11) vs CMP99 (3.115) background-dependent gauge action and genuine map compatibility; compute full CMP109 (0.4) coarse link first derivative versus CMP98 (15) on one legal L13 SU2 block, retaining curvature and gauge components separately; nested Q'_j source rank and CMP99 (3.157)-(3.158) remain source image holds. No invented gamma or two-UV TV.",
+  "safety_boundary": "Four-edge contour curvature is local source mathematics, not native full coarse averaging equality, uniform covariance, paired RG law, continuum YM OS construction or mass gap."
+}
