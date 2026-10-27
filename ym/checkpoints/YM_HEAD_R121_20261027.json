@@ -1,0 +1,39 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R120_20261027.json",
+  "passes_completed_through": "YM-R121",
+  "live_cursor": "YM-R122",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109 half-shift fine grid to CMP95-CMP98 corner graph matching; exact periodic one-step cell under stated old L4 partition; affine multilevel shifts telescope; two-stage geometric lift SU2 2808 plaquette swap bound; actual RG law open",
+  "positive_results": [
+    "Source CMP109 printed (0.1),(0.3),(0.4) half shifted lattice and centered block",
+    "Translation x+h/2 maps conventional old full L4 corner block to CMP109 centered L4 fine samples on equal-period torus",
+    "At h_j=L^j h, shifts t_j=r h_j telescope",
+    "L13 d4 two-stage lifted fine paths require 2808 plaquette swaps (468 per coordinate pair) and obey unitary holonomy bound <=min(2,2808 eta)",
+    "Exact Python 28561-site and six-plane test passed"
+  ],
+  "native_gates": {
+    "CMP109_half_shift": "ORIGINAL_PRINTED_IMAGE",
+    "CMP95_CMP98_corner": "ORIGINAL_PAPER_OCR",
+    "one_step_affine": "PROVED_CONDITIONAL_ON_OLD_FULL_HALFOPEN_BLOCK",
+    "multiscale_sites": "PROVED_ON_UNRESTRICTED_PERIODIC_GRAPH",
+    "fine_holonomy_cocycle": "PROVED_NOT_RG_COMPOSITION",
+    "actual_source_MU_v_fine_lift": "OPEN",
+    "regional_Omega_Lambda_dirichlet": "OPEN",
+    "CMP99_late_covariance_and_Qprime": "OPEN",
+    "two_UV_normalized_law": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R121_AFFINE_HALF_SHIFT_AND_MULTISCALE_TRANSPORT_COCYCLE_20261027.md",
+    "ym/source_receipts/YM_R121_SOURCE_AFFINE_HALF_SHIFT_AND_COCYCLE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R121_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/computations/YM_R121_AFFINE_HALF_SHIFT_AND_PATH_COCYCLE_20261027.py",
+    "ym/checkpoints/YM_HEAD_R121_20261027.json"
+  ],
+  "next_action": "YM-R122 source-permitted regional tau and bridge and nonlinear M(U) versus fine geometric lift; then CMP99 covariance and two UV laws; no mass-gap proof."
+}
