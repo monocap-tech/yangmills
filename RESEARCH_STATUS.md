@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R114**, source CMP109 positive gauge quadratic and based gauge-extension criterion; historical passes retained).  
-**Next native cursor:** YM-R115, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R115**, CMP99/CMP109 quotient gauge-slice transport and precision normalization audit; historical passes retained).  
+**Next native cursor:** YM-R116, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R114 checkpoint](ym/checkpoints/YM_HEAD_R114_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R115 checkpoint](ym/checkpoints/YM_HEAD_R115_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -72,6 +72,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R114](ym/passes/YM_R114_CMP109_BASED_GAUGE_QUADRATIC_EXTENSION_20261027.md) checks printed CMP109 (2.5): exponential gauge fixing contributes an explicit nonnegative quadratic sum of squared linear source holonomy coordinates and a cubic remainder. At identity SU2 and based fine-site gauge, linearized source coarse average D and gauge coordinate F satisfy DK=0 and FK=I (up to sign). Thus the fixed-average tangent W splits into W intersect ker F plus based-gauge directions. If the true source Wilson Hessian is coercive by gamma on the *matching* hard slice, then H0+beta F*F has lower bound min(gamma/2,beta/32) in standard unweighted four-dimensional nearest-neighbor coordinates. **This is conditional; CMP99 hard delta slice, exact Hessian norm and original page equations remain OPEN.** Full normalized two-cutoff measures, determinants, large-field and mass gap remain unproved. [Source receipt](ym/source_receipts/YM_R114_CMP109_GAUGE_QUADRATIC_CMP99_ACCESS_RECEIPT_20261027.md).
 
+## YM-R115 gauge quotient and second precision carrier gap
+
+[YM-R115](ym/passes/YM_R115_CMP99_CMP109_HARD_SLICE_QUOTIENT_AND_PRECISION_SPLIT_20261027.md) reads the original-paper CMP99 OCR (3.110),(3.112),(3.155)–(3.158),(3.169)–(3.185). CMP99 writes hard gauge R D* while CMP109's positive gauge quadratic uses based path-holonomy coordinates F. At a real identity SU2 block, if the hard selector G=RD* has invertible GK on the identical based parameter domain E, the quotient projections P_F=I-KF and P_G=I-K(GK)^-1G give an exact isomorphism between hard slices. The SAME physical gauge-invariant Hessian lower bound transports with factor (1+||K||||F||)^-2. In d=4 this yields conditional soft coercivity min(gamma_G/[2(1+4||F||)^2],beta/32). **Independently**, CMP99's OCR lower-bound sentence is about C*Delta_k C, while (3.156) uses A_k; neither is automatically the required physical Hessian H0. The precise (3.157)–(3.158) covariance/normalization bridge and original images remain OPEN. No native rank, norm, spectral constant or paired two-UV law has been certified. [R115 source receipt](ym/source_receipts/YM_R115_CMP99_HARD_SLICE_AND_PRECISION_RECEIPT_20261027.md).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -119,7 +123,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R115 (native, open):** identify the source CMP99 hard delta gauge slice and compare it to CMP109 based-holonomy ker F on the same linearized constraint W for L=13 SU2 vacuum; prove or obstruct a quantitatively controlled slice transport and CMP99 lower-bound transfer, without silently changing normalized measures. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R116 (native, open):** source-verify the exact CMP99 reduced covariance identity (3.155)–(3.158), Delta_k/A_k/H0 relation and the actual hard RD* gauge operator rank GK, boundary and F locality on one legal CMP109 identity block; then attempt native gamma and two-history laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 

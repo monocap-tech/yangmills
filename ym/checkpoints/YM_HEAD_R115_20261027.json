@@ -1,0 +1,65 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R114_20261027.json",
+  "passes_completed_through": "YM-R115",
+  "live_cursor": "YM-R116",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP99_RDSTAR_HARD_SLICE_LOCATED_OCR;CMP109_PATH_F_SOFT_GAUGE;EXACT_QUOTIENT_SECTION_TRANSFER_CONDITIONAL_ON_GK_INVERTIBLE;SEPARATE_CSTAR_DELTAK_C_VS_AK_H0_PRECISION_GAP;SOURCE_GAMMA_AND_TWO_UV_LAW_OPEN",
+  "completed_scope": "Direct re-read original-paper third-party CMP99 OCR at (3.110),(3.112),(3.155)-(3.158),(3.169)-(3.185), contrasting hard RD* selector to CMP109 based holonomy F. Derived exact finite gauge quotient slice transport and conditional hard physical Hessian coercivity lower bound. Identified second independent CMP99 reduced precision C*Delta_k C versus A_k/H0 ambiguity. No source GK rank, true gamma_G, F norm or two-history law is established.",
+  "positive_results": [
+    "CMP99 hard gauge selector RD* in source OCR is a different written functional from CMP109 based path holonomy F; mere label 'gauge fixing' is not a chart match.",
+    "On W=ker D with FK=I and native GK invertible, P_F=I-KF and P_G=I-K(GK)^-1G identify both gauge quotient sections exactly.",
+    "If the SAME physical H0 is positive by gamma_G on CMP99 hard slice, it is >=gamma_G/(1+||K||||F||)^2 on CMP109 holonomy slice; with source soft quadratic H0+beta F*F and d=4 ||K||<=4 obtains min(gamma_G/[2(1+4||F||)^2],beta/32).",
+    "CMP99 positivity OCR after (3.158) explicitly refers to C*Delta_k C while (3.156) uses A_k; the latter and physical H0 are not established as the same precision. This is a second independent normalization/operator obligation.",
+    "Source CMP99 internally discusses delta-to-exponential Faddeev-Popov change, motivating exact quotient chart recovery but not proving actual pair matching."
+  ],
+  "source_provenance": {
+    "CMP99_OCR_blob": "ce5af9ff9165b3e1a995f4c141c0bc0ca9fc6743",
+    "source_ranges": [
+      [
+        1384,
+        1419
+      ],
+      [
+        1895,
+        1938
+      ],
+      [
+        1990,
+        2040
+      ],
+      [
+        2090,
+        2117
+      ]
+    ],
+    "CMP99_printed_images": "OPEN_NOT_ACCESSED",
+    "CMP109_printed_pdf": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_029_537_542": "PRINTED_IMAGE_VERIFIED_R113"
+  },
+  "native_gates": {
+    "candidate_CMP99_hard_gauge": "SOURCE_OCR_RDSTAR_LOCATED",
+    "CMP99_GK_rank_and_regional_boundary": "OPEN",
+    "CMP109_based_FK_identity": "DERIVED_AT_IDENTITY",
+    "quotient_gauge_section_theorem": "PROVED_CONDITIONAL",
+    "conditional_hard_physical_gamma_transfer": "PROVED_CONDITIONAL",
+    "source_F_norm_locality": "OPEN",
+    "source_positive_Cstar_Deltak_C": "ORIGINAL_PAPER_OCR_WITNESS_EXACT_IMAGE_OPEN",
+    "source_Deltak_vs_Ak_vs_H0": "OPEN_SECOND_INDEPENDENT_CARRIER",
+    "source_CMP109_uniform_coercivity": "OPEN",
+    "native_two_UV_Omega_V_E_determinant_law": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R115_CMP99_CMP109_HARD_SLICE_QUOTIENT_AND_PRECISION_SPLIT_20261027.md",
+    "ym/source_receipts/YM_R115_CMP99_HARD_SLICE_AND_PRECISION_RECEIPT_20261027.md",
+    "ym/terminology/YM_R115_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/checkpoints/YM_HEAD_R115_20261027.json"
+  ],
+  "next_action": "YM-R116 recover original CMP99 (3.155)-(3.158) and source [4] (2.154)-(2.155) to type Delta_k/A_k/H0, investigate GK invertibility and source F localization on actual based regional boundary. No source gamma transfer or mass gap claim.",
+  "safety_boundary": "No native source numerical uniform covariance, two-cutoff law, continuum existence, OS reconstruction or physical mass gap."
+}
