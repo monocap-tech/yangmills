@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R112**, exact constraint graph and SU2 vacuum covariance reduction; historical passes retained).  
-**Next native cursor:** YM-R113, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R113**, CMP99/CMP109 source precision provenance and gauge-form transfer cutset; historical passes retained).  
+**Next native cursor:** YM-R114, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R112 checkpoint](ym/checkpoints/YM_HEAD_R112_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R113 checkpoint](ym/checkpoints/YM_HEAD_R113_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -64,6 +64,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R112](ym/passes/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_COVARIANCE_20261027.md) uses CMP109 p.267's source right inverse h to reconstruct **C=(I-hD)E**, where D=L Qtilde, E zero-extends the independent non-b0 bonds and P restricts back to them. Therefore D C=0, P C=I and **monitored covariance S=(C* A C)^-1**. The reduced precision is an explicit bond-block graph quadratic form, not an unidentified Gaussian embedding. At the source-eligible SU2 identity background, simultaneous global conjugation forces color blocks to be scalar, giving Q=K tensor I3 and the exact 3D Maxwell radial Gaussian tail for each monitored bond. This sharpens R111's componentwise bound, but actual K entries/eigenvalues, finite-volume counts, CMP99/CMP116 operator identification and a uniform bound remain OPEN. No analytic Jacobian or paired Omega/V/E law is discharged. [Printed source receipt](ym/source_receipts/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_SOURCE_RECEIPT_20261027.md).
 
+## YM-R113 source-locked CMP99 predecessor and gauge change
+
+[YM-R113](ym/passes/YM_R113_CMP99_CMP109_REDUCED_PRECISION_GAUGE_FIXING_TRANSFER_20261027.md) directly checks printed CMP109 (2.11), which cites (3.156) of source [13], and printed CMP109 bibliography [13]=Bałaban CMP99 background propagators. Importantly CMP109 **replaces delta-function gauge fixing with exponential gauge fixing**. CMP99 original-paper OCR at its (3.156)–(3.158) records a positive, step/background-uniform lower bound for the predecessor reduced precision under regularity assumptions, and at Thm.3.15 locates exponential covariance decay. The exact source operator/chart and gauge change needed to transfer those constants to Q=C*AC remain **OPEN**. A conditional lower bound follows if the chart map T is quantitatively nondegenerate and the gauge-form defect Q-T*Q99 T has bounded negative part; abstract finite-dimensional hard-to-soft counterexample prohibits automatic transfer. Separately, original printed CMP109 **(0.29)** positive-alpha irrelevant-polymer bound and **(5.37),(5.42)** polarization/beta formulas are visually checked (printed pp.258,297); their cross-UV summability remains OPEN. [Source receipt](ym/source_receipts/YM_R113_CMP99_PRECISION_SOURCE_AND_CMP109_IMAGE_RECEIPT_20261027.md).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -111,7 +115,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R113 (native, open):** recover an exact CMP99/CMP102b/CMP116 source operator/Green dictionary for R112's Q or SU2 vacuum K, obtain source-certified diagonal variance/volume bounds and threshold response, then test actual aligned Omega/V histories and inherited E/determinant laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R114 (native, open):** original-image verify CMP99 (3.156)–(3.158) if possible; reconstruct actual CMP99 hard delta versus CMP109 exponential gauge form on a shared legal SU2 vacuum block. Bound or source-obstruct its negative form difference and chart transport before assigning covariance constants, then resume aligned Omega/V and inherited E/determinant laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 

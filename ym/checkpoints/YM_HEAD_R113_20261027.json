@@ -1,0 +1,81 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R112_20261027.json",
+  "passes_completed_through": "YM-R113",
+  "live_cursor": "YM-R114",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_PRINTED_EQ211_EXPLICITLY_CITES_CMP99_EQ3156_WITH_GAUGE_DELTA_TO_EXP_CHANGE;CMP99_OCR_COERCIVITY_PREDECESSOR_LOCATED;GAUGE_OPERATOR_TRANSFER_STILL_OPEN;CMP109_029_537_542_ORIGINAL_IMAGES_NOW_CHECKED;TWO_CUTOFF_LAW_UNPROVED",
+  "completed_scope": "Read original printed CMP109 p267 and p299 proving its A^(k) direct reference to CMP99 [13] (3.156) but with gauge-fixing prescription changed; inspected CMP99 original-paper OCR positivity/decay locators. Derived exact conditional quantitative coercivity/gauge-defect transfer criterion and negative control against automatic hard/soft comparison. Visually inspected CMP109 original equations (0.29),(5.37),(5.42); no actual source gauge difference/numerical variance/paired law established.",
+  "positive_results": [
+    "Source printed CMP109 (2.11) identifies its predecessor quadratic with CMP99 [13] (3.156), explicitly replacing delta gauge fixing with exponential gauge fixing; bibliographic reference mapping confirmed.",
+    "CMP99 original-paper OCR pp427-428 locates constrained lower-bound gamma0>0 under regular background hypotheses; theorem 3.15 original-paper OCR locates exp covariance decay, but original CMP99 equation images not verified.",
+    "Exact sufficient conditional transfer: if Q99>=gamma0 I on matched source chart T with smin(T)>=t and Q109-T*Q99 T>=-delta I, delta<gamma0 t², then Q109>=a I and its SU2 vacuum Gaussian radial tail has variance bound 1/a.",
+    "An elementary hard/soft covariance counterexample proves no transfer from restricted hard gauge to soft gauge by positivity alone.",
+    "CMP109 original printed (0.29) positive-alpha polymer bound, (5.37) polarization decomposition and (5.42) beta mixed second moment have been visually verified, previously image-open."
+  ],
+  "source_provenance": {
+    "CMP109_scan": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_PDF_indices_checked_zero_based": [
+      9,
+      18,
+      19,
+      48,
+      50
+    ],
+    "CMP109_printed_pages": [
+      258,
+      267,
+      268,
+      297,
+      299
+    ],
+    "CMP99_OCR_blob": "ce5af9ff9165b3e1a995f4c141c0bc0ca9fc6743",
+    "CMP99_OCR_lines": [
+      [
+        1895,
+        1938
+      ],
+      [
+        2090,
+        2117
+      ],
+      [
+        1410,
+        1423
+      ]
+    ],
+    "CMP99_original_printed_images": "OPEN",
+    "CMP98_CMP102b_original_printed_images": "OPEN",
+    "CMP109_029_537_542_original_printed_images": "VERIFIED_VISUAL"
+  },
+  "native_gates": {
+    "CMP109_direct_CMP99_quadratic_provenance": "PRINTED_SOURCE_VERIFIED_WITH_GAUGE_FIXING_REPLACEMENT",
+    "CMP99_source_original_paper_positive_reduced_precision": "OCR_PROSE_LOCATED_ORIGINAL_IMAGE_OPEN",
+    "CMP99_theorem315_decay": "OCR_LOCATED_ORIGINAL_IMAGE_OPEN",
+    "CMP109_source_Q_relation_to_CMP99": "GAUGE_AND_CHART_DEFECT_UNBOUNDED_OPEN",
+    "conditional_gamma_transfer": "PROVED_UNDER_EXPLICIT_CHART_AND_DEFECT_HYPOTHESES",
+    "automatic_hard_to_soft_covariance_transfer": "REFUTED_ABSTRACT_COUNTEREXAMPLE",
+    "actual_SU2_vacuum_covariance_number": "OPEN",
+    "CMP109_029_original_image": "VERIFIED_POSITIVE_ALPHA_POLYMER_SOURCE_ONE_TRAJECTORY",
+    "CMP109_537_original_image": "VERIFIED_POLARIZATION_SYMBOL_SPLIT",
+    "CMP109_542_original_image": "VERIFIED_BETA_MIXED_MOMENT",
+    "full_history_positive_alpha_difference": "OPEN",
+    "actual_Omega_V_two_UV_pair": "OPEN",
+    "inherited_E_determinant_and_interactions": "OPEN",
+    "uniform_spatial_weighted_moment": "OPEN",
+    "normalized_two_cutoff_RG_law": "OPEN",
+    "continuum_OS_positive_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R113_CMP99_CMP109_REDUCED_PRECISION_GAUGE_FIXING_TRANSFER_20261027.md",
+    "ym/source_receipts/YM_R113_CMP99_PRECISION_SOURCE_AND_CMP109_IMAGE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R113_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/checkpoints/YM_HEAD_R113_20261027.json"
+  ],
+  "next_action": "YM-R114 original-image CMP99 Eq(3.156)–(3.158) and Thm 3.15 where accessible; reconstruct exact common-source hard delta and soft exponential gauge precision difference T,R. Either bound negative part vs gamma0 or certify source obstruction. Then source SU2 variance and actual two-UV Omega/V normalized-law histories.",
+  "safety_boundary": "No native gauge transfer bound or complete Q coercivity, no summable two-cutoff law, no continuum YM existence, OS reconstruction or mass gap."
+}
