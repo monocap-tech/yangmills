@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R119**, exact CMP109 full coarse-link derivative and finite-block curvature response; historical passes retained).  
-**Next native cursor:** YM-R120, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R120**, historical CMP95/CMP98 axial path source custody and source coarse-frame alignment; historical passes retained).  
+**Next native cursor:** YM-R121, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R119 checkpoint](ym/checkpoints/YM_HEAD_R119_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R120 checkpoint](ym/checkpoints/YM_HEAD_R120_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -92,6 +92,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R119](ym/passes/YM_R119_FULL_COARSE_LINK_DERIVATIVE_CURVATURE_RESPONSE_AND_GAUGE_ACTION_20261027.md) rechecks printed CMP109 (0.4) and derives its COMPLETE identity-background fine-to-coarse link derivative: block-averaged left shortest path + transported bond - right shortest path; the reference coarse link cancels. A source-shaped CMP98 (15) comparison with an explicitly DECLARED descending axial selected contour cancels the bridge and annihilates pure gauge gradients. A legal L=13 SU2 centered-block sparse transverse e3 fine-bond test yields exact new-old coarse coefficient **99/28561**, and the path permutation 2-chain argument gives finite-block **||Delta M' A||∞ <= (10584/169)||dA||∞** for matched shortest monotone axis orders. An [executable rational certificate](ym/computations/YM_R119_FULL_LINK_FIRST_VARIATION_L13_20261027.py) passes. The selected contour is source-style, but its identity with the ACTUAL historical CMP98 Gamma (15) remains unverified. CMP98 full-field gauge covariance and CMP99 fixed-background relative fluctuation covariance are different transformation contexts, resolving R118's apparent source-signature conflict without identifying all operators. Nested CMP99 Q', late (3.157)-(3.158), uniform covariance, physical Ω/V history and the mass gap stay OPEN. [Source receipt](ym/source_receipts/YM_R119_PRINTED_FULL_LINK_AND_BACKGROUND_GAUGE_RECEIPT_20261027.md).
 
+## YM-R120 historical path and coarse endpoint frame
+
+[YM-R120](ym/passes/YM_R120_CMP95_CMP98_CMP109_HISTORICAL_AXIAL_PATH_AND_FRAME_TRANSPORT_20261027.md) recovers CMP98 [2] as Balaban CMP95 and its (1.7) **descending-coordinate contour path**, validating R119's chosen axial order as historical source ancestry. But CMP95/CMP98 use **corner-anchored** blocks while printed CMP109 (0.3) uses **centered** blocks. To compare connections on a common physical fine block, the old coarse endpoints must be carried by fine holonomies tau: M_old^tau=U(tau_y)^-1 M_old U(tau_y'). The transport preserves the full-connection gauge signature exactly. A declared integer L=13 common-cell model with old corner 0 and new center (6,6,6,6) gives sparse transverse first-variation difference **-1/114244**, verified by [exact site/permutation enumeration](ym/computations/YM_R120_CORNER_CENTER_LINK_FRAME_L13_20261027.py). R119's 99/28561 is a DIFFERENT shared-centered-frame comparison and is not assigned to the historical corner-center maps. The actual source affine fine-lattice offset, selected bridge/boundary, nested Ω, CMP99 later covariance and paired two-UV probability laws remain OPEN. [Source receipt](ym/source_receipts/YM_R120_CMP95_HISTORICAL_PATH_AND_FRAME_RECEIPT_20261027.md).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -139,7 +143,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R120 (native, open):** source-recover the unique old CMP98 (15) selected contour and parent-paper convention, establish full old/new operator pairing under identical background, and complete CMP99 regional Q' and late covariance normalization before any UV history/law estimate. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R121 (native, open):** certify the actual CMP95/CMP98 and CMP109 affine lattice/block boundaries, source-compatible corner-to-center holonomies, all fine bridges and Ω collar; construct a genuinely common old/new physical graph and plaquette-chain operator before importing source Gaussian covariance and paired UV laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 
