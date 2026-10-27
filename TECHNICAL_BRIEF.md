@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R113 (CMP99 precursor quadratic/gauge-fixing seam and CMP109 formula-image verification, 2026-10-27); YM-R114 (unconsumed).  
+**Research frontier:** YM-R114 (CMP109 positive gauge Hessian and conditional vacuum split, 2026-10-27); YM-R115 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -45,6 +45,8 @@ Its abstract proof is not a proof that a uniform source-weighted `q`, matched no
 
 **YM-R113 predecessor source lock:** printed CMP109 (2.11) directly cites its quadratic form from CMP99 [13] (3.156) but **replaces delta-function gauge fixing with exponential fixing**. CMP99 original-paper OCR locates a regular-background uniform bound for its own constrained precision and Thm.3.15 covariance decay; neither can transfer to Q=C* A C without source gauge/coordinate form comparison. Abstract transfer requires bounded negative gauge defect R and quantitatively identified T. The printed CMP109 (0.29) positive-alpha irrelevant-polymer bound and (5.37),(5.42) polarization/beta formulas were directly viewed; their two-UV estimates remain open. [R113](ym/passes/YM_R113_CMP99_CMP109_REDUCED_PRECISION_GAUGE_FIXING_TRANSFER_20261027.md).
 
+**YM-R114 source refinement:** printed CMP109 (2.5) gives a positive real exponential-gauge quadratic plus cubic corrections, not a generic negative-form perturbation. Based gauge FK=I and DK=0 yield W=(W intersect ker F) plus im K. If source CMP99 hard-slice positive gamma and exact quadratic form match, the four-dimensional soft gauge Hessian has conditional lower bound min(gamma/2,beta/32). CMP99 original printed (3.156)-(3.158) and shared hard slice still need proof; neither covariance constant nor physical UV convergence follows. [R114](ym/passes/YM_R114_CMP109_BASED_GAUGE_QUADRATIC_EXTENSION_20261027.md).
+
 ## Target-specification hold
 
 The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: establishing a lawfully **paired actual two-cutoff fiber** (nested Ω and shared V, or a quantified alternative), comparing normalized cutoff **observable laws**, then deriving quantitative history-response estimates. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
@@ -58,6 +60,9 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R114 checkpoint](ym/checkpoints/YM_HEAD_R114_20261027.json)
+- [YM-R114 positive gauge analysis](ym/passes/YM_R114_CMP109_BASED_GAUGE_QUADRATIC_EXTENSION_20261027.md)
 
 - [YM-R113 checkpoint](ym/checkpoints/YM_HEAD_R113_20261027.json)
 - [YM-R113 source-gauge transfer audit](ym/passes/YM_R113_CMP99_CMP109_REDUCED_PRECISION_GAUGE_FIXING_TRANSFER_20261027.md)
