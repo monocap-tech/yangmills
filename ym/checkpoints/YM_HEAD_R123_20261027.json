@@ -1,0 +1,68 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R122_20261027.json",
+  "passes_completed_through": "YM-R123",
+  "live_cursor": "YM-R124",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_PHYSICAL_BACKGROUND_PLAQUETTE_REGULARITY_SOURCE_LOCKED;CHI_BPRIME_IS_DISTINCT_MONITORED_CUTOFF;NONLINEAR_M_SOURCE_BACKGROUND_LINK_CONDITIONAL;TWO_STAGE_CHART_THRESHOLD_XSTAR_1P6244E_MINUS6;REGIONAL_HALO_ORIGINAL_U_NORM_AND_TWO_UV_LAW_OPEN",
+  "positive_results": [
+    "Printed CMP109 (1.2) bounds every eligible plaquette of source regular minimizer Uk(V) by epsilon0 eta_k^2, eta_k=L^-k; source (2.1) states chi_k-support is chosen to maintain Uk(V) in that domain.",
+    "Printed CMP109 (2.9) controls selected independent B'(b) excluding b0(c), not each physical plaquette. Its cutoff alone does not imply the R122 full halo eta threshold.",
+    "On a real source-regular SU2 minimizing background with whole source halo and 666 epsilon0 eta_k^2<1, R122 actual nonlinear M(Uk(V)) versus source fine straight lift is bounded by (31878/169)epsilon0 eta_k^2/(1-666epsilon0 eta_k^2).",
+    "Using source (2.3) V^(k)=M(Uk+1(W)) makes this a genuinely source-typed saddle-field one-step coarse versus fine link inequality under identical halo/chart conditions, not a normalized law.",
+    "Exact two-stage deterministic chart feasibility threshold x=epsilon0 eta_k^2 < 1.62442843413909e-6; conservative x<=1e-6 passes and x=2e-6 fails the derived second-stage criterion, verified by rational arithmetic.",
+    "Source numerical epsilon0, original B'→Hk(B')→U' and gauges, Ω/Λ regional boundary halos, actual paired UV histories and covariance remain unproved."
+  ],
+  "source_provenance": {
+    "CMP109_printed_pdf": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_zero_based_printed_images": [
+      5,
+      6,
+      10,
+      11,
+      16,
+      17,
+      18
+    ],
+    "CMP109_eqs": [
+      "(0.16)",
+      "(0.17)",
+      "(0.19)",
+      "(1.1)",
+      "(1.2)",
+      "(2.1)",
+      "(2.3)",
+      "(2.9)"
+    ],
+    "actual_CMP99_later_precision_images": "OPEN",
+    "arithmetic": "ym/computations/YM_R123_SMALL_FIELD_CHART_ENTRY_20261027.py"
+  },
+  "native_gates": {
+    "minimizing_background_regular_plaquettes": "ORIGINAL_PRINTED_SOURCE",
+    "source_cutoff_chi_selected_to_preserve_Uk_regular_domain": "ORIGINAL_PRINTED_SOURCE_ASSUMPTION",
+    "monitor_Bprime_distinct_from_original_links": "ORIGINAL_PRINTED_SOURCE",
+    "conditional_M_background_bound": "PROVED_IF_HALO_AND_NUMERIC_CHART",
+    "conditional_source_saddle_Vk_bound": "PROVED_IF_SAME_GAUGE_HALO_AND_CHART",
+    "two_stage_chart_threshold": "EXACT_DERIVED_NOT_SOURCE_EPSILON",
+    "source_actual_epsilon0_and_epsilon1_gamma": "OPEN_NO_NUMERIC_CUSTODY",
+    "original_fluctuation_Bprime_to_Hk_to_Uprime": "OPEN",
+    "regional_Omega_Lambda_Dirichlet_halos": "OPEN",
+    "two_compatible_minimizer_UV_histories": "OPEN",
+    "CMP99_later_Ak_Delta_k_and_gaussian": "OPEN",
+    "normalized_two_UV_probability_law": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R123_SOURCE_REGULARITY_TO_NONLINEAR_M_ENTRY_AND_FLUCTUATION_SEAM_20261027.md",
+    "ym/source_receipts/YM_R123_CMP109_SMALL_FIELD_SOURCE_APPLICATION_RECEIPT_20261027.md",
+    "ym/terminology/YM_R123_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/computations/YM_R123_SMALL_FIELD_CHART_ENTRY_20261027.py",
+    "ym/checkpoints/YM_HEAD_R123_20261027.json"
+  ],
+  "next_action": "YM-R124 quantify actual CMP109 B' to Hk(B') to physical U' source chart, excluded b0 special variables, gauge and regional halo; determine whether selected chi_k plus regular Uk(V) yields physical full-field curvature and whether the source eps1 or coupling-scaled alternative meets a two-stage gate, then return to two UV Ω,V laws.",
+  "safety_boundary": "Source regular minimizing background applicability does not certify actual numerical source eps0, full fluctuation laws, normalized UV measure convergence, continuum OS reconstruction or physical mass gap."
+}

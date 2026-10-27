@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R122 (source nonlinear real SU2 M curvature and deterministic two-stage map, 2026-10-27); YM-R123 (unconsumed).  
+**Research frontier:** YM-R123 (source minimizer plaquette smallness and B' cutoff distinction, 2026-10-27); YM-R124 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -64,6 +64,10 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R123 checkpoint](ym/checkpoints/YM_HEAD_R123_20261027.json)
+- [YM-R123 source small-field analysis](ym/passes/YM_R123_SOURCE_REGULARITY_TO_NONLINEAR_M_ENTRY_AND_FLUCTUATION_SEAM_20261027.md)
+- [YM-R123 chart threshold computation](ym/computations/YM_R123_SMALL_FIELD_CHART_ENTRY_20261027.py)
 
 - [YM-R122 checkpoint](ym/checkpoints/YM_HEAD_R122_20261027.json)
 - [YM-R122 nonlinear source curvature pass](ym/passes/YM_R122_NONLINEAR_COARSE_LINK_CURVATURE_AND_TWO_STAGE_GATE_20261027.md)
