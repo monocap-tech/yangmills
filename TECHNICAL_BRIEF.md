@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R117 (source gauge/averaging square, 2026-10-27); YM-R118 (unconsumed).  
+**Research frontier:** YM-R118 (source contour curvature / gauge-signature consistency test, 2026-10-27); YM-R119 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -64,6 +64,10 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R118 checkpoint](ym/checkpoints/YM_HEAD_R118_20261027.json)
+- [YM-R118 contour/source-signature audit](ym/passes/YM_R118_CMP98_CMP99_CMP109_CONTOUR_CURVATURE_AND_GAUGE_SIGNATURE_AUDIT_20261027.md)
+- [YM-R118 rational test](ym/computations/YM_R118_CONTOUR_CURVATURE_MATRIX_20261027.py)
 
 - [YM-R116 checkpoint](ym/checkpoints/YM_HEAD_R116_20261027.json)
 - [YM-R116 projected-Laplacian and interface audit](ym/passes/YM_R116_CMP99_PROJECTED_LAPLACIAN_GAUGE_RANK_AND_PRECISION_20261027.md)
