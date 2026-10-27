@@ -21,7 +21,7 @@ PUBLIC_DOCS = (
     "DOCUMENTATION_STOP_ADVISORY.md",
 )
 LINK = re.compile(r"\[[^\]\n]*\]\(([^)\n]+)\)")
-REPO_RESEARCH_HEAD = "ym/checkpoints/YM_HEAD_R119_20261027.json"
+REPO_RESEARCH_HEAD = "ym/checkpoints/YM_HEAD_R120_20261027.json"
 
 
 def check() -> list[str]:
@@ -33,9 +33,9 @@ def check() -> list[str]:
         head = json.loads(checkpoint_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         return [f"cannot read canonical checkpoint: {exc}"]
-    if head.get("passes_completed_through") != "YM-R119":
-        errors.append("canonical head no longer R119: update public status review")
-    if head.get("live_cursor") != "YM-R120" or head.get("live_cursor_consumed") is not False:
+    if head.get("passes_completed_through") != "YM-R120":
+        errors.append("canonical head no longer R120: update public status review")
+    if head.get("live_cursor") != "YM-R121" or head.get("live_cursor_consumed") is not False:
         errors.append("native cursor changed: documentation snapshot must be revisited")
     if head.get("claim_status") != "UNPROVED_RESEARCH_PROGRAM":
         errors.append("canonical research status changed: documentation must be reviewed")
@@ -45,7 +45,7 @@ def check() -> list[str]:
             errors.append(f"missing public document: {rel}")
             continue
         content = doc.read_text(encoding="utf-8")
-        if "YM-R120" not in content and rel in (
+        if "YM-R121" not in content and rel in (
             "README.md",
             "RESEARCH_STATUS.md",
             "TECHNICAL_BRIEF.md",

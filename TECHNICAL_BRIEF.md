@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R119 (full coarse-link tangent and source curvature response, 2026-10-27); YM-R120 (unconsumed).  
+**Research frontier:** YM-R120 (CMP95 axial path and corner-center coarse-frame transport, 2026-10-27); YM-R121 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -64,6 +64,10 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R120 checkpoint](ym/checkpoints/YM_HEAD_R120_20261027.json)
+- [YM-R120 historical source/frame audit](ym/passes/YM_R120_CMP95_CMP98_CMP109_HISTORICAL_AXIAL_PATH_AND_FRAME_TRANSPORT_20261027.md)
+- [YM-R120 rational common-cell certificate](ym/computations/YM_R120_CORNER_CENTER_LINK_FRAME_L13_20261027.py)
 
 - [YM-R119 checkpoint](ym/checkpoints/YM_HEAD_R119_20261027.json)
 - [YM-R119 full coarse-link audit](ym/passes/YM_R119_FULL_COARSE_LINK_DERIVATIVE_CURVATURE_RESPONSE_AND_GAUGE_ACTION_20261027.md)
