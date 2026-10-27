@@ -1,8 +1,8 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R111 (exact monitored-bond Gaussian cutoff projection, 2026-10-26); YM-R112 (unconsumed).  
-**Prepared:** 2026-10-26.  
+**Research frontier:** YM-R112 (explicit constraint graph and SU2 vacuum color covariance, 2026-10-27); YM-R113 (unconsumed).  
+**Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
 ## Abstract
@@ -41,6 +41,8 @@ Its abstract proof is not a proof that a uniform source-weighted `q`, matched no
 
 **R111 correction to R110:** CMP109 p.267 defines h supported only on b0(c), which Eq. (2.9) explicitly excludes from the cutoff. Therefore the nonlinear correction B_old=B_new-h D(B_new) has exactly zero restriction to χ-monitored bonds (P h=0). The cutoff under final constrained Gaussian variables is the LINEAR event |g_k P C B|<theta. Its covariance S=P C(C* A C)^-1 C*P* and remaining uniform variance, valid chart/Jacobian, V-dependent determinant and paired histories remain open. [R111 source audit](ym/passes/YM_R111_CMP109_MONITORED_BOND_PROJECTION_GAUSSIAN_CUTOFF_20261026.md).
 
+**YM-R112 source operator upgrade:** CMP109 p267 Dh=I and h supported on b0 imply the exact graph C=(I-hD)E, P C=I, so the monitored covariance is exactly (C* A C)^-1. The reduced Hessian is a finite block graph form. At SU2 identity background the Hessian is K tensor I3 by global Ad SU2 symmetry; each monitored bond has an exact three-dimensional radial Gaussian survival function. CMP99/CMP116 decay does not transfer without a source operator dictionary; numeric source K, coercivity, growing bond counts, chart/Jacobian, V-dependent determinant and genuine cross-UV-law remain OPEN. [R112 pass](ym/passes/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_COVARIANCE_20261027.md).
+
 ## Target-specification hold
 
 The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: establishing a lawfully **paired actual two-cutoff fiber** (nested Ω and shared V, or a quantified alternative), comparing normalized cutoff **observable laws**, then deriving quantitative history-response estimates. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
@@ -54,6 +56,9 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R112 checkpoint](ym/checkpoints/YM_HEAD_R112_20261027.json)
+- [YM-R112 source graph and vacuum analysis](ym/passes/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_COVARIANCE_20261027.md)
 
 - [YM-R111 checkpoint](ym/checkpoints/YM_HEAD_R111_20261026.json)
 - [YM-R111 monitored cutoff correction](ym/passes/YM_R111_CMP109_MONITORED_BOND_PROJECTION_GAUSSIAN_CUTOFF_20261026.md)
