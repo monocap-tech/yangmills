@@ -1,6 +1,6 @@
 # External research interfaces — comparison plan, not proof adoption
 
-**Prepared:** 2026-10-26. **Status:** Proposed workstream **YM-EXT-01**; no native theorem gate is closed by this document. The independent native cursor is now **YM-R105**, following the [YM-R104 checkpoint](ym/checkpoints/YM_HEAD_R104_20261026.json). The original YM-EXT-01 proposal and its external proof-evidence boundary are unchanged.
+**Prepared:** 2026-10-26. **Status:** **YM-EXT-01 first focused crosswalk completed as a source/hypothesis audit only**; [findings](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) and [pinned external source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). The native YM-R105 theorem cursor remains unconsumed. **No native mathematical gate has been closed.** The independent native cursor is now **YM-R105**, following the [YM-R104 checkpoint](ym/checkpoints/YM_HEAD_R104_20261026.json). The original YM-EXT-01 proposal and its external proof-evidence boundary are unchanged.
 
 This page identifies external materials worth checking against our [research-status ledger](RESEARCH_STATUS.md) and [target-scope hold](TARGET_SCOPE.md). An analogous technique, press release, manuscript, or Lean development does **not** establish that the exact theorem needed in this repository holds.
 
