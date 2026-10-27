@@ -1,0 +1,76 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R111_20261026.json",
+  "passes_completed_through": "YM-R112",
+  "live_cursor": "YM-R113",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_SOURCE_LINEAR_CONSTRAINT_GRAPH_C_EXPLICIT;MONITORED_COVARIANCE_EQUALS_REDUCED_PRECISION_INVERSE;SU2_VACUUM_LIE_COLOR_BLOCKS_SCALAR;MAXWELL_RADIAL_GAUSSIAN_TAIL_DERIVED;SOURCE_UNIFORM_COERCIVITY_AND_PAIRED_HISTORY_OPEN",
+  "completed_scope": "Rechecked original printed CMP109 (0.4),(2.1),(2.9)-(2.13),(2.16) via third-party PDF screenshots and older R81/R82 provenance. Constructed exact source linearized constraint graph C=(I-hD)E, derived monitored S=(C*A C)^-1 and block-graph Hessian formula. At SU2 identity background proved global adjoint conjugation gives reduced precision K tensor I3 and exact single-bond Maxwell Gaussian tail. Numerical K, source operator dictionary and paired cutoff law remain open.",
+  "positive_results": [
+    "With source D=L Qtilde, Dh=I, Ph=0, PE=I, the source delta-elimination embedding C=(I-hD)E obeys DC=0 and PC=I.",
+    "Monitored covariance S=P C(C* A C)^-1 C*P* is exactly (C* A C)^-1; reduced Hessian is computable as A_mm+A_md T+T* A_dm+T* A_dd T for T=-D_d^-1 D_m.",
+    "At source-admissible SU2 trivial vacuum U=1, global adjoint covariance forces Q=K tensor I3, covariance K^-1 tensor I3, permitting exact Maxwell radial Gaussian tail formula per bond without independence across bonds.",
+    "The source fixed and coupling-scaled cutoff thresholds yield distinct exact arguments of the radial survival function; no decay inferred.",
+    "Historic CMP99/CMP116 covariance estimates from R81/R82 cannot be applied without identifying the reduced source operator and chart.",
+    "No source-certified cutoff-independent lower spectral bound or actual K covariance diagonal, volume count or two-run measure transfer."
+  ],
+  "source_provenance": {
+    "CMP109_paper": "T. Balaban, CMP109(2) 249-301 (1987) DOI 10.1007/BF01215223",
+    "CMP109_image_scan": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "scan_host": "ORIGINAL PRINTED PAGE IMAGES THROUGH THIRD-PARTY MIRROR; NO PUBLISHER CHAIN",
+    "inspected_PDF_indices_zero_based": [
+      2,
+      4,
+      5,
+      11,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "source_items": [
+      "(0.4)",
+      "(0.12)",
+      "(2.1)",
+      "(2.9)",
+      "printed p267 Dh=I support of h and nonlinear linearization",
+      "(2.11)-(2.13)",
+      "(2.16)"
+    ],
+    "prior_CMP99_CMP116_audits": [
+      "ym/passes/YM_R81_MOVING_PROJECTOR_SOURCE_COVARIANCE_AUDIT_20261010.md",
+      "ym/passes/YM_R82_COVARIANCE_FIRST_INTERPOLATION_AUDIT_20261010.md"
+    ],
+    "CMP98_original_images": "OPEN",
+    "CMP102b_original_images": "OPEN",
+    "CMP109_029_537_542": "OPEN"
+  },
+  "native_gates": {
+    "source_linearized_constraint_graph": "PROVED_SOURCE_ALGEBRA_ON_FINITE_VALID_CHART",
+    "monitored_covariance_projection": "EXACTLY_REDUCED_INVERSE",
+    "reduced_precision_matrix_recipe": "EXACT_SYMBOLIC_BLOCK_RECIPE_ACTUAL_ENTRIES_OPEN",
+    "one_SU2_vacuum_M_0_4": "IDENTITY_BACKGROUND_AND_TYPE_ADMISSIBLE",
+    "SU2_vacuum_color_isotropy": "EXACT_FROM_GLOBAL_ADJOINT_INVARIANCE",
+    "per_bond_radial_gaussian_cutoff": "EXACT_CHI3_TAIL_CONDITIONAL_REAL_GAUSSIAN",
+    "native_geometric_K_and_s_b": "OPEN",
+    "native_uniform_coercivity": "OPEN",
+    "scalar_complex_chart_jacobian_interaction": "OPEN",
+    "native_Omega_V_two_UV_pair": "OPEN",
+    "native_normalized_two_cutoff_law_and_summability": "OPEN",
+    "CMP109_029_537_542_original_pages": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_COVARIANCE_20261027.md",
+    "ym/source_receipts/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_SOURCE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R112_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/checkpoints/YM_HEAD_R112_20261027.json"
+  ],
+  "next_action": "YM-R113 recover the exact source operator positivity/Green estimates for CMP109 reduced Q and its SU2 vacuum K, from CMP99/CMP102b/CMP116 with explicit chart; quantify variance/volume and source threshold, then construct actual aligned Omega/V histories and inherited E/determinant normalized laws. No invented spectral bound.",
+  "safety_boundary": "Exact linear constraint algebra and one-background SU2 Gaussian symmetry do not establish uniform cutoff bounds, genuine two-cutoff probability law, continuum YM existence, OS reconstruction or physical positive mass gap."
+}
