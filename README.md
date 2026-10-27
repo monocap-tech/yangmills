@@ -71,4 +71,6 @@ See [External research interfaces](EXTERNAL_RECONCILIATION.md) for the proposed 
 
 This is an **inspectable research and source-audit trail**, not an end-to-end reproduced proof, a priority assertion, or a proof announcement. The target gauge group, observables, norms, and limit topology are not yet instantiated in a source-native theorem statement. Contributions are most useful when they cite an exact pass, theorem, page, norm, assumption, and counterexample-sensitive transfer step. In particular, source-image corrections, independent checks of the two-cutoff interface, and sharply stated obstructions are welcome research inputs. Reviewers can follow [CONTRIBUTING.md](CONTRIBUTING.md). A project-wide reuse license has not yet been selected; see [RIGHTS_AND_ATTRIBUTION.md](RIGHTS_AND_ATTRIBUTION.md).
 
+**Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
+
 **Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-14, YM-R103. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
