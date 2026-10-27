@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R112 (explicit constraint graph and SU2 vacuum color covariance, 2026-10-27); YM-R113 (unconsumed).  
+**Research frontier:** YM-R113 (CMP99 precursor quadratic/gauge-fixing seam and CMP109 formula-image verification, 2026-10-27); YM-R114 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -43,6 +43,8 @@ Its abstract proof is not a proof that a uniform source-weighted `q`, matched no
 
 **YM-R112 source operator upgrade:** CMP109 p267 Dh=I and h supported on b0 imply the exact graph C=(I-hD)E, P C=I, so the monitored covariance is exactly (C* A C)^-1. The reduced Hessian is a finite block graph form. At SU2 identity background the Hessian is K tensor I3 by global Ad SU2 symmetry; each monitored bond has an exact three-dimensional radial Gaussian survival function. CMP99/CMP116 decay does not transfer without a source operator dictionary; numeric source K, coercivity, growing bond counts, chart/Jacobian, V-dependent determinant and genuine cross-UV-law remain OPEN. [R112 pass](ym/passes/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_COVARIANCE_20261027.md).
 
+**YM-R113 predecessor source lock:** printed CMP109 (2.11) directly cites its quadratic form from CMP99 [13] (3.156) but **replaces delta-function gauge fixing with exponential fixing**. CMP99 original-paper OCR locates a regular-background uniform bound for its own constrained precision and Thm.3.15 covariance decay; neither can transfer to Q=C* A C without source gauge/coordinate form comparison. Abstract transfer requires bounded negative gauge defect R and quantitatively identified T. The printed CMP109 (0.29) positive-alpha irrelevant-polymer bound and (5.37),(5.42) polarization/beta formulas were directly viewed; their two-UV estimates remain open. [R113](ym/passes/YM_R113_CMP99_CMP109_REDUCED_PRECISION_GAUGE_FIXING_TRANSFER_20261027.md).
+
 ## Target-specification hold
 
 The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: establishing a lawfully **paired actual two-cutoff fiber** (nested Ω and shared V, or a quantified alternative), comparing normalized cutoff **observable laws**, then deriving quantitative history-response estimates. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
@@ -56,6 +58,9 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R113 checkpoint](ym/checkpoints/YM_HEAD_R113_20261027.json)
+- [YM-R113 source-gauge transfer audit](ym/passes/YM_R113_CMP99_CMP109_REDUCED_PRECISION_GAUGE_FIXING_TRANSFER_20261027.md)
 
 - [YM-R112 checkpoint](ym/checkpoints/YM_HEAD_R112_20261027.json)
 - [YM-R112 source graph and vacuum analysis](ym/passes/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_COVARIANCE_20261027.md)
