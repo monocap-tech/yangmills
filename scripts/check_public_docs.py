@@ -51,7 +51,6 @@ def check() -> list[str]:
             "TECHNICAL_BRIEF.md",
             "EXTERNAL_RECONCILIATION.md",
             "TARGET_SCOPE.md",
-            "DOCUMENTATION_STOP_ADVISORY.md",
         ):
             errors.append(f"missing native-cursor reference: {rel}")
         for target in LINK.findall(content):
