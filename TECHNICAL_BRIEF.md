@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R125 (CMP102 derivative kernel source gate and conditional winding-observable Wasserstein, 2026-10-27); YM-R126 (unconsumed).  
+**Research frontier:** YM-R126 (regional winding coverage and normalized event weighting, 2026-10-27); YM-R127 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -67,7 +67,13 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 
 **YM-R125 evidence boundary:** CMP102 Sect G Prop9/(190) original-page numerical Hk kernel is UNRECOVERED. A hypothetical 4D uniformly decaying independent-bond derivative gives CH=mA coth(κ/2)^4 and conditional physical chart. For two actual normalized cutoff laws with same Ω,V and aligned winding, the Wilson scalar pushforwards satisfy W1≤e0+e1+2(q0+q1) if each history has valid all-stage source M error e_i and bad-event probability q_i. Source q_i/normalizers and the actual two histories are OPEN. W1 does not imply TV. [R125](ym/passes/YM_R125_CMP102_KERNEL_GATE_AND_WINDING_OBSERVABLE_LAW_20261027.md).
 
+**YM-R126 necessary gates:** A flat periodic SU2 seam has η=0 but global winding trace cosθ; a source-like Ω excluding that seam sees the identity connection and the same local coarse V for every θ. Hence the common V in the winding W1 lemma MUST contain the selected noncontractible cycle, not merely a regional local coarse field. Also q under χ and interaction is a WEIGHTED numerator/Z, not the reference Gaussian tail. Exact 2-point reweighting can amplify rare reference exits to near certainty; real source Z/FP/E/determinant control remains open. CMP102 original Prop9 kernel also remains unavailable. [R126](ym/passes/YM_R126_REGIONAL_WINDING_CUSTODY_AND_NORMALIZED_EXIT_GATE_20261027.md).
+
 ## Evidence anchors
+
+- [YM-R126 checkpoint](ym/checkpoints/YM_HEAD_R126_20261027.json)
+- [YM-R126 pass](ym/passes/YM_R126_REGIONAL_WINDING_CUSTODY_AND_NORMALIZED_EXIT_GATE_20261027.md)
+- [YM-R126 finite witness](ym/computations/YM_R126_FLAT_SEAM_AND_NORMALIZED_EXIT_20261027.py)
 
 - [YM-R125 checkpoint](ym/checkpoints/YM_HEAD_R125_20261027.json)
 - [YM-R125 source/kernel and law audit](ym/passes/YM_R125_CMP102_KERNEL_GATE_AND_WINDING_OBSERVABLE_LAW_20261027.md)

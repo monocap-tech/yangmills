@@ -1,0 +1,36 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R125_20261027.json",
+  "passes_completed_through": "YM-R126",
+  "live_cursor": "YM-R127",
+  "live_cursor_consumed": false,
+  "custody_state": "FLAT_PERIODIC_SEAM_VS_LOCAL_V_GLOBAL_WINDING_MISMATCH;NORMALIZED_EXIT_REQUIRES_SOURCE_Z_AND_WEIGHT;CMP102_HK_ORIGINAL_EQ_UNRECOVERED",
+  "positive_results": [
+    "SU2 flat periodic seam has zero plaquette curvature but winding Wilson trace cos theta.",
+    "Source-shaped local Omega excluding seam sees identical fields and identical local nonlinear M outputs despite different global holonomy; actual source admissibility unverified.",
+    "Normalized bad-event q is a weighted numerator over partition function. A rare reference event may be near-certain after positive reweighting.",
+    "Exact arithmetic checks passed for N39 flat seam and reference epsilon=1/100 normalized q=10000/10099.",
+    "CMP102 Section G Proposition 9 equation 190 primary mathematical images remain unavailable."
+  ],
+  "native_gates": {
+    "CMP102_Hk_source": "OPEN",
+    "common_V_global_winding_coverage": "OPEN",
+    "Omega_source_admissibility": "OPEN",
+    "normalizer_Z_and_cutoff_exit": "OPEN",
+    "two_UV_normalized_laws": "OPEN",
+    "CMP99_Gaussian": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R126_REGIONAL_WINDING_CUSTODY_AND_NORMALIZED_EXIT_GATE_20261027.md",
+    "ym/source_receipts/YM_R126_PRIMARY_SOURCE_HOLD_AND_SEAM_EXIT_RECEIPT_20261027.md",
+    "ym/terminology/YM_R126_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/computations/YM_R126_FLAT_SEAM_AND_NORMALIZED_EXIT_20261027.py",
+    "ym/checkpoints/YM_HEAD_R126_20261027.json"
+  ],
+  "next_action": "YM-R127 original CMP102 kernel, actual Omega winding coverage and source partition/exit q; else local Wilson square and separate CMP99 covariance."
+}
