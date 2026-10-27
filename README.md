@@ -6,9 +6,9 @@
 
 | Canonical state | Value |
 | --- | --- |
-| Last completed native pass | **[YM-R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md)** — 2026-10-14 |
-| Next native cursor | **YM-R104** — not yet consumed |
-| Official research checkpoint | **[YM_HEAD_R103](ym/checkpoints/YM_HEAD_R103_20261014.json)** |
+| Last completed native pass | **[YM-R104](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md)** — 2026-10-26 |
+| Next native cursor | **YM-R105** — not yet consumed |
+| Official research checkpoint | **[YM_HEAD_R104](ym/checkpoints/YM_HEAD_R104_20261026.json)** |
 | Public status snapshot | **2026-10-26** (documentation update, not a new proof pass) |
 
 ## Start here
@@ -18,8 +18,10 @@
 | **[Target scope and native proof obligation](TARGET_SCOPE.md)** | Full Clay target versus our still-uninstantiated Yang–Mills construction and admissible two-cutoff comparison |
 | **[Research status and evidence ledger](RESEARCH_STATUS.md)** | Internally checked deductions, source evidence, and native open gates |
 | **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
-| **[YM-R103 investigation](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md)** | Latest source-text result, two-history operator decomposition, fixed-point stability interface, and counterexamples |
-| **[R103 source receipt](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md)** | Primary-paper locations, third-party text provenance, and the original-image verification boundary |
+| **[YM-R104 investigation](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md)** | Current source-text audit of analytic relative-background response and the unsolved two-cutoff transfer |
+| **[YM-R103 investigation](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md)** | Previous domain-motion source finding, operator decomposition, conditional fixed-point interface and counterexamples |
+| **[R104 source receipt](ym/source_receipts/YM_R104_CMP99_BACKGROUND_RESPONSE_RECEIPT_20261026.md)** | CMP99(3) background-resolvent and CMP116 analytic sources with exact text locators and image holds |
+| **[R103 source receipt](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md)** | Earlier domain-marked comparison sources and provenance |
 | **[Terminology registry](ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md)** | Definitions and distinctions specific to the current frontier |
 | **[External research interfaces](EXTERNAL_RECONCILIATION.md)** | Proposed comparison with new constructive Yang–Mills research; no external claim adopted as proved |
 | **[Review errata and provenance](REVIEW_ERRATA_20261026.md)** | Non-destructive clarification of R103 bibliography, source status, and comparison hypotheses |
@@ -30,7 +32,7 @@ The historical research record remains in `ym/passes/`, `ym/checkpoints/`, `ym/r
 
 ## Technical synopsis
 
-The current focus is the gap between **local one-step RG estimates** and a sufficiently uniform **two-cutoff continuum comparison**. In earlier passes, alignment of physical lattice spacing reduced the marginal-beta coherence question to an appropriate covariance or decay estimate for the freshly extracted one-step vacuum-polarization tensor. It did *not* prove that estimate.
+The current focus is the gap between **local one-step RG estimates** and a sufficiently uniform **two-cutoff continuum comparison**. **R104** recovered CMP99(3) Theorem 3.4 and (3.64)–(3.65), (3.84)–(3.86) as a *fixed-domain, relative-background* analytic/resolvent response in its (3.37) complex chart. The source's smallness parameter is the **relative background perturbation**, not an established summable cutoff-history defect. **YM-R105** now tests whether the actual paired histories share that chart and a legitimate gauge/Gaussian carrier. In earlier passes, alignment of physical lattice spacing reduced the marginal-beta coherence question to an appropriate covariance or decay estimate for the freshly extracted one-step vacuum-polarization tensor. It did *not* prove that estimate.
 
 R102–R103 separate two effects that would otherwise be conflated:
 
@@ -73,4 +75,4 @@ This is an **inspectable research and source-audit trail**, not an end-to-end re
 
 **Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
 
-**Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-14, YM-R103. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
+**Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-26, YM-R104; **YM-R105 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
