@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-26 (updated after native **YM-R110**, CMP109 Gaussian cutoff pullback and conditional normalized-law bounds; R103–R104 retained).  
-**Next native cursor:** YM-R111, **not consumed**.  
+**Snapshot:** 2026-10-26 (updated after native **YM-R111**, exact monitored-bond cutoff projection and Gaussian covariance test; R103–R104 retained).  
+**Next native cursor:** YM-R112, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R110 checkpoint](ym/checkpoints/YM_HEAD_R110_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R111 checkpoint](ym/checkpoints/YM_HEAD_R111_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -56,6 +56,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R110](ym/passes/YM_R110_CMP109_FLUCTUATION_PULLBACK_GAUSSIAN_LAW_20261026.md) checks CMP109 (2.1),(2.3),(2.9)–(2.13) against the printed pages: the sharp cutoff of (2.9) acts on **pre-linearization B' variables**, so its appearance in the constrained Gaussian integral (2.13) is a nonlinear **pullback**, not automatically a coordinate box in final B. For a fixed admissible real background the exact conditional law is proportional to pulled-back chi times the full nonlinear exponential relative to the source Gaussian. The partition splits into cutoff mass p and conditional interaction expectation; TV from base Gaussian is bounded by q+tanh(osc R/4), where q=1-p. A conditional chart/covariance Gaussian-tail gate and two-covariance Pinsker comparison are proved, but actual source chart error, cutoff branch, covariance variance, volume factors, determinant transfer and two-cutoff matching remain OPEN. The source background Gaussian determinant is V-dependent and cannot be discarded from the induced coarse action. [R110 image receipt](ym/source_receipts/YM_R110_CMP109_FLUCTUATION_SOURCE_RECEIPT_20261026.md).
 
+## YM-R111 source support correction to R110
+
+[YM-R111](ym/passes/YM_R111_CMP109_MONITORED_BOND_PROJECTION_GAUSSIAN_CUTOFF_20261026.md) checks printed CMP109 (2.9) and p.267: the cutoff monitors fine bonds outside b0(c), while the nonlinear constraint correction h D has support *only* on b0(c). Thus P h=0 and P(B-hD(B))=PB exactly. After rescaling and source Gaussian embedding C, the (2.9) cutoff is a LINEAR Gaussian event on g_k P C B, with no nonlinear delta error. Its covariance is S=P C(C* A C)^-1 C*P*. The direct Gaussian tail bound still needs source covariance variance, volume and threshold estimates. Separate Jacobian/chart, interaction, background determinant and actual two-history Omega/V data remain open. The declared test scale L=13, group SU(2), averaging (0.4) does not construct a matched pair. [Pinned source receipt](ym/source_receipts/YM_R111_CMP109_BOND_PROJECTION_SOURCE_RECEIPT_20261026.md).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -103,7 +107,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R111 (native, open):** choose legal odd L and the operative CMP109 M, recover the actual nonlinear Gaussian cutoff pullback Phi, chart error, covariance/component variance and threshold branch, then compare source-eligible paired Omega/V and observable laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R112 (native, open):** on declared CMP109 (0.4), L=13, SU(2), recover source C and A and covariance S with finite-volume control; audit source chart/Jacobian and interaction separately; then test true aligned Omega/V and inherited E/determinant law. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 
