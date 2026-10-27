@@ -1,0 +1,72 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-26",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R110_20261026.json",
+  "passes_completed_through": "YM-R111",
+  "live_cursor": "YM-R112",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_PH0_NONLINEAR_CONSTRAINT_SUPPORT_EXCLUDES_ALL_CHI_MONITORED_BONDS;R110_DELTA_CUTOFF_OBSTRUCTION_EXACTLY_ZERO;SOURCE_GAUSSIAN_MONITOR_LINEAR_COVARIANCE_GATE;FULL_CHART_AND_PAIRED_HISTORY_OPEN",
+  "completed_scope": "Original printed CMP109 (2.9) and p267 nonlinear D/h support reinspection shows Ph=0 for the exact chi-monitored non-b0 coordinates. Gaussian cutoff is linear image of constrained Gaussian B. Source-native conditional tail bound has no nonlinear displacement delta, with source threshold branches and monitored covariance typed. Declared L=13/G=SU2/(0.4) test parameters; no actual pair built.",
+  "positive_results": [
+    "The source constraint-linearizing h has support only on b0(c), while Eq.(2.9) chi monitors only other bonds: Ph=0 and nonlinear monitored displacement identically zero.",
+    "Cutoff in final Gaussian coordinates is exactly product over b not b0 of indicators ||g_k (C B)(b)||<theta_k on the legal source chart.",
+    "True monitored covariance is S=P C(C* A^(k) C)^(-1) C*P*, giving q<=min(1,2mn exp[-theta_k^2/(2m*g_k^2*v)]) with covariance component variance v.",
+    "The coupling-scaled theta=g_k epsilon1/gamma_k removes the g_k factor from the Gaussian tail exponent; no unconditional decay inferred.",
+    "Full Gaussian coordinate matching may be unnecessary for conditional monitor-only comparison; a common monitored covariance passport could suffice if source histories are actually identified.",
+    "Set legal test map CMP109 (0.4), G SU2, L=13 without falsely asserting an actual admissible source history."
+  ],
+  "source_provenance": {
+    "CMP109_printed_scan": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "direct_visual_page_indices_zero_based": [
+      4,
+      5,
+      16,
+      17,
+      18,
+      19
+    ],
+    "decisive_source_page": "printed p267: h zero except b0(c), B_old=B_new-h D(B_new); printed p266 (2.9) restricts non-b0 bonds",
+    "source_equations": [
+      "(0.4)",
+      "(0.12)",
+      "(2.1)",
+      "(2.3)",
+      "(2.9)",
+      "(2.10)",
+      "(2.12)",
+      "(2.13)"
+    ],
+    "CMP109_historical_OCR": "f1aec083a3a6470c67a2c1205ca740c2583fe37a",
+    "CMP98_original_images": "OPEN",
+    "CMP102b_original_images": "OPEN",
+    "CMP109_029_537_542": "OPEN"
+  },
+  "native_gates": {
+    "actual_nonlinear_cutoff_displacement": "REFUTED_EQUALS_ZERO_ON_MONITORED_BONDS",
+    "source_h_support_and_chi_exclusion": "PRINTED_IMAGE_VERIFIED",
+    "gaussian_linear_monitor_event": "SOURCE_EXACT_ON_VALID_CHART",
+    "finite_gaussian_tail": "PROVED_CONDITIONAL_SOURCE_COVARIANCE",
+    "actual_C_and_A_covariance_matrix": "SOURCE_DEFINED_EXPLICIT_NUMERICS_OPEN",
+    "actual_variance_and_volume_uniformity": "OPEN",
+    "analytic_D_chart_and_jacobian": "OPEN_DISTINCT_FROM_CHI",
+    "fixed_and_scaled_threshold_branch": "DISTINCT_NO_DECAY_RATE_ASSUMED",
+    "selected_source_M": "CMP109_0_4_TEST_TYPE_ONLY",
+    "legal_scale": "L_13_TEST_TYPE_ONLY",
+    "actual_Omega_V_pair": "OPEN",
+    "common_monitored_observable_carrier": "CONDITIONAL_NOT_REALIZED",
+    "full_normalized_two_UV_law": "OPEN",
+    "inherited_E_and_V_dependent_determinant": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R111_CMP109_MONITORED_BOND_PROJECTION_GAUSSIAN_CUTOFF_20261026.md",
+    "ym/source_receipts/YM_R111_CMP109_BOND_PROJECTION_SOURCE_RECEIPT_20261026.md",
+    "ym/terminology/YM_R111_TERMINOLOGY_REGISTRY_20261026.md",
+    "ym/checkpoints/YM_HEAD_R111_20261026.json"
+  ],
+  "next_action": "YM-R112 with chosen CMP109 (0.4), G SU2, L13: recover explicit operator C, A and covariance projection S, evaluate component variance/size and chart/Jacobian constraints; then source-legal paired Omega,V and inherited determinant/E data laws. No invented UV rate.",
+  "safety_boundary": "An exact source cutoff projection and conditional Gaussian bound do not prove any two-cutoff probability estimate, summability, continuum YM existence, OS or positive mass gap."
+}
