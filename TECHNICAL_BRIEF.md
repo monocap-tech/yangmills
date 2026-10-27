@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R116 (CMP99 projected Dirichlet hard rank and Delta_a restriction, 2026-10-27); YM-R117 (unconsumed).  
+**Research frontier:** YM-R117 (source gauge/averaging square, 2026-10-27); YM-R118 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 

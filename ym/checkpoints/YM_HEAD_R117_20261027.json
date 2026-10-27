@@ -1,0 +1,75 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R116_20261027.json",
+  "passes_completed_through": "YM-R117",
+  "live_cursor": "YM-R118",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP99_QJ_D_EQUALS_DJ_QJPRIME_SOURCE_OCR;ONE_LAYER_BASED_TO_AVERAGED_GAUGE_SECTION_J_EXACT_CONDITIONAL;INTERBLOCK_DEFECT_RETYPED_COARSE_GAUGE_COBBOUNDARY;HISTORIC_CMP99_Q_VS_CMP109_NEW_M_DERIVATIVE_SEAM;FULL_MULTISCALE_GAUGE_AND_DELTACK_AK_COVARIANCE_OPEN",
+  "completed_scope": "Source-original CMP99 OCR (3.114)-(3.115) directly attests Q_j D = D_j Q'_j; derived exact based-vs-average one-layer site gauge section if Q'iota square/invertible, small-neighborhood Neumann criterion, and source-shaped exact interface cochain as lifted coarse gauge derivative. Showed on two identity blocks why fixed coarse representative comparisons differ from gauge-invariant observable quotient and cannot silently identify CMP99 older Q_j with CMP109 modified (0.4) M. No actual nested Q' chart, CMP99 (3.157)-(3.158) images or covariance bound.",
+  "positive_results": [
+    "CMP99 original-paper source text (3.114)-(3.115) gives exact averaged gauge-gradient intertwiner Q_j D = D_j Q'_j; E=ker full Q' thereby preserves source fixed-average constraints at linear level.",
+    "One-layer exact section isomorphism J=I-iota(Q'iota)^-1Q' from coarse-based to averaged-site gauge, inverse B=I-iota E_y, conditional only on actual Q'iota invertibility and matching codomain.",
+    "Near-vacuum sufficient bound if ||Q'iota-I||<=eta<1 gives ||(Q'iota)^-1||<=1/(1-eta), but native eta not computed.",
+    "R116 interface cochain is precisely gradient of lifted coarse gauge parameter; it can be invisible to gauge-invariant loops while obstructing equality of prescribed V representatives.",
+    "Source CMP109 (0.4) introduced a Euclidean-symmetrized modification of historical averaging; CMP99 older Q_j and CMP109 chosen new M are NOT directly licensed as same tangent map, witnessed on based gauge directions in the one-layer identity model.",
+    "CMP99 full Q' has outputs at multiple annular levels; a single-block J need not preserve every Q'_j or regional Ω/Dirichlet collars."
+  ],
+  "source_provenance": {
+    "CMP99_original_paper_OCR_blob": "ce5af9ff9165b3e1a995f4c141c0bc0ca9fc6743",
+    "CMP99_source_ranges": [
+      [
+        192,
+        263
+      ],
+      [
+        1427,
+        1463
+      ],
+      [
+        1895,
+        1938
+      ],
+      [
+        1990,
+        2040
+      ]
+    ],
+    "CMP99_printed_equations": "NOT_IMAGE_VERIFIED",
+    "CMP109_original_printed_scan": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_printed_equations": [
+      "(0.4)",
+      "(0.12)",
+      "(0.15)",
+      "(0.16)"
+    ],
+    "CMP109_historical_OCR": "f1aec083a3a6470c67a2c1205ca740c2583fe37a",
+    "CMP99_later_3157_3158": "OCR_DAMAGED_PRINTED_IMAGES_OPEN"
+  },
+  "native_gates": {
+    "CMP99_source_Qj_gradient_intertwiner": "ORIGINAL_PAPER_OCR_SOURCE_LOCATED",
+    "CMP99_full_E_Ker_Qprime_fixed_source_averages": "SOURCE_LINEAR_ALGEBRA",
+    "one_layer_based_to_Qprime_section": "EXACT_CONDITIONAL_ON_RANK_COMPATIBILITY_INVERTIBLE_QPRIME_IOTA",
+    "SU2_near_identity_site_transport_bound": "DERIVED_SUFFICIENT_UNIFORM_ETA_UNVERIFIED",
+    "R116_interface_gradient_classification": "EXACT_COARSE_GAUGE_COBBOUNDARY_IN_TEST",
+    "source_prescribed_V_representative_vs_quotient": "DISTINCT_OBLIGATION",
+    "CMP99_old_Q_vs_CMP109_new_M_derivative": "SOURCE_CHOICE_SEAM_LOCAL_WITNESS_NO_GLOBAL_PASSPORT",
+    "full_nested_Qprime_domain_rank": "OPEN",
+    "regional_Dirichlet_Omega_collar": "OPEN",
+    "CMP99_later_Deltak_Ak": "OPEN_PRINTED_EQUATION_IMAGES",
+    "CMP109_Q_uniform_variance": "OPEN",
+    "paired_UV_Omega_V_and_normalized_law": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R117_CMP99_MULTISCALE_GAUGE_INTERTWINING_AND_COARSE_SEAM_20261027.md",
+    "ym/source_receipts/YM_R117_GAUGE_INTERTWINING_CMP99_CMP109_SOURCE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R117_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/checkpoints/YM_HEAD_R117_20261027.json"
+  ],
+  "next_action": "YM-R118 source specify complete CMP99 annular Q'_j rank and stagewise gauge lift respecting Ω Dirichlet, and calculate old CMP99 Q_j versus CMP109 (0.4)/(0.12) derivative on actual common block. Recover legible original CMP99 (3.157)-(3.158) before transferring later reduced covariance gamma. Then true two-UV law.",
+  "safety_boundary": "No CMP99/CMP109 common operator coercivity, actual cutoff-uniform covariance/law, continuum Yang-Mills, OS reconstruction or physical positive mass gap."
+}
