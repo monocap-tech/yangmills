@@ -1,0 +1,55 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-26",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "custody_state": "PAIRED_VARIATIONAL_SOURCE_TYPE_LOCATED;PHYSICAL_SCALE_TO_PAIRED_DATA_INFERENCE_REFUTED;NATIVE_PAIRED_CARRIER_AND_LAW_MATCH_OPEN",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R104_20261026.json",
+  "passes_completed_through": "YM-R105",
+  "live_cursor": "YM-R106",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "native actual two-cutoff pair realization and normalized RG law/observable transport",
+  "current_determination": "External draft Part III 34655-34735 defines a paired variational comparison with exact nested domains and identical shared-layer V; 35626-35641 and 36675-36807 offer unverified candidate minimizer and sandwiched covariance/root stationarity. Native R70/R75 physical spacing alignment and individual regularity do not imply source paired data or matching domains. Even deterministic fiber comparison does not imply the pushforward of cutoff-dependent normalized Yang-Mills/RG probability laws or small observable-law defect. Need actual pair/coupling/selection theorem and measure-level comparison. The external draft explicitly leaves fine propagator, exact shells and nested large-field Gaussian difference proofs outstanding.",
+  "positive_results": [
+    "Exact lattice spacing equality eta_(N+1,j+1)=eta_(N,j) retained.",
+    "Direct external primary draft text confirms explicit input conditions Omega'_(j+1)=Omega_j and shared V'=V, with admissibility/curvature/floor conditions.",
+    "Abstract diagnostic counterexamples establish that separate small curvatures do not entail identical data, and deterministic point matching does not entail normalized-law equality.",
+    "External draft's same-unit-lattice sandwiched covariance/root comparison remains a candidate conditional output, not a native theorem."
+  ],
+  "source_provenance": {
+    "native_R75": "SOURCE_AUDIT_AND_PARTLY_SECONDARY_LOCATOR",
+    "CMP102b_paper": "PUBLISHER_METADATA_AND_ABSTRACT_ONLY_ORIGINAL_EQUATIONS_NOT_CHECKED",
+    "external_YM4_partIII_blob": "6012ff578fb1c67c29651f1f4192ab59a4c862a3",
+    "external_paired_inputs": "DIRECT_DRAFT_TEXT_WITNESS_UNVERIFIED",
+    "external_minimizer_covariance": "DIRECT_DRAFT_THEOREM_STATEMENTS_UPSTREAM_DEPENDENCIES_UNVERIFIED",
+    "CMP99_3_analytic_resolvent": "HISTORICAL_THIRD_PARTY_SOURCE_TEXT_WITNESS",
+    "CMP109_029_537_542": "ORIGINAL_IMAGE_HARD_HOLD"
+  },
+  "native_gates": {
+    "physical_scale_alignment": "EXACT_ALGEBRA_NO_CARRIER",
+    "external_paired_variational_input_type": "DRAFT_SOURCE_TYPE_LOCATED",
+    "native_actual_history_pair_admissibility": "OPEN",
+    "native_shared_layer_V_data": "OPEN",
+    "native_nested_domain_history": "OPEN",
+    "common_CMP99_relative_A_chart": "OPEN",
+    "cutoff_gauge_and_constrained_Gaussian_transport": "OPEN",
+    "candidate_covariance_root_difference": "EXTERNAL_UNVERIFIED_NATIVE_OPEN",
+    "normalized_cutoff_RG_measure_defect": "OPEN",
+    "gauge_invariant_observable_comparison": "OPEN",
+    "CMP116_moving_weakener_history_response": "OPEN",
+    "inherited_E_relative_weighted_norm": "OPEN",
+    "one_loop_beta_and_full_beta_distinction": "OPEN",
+    "Eq029_positive_alpha": "OPEN",
+    "large_field_OS_existence_mass_gap": "OPEN"
+  },
+  "new_obstruction": "R75 physical blocking scale identity does not type or construct external paired V and Omega. Source hypotheses must be instantiated for real histories. Deterministic fiber estimates must not be promoted to RG law comparison without normalizations/coupling.",
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R105_PAIRED_VARIATIONAL_CARRIER_LAW_SEPARATION_20261026.md",
+    "ym/source_receipts/YM_R105_PAIRED_CARRIER_SOURCE_RECEIPT_20261026.md",
+    "ym/terminology/YM_R105_TERMINOLOGY_REGISTRY_20261026.md",
+    "ym/checkpoints/YM_HEAD_R105_20261026.json"
+  ],
+  "next_action": "YM-R106 instantiate a single physical-scale aligned pair with actual Bałaban M^j, Omega_j, V_j, gauge chart and constrained Gaussian reference; demonstrate admissible selection/coupling or refute with source-specific geometry and laws. Quantify normalized observable pushforward defect and large-field complement. Then independently audit external candidate minimizer and covariance/root hypotheses. Preserve CMP102b/CMP109 original-image holds.",
+  "safety_boundary": "No claim of a new Yang-Mills theorem, native two-cutoff carrier construction, verified external manuscript, continuum YM existence, Osterwalder-Schrader reconstruction, or positive mass gap."
+}

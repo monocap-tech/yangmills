@@ -1,6 +1,6 @@
 # External research interfaces — comparison plan, not proof adoption
 
-**Prepared:** 2026-10-26. **Status:** **YM-EXT-01 first focused crosswalk completed as a source/hypothesis audit only**; [findings](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) and [pinned external source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). The native YM-R105 theorem cursor remains unconsumed. **No native mathematical gate has been closed.** The independent native cursor is now **YM-R105**, following the [YM-R104 checkpoint](ym/checkpoints/YM_HEAD_R104_20261026.json). The original YM-EXT-01 proposal and its external proof-evidence boundary are unchanged.
+**Prepared:** 2026-10-26. **Status:** **YM-EXT-01 first focused crosswalk completed as a source/hypothesis audit only**; [findings](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) and [pinned external source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). The native YM-R105 applicability audit is now completed; its successor **YM-R106** remains unconsumed. **No physical construction or native two-cutoff estimate has been proved.** The canonical native checkpoint is [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json). The original YM-EXT-01 proposal and its external proof-evidence boundary are unchanged.
 
 This page identifies external materials worth checking against our [research-status ledger](RESEARCH_STATUS.md) and [target-scope hold](TARGET_SCOPE.md). An analogous technique, press release, manuscript, or Lean development does **not** establish that the exact theorem needed in this repository holds.
 
@@ -18,7 +18,7 @@ There is no established collaboration or shared proof chain between this reposit
 
 For a reproducible *entry point* into moving external repositories, the heads observed on 2026-10-26 were: Sussman–Alpöge at [af96f9c](https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/commit/af96f9c5ec6d05a5c8f251256d87970d73b7f25a) and Armstrong at [493e9eb](https://github.com/scottnarmstrong/balaban-lean/commit/493e9eb97292ebf6070c1c217a09bcf1adc23857). These are snapshots **for later comparison**, not a claim that all cited manuscripts were read at those commits or that any theorem is validated. Each future lemma must be pinned to the *particular content version actually checked*.
 
-## Comparison questions (ordered by direct relevance to YM-R104/R105)
+## Comparison questions (ordered by direct relevance to YM-R105/R106)
 
 1. **Cutoff and source carriers.** Does an external construction compare actual cutoff histories on explicit common gauge/constraint/Gaussian/source carriers and a quantified relative background chart (compare native [R104](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md))? Locate the definition and transport theorem, not merely an informal identification.
 2. **Background-field variation.** Is there a two-background estimate at fixed domains, in the correct weighted complex chart, with constants uniform in the RG step? Or does the argument avoid the comparison?
@@ -33,6 +33,10 @@ For each candidate external lemma, record the exact statement, section/page/comm
 ## RH/Weil carrier-type addendum — explicit transfer contract
 
 The [YM-EXT-01 typed-carrier addendum](ym/external/YM_EXT01_TYPED_CARRIER_CROSSWALK_20261026.md) applies the RH source→target admissibility protocol to the **existing directly inspected YM4 candidate**. The direct [YM-EXT-01 crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) already located specific paired variational backgrounds (III:34660–34734), a conditional gauge-relational minimizer theorem (III:35626–35641), and a proposed constrained covariance/root comparison (III:36675–36807). The *unproved bridge* is whether the **native** R105 cutoff pair inhabits precisely that source type, with valid gauge, Gaussian, normalization and analytic-domain transport. This is a sharpened specification problem, **not a new existence theorem** or a reclassification of native gates.
+
+## Post-crosswalk native finding
+
+[YM-R105](ym/passes/YM_R105_PAIRED_VARIATIONAL_CARRIER_LAW_SEPARATION_20261026.md) identifies two missing steps between the external candidate theorems and native YM observables: **actual shared-layer Ω/V pair admissibility**, and a separate **normalized finite-cutoff RG-law/observable comparison**. The external manuscript's proposed gauge and sandwiched covariance transports remain *unverified* conditional candidates, not the complete law-level bridge. [Exact inspected locations](ym/source_receipts/YM_R105_PAIRED_CARRIER_SOURCE_RECEIPT_20261026.md).
 
 ## First comparison target
 
@@ -51,7 +55,7 @@ Armstrong's [YMACCOUNT](https://github.com/scottnarmstrong/balaban-lean/blob/mai
 - Keep third-party OCR, manuscript claims, machine-checked formalization, and independently reconstructed proofs in distinct evidence classes.
 - Do not import external claims into the native pass lineage merely because they are associated with Bałaban's program.
 - Do not copy entire external manuscripts into the repository; link to their licensed sources and quote sparingly with attribution.
-- Preserve the existing history: YM-R104 is the *native* next cursor; YM-EXT-01 is a separate, proposed comparison workstream.
+- Preserve the existing history: YM-R105 is the completed *native source-applicability audit*, and YM-R106 the unconsumed native next cursor. YM-EXT-01 remains a separate completed external *source* audit, not a completed theorem transfer.
 - Public outreach should identify the repository's limitations and specific source-audit contributions, without implying priority, affiliation, discovery of existence, or a solved Millennium problem.
 
 OpenAI's 26 October announcement requests physics-collaboration correspondence via **YANGMILLS4D@gmail.com**. No contact has been sent from this documentation update; preparing a technically navigable public record precedes outreach.

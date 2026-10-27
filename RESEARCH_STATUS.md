@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-26 (updated after native **YM-R104**, source-text background-response audit; historical YM-R103 remains preserved).  
-**Next native cursor:** YM-R105, **not consumed**.  
+**Snapshot:** 2026-10-26 (updated after native **YM-R105**, paired-source admissibility and deterministic-fiber versus normalized-law negative-control audit; R103–R104 retained).  
+**Next native cursor:** YM-R106, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R104 checkpoint](ym/checkpoints/YM_HEAD_R104_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R105 checkpoint](ym/checkpoints/YM_HEAD_R105_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -32,9 +32,13 @@ The labels describe the research notebook's internal evidence assessment, **not 
 
 Source provenance and page/line locations for R103 are recorded in its [source receipt](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md); current terms are disambiguated in the [terminology registry](ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md).
 
+## R105 refute-first addition
+
+[YM-R105](ym/passes/YM_R105_PAIRED_VARIATIONAL_CARRIER_LAW_SEPARATION_20261026.md) checks the directly located external *input type*: consecutive-cutoff paired variational problems impose exact nesting of Ω and equality of prescribed V on common layers. Older exact physical-spacing equality and separate regularity do **not** imply this pair; there is a simple near-identity curvature counterexample to that invalid inference. Moreover deterministic matched minimizers/covariance fibers do not automatically compare **normalized RG probability laws**. [Pinned source receipt](ym/source_receipts/YM_R105_PAIRED_CARRIER_SOURCE_RECEIPT_20261026.md). This is a source-applicability/negative-control result, **not** a new verified Bałaban theorem.
+
 ## Native unresolved obligations
 
-This table groups the inherited open gates and the [YM-R104](ym/checkpoints/YM_HEAD_R104_20261026.json) clarifications; a positive same-domain source witness does not close the two-history gates.
+This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
 
 | Gate | Status | Minimum next evidence |
 | --- | --- | --- |
@@ -79,7 +83,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R105 (native, open):** recover the *actual* aligned cutoff-pair gauge/background carrier, test whether a relative field (A_{N,j}) satisfies CMP99(3) (3.37) in a shared chart, and demand a quantitatively summable normalized amplitude before transferring CMP116 estimates. Preserve the distinction between the relative perturbation α1 and RG-history age.
+**YM-R106 (native, open):** instantiate a lawful actual-cutoff pair or observable-level coupling with shared-layer domain/data compatibility, then test the normalized finite-cutoff RG laws on an explicitly named gauge-invariant observable class. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 

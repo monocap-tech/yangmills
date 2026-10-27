@@ -1,6 +1,6 @@
 # Target scope and native proof obligation (reviewer specification)
 
-**Prepared:** 2026-10-26. **Status:** Specification and research design, **not a theorem or a certified RG construction**. Native checkpoint: [YM-R104](ym/checkpoints/YM_HEAD_R104_20261026.json); next native pass: YM-R105. Historical R103 scope obligations remain relevant.
+**Prepared:** 2026-10-26. **Status:** Specification and research design, **not a theorem or a certified RG construction**. Native checkpoint: [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json); next native pass: YM-R106. Historical R103 scope obligations remain relevant.
 
 ## 1. Full problem versus this investigation
 
@@ -30,7 +30,7 @@ The *desired* two-cutoff comparison gate is a bound on properly transported phys
 
 with enough uniformity and summability to support the intended Cauchy/coherence argument. Here \(\mathcal T\), \(\mathcal O\), \(\mathcal B\), the indices, and the required sum are **placeholders awaiting source-native definition**; no numerical exponent or summable family is certified. Even a proof of such a gate would **not** alone yield continuum existence, OS reconstruction, nontriviality, or a mass gap.
 
-YM-R104 recovered a **same-domain** analytic relative-background response from CMP99(3). The live YM-R105 question is narrower: do the *actual* cutoff-pair backgrounds occupy one admissible relative (3.37) complex chart with a quantified relative-amplitude bound, and can their gauge/Gaussian carriers be legitimately identified? These are **not** consequences of the source's one-trajectory response.
+YM-R104 recovered a **same-domain** analytic relative-background response from CMP99(3). YM-R105 has shown that exact physical spacing and independent source regularity do **not** entail the external proposed pair input — nested domain sequences and identical prescribed gauge data on shared layers. Its further type distinction is deterministic minimizer/covariance fibers versus the **actual normalized RG probability laws**. The live YM-R106 question is to construct a lawful pair, coupling, or common gauge-invariant observable carrier, then bound its law-level defect. None of these follow from single-apparatus CMP99(3) analyticity.
 
 ## 3. Exact algebra versus admissible source comparison
 
@@ -66,7 +66,7 @@ This statement is a *self-contained elementary derivation*. Its proof needs only
 
 ## 5. Minimum new source-level evidence
 
-YM-R105 must either (a) construct an actual-cutoff carrier/background comparison in the CMP99(3) chart with source-native relative amplitude, norms and scales; or (b) isolate the precise source obstruction to doing so. The R104 source-text response result itself does **not** establish this. **A new conditional lemma or an analogy to another field theory is not gate closure.**
+YM-R106 must either (a) instantiate an actual cutoff-pair carrier selection/coupling with the draft's exact paired-Ω/V requirements **and** correct normalized measure marginals, or (b) isolate a source-specific reason the proposed pairing/observable route is inapplicable. The external candidate's minimizer/covariance/root estimates are not verified native theorems. **A new conditional lemma or an analogy to another field theory is not gate closure.**
 
 Separate future obligations remain: one-step polarization extraction and Bałaban CMP109 Eq. (0.29), the large-field construction, limits in UV and volume, OS reconstruction, and the positive spectral gap. See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) for the open-gate ledger.
 
