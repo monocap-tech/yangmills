@@ -67,7 +67,7 @@ The project retains failed transfers and counterexamples rather than silently pr
 
 On 2026-10-26, OpenAI [announced](https://openai.com/index/building-scientific-understanding-with-academic-communities/) an AI-generated Yang–Mills **existence** result built on Bałaban's approach; its physics proof artifacts were not publicly released in that announcement, and it did not claim a positive mass gap. The [Sussman–Alpöge research repository](https://github.com/ethanwsussman/Yang--Mills-LLM-experiment) and [Armstrong's O(N) formalization](https://github.com/scottnarmstrong/balaban-lean) offer separate public lines of investigation. They are **leads for precise comparison**, not results incorporated into this project's theorem ledger.
 
-See [External research interfaces](EXTERNAL_RECONCILIATION.md) for the proposed comparison protocol. **YM-EXT-01 is proposed work, not a completed native pass.**
+See [External research interfaces](EXTERNAL_RECONCILIATION.md) for the comparison protocol. **[YM-EXT-01's focused crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md)** identifies a candidate two-cutoff covariance/root theorem in the public Sussman–Alpöge account and explicit unproved upstream obligations; its [source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md) pins the inspected TeX blobs. This is **completed external source auditing, not native theorem closure**, and YM-R105 remains unconsumed.
 
 ## Scope and contributions
 
