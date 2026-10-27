@@ -1,0 +1,52 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-26",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R106_20261026.json",
+  "passes_completed_through": "YM-R107",
+  "live_cursor": "YM-R108",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP98_PROTOTYPE_AND_CMP109_EUCLIDEAN_AVERAGES_LOCATED_IN_OCR;MK_FIXED_DATA_SOURCE_LOCATED;RG_KERNEL_REFERENCE_NORMALIZATION_SEPARATED_FROM_PROBABILITY_PARTITION;NATIVE_KAPPA_AND_PAIRED_LAW_OPEN",
+  "completed_scope": "Pinned original-paper CMP98 and CMP109 third-party OCR text for source averaging, Euclidean-symmetric alternatives, variational M^k(U)=V, and restricted RG kernel. Proved abstract positive-kernel input-tilt decomposition and source-specific logical nonimplication. Original source image and actual two-cutoff law open.",
+  "positive_results": [
+    "CMP98 gauge-covariant contour-logarithm averaging is distinct from R106 Wilson-loop test observable.",
+    "CMP109 explicitly revises CMP98 averaging to restore Euclidean symmetry and permits (0.4) or alternative (0.12), with auxiliary group mean (0.10)-(0.11).",
+    "CMP109 (0.21) constrains the variational background by M^k(U)=V and attributes critical-orbit uniqueness to CMP102b.",
+    "CMP109 (0.13)-(0.17) defines a restricted gauge kernel and an identity-background action normalization, not automatically a globally stochastic source law.",
+    "Abstract normalized positive-kernel formula R107.1 requires fiber mass kappa and input tilt when kappa is not one."
+  ],
+  "source_provenance": {
+    "CMP98_OCR_blob": "1442f25d63ef4189608e73bff05c2a359c16c01d",
+    "CMP109_OCR_blob": "f1aec083a3a6470c67a2c1205ca740c2583fe37a",
+    "CMP98_original_images": "OPEN",
+    "CMP109_original_averaging_kernel_images": "OPEN",
+    "CMP102b_variational_original_images": "OPEN",
+    "CMP109_Eq029_537_542": "OPEN",
+    "external_YM4": "UNVERIFIED"
+  },
+  "native_gates": {
+    "CMP98_nonlinear_average": "SOURCE_OCR_LOCATED",
+    "CMP109_Euclidean_averaging": "TWO_SOURCE_ELIGIBLE_VARIANTS_OCR_EXACT_SELECTION_OPEN",
+    "CMP109_Mk_U_eq_V": "SOURCE_OCR_LOCATED_CMP102B_IMAGE_OPEN",
+    "CMP109_positive_kernel_input_tilt": "ABSTRACT_PROVED_NATIVE_KAPPA_OPEN",
+    "source_reference_normalizer_vs_full_partition": "NO_EQUALITY_ESTABLISHED",
+    "R106_path_to_source_M": "INVALID_AUTOMATIC_IDENTIFICATION",
+    "actual_two_cutoff_source_data": "OPEN",
+    "native_kernel_mass_and_conditioned_law": "OPEN",
+    "normalized_data_TV": "OPEN",
+    "paired_fiber_response": "OPEN",
+    "large_field_uniformity": "OPEN",
+    "marginal_beta_Eq029": "OPEN",
+    "continuum_OS_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R107_CMP98_CMP109_ACTUAL_AVERAGING_KERNEL_NORMALIZATION_AUDIT_20261026.md",
+    "ym/source_receipts/YM_R107_CMP98_CMP109_AVERAGING_NORMALIZATION_RECEIPT_20261026.md",
+    "ym/terminology/YM_R107_TERMINOLOGY_REGISTRY_20261026.md",
+    "ym/checkpoints/YM_HEAD_R107_20261026.json"
+  ],
+  "next_action": "YM-R108 original-image equation audit and one concrete CMP109 Euclidean average/source kernel selection; compute kappa(U), total normalization C and reference N_ref with cutoff/gauge factors, then conditional V data laws for real aligned RG histories. No physical-law or mass-gap claim.",
+  "safety_boundary": "No full source paired input theorem, no summable actual normalized RG law defect, no Yang-Mills continuum existence, OS reconstruction or mass gap."
+}
