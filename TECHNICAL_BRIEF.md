@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R105 (completed as applicability/negative-control audit on 2026-10-26); YM-R106 (unconsumed).  
+**Research frontier:** YM-R106 (completed as finite-Wilson test-cospan and conditional law cutset on 2026-10-26); YM-R107 (unconsumed).  
 **Prepared:** 2026-10-26.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -29,6 +29,8 @@ The project also derives an elementary but useful *conditional* fixed-point stab
 
 Its abstract proof is not a proof that a uniform source-weighted `q`, matched nonlinear charts, or appropriately marked operator differences exist for the actual two-cutoff construction. R103 gives counterexamples against making those transfers without hypotheses.
 
+**YM-R106 addition:** an explicit aligned SU(2) finite-Wilson loop observable cospan compares two full normalized cutoff laws through their gauge-invariant half-trace, while an exact abstract coupling criterion requires equality of the *distributions* of the shared source data (or pays their TV mismatch). Proper small-field sectors have positive full Wilson complement probability. The joint-law inequality must keep matched-fiber response, data-law TV and complement masses separate; **none has a native uniform bound yet**. See [YM-R106](ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md).
+
 ## Target-specification hold
 
 The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: establishing a lawfully **paired actual two-cutoff fiber** (nested Ω and shared V, or a quantified alternative), comparing normalized cutoff **observable laws**, then deriving quantitative history-response estimates. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
@@ -42,6 +44,9 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R106 canonical checkpoint](ym/checkpoints/YM_HEAD_R106_20261026.json)
+- [YM-R106 finite-Wilson observable cospan and coupling cutset](ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md)
 
 - [YM-R105 canonical checkpoint](ym/checkpoints/YM_HEAD_R105_20261026.json)
 - [YM-R105 native pair/law test](ym/passes/YM_R105_PAIRED_VARIATIONAL_CARRIER_LAW_SEPARATION_20261026.md)

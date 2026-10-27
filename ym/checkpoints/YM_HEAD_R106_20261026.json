@@ -1,0 +1,50 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-26",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "passes_completed_through": "YM-R106",
+  "live_cursor": "YM-R107",
+  "live_cursor_consumed": false,
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R105_20261026.json",
+  "custody_state": "FINITE_WILSON_PHYSICAL_LOOP_COSPAN_TYPED;ABSTRACT_DATA_TV_COUPLING_CRITERION_PROVED;FULL_WILSON_SMALL_FIELD_ONLY_PAIRING_OBSTRUCTED;ACTUAL_BALABAN_M_DATA_LAW_OPEN",
+  "completed_scope": "Finite SU(2) Wilson aligned physical-loop observable cospan, exact standard-Borel maximal data coupling criterion, strict finite-coupling Wilson large-field leakage, normalized conditional sector defect decomposition. No actual Bałaban source averaging or summability proved.",
+  "positive_results": [
+    "One physical square admits gauge-invariant [-1,1] Wilson-loop observable maps at N,j and N+1,j+1 with correct normalized finite-Wilson marginals.",
+    "For typed data maps the maximal probability of exact matching is one minus total variation of their pushforward laws.",
+    "Every proper small-field plaquette event with nonempty open complement has positive full Wilson probability at finite coupling.",
+    "Conditioned observable difference is bounded by a source-paired conditional difference plus 2M times both complement probabilities; additional matched-data mismatch is quantified by TV."
+  ],
+  "source_provenance": {
+    "previous": "ym/checkpoints/YM_HEAD_R105_20261026.json",
+    "CMP98_averaging": "BIBLIOGRAPHIC_ABSTRACT_ONLY_FORMULAE_OPEN",
+    "CMP102b_variational": "PUBLISHER_METADATA_ABSTRACT_ONLY_FORMULAE_OPEN",
+    "external_YM4_partIII_blob": "6012ff578fb1c67c29651f1f4192ab59a4c862a3",
+    "external_YM4_theorems": "UNVERIFIED_CANDIDATES_WITH_EXPLICIT_PROOF_DEPENDENCIES",
+    "CMP109_029_537_542": "ORIGINAL_PAGE_IMAGE_HOLD"
+  },
+  "native_gates": {
+    "finite_Wilson_physical_loop_observable_cospan": "CONSTRUCTED_TEST_CARRIER",
+    "full_Wilson_all_small_field_coupling": "IMPOSSIBLE_IF_PROPER_SMALL_FIELD_EVENT",
+    "abstract_exact_data_coupling": "IFF_PUSHFORWARD_DATA_LAWS_EQUAL",
+    "abstract_conditional_good_sector_defect": "PROVED_CONDITIONAL",
+    "native_Balaban_M_and_prescribed_data_maps": "OPEN",
+    "native_Omega_pair_admissibility": "OPEN",
+    "native_relative_gauge_minimizer_and_Gaussian_covariance_transport": "OPEN",
+    "source_matched_fiber_observable_bound_aN": "OPEN",
+    "normalized_data_TV_tN": "OPEN",
+    "large_field_mass_bN_uniform_summability": "OPEN",
+    "full_RG_law_Cauchy": "OPEN",
+    "one_step_polarization_beta_and_Eq029": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md",
+    "ym/source_receipts/YM_R106_FINITE_WILSON_COSPAN_SOURCE_RECEIPT_20261026.md",
+    "ym/terminology/YM_R106_TERMINOLOGY_REGISTRY_20261026.md",
+    "ym/checkpoints/YM_HEAD_R106_20261026.json"
+  ],
+  "next_action": "YM-R107 recover source-native CMP98 M / CMP102b variational prescribed V and Omega / CMP109-116 normalized history distributions on one exact aligned block, test source data pushforward laws, prove compatible matched-fiber observable defect or source-specific failure, and quantify large-field b_N. No invented equality of Wilson path product with source M.",
+  "safety_boundary": "No native two-cutoff paired input theorem or numeric/summable observable-law bound; no external proof verification, existence, OS or positive mass gap claim."
+}

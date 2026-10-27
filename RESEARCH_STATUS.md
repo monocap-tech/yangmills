@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-26 (updated after native **YM-R105**, paired-source admissibility and deterministic-fiber versus normalized-law negative-control audit; R103–R104 retained).  
-**Next native cursor:** YM-R106, **not consumed**.  
+**Snapshot:** 2026-10-26 (updated after native **YM-R106**, finite-Wilson observable cospan and normalized coupling/complement cutset; R103–R104 retained).  
+**Next native cursor:** YM-R107, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R105 checkpoint](ym/checkpoints/YM_HEAD_R105_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R106 checkpoint](ym/checkpoints/YM_HEAD_R106_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -35,6 +35,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 ## R105 refute-first addition
 
 [YM-R105](ym/passes/YM_R105_PAIRED_VARIATIONAL_CARRIER_LAW_SEPARATION_20261026.md) checks the directly located external *input type*: consecutive-cutoff paired variational problems impose exact nesting of Ω and equality of prescribed V on common layers. Older exact physical-spacing equality and separate regularity do **not** imply this pair; there is a simple near-identity curvature counterexample to that invalid inference. Moreover deterministic matched minimizers/covariance fibers do not automatically compare **normalized RG probability laws**. [Pinned source receipt](ym/source_receipts/YM_R105_PAIRED_CARRIER_SOURCE_RECEIPT_20261026.md). This is a source-applicability/negative-control result, **not** a new verified Bałaban theorem.
+
+## R106 finite-Wilson cospan and coupling/complement cutset
+
+[YM-R106](ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md) constructs a *single-physical-loop* SU(2) Wilson observable cospan at aligned physical scales, without misidentifying that contour with Bałaban's averaging M. It proves abstractly that exact shared determining-data couplings exist precisely when their pushforward data distributions coincide; the optimal exact match probability is 1 minus their total variation. At any finite Wilson coupling a proper plaquette small-field event has strictly positive complement mass, so full-law comparison cannot live exclusively on small-field pairs. A conditional normalized observable comparison has separate matched-fiber defect, data-law mismatch and both large-field masses. **No quantitative or summable native Yang–Mills RG defect is proved; actual CMP98 M/CMP102b V/Omega maps remain OPEN.** [R106 receipt](ym/source_receipts/YM_R106_FINITE_WILSON_COSPAN_SOURCE_RECEIPT_20261026.md).
 
 ## Native unresolved obligations
 
@@ -83,7 +87,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R106 (native, open):** instantiate a lawful actual-cutoff pair or observable-level coupling with shared-layer domain/data compatibility, then test the normalized finite-cutoff RG laws on an explicitly named gauge-invariant observable class. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R107 (native, open):** identify the source-defined CMP98 averaging M, CMP102b paired prescribed data and CMP109/CMP116 normalized history laws on an actual aligned block; quantify conditional data-law mismatch, matched-fiber response and large-field probability. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 
