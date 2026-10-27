@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R122**, actual nonlinear CMP109 M curvature and two-stage deterministic application; historical passes retained).  
-**Next native cursor:** YM-R123, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R123**, source background plaquette regularity and independent fluctuation monitor distinction; historical passes retained).  
+**Next native cursor:** YM-R124, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R122 checkpoint](ym/checkpoints/YM_HEAD_R122_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R123 checkpoint](ym/checkpoints/YM_HEAD_R123_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -104,6 +104,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R122](ym/passes/YM_R122_NONLINEAR_COARSE_LINK_CURVATURE_AND_TWO_STAGE_GATE_20261027.md) proves a CONDITIONAL, NONLINEAR real SU2 bound for the actual source CMP109 (0.4) log-averaged coarse connection. For one complete L13 local source halo, the explicit shortest-path relative loop homotopy has maximum 666 plaquettes and source-weighted mean 31878/169, checked with exact integer/Fraction [code](ym/computations/YM_R122_NONLINEAR_RIBBON_AND_TWO_STAGE_20261027.py). If the source field is real SU2, every required halo plaquette deviation η is bounded and **666η<1**, then ||M(U,c)-U(c)||<= (31878/169)η/(1-666η). Moreover on compatible nested CENTERED source lattices, U1=M(U0), U2=M(U1) obey a deterministic second-stage bound using eta1<=169eta0+4delta0, provided BOTH log charts and halos hold. This is **not** a two-independent-UV normalized RG probability comparison; source actual chi0/chik, Ω/Dirichlet collars, Jacobian, Gaussian, inherited E and determinant remain OPEN. The numeric threshold is a proved sufficient chart condition, NOT a source small-field certificate. [Source receipt](ym/source_receipts/YM_R122_NONLINEAR_M_RIBBON_SOURCE_RECEIPT_20261027.md).
 
+## YM-R123 — source regular backgrounds versus B' independent cutoff
+
+[YM-R123](ym/passes/YM_R123_SOURCE_REGULARITY_TO_NONLINEAR_M_ENTRY_AND_FLUCTUATION_SEAM_20261027.md) checks original printed CMP109 (0.16),(0.19),(1.1),(1.2),(2.1),(2.3),(2.9): the SOURCE regular minimizing background Uk(V) has physical plaquette curvature ≤epsilon0 eta_k² on its specified field domain, and chi_k integration is chosen to retain such backgrounds. This is distinct from the independent χk cutoff on monitored B'(b), which excludes b0(c). For real SU2 and every source-eligible R122 halo, **666 epsilon0 eta_k²<1** permits the actual nonlinear M(Uk(V)) coarse-versus-fine link bound, including source saddle V^(k)=M(Uk+1(W)). The stronger R122 deterministic TWO-STAGE chart condition is x=epsilon0 eta_k² < **1.624428434e-6**, with x≤1e-6 a sufficient explicit choice, proven by [exact arithmetic](ym/computations/YM_R123_SMALL_FIELD_CHART_ENTRY_20261027.py). The original source fixes no such numeric epsilon0, and reducing the regularity domain changes what is integrated. The χk→original U' link map, regional Ω/collar support, CMP99 Gaussian precision, inherited E/determinants, and two-independent-UV Ω,V normalized law remain OPEN. [Source receipt](ym/source_receipts/YM_R123_CMP109_SMALL_FIELD_SOURCE_APPLICATION_RECEIPT_20261027.md).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -151,7 +155,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R123 (native, open):** test whether CMP109 actual chi0/chik small-field indicators and Ω/Dirichlet collars supply the full one/two-stage halo and 666η<1 conditions; otherwise record the precise obstruction, and return to R110 normalized Gaussian/cutoff exits and independent UV histories. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R124 (native, open):** quantify the source B'→Hk(B')→U' gauge chart and excluded b0 coordinates on a full original-field halo; check Ω/Dirichlet collar support and actual ε0,ε1 thresholds before attempting independent paired Ω,V normalized UV laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 
