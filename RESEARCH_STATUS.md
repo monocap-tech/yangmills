@@ -81,6 +81,6 @@ To mark a native gate closed, a new pass must:
 
 **YM-R105 (native, open):** recover the *actual* aligned cutoff-pair gauge/background carrier, test whether a relative field (A_{N,j}) satisfies CMP99(3) (3.37) in a shared chart, and demand a quantitatively summable normalized amplitude before transferring CMP116 estimates. Preserve the distinction between the relative perturbation α1 and RG-history age.
 
-**YM-EXT-01 (proposed external comparison, not a completed pass):** use [EXTERNAL_RECONCILIATION.md](EXTERNAL_RECONCILIATION.md) to test external accounts against these *specific* native gates.
+**YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 
 Historical [R103 editorial/source clarifications](REVIEW_ERRATA_20261026.md) are additive and do not close a gate. There is **no proof-completion schedule implied** by the number of passes, pages, or formal lines written.
