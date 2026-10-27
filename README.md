@@ -6,9 +6,9 @@
 
 | Canonical state | Value |
 | --- | --- |
-| Last completed native pass | **[YM-R123](ym/passes/YM_R123_SOURCE_REGULARITY_TO_NONLINEAR_M_ENTRY_AND_FLUCTUATION_SEAM_20261027.md)** — 2026-10-27 |
-| Next native cursor | **YM-R124** — not yet consumed |
-| Official research checkpoint | **[YM_HEAD_R123](ym/checkpoints/YM_HEAD_R123_20261027.json)** |
+| Last completed native pass | **[YM-R124](ym/passes/YM_R124_FLUCTUATION_CURVATURE_CHART_AND_GLOBAL_HOLONOMY_PASSPORT_20261027.md)** — 2026-10-27 |
+| Next native cursor | **YM-R125** — not yet consumed |
+| Official research checkpoint | **[YM_HEAD_R124](ym/checkpoints/YM_HEAD_R124_20261027.json)** |
 | Public status snapshot | **2026-10-27** (documentation update, not a new proof pass) |
 
 ## Start here
@@ -18,6 +18,7 @@
 | **[Target scope and native proof obligation](TARGET_SCOPE.md)** | Full Clay target versus our still-uninstantiated Yang–Mills construction and admissible two-cutoff comparison |
 | **[Research status and evidence ledger](RESEARCH_STATUS.md)** | Internally checked deductions, source evidence, and native open gates |
 | **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
+| **[YM-R124 investigation](ym/passes/YM_R124_FLUCTUATION_CURVATURE_CHART_AND_GLOBAL_HOLONOMY_PASSPORT_20261027.md)** | Conditional physical B'→Hk curvature entry, exact flat SU2 winding Wilson noninjectivity, source M retains flat global holonomy, near-flat winding nδ gate; CMP102 quantitative Hk and two-UV laws open |
 | **[YM-R123 investigation](ym/passes/YM_R123_SOURCE_REGULARITY_TO_NONLINEAR_M_ENTRY_AND_FLUCTUATION_SEAM_20261027.md)** | CMP109 source-regular minimizing backgrounds satisfy plaquette curvature gate conditionally; B' chi_k cutoff is a different monitor; two-stage numeric chart threshold x*≈1.6244e-6 |
 | **[YM-R122 investigation](ym/passes/YM_R122_NONLINEAR_COARSE_LINK_CURVATURE_AND_TWO_STAGE_GATE_20261027.md)** | Exact SU2 nonlinear CMP109 source M single-step and deterministic two-stage curvature bounds under full-halo and small-log chart gates; no normalized UV law |
 | **[YM-R121 investigation](ym/passes/YM_R121_AFFINE_HALF_SHIFT_AND_MULTISCALE_TRANSPORT_COCYCLE_20261027.md)** | Source half-shift fine lattice aligns one-step old corner/new center blocks; scale shifts telescope; geometric two-stage path cocycle 2808 plaquettes, not RG composition |
@@ -95,4 +96,4 @@ This is an **inspectable research and source-audit trail**, not an end-to-end re
 
 **Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
 
-**Last public-status review:** 2026-10-27. **Research frontier as recorded:** 2026-10-27, YM-R123 (source background small-field passport, distinct B' cutoff, quantitative two-stage chart threshold); **YM-R124 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
+**Last public-status review:** 2026-10-27. **Research frontier as recorded:** 2026-10-27, YM-R124 (source Landau Hk curvature interface and global winding-holonomy custody); **YM-R125 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).

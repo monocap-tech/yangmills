@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R123 (source minimizer plaquette smallness and B' cutoff distinction, 2026-10-27); YM-R124 (unconsumed).  
+**Research frontier:** YM-R124 (source Landau fluctuation curvature and global winding Wilson preservation, 2026-10-27); YM-R125 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -63,7 +63,13 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 4. **Marginal versus regular sector:** Native covariance or summable mismatch for the one-step vacuum-polarization extraction alongside a valid positive-alpha bound on the complementary Bałaban Eq. (0.29) contribution.
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
+**R124 physical/global source caution:** On a legal real SU2 original fine field after the source Landau gauge change, ηphysical≤ηbackground+4η||Hk||∞. Hk≤CH θk on all original bonds is still a CMP102 source obligation; no numeric CH or uniform Ω halo is certified. Independently flat periodic SU2 configurations share η=0 yet differ in winding Wilson trace. The genuine CMP109 M preserves flat winding exactly when source ribbons are contractible; near-flat aligned winding error ≤n times the R122 local bound. Global winding data should be preserved via the full V, not by curvature-only labels. [R124](ym/passes/YM_R124_FLUCTUATION_CURVATURE_CHART_AND_GLOBAL_HOLONOMY_PASSPORT_20261027.md).
+
 ## Evidence anchors
+
+- [YM-R124 checkpoint](ym/checkpoints/YM_HEAD_R124_20261027.json)
+- [YM-R124 physical and winding audit](ym/passes/YM_R124_FLUCTUATION_CURVATURE_CHART_AND_GLOBAL_HOLONOMY_PASSPORT_20261027.md)
+- [YM-R124 flat Wilson computation](ym/computations/YM_R124_FLAT_WINDING_AND_CURVATURE_TRANSFER_20261027.py)
 
 - [YM-R123 checkpoint](ym/checkpoints/YM_HEAD_R123_20261027.json)
 - [YM-R123 source small-field analysis](ym/passes/YM_R123_SOURCE_REGULARITY_TO_NONLINEAR_M_ENTRY_AND_FLUCTUATION_SEAM_20261027.md)

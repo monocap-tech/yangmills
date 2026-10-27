@@ -1,0 +1,60 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R123_20261027.json",
+  "passes_completed_through": "YM-R124",
+  "live_cursor": "YM-R125",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_LANDAU_HK_ORIGINAL_FIELD_GAUGE_INVARIANT_CURVATURE_TRANSFER_CONDITIONAL_ON_CH;FLAT_PERIODIC_GLOBAL_WINDING_NOT_CURVATURE_DETERMINED;ACTUAL_NONLINEAR_M_PRESERVES_FLAT_WINDING_V;NEAR_FLAT_COARSE_WINDING_ERROR_NDELTA;TWO_UV_LAWS_AND_SOURCE_HK_UNIFORM_OMEGA_OPEN",
+  "positive_results": [
+    "CMP109 printed p265 establishes gauge-transformed fluctuated original fine links as exp(i eta Hk(B')) times regular background, with Hk regular of order B'; quantitative source bounds are delegated to CMP102 Sect G [15].",
+    "SU2 plaquette curvature norm gauge-invariant; if original fine link fluctuation Hk has sup norm <= CH theta_k on complete halo then eta_physical <= epsilon0 eta_k^2 + 4 eta CH theta_k and R122 enters if 666 times that sum <1. CH is UNVERIFIED.",
+    "Periodic constant Cartan SU2 flat U has eta=0 for all theta but winding Wilson trace cos(theta), so local curvature alone cannot determine full gauge orbit; not a claim of disconnected topological sectors.",
+    "Under R122 contractible admissible source ribbons, CMP109 actual nonlinear M(U,c)=fine straight U(c) exactly on flat configurations; compatible coarse winding loop preserves original Wilson holonomy, hence full coarse V carries flat global info.",
+    "With complete source chart on n coarse winding edges and local M-vs-straight error delta=C eta/(1-666eta), winding holonomy and trace error <=min(2,n delta); if physical period ell fixed and eta<=epsilon0 h^2, n=ell/(Lh), this is O(h) under uniform source hypotheses.",
+    "Existing R106 locally aligned finite Wilson observable cospan excludes winding loops; R124 gives an extension of observables but does not construct their normalized laws, matched prescribed V/Ω, or probability coupling."
+  ],
+  "source_provenance": {
+    "CMP109_source_original_printed": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_indices": [
+      2,
+      3,
+      4,
+      16,
+      17,
+      18,
+      50
+    ],
+    "CMP102_precursor": "Balaban, Variational Problem and Background Fields, CMP 102, 277–309 (1985), DOI 10.1007/BF01229381, reference [15] CMP109 printed p299",
+    "CMP102_Prop9_quantitative_Hk": "SOURCE_ORIGINAL_EQUATIONS_NOT_OBTAINED",
+    "computation": "ym/computations/YM_R124_FLAT_WINDING_AND_CURVATURE_TRANSFER_20261027.py",
+    "existing_R106": "ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md"
+  },
+  "native_gates": {
+    "source_Hk_Landau_chart": "ORIGINAL_PRINTED_EQ_AND_TEXT_P265",
+    "gauged_physical_plaquette_transfer": "EXACT_CONDITIONAL",
+    "full_original_Hk_and_special_b0_uniform_norm": "OPEN_CMP102_SECT_G",
+    "regional_Omega_full_halo": "OPEN",
+    "flat_curvature_winding_noninjectivity": "EXACT",
+    "source_flat_M_retains_winding": "EXACT_CONDITIONAL_ON_CONTRACTIBLE_RIBBONS_AND_CYCLE_ALIGNMENT",
+    "near_flat_winding_error": "EXACT_CONDITIONAL_N_DELTA",
+    "continuum_style_Oh_winding_fidelity": "DERIVED_CONDITIONAL_ON_UNIFORM_PHYSICAL_SCALE_HALO",
+    "global_winding_law_coupling_two_uv": "OPEN",
+    "harmonic_modes_in_CMP99_reduced_precision": "OPEN",
+    "CMP99_late_Deltak_Ak_gaussian": "OPEN",
+    "paired_normalized_two_UV_Omega_V_laws": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R124_FLUCTUATION_CURVATURE_CHART_AND_GLOBAL_HOLONOMY_PASSPORT_20261027.md",
+    "ym/source_receipts/YM_R124_FLUCTUATION_GLOBAL_HOLONOMY_SOURCE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R124_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/computations/YM_R124_FLAT_WINDING_AND_CURVATURE_TRANSFER_20261027.py",
+    "ym/checkpoints/YM_HEAD_R124_20261027.json"
+  ],
+  "next_action": "YM-R125 source retrieve CMP102 Sect G Prop9 original quantitative uniform Hk norms for actual monitored B' including special b0, source original graph and Omega; test real original-field R122 chart on complete halos. Independently test shared V and global winding Wilson observable alignment in actual paired two UV histories; CMP99 late covariance remains open.",
+  "safety_boundary": "Exact flat global retention and conditional one-step winding error do not prove normalized cutoff-law convergence, OS Yang-Mills continuum existence or mass gap."
+}
