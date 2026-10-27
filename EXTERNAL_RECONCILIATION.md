@@ -1,6 +1,6 @@
 # External research interfaces — comparison plan, not proof adoption
 
-**Prepared:** 2026-10-26. **Status:** **YM-EXT-01 first focused crosswalk completed as a source/hypothesis audit only**; [findings](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) and [pinned external source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). Native **YM-R107** has completed a CMP98/CMP109 averaging-choice and restricted-kernel normalization audit; **YM-R108** is unconsumed. **No physical construction or native two-cutoff estimate has been proved.** The canonical native checkpoint is [YM-R107](ym/checkpoints/YM_HEAD_R107_20261026.json). The original YM-EXT-01 proposal and its external proof-evidence boundary are unchanged.
+**Prepared:** 2026-10-26. **Status:** **YM-EXT-01 first focused crosswalk completed as a source/hypothesis audit only**; [findings](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) and [pinned external source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). Native **YM-R108** has completed the CMP109 FP orbit identity versus cutoff/kernel normalization audit; **YM-R109** is unconsumed. **No physical construction or native two-cutoff estimate has been proved.** The canonical native checkpoint is [YM-R108](ym/checkpoints/YM_HEAD_R108_20261026.json). The original YM-EXT-01 proposal and its external proof-evidence boundary are unchanged.
 
 This page identifies external materials worth checking against our [research-status ledger](RESEARCH_STATUS.md) and [target-scope hold](TARGET_SCOPE.md). An analogous technique, press release, manuscript, or Lean development does **not** establish that the exact theorem needed in this repository holds.
 
@@ -55,7 +55,7 @@ Armstrong's [YMACCOUNT](https://github.com/scottnarmstrong/balaban-lean/blob/mai
 - Keep third-party OCR, manuscript claims, machine-checked formalization, and independently reconstructed proofs in distinct evidence classes.
 - Do not import external claims into the native pass lineage merely because they are associated with Bałaban's program.
 - Do not copy entire external manuscripts into the repository; link to their licensed sources and quote sparingly with attribution.
-- Preserve the existing history: YM-R105 is the completed *native source-applicability audit*, YM-R106 the finite-Wilson cospan/necessary complement cutset, YM-R107 the source averaging/kernel cutset, and YM-R108 the unconsumed native cursor. YM-EXT-01 remains a separate completed external *source* audit, not a completed theorem transfer.
+- Preserve the existing history: YM-R105 is the completed *native source-applicability audit*, YM-R106 the finite-Wilson cospan/necessary complement cutset, YM-R107 the source averaging/kernel cutset, YM-R108 the FP/cutoff cutset, and YM-R109 the unconsumed native cursor. YM-EXT-01 remains a separate completed external *source* audit, not a completed theorem transfer.
 - Public outreach should identify the repository's limitations and specific source-audit contributions, without implying priority, affiliation, discovery of existence, or a solved Millennium problem.
 
 OpenAI's 26 October announcement requests physics-collaboration correspondence via **YANGMILLS4D@gmail.com**. No contact has been sent from this documentation update; preparing a technically navigable public record precedes outreach.
