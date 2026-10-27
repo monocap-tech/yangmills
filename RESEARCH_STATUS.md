@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R123**, source background plaquette regularity and independent fluctuation monitor distinction; historical passes retained).  
-**Next native cursor:** YM-R124, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R124**, source Landau fluctuation curvature interface and global winding-holonomy test; historical passes retained).  
+**Next native cursor:** YM-R125, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R123 checkpoint](ym/checkpoints/YM_HEAD_R123_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R124 checkpoint](ym/checkpoints/YM_HEAD_R124_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -108,6 +108,12 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R123](ym/passes/YM_R123_SOURCE_REGULARITY_TO_NONLINEAR_M_ENTRY_AND_FLUCTUATION_SEAM_20261027.md) checks original printed CMP109 (0.16),(0.19),(1.1),(1.2),(2.1),(2.3),(2.9): the SOURCE regular minimizing background Uk(V) has physical plaquette curvature ≤epsilon0 eta_k² on its specified field domain, and chi_k integration is chosen to retain such backgrounds. This is distinct from the independent χk cutoff on monitored B'(b), which excludes b0(c). For real SU2 and every source-eligible R122 halo, **666 epsilon0 eta_k²<1** permits the actual nonlinear M(Uk(V)) coarse-versus-fine link bound, including source saddle V^(k)=M(Uk+1(W)). The stronger R122 deterministic TWO-STAGE chart condition is x=epsilon0 eta_k² < **1.624428434e-6**, with x≤1e-6 a sufficient explicit choice, proven by [exact arithmetic](ym/computations/YM_R123_SMALL_FIELD_CHART_ENTRY_20261027.py). The original source fixes no such numeric epsilon0, and reducing the regularity domain changes what is integrated. The χk→original U' link map, regional Ω/collar support, CMP99 Gaussian precision, inherited E/determinants, and two-independent-UV Ω,V normalized law remain OPEN. [Source receipt](ym/source_receipts/YM_R123_CMP109_SMALL_FIELD_SOURCE_APPLICATION_RECEIPT_20261027.md).
 
+## YM-R124 — local curvature, physical fluctuation chart and global winding
+
+[YM-R124](ym/passes/YM_R124_FLUCTUATION_CURVATURE_CHART_AND_GLOBAL_HOLONOMY_PASSPORT_20261027.md) original-print-checks CMP109 pp.265–267: in Landau gauge the fluctuating original fine field equals exp(iηHk(B'))Uk+1; its Hk is stated regular and of the same order as B', but the **quantitative bound is delegated to CMP102 Sect. G [15]**, not proved by χk monitoring B' alone. For real SU2, gauge-invariant plaquette norm avoids bounding intermediate gauge moves. If ||Hk||∞≤CH θk on every eligible fine halo bond, then ηphysical≤ε0ηk²+4η CHθk, and R122 requires 666 times this expression <1. CH, excluded b0 bounds and Ω halos remain OPEN.
+
+The validated periodic flat SU2 example has zero plaquette curvature but winding Wilson trace cosθ. On eligible contractible source ribbons, however, the **actual nonlinear CMP109 M(U) equals straight fine U(c) for flat fields**; aligned coarse winding W(M(U)) equals the fine winding W(U), so the prescribed full V retains these flat global holonomies rather than discarding them. Under R122 full-cycle bounds, near-flat winding trace error is ≤min(2,nδ) for n coarse links and δ=(31878/169)η/(1−666η); a physical-scale O(h) interpretation requires further uniform source/Ω certification. R106's local-square cospan did not previously check winding. [Source receipt](ym/source_receipts/YM_R124_FLUCTUATION_GLOBAL_HOLONOMY_SOURCE_RECEIPT_20261027.md). This is NOT a normalized independent two-UV law or Yang–Mills mass-gap proof.
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -155,7 +161,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R124 (native, open):** quantify the source B'→Hk(B')→U' gauge chart and excluded b0 coordinates on a full original-field halo; check Ω/Dirichlet collar support and actual ε0,ε1 thresholds before attempting independent paired Ω,V normalized UV laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R125 (native, open):** recover CMP102 Sect. G quantitative Hk(B') regularity and full bond/special b0/Ω halo estimates; determine whether actual prescribed V and independent two-UV histories transport winding Wilson data with a verified common observable law, while CMP99 late precision and full Gaussian normalization remain separately open. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 

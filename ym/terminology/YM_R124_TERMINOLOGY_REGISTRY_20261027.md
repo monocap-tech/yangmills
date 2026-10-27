@@ -1,0 +1,14 @@
+# YM-R124 — fluctuation curvature, flat global holonomy and source V
+
+**Date:** 2026-10-27. [Pass](../passes/YM_R124_FLUCTUATION_CURVATURE_CHART_AND_GLOBAL_HOLONOMY_PASSPORT_20261027.md). Additive definitions; no retrospective rewriting.
+
+- **CMP109LandauFluctuationHk** — original published p.265 states \(U_{\rm fluct}^u=e^{i\eta H_k(B')}U_{k+1}\), H_k regular and "same order as B'"; quantitative uniform H on original physical bonds is delegated to CMP102 Sect G [15]. Intermediate gauge transformation not necessary for gauge-invariant plaquette curvature norm comparison.
+- **PhysicalPlaquetteFromFluctuation** — real SU2 4-edge product inequality \(\eta(U)\le\eta(U_{\rm bg})+4\sup_b\|e^{i\eta H_k(b)}-I\|\), provided common original fine edge carrier. With source quantitative \(\|H_k\|_\infty\le C_H\theta_k\) it becomes \(\eta(U)\le\varepsilon_0\eta_k^2+4\eta C_H\theta_k\). \(C_H\) and full source halo missing.
+- **TruePhysicalChartEntryR124** — \(666(\varepsilon_0\eta_k^2+4\eta C_H\theta_k)<1\), with actual source collar/scale and B' special bonds. Conditional only.
+- **FlatSU2WindingFamily** — periodic e1 link \(D(\theta/N)\) in SU2 Cartan, other links I; all plaquettes I while winding cycle trace is cos θ. Non-injectivity of local curvature data; not necessarily discrete topological sectors.
+- **PeriodicHarmonicResidue** — linearized constant Cartan one-form has zero curl but is not derivative of periodic gauge site function if winding holonomy varies; actual fixed average Q(V) may remove it. CMP99 constrained Hessian effect separately OPEN.
+- **FlatSourceMRetention** — on source-eligible contractible ribbon, η=0 gives actual nonlinear CMP109 M(U,c)=straight U(c). For source-aligned coarse winding cycle, coarse V=M(U) preserves the original winding holonomy exactly on flat U.
+- **NearFlatWindingError** — if each of n source coarse bonds meets R122 full-halo gate with one uniform δ, \(\|W_{\rm coarse}-W_{\rm fine}\|\le\min(2,nδ)\) and same trace bound. A *local* error need not stay small around very long winding loop.
+- **ConditionalPhysicalPeriodO(h)** — if physical period ℓ, fine spacing h, η≤ε0 h² and n=ℓ/(Lh), then nδ≤Cε0 ℓ h/[L(1−666ε0h²)]; source global uniformity/physical scale passport still OPEN, NOT an independent cutoff-law bound.
+- **WindingWilsonObservableCospan** — extend R106 local physical square observable idea to a specified noncontractible winding cycle at each cutoff. The common target [-1,1] is gauge invariant; equality of pushed-forward laws and a source two-UV coupling remain OPEN. Same prescribed coarse V on aligned cycle entails same coarse winding trace, but not by itself equality of microscopic winding trace laws.
+- **YM-R125** — recover CMP102 Sect G [15] quantified Hk(B') norm in exact original carrier, special b0 and Ω region; source-verify actual coupling of winding Wilson data through the two independent UV histories, plus CMP99 late covariance as preexisting separate gate.
