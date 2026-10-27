@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R113**, CMP99/CMP109 source precision provenance and gauge-form transfer cutset; historical passes retained).  
-**Next native cursor:** YM-R114, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R114**, source CMP109 positive gauge quadratic and based gauge-extension criterion; historical passes retained).  
+**Next native cursor:** YM-R115, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R113 checkpoint](ym/checkpoints/YM_HEAD_R113_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R114 checkpoint](ym/checkpoints/YM_HEAD_R114_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -68,6 +68,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R113](ym/passes/YM_R113_CMP99_CMP109_REDUCED_PRECISION_GAUGE_FIXING_TRANSFER_20261027.md) directly checks printed CMP109 (2.11), which cites (3.156) of source [13], and printed CMP109 bibliography [13]=Bałaban CMP99 background propagators. Importantly CMP109 **replaces delta-function gauge fixing with exponential gauge fixing**. CMP99 original-paper OCR at its (3.156)–(3.158) records a positive, step/background-uniform lower bound for the predecessor reduced precision under regularity assumptions, and at Thm.3.15 locates exponential covariance decay. The exact source operator/chart and gauge change needed to transfer those constants to Q=C*AC remain **OPEN**. A conditional lower bound follows if the chart map T is quantitatively nondegenerate and the gauge-form defect Q-T*Q99 T has bounded negative part; abstract finite-dimensional hard-to-soft counterexample prohibits automatic transfer. Separately, original printed CMP109 **(0.29)** positive-alpha irrelevant-polymer bound and **(5.37),(5.42)** polarization/beta formulas are visually checked (printed pp.258,297); their cross-UV summability remains OPEN. [Source receipt](ym/source_receipts/YM_R113_CMP99_PRECISION_SOURCE_AND_CMP109_IMAGE_RECEIPT_20261027.md).
 
+## YM-R114 source vacuum positive-gauge mechanism
+
+[YM-R114](ym/passes/YM_R114_CMP109_BASED_GAUGE_QUADRATIC_EXTENSION_20261027.md) checks printed CMP109 (2.5): exponential gauge fixing contributes an explicit nonnegative quadratic sum of squared linear source holonomy coordinates and a cubic remainder. At identity SU2 and based fine-site gauge, linearized source coarse average D and gauge coordinate F satisfy DK=0 and FK=I (up to sign). Thus the fixed-average tangent W splits into W intersect ker F plus based-gauge directions. If the true source Wilson Hessian is coercive by gamma on the *matching* hard slice, then H0+beta F*F has lower bound min(gamma/2,beta/32) in standard unweighted four-dimensional nearest-neighbor coordinates. **This is conditional; CMP99 hard delta slice, exact Hessian norm and original page equations remain OPEN.** Full normalized two-cutoff measures, determinants, large-field and mass gap remain unproved. [Source receipt](ym/source_receipts/YM_R114_CMP109_GAUGE_QUADRATIC_CMP99_ACCESS_RECEIPT_20261027.md).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -115,7 +119,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R114 (native, open):** original-image verify CMP99 (3.156)–(3.158) if possible; reconstruct actual CMP99 hard delta versus CMP109 exponential gauge form on a shared legal SU2 vacuum block. Bound or source-obstruct its negative form difference and chart transport before assigning covariance constants, then resume aligned Omega/V and inherited E/determinant laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R115 (native, open):** identify the source CMP99 hard delta gauge slice and compare it to CMP109 based-holonomy ker F on the same linearized constraint W for L=13 SU2 vacuum; prove or obstruct a quantitatively controlled slice transport and CMP99 lower-bound transfer, without silently changing normalized measures. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 

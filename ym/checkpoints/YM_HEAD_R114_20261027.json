@@ -1,0 +1,52 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R113_20261027.json",
+  "passes_completed_through": "YM-R114",
+  "live_cursor": "YM-R115",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_EQ25_POSITIVE_GAUGE_QUADRATIC;BASED_GAUGE_FK_I_DK_ZERO_AT_SU2_VACUUM;CONDITIONAL_HARD_TO_SOFT_COERCIVITY;CMP99_ORIGINAL_IMAGES_AND_SHARED_SLICE_OPEN",
+  "completed_scope": "CMP109 printed Eq.(2.5) nonnegative exponential-gauge quadratic; exact based-gauge splitting W=(W intersect ker F) plus image K; conditional d=4 coercivity lower bound; CMP99 original equation images still inaccessible. No source-native hard-slice gamma or two-UV probability law.",
+  "positive_results": [
+    "Original CMP109 (2.5) gauge term is quadratic sum of squares in linear holonomy coordinates, plus cubic remainder.",
+    "At identity based-gauge endpoint differentiation FK=I (up to orientation) and source coarse average covariance DK=0; exact algebraic splitting follows.",
+    "If source hard-slice Hessian H0 >= gamma and soft form equals H0+beta F*F, then soft precision >= 1/2 min(gamma,beta/||K||²).",
+    "On standard unweighted four-dimensional nearest-neighbor lattice ||K||<=4, giving conditional bound min(gamma/2,beta/32).",
+    "No CMP99 hard gauge coercivity constant is transferred because actual shared chart and source Hessian form remain open."
+  ],
+  "source_provenance": {
+    "CMP109_printed_scan": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_inspected_pdf_indices_zero_based": [
+      5,
+      16,
+      17,
+      18,
+      19
+    ],
+    "CMP99_original_image": "ATTEMPTED_UNAVAILABLE",
+    "CMP99_OCR_blob": "ce5af9ff9165b3e1a995f4c141c0bc0ca9fc6743",
+    "CMP109_029_537_542": "PRINTED_IMAGES_VERIFIED_R113"
+  },
+  "native_gates": {
+    "CMP109_positive_exp_gauge_quadratic": "PRINTED_IMAGE_VERIFIED",
+    "based_gauge_splitting": "DERIVED_SOURCE_COMPATIBLE_IDENTITY",
+    "conditional_soft_coercivity": "PROVED_UNDER_EXPLICIT_HARD_SLICE_EQUIVALENCE",
+    "source_CMP99_hard_slice_gamma": "OPEN",
+    "CMP99_original_3156_3158_images": "OPEN",
+    "full_CMP109_precision_form_equality": "OPEN",
+    "actual_uniform_covariance": "OPEN",
+    "paired_Omega_V_two_cutoff_law": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R114_CMP109_BASED_GAUGE_QUADRATIC_EXTENSION_20261027.md",
+    "ym/source_receipts/YM_R114_CMP109_GAUGE_QUADRATIC_CMP99_ACCESS_RECEIPT_20261027.md",
+    "ym/terminology/YM_R114_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/checkpoints/YM_HEAD_R114_20261027.json"
+  ],
+  "next_action": "YM-R115 identify same source hard delta gauge slice in CMP99 with CMP109 based F, D and real Hessian H0 under same L13 SU2 background. Bound or obstruct direct uniform gamma transfer. Then actual paired Omega V distributions.",
+  "safety_boundary": "No actual source CMP109 coercivity constant, cutoff-uniform law, continuum YM existence or spectral mass gap."
+}
