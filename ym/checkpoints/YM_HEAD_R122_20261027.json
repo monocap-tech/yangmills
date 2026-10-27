@@ -1,0 +1,47 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R121_20261027.json",
+  "passes_completed_through": "YM-R122",
+  "live_cursor": "YM-R123",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_ACTUAL_NONLINEAR_M_SOURCE_RIBBON_MAX_666_MEAN_31878_OVER_169;CONDITIONAL_REAL_SU2_M_TO_FINE_HOLONOMY;TWO_STAGE_DETERMINISTIC_SOURCE_M_COMPOSITION;TRUE_OMEGA_V_NORMALIZED_RG_LAW_OPEN",
+  "positive_results": [
+    "Original printed CMP109 (0.3),(0.4) yields relative loop matrix-log source formula with uniform fine sites and independently weighted shortest paths.",
+    "Explicit L13 4D loop homotopy uses at most 666 plaquette swaps, with source weighted mean 31878/169; exact Fraction arithmetic verified.",
+    "For a real SU2 full supported halo with 666eta<1, ||M(U,c)-U(c)|| <= (31878/169)eta/(1-666eta); theorem for actual nonlinear source M, not linearized.",
+    "For compatible nested centered lattices, delta0=C eta0/(1-666eta0), eta1<=169eta0+4delta0, and under both chart conditions ||M(M(U),c2)-U(c2 fine straight)||<=13delta0+C eta1upper/(1-666eta1upper).",
+    "Neither theorem supplies source chi/epsilon threshold, cutoff-uniform normalized probability law, Faddeev-Popov Jacobian, inherited E or mass gap."
+  ],
+  "native_gates": {
+    "source_full_nonlinear_M": "ORIGINAL_PRINTED_EQ04",
+    "L13_ribbon_homotopy": "PROVED_EXPLICIT_666_AND_31878_OVER_169",
+    "single_stage_real_SU2_curvature_bound": "PROVED_CONDITIONAL_ON_HALO_AND_666ETA_LT1",
+    "deterministic_two_stage_real_SU2_M_composition": "PROVED_CONDITIONAL_ON_BOTH_HALOS_AND_BOTH_LOG_CHARTS",
+    "source_small_field_indicator_support": "OPEN",
+    "source_regional_Omega_Lambda_Dirichlet": "OPEN",
+    "CMP99_late_precision_Qprime": "OPEN",
+    "paired_independent_UV_OMega_V_law": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "source_provenance": {
+    "CMP109_printed_scan": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_pdf_indices": [
+      3,
+      4
+    ],
+    "computation": "ym/computations/YM_R122_NONLINEAR_RIBBON_AND_TWO_STAGE_20261027.py"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R122_NONLINEAR_COARSE_LINK_CURVATURE_AND_TWO_STAGE_GATE_20261027.md",
+    "ym/source_receipts/YM_R122_NONLINEAR_M_RIBBON_SOURCE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R122_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/computations/YM_R122_NONLINEAR_RIBBON_AND_TWO_STAGE_20261027.py",
+    "ym/checkpoints/YM_HEAD_R122_20261027.json"
+  ],
+  "next_action": "YM-R123 inspect actual CMP109 chi0,chik regional Omega and chart thresholds to determine whether 666eta<1 and both supported halos follow; then connect source real M to R110 conditional law and independent UV histories, while CMP99 late covariance remains open.",
+  "safety_boundary": "Deterministic source M composition does not prove cutoff-stable probability measures, OS reconstruction or positive Yang-Mills mass gap."
+}

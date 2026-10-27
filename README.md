@@ -6,9 +6,9 @@
 
 | Canonical state | Value |
 | --- | --- |
-| Last completed native pass | **[YM-R121](ym/passes/YM_R121_AFFINE_HALF_SHIFT_AND_MULTISCALE_TRANSPORT_COCYCLE_20261027.md)** — 2026-10-27 |
-| Next native cursor | **YM-R122** — not yet consumed |
-| Official research checkpoint | **[YM_HEAD_R121](ym/checkpoints/YM_HEAD_R121_20261027.json)** |
+| Last completed native pass | **[YM-R122](ym/passes/YM_R122_NONLINEAR_COARSE_LINK_CURVATURE_AND_TWO_STAGE_GATE_20261027.md)** — 2026-10-27 |
+| Next native cursor | **YM-R123** — not yet consumed |
+| Official research checkpoint | **[YM_HEAD_R122](ym/checkpoints/YM_HEAD_R122_20261027.json)** |
 | Public status snapshot | **2026-10-27** (documentation update, not a new proof pass) |
 
 ## Start here
@@ -18,6 +18,7 @@
 | **[Target scope and native proof obligation](TARGET_SCOPE.md)** | Full Clay target versus our still-uninstantiated Yang–Mills construction and admissible two-cutoff comparison |
 | **[Research status and evidence ledger](RESEARCH_STATUS.md)** | Internally checked deductions, source evidence, and native open gates |
 | **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
+| **[YM-R122 investigation](ym/passes/YM_R122_NONLINEAR_COARSE_LINK_CURVATURE_AND_TWO_STAGE_GATE_20261027.md)** | Exact SU2 nonlinear CMP109 source M single-step and deterministic two-stage curvature bounds under full-halo and small-log chart gates; no normalized UV law |
 | **[YM-R121 investigation](ym/passes/YM_R121_AFFINE_HALF_SHIFT_AND_MULTISCALE_TRANSPORT_COCYCLE_20261027.md)** | Source half-shift fine lattice aligns one-step old corner/new center blocks; scale shifts telescope; geometric two-stage path cocycle 2808 plaquettes, not RG composition |
 | **[YM-R120 investigation](ym/passes/YM_R120_CMP95_CMP98_CMP109_HISTORICAL_AXIAL_PATH_AND_FRAME_TRANSPORT_20261027.md)** | CMP98 historical contour source-locked to CMP95 (1.7), old corner/new center coarse-frame transport, and conditional L13 common-cell sparse coefficient -1/114244; source affine offset and covariance remain open |
 | **[YM-R119 investigation](ym/passes/YM_R119_FULL_COARSE_LINK_DERIVATIVE_CURVATURE_RESPONSE_AND_GAUGE_ACTION_20261027.md)** | Printed CMP109 full coarse-link tangent; declared L13 axial-vs-sym exact sparse response 99/28561 and curvature sup bound 10584/169; full-field vs fixed-background gauge contexts distinguished |
@@ -93,4 +94,4 @@ This is an **inspectable research and source-audit trail**, not an end-to-end re
 
 **Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
 
-**Last public-status review:** 2026-10-27. **Research frontier as recorded:** 2026-10-27, YM-R121 (source half-shift exact one-step affine cell, multilevel shift and two-stage lifted holonomy); **YM-R122 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
+**Last public-status review:** 2026-10-27. **Research frontier as recorded:** 2026-10-27, YM-R122 (conditional nonlinear source M curvature certificate and deterministic two-stage bound); **YM-R123 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).

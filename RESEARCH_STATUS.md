@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R121**, exact one-step affine cell map and two-stage fine-path holonomy cocycle; historical passes retained).  
-**Next native cursor:** YM-R122, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R122**, actual nonlinear CMP109 M curvature and two-stage deterministic application; historical passes retained).  
+**Next native cursor:** YM-R123, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R121 checkpoint](ym/checkpoints/YM_HEAD_R121_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R122 checkpoint](ym/checkpoints/YM_HEAD_R122_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -100,6 +100,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R121](ym/passes/YM_R121_AFFINE_HALF_SHIFT_AND_MULTISCALE_TRANSPORT_COCYCLE_20261027.md) original-page checks CMP109 (0.1),(0.3),(0.4). CMP109 fine lattice h(Z^4+1/2) versus CMP95/CMP98 corner fine lattice hZ^4 admits exact affine site/bond/plaquette map x↦x+h/2 on equal-period tori. Under old full L^4 half-open source boundary assumption, an old L13 corner cell maps bijectively onto the new centered 28561-site block, whose coarse basepoint is six fine steps per axis beyond the translated old corner. Across levels h_j=L^j h, shifts t_j=r h_j telescope. However staged versus direct DESCENDING fine path transport differs by **2808 elementary plaquettes** at two scales (468 in each of six coordinate planes), with unitary SU2 norm bound ≤min(2,2808 max plaquette deviation). [Exact Python certificate](ym/computations/YM_R121_AFFINE_HALF_SHIFT_AND_PATH_COCYCLE_20261027.py) passed. This is ONLY the fine graph: real second-stage coarse M(U), source Ω/Dirichlet collars, CMP99 later covariance, two-UV normalized laws and mass gap remain OPEN. [Source receipt](ym/source_receipts/YM_R121_SOURCE_AFFINE_HALF_SHIFT_AND_COCYCLE_RECEIPT_20261027.md).
 
+## YM-R122 — actual nonlinear source coarse-link curvature gate
+
+[YM-R122](ym/passes/YM_R122_NONLINEAR_COARSE_LINK_CURVATURE_AND_TWO_STAGE_GATE_20261027.md) proves a CONDITIONAL, NONLINEAR real SU2 bound for the actual source CMP109 (0.4) log-averaged coarse connection. For one complete L13 local source halo, the explicit shortest-path relative loop homotopy has maximum 666 plaquettes and source-weighted mean 31878/169, checked with exact integer/Fraction [code](ym/computations/YM_R122_NONLINEAR_RIBBON_AND_TWO_STAGE_20261027.py). If the source field is real SU2, every required halo plaquette deviation η is bounded and **666η<1**, then ||M(U,c)-U(c)||<= (31878/169)η/(1-666η). Moreover on compatible nested CENTERED source lattices, U1=M(U0), U2=M(U1) obey a deterministic second-stage bound using eta1<=169eta0+4delta0, provided BOTH log charts and halos hold. This is **not** a two-independent-UV normalized RG probability comparison; source actual chi0/chik, Ω/Dirichlet collars, Jacobian, Gaussian, inherited E and determinant remain OPEN. The numeric threshold is a proved sufficient chart condition, NOT a source small-field certificate. [Source receipt](ym/source_receipts/YM_R122_NONLINEAR_M_RIBBON_SOURCE_RECEIPT_20261027.md).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -147,7 +151,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R122 (native, open):** source-permitted τ and bridge paths on actual nested Ω/Dirichlet regions; quantify nonlinear CMP109 M(U) versus lifted fine holonomy, then source covariance and actual paired two-UV measures. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R123 (native, open):** test whether CMP109 actual chi0/chik small-field indicators and Ω/Dirichlet collars supply the full one/two-stage halo and 666η<1 conditions; otherwise record the precise obstruction, and return to R110 normalized Gaussian/cutoff exits and independent UV histories. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 
