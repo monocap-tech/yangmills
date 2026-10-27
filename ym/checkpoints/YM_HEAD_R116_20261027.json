@@ -1,0 +1,72 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R115_20261027.json",
+  "passes_completed_through": "YM-R116",
+  "live_cursor": "YM-R117",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP99_PROJECTOR_RANGE_DELTA_KER_QPRIME_AND_DIRICHLET_HARD_RANK_EXACT;CMP99_DELTA_A_COMPLETION_EQUALS_A_ON_JOINT_HARD_FIXED_AVERAGE_SLICE;ELEMENTARY_BASED_TO_MEAN_ZERO_J_CONDITION_L13_169;INTERBLOCK_INTERFACE_DISCREPANCY;LATER_DELTA_K_AK_NORMALIZATION_AND_REAL_TWO_UV_PAIR_OPEN",
+  "completed_scope": "Re-read original-paper CMP99 OCR (3.18)-(3.27),(3.110),(3.118)-(3.119),(3.155)-(3.158). Corrected hard-gauge codomain: R projects on Delta ker Q' and RD*D is invertible from ker Q' to Delta ker Q' with finite Dirichlet positivity. Derived normalized hard gauge Ghat=Delta^-1 RD* and exact Delta_a=A+D R D*+Q*aQ restriction identity on hard/fixed-average slice. Declared one disjoint L13 SU2 block gauge mean-zero vs coarse-based isomorphism with sharp inverse norm 169 and explicit inter-block gradient defect. No actual later Delta_k/A_k identity or full source gauge history proved.",
+  "positive_results": [
+    "CMP99 R is the orthogonal projector onto Delta N(Q'), not N(Q') itself. RD*D maps N(Q') isomorphically to Delta N(Q') as Delta, and Ghat=Delta^-1 R D* has Ghat D=I on CMP99 allowed finite Dirichlet gauge directions.",
+    "The source positive completion Delta_a=A + D R D* + Q*aQ agrees exactly with A as quadratic form on simultaneous Q B=0 and R D*B=0, narrowing R115 independent precision mismatch to the later Delta_k/A_k relation.",
+    "For a DECLARED isolated identity-background uniform-average n=L^4 block, the coarse-based and mean-zero site gauges are bijectively related by mean subtraction with ||J||=1, ||J^-1||=L²=169 for L13.",
+    "Blockwise mean subtraction changes fine-bond gradients only across block interfaces, by the negative difference of neighboring block means, proving that a local gauge section map is not global bond-gauge equality without boundary/interface transport.",
+    "Original-paper CMP99 (3.157)-(3.158) remains unreadable in OCR; no source-uniform bound, matched multiscale Q', conditional partitions or two-UV law."
+  ],
+  "source_provenance": {
+    "CMP99_article": "Balaban CMP99(3) 389-434 (1985), DOI 10.1007/BF01240355",
+    "CMP99_original_paper_OCR_blob": "ce5af9ff9165b3e1a995f4c141c0bc0ca9fc6743",
+    "CMP99_inspected_OCR_ranges": [
+      [
+        227,
+        312
+      ],
+      [
+        1384,
+        1419
+      ],
+      [
+        1479,
+        1506
+      ],
+      [
+        1895,
+        1938
+      ],
+      [
+        1990,
+        2040
+      ]
+    ],
+    "CMP99_printed_equation_images": "OPEN_UNVERIFIED",
+    "CMP109_printed_scan": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_029_537_542_original_images": "VERIFIED_YM_R113",
+    "source_geometry_type": "CMP99_MULTISCALE_QPRIME_AND_DIRICHLET_REGION_DIFFER_FROM_DECLARED_SINGLE_BLOCK_TEST"
+  },
+  "native_gates": {
+    "CMP99_R_projector_range": "SOURCE_ORIGINAL_PAPER_OCR_LOCATED",
+    "CMP99_hard_gauge_rank_on_E_N_Qprime": "EXACT_DERIVATION_FINITE_DIRICHLET",
+    "CMP99_typed_Ghat_hard_section": "EXACT",
+    "CMP99_source_Delta_a_vs_A_hard_fixed_average": "EXACT_SOURCE_FORM_RESTRICTION",
+    "simple_L13_based_mean_zero_J": "EXACT_TEST_MODEL_NOT_FULL_MULTISCALE",
+    "interblock_gauge_gradient_mismatch": "EXACT_TEST_MODEL",
+    "CMP99_nested_Qprime_to_CMP109_based_E": "OPEN",
+    "CMP99_later_Deltak_vs_Ak_and_Cstar_precisions": "OPEN_NEEDS_ORIGINAL_EQUATIONS",
+    "CMP109_uniform_reduced_precision_and_variance": "OPEN",
+    "matching_gauge_V_Omega_two_UV_pair": "OPEN",
+    "inherited_E_determinant_and_normalized_law": "OPEN",
+    "continuum_OS_positive_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R116_CMP99_PROJECTED_LAPLACIAN_GAUGE_RANK_AND_PRECISION_20261027.md",
+    "ym/source_receipts/YM_R116_CMP99_RANK_OPERATOR_SOURCE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R116_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/checkpoints/YM_HEAD_R116_20261027.json"
+  ],
+  "next_action": "YM-R117 recover actual nested regional CMP99 Q' and relation of site-gauge kernel to CMP109 coarse-based u(y)=1 including interface cochain and Ω boundaries, and original image of CMP99 (3.157)-(3.158) to establish later Delta_k/A_k covariance identity. Verify the single-block J does not falsely transfer across interfaces. Only then native variance/paired law.",
+  "safety_boundary": "Source-specific hard rank and one completed quadratic restriction do not imply later CMP109 covariance gamma, source history coherence, OS construction, continuum existence or spectral mass gap."
+}

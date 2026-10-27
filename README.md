@@ -6,9 +6,9 @@
 
 | Canonical state | Value |
 | --- | --- |
-| Last completed native pass | **[YM-R115](ym/passes/YM_R115_CMP99_CMP109_HARD_SLICE_QUOTIENT_AND_PRECISION_SPLIT_20261027.md)** — 2026-10-27 |
-| Next native cursor | **YM-R116** — not yet consumed |
-| Official research checkpoint | **[YM_HEAD_R115](ym/checkpoints/YM_HEAD_R115_20261027.json)** |
+| Last completed native pass | **[YM-R116](ym/passes/YM_R116_CMP99_PROJECTED_LAPLACIAN_GAUGE_RANK_AND_PRECISION_20261027.md)** — 2026-10-27 |
+| Next native cursor | **YM-R117** — not yet consumed |
+| Official research checkpoint | **[YM_HEAD_R116](ym/checkpoints/YM_HEAD_R116_20261027.json)** |
 | Public status snapshot | **2026-10-27** (documentation update, not a new proof pass) |
 
 ## Start here
@@ -18,6 +18,7 @@
 | **[Target scope and native proof obligation](TARGET_SCOPE.md)** | Full Clay target versus our still-uninstantiated Yang–Mills construction and admissible two-cutoff comparison |
 | **[Research status and evidence ledger](RESEARCH_STATUS.md)** | Internally checked deductions, source evidence, and native open gates |
 | **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
+| **[YM-R116 investigation](ym/passes/YM_R116_CMP99_PROJECTED_LAPLACIAN_GAUGE_RANK_AND_PRECISION_20261027.md)** | CMP99 projected Dirichlet Laplacian hard-gauge rank closed on ker Q'; source Delta_a=A on hard/fixed-average slice; L13 based/mean-zero interblock seam |
 | **[YM-R115 investigation](ym/passes/YM_R115_CMP99_CMP109_HARD_SLICE_QUOTIENT_AND_PRECISION_SPLIT_20261027.md)** | Exact quotient transport between CMP99 hard RD* and CMP109 holonomy gauge slices conditional on GK rank; separate Delta_k/A_k precision gap |
 | **[YM-R114 investigation](ym/passes/YM_R114_CMP109_BASED_GAUGE_QUADRATIC_EXTENSION_20261027.md)** | CMP109 printed (2.5) positive gauge quadratic, exact based gauge splitting and conditional hard-to-soft coercivity; CMP99 hard slice still open |
 | **[YM-R113 investigation](ym/passes/YM_R113_CMP99_CMP109_REDUCED_PRECISION_GAUGE_FIXING_TRANSFER_20261027.md)** | Exact CMP109 (2.11) citation of CMP99 (3.156), with delta-to-exponential gauge switch; conditional coercivity bridge and CMP109 (0.29),(5.37),(5.42) original images |
@@ -87,4 +88,4 @@ This is an **inspectable research and source-audit trail**, not an end-to-end re
 
 **Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
 
-**Last public-status review:** 2026-10-27. **Research frontier as recorded:** 2026-10-27, YM-R115 (gauge quotient section theorem and precision normalization split); **YM-R116 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
+**Last public-status review:** 2026-10-27. **Research frontier as recorded:** 2026-10-27, YM-R116 (CMP99 hard-gauge rank and exact quadratic slice restriction); **YM-R117 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).

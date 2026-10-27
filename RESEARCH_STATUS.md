@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R115**, CMP99/CMP109 quotient gauge-slice transport and precision normalization audit; historical passes retained).  
-**Next native cursor:** YM-R116, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R116**, projected Dirichlet hard-gauge rank and source quadratic-completion restriction; historical passes retained).  
+**Next native cursor:** YM-R117, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R115 checkpoint](ym/checkpoints/YM_HEAD_R115_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R116 checkpoint](ym/checkpoints/YM_HEAD_R116_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -76,6 +76,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R115](ym/passes/YM_R115_CMP99_CMP109_HARD_SLICE_QUOTIENT_AND_PRECISION_SPLIT_20261027.md) reads the original-paper CMP99 OCR (3.110),(3.112),(3.155)–(3.158),(3.169)–(3.185). CMP99 writes hard gauge R D* while CMP109's positive gauge quadratic uses based path-holonomy coordinates F. At a real identity SU2 block, if the hard selector G=RD* has invertible GK on the identical based parameter domain E, the quotient projections P_F=I-KF and P_G=I-K(GK)^-1G give an exact isomorphism between hard slices. The SAME physical gauge-invariant Hessian lower bound transports with factor (1+||K||||F||)^-2. In d=4 this yields conditional soft coercivity min(gamma_G/[2(1+4||F||)^2],beta/32). **Independently**, CMP99's OCR lower-bound sentence is about C*Delta_k C, while (3.156) uses A_k; neither is automatically the required physical Hessian H0. The precise (3.157)–(3.158) covariance/normalization bridge and original images remain OPEN. No native rank, norm, spectral constant or paired two-UV law has been certified. [R115 source receipt](ym/source_receipts/YM_R115_CMP99_HARD_SLICE_AND_PRECISION_RECEIPT_20261027.md).
 
+## YM-R116 source hard-gauge rank and quadratic restriction
+
+[YM-R116](ym/passes/YM_R116_CMP99_PROJECTED_LAPLACIAN_GAUGE_RANK_AND_PRECISION_20261027.md) re-reads CMP99 original-paper OCR (3.18)–(3.27), (3.118)–(3.119), (3.155)–(3.158). The source projector **R has range Δ ker Q'**, so the hard Faddeev–Popov operator RD*D is isomorphic from E=ker Q' to ΔE through the positive finite Dirichlet Laplacian, not literally an E-to-E operator. The normalized source gauge coordinate Ĝ=Δ^-1 R D* satisfies ĜD=I on E and defines a true hard-gauge projection. CMP99 (3.26) also gives Δ_a=A+D R D*+Q*aQ, which restricts **exactly to A** on simultaneous QB=0, RD*B=0. These are genuine source-specific refinements of R115, but the **later Δ_k versus A_k** and CMP109 source Hessian still require (3.157)–(3.158) original-page verification. For a separate *isolated uniform-average L13 model*, coarse-based versus mean-zero gauge sections have a sharp inverse norm L²=169; subtracting block means changes gradients on inter-block bonds, so full nested Ω/V histories cannot be equated by this local map. [Source receipt](ym/source_receipts/YM_R116_CMP99_RANK_OPERATOR_SOURCE_RECEIPT_20261027.md). CMP99 equation images remain unverified, uniform source covariance/large-field estimates and mass gap remain OPEN.
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -123,7 +127,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R116 (native, open):** source-verify the exact CMP99 reduced covariance identity (3.155)–(3.158), Delta_k/A_k/H0 relation and the actual hard RD* gauge operator rank GK, boundary and F locality on one legal CMP109 identity block; then attempt native gamma and two-history laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R117 (native, open):** recover the CMP99 nested/regional Q' gauge parameter space and its actual CMP109 coarse-based site section at interfaces, together with printed Eq.(3.157)–(3.158) linking later Delta_k/A_k and Gaussian normalization; only then attempt source-uniform variance and two independent Ω/V laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 

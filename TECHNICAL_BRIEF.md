@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R115 (CMP99/CMP109 gauge quotient and distinct operator precision obligations, 2026-10-27); YM-R116 (unconsumed).  
+**Research frontier:** YM-R116 (CMP99 projected Dirichlet hard rank and Delta_a restriction, 2026-10-27); YM-R117 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -49,6 +49,8 @@ Its abstract proof is not a proof that a uniform source-weighted `q`, matched no
 
 **YM-R115 source and theorem:** CMP99 (3.110),(3.112) OCR uses hard R D* gauge, while CMP109 (2.5) uses based holonomy F. A common based gradient K and invertible GK give exact quotient section map W∩ker G to W∩ker F. Conditional coercivity of the SAME H0 transfers through gauge projection norm, then the positive exponential penalty. The CMP99 reported gamma0, however, explicitly concerns a different written precision C*Delta_k C than (3.156)'s A_k. Matching gauge sections does NOT settle this second covariance operator relation; exact (3.157)–(3.158), source norm and two-UV histories remain open. [R115](ym/passes/YM_R115_CMP99_CMP109_HARD_SLICE_QUOTIENT_AND_PRECISION_SPLIT_20261027.md).
 
+**YM-R116 precision/rank correction:** CMP99 (3.21) gives R as projection onto Δ ker Q', so RD*D:E→ΔE is the Dirichlet Laplacian isomorphism and Ghat=Δ^-1 R D* is the correctly typed hard-gauge coordinate. CMP99 (3.26) Δ_a=A+D R D*+Q*aQ equals A on simultaneous hard/fixed-average constraints. Neither fact identifies later Δ_k from (3.158) with CMP109 A^(k). At isolated L13 identity uniform-average block, based/mean-zero site sections differ by a mean-subtraction map with inverse norm 169, and their gradients differ on interfaces. Native multiscale Ω/V and source numerical gamma remain open. [R116](ym/passes/YM_R116_CMP99_PROJECTED_LAPLACIAN_GAUGE_RANK_AND_PRECISION_20261027.md).
+
 ## Target-specification hold
 
 The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: establishing a lawfully **paired actual two-cutoff fiber** (nested Ω and shared V, or a quantified alternative), comparing normalized cutoff **observable laws**, then deriving quantitative history-response estimates. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
@@ -62,6 +64,9 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R116 checkpoint](ym/checkpoints/YM_HEAD_R116_20261027.json)
+- [YM-R116 projected-Laplacian and interface audit](ym/passes/YM_R116_CMP99_PROJECTED_LAPLACIAN_GAUGE_RANK_AND_PRECISION_20261027.md)
 
 - [YM-R115 checkpoint](ym/checkpoints/YM_HEAD_R115_20261027.json)
 - [YM-R115 quotient/precision split](ym/passes/YM_R115_CMP99_CMP109_HARD_SLICE_QUOTIENT_AND_PRECISION_SPLIT_20261027.md)
