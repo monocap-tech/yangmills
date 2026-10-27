@@ -6,10 +6,10 @@
 
 | Canonical state | Value |
 | --- | --- |
-| Last completed native pass | **[YM-R111](ym/passes/YM_R111_CMP109_MONITORED_BOND_PROJECTION_GAUSSIAN_CUTOFF_20261026.md)** — 2026-10-26 |
-| Next native cursor | **YM-R112** — not yet consumed |
-| Official research checkpoint | **[YM_HEAD_R111](ym/checkpoints/YM_HEAD_R111_20261026.json)** |
-| Public status snapshot | **2026-10-26** (documentation update, not a new proof pass) |
+| Last completed native pass | **[YM-R112](ym/passes/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_COVARIANCE_20261027.md)** — 2026-10-27 |
+| Next native cursor | **YM-R113** — not yet consumed |
+| Official research checkpoint | **[YM_HEAD_R112](ym/checkpoints/YM_HEAD_R112_20261027.json)** |
+| Public status snapshot | **2026-10-27** (documentation update, not a new proof pass) |
 
 ## Start here
 
@@ -18,6 +18,7 @@
 | **[Target scope and native proof obligation](TARGET_SCOPE.md)** | Full Clay target versus our still-uninstantiated Yang–Mills construction and admissible two-cutoff comparison |
 | **[Research status and evidence ledger](RESEARCH_STATUS.md)** | Internally checked deductions, source evidence, and native open gates |
 | **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
+| **[YM-R112 investigation](ym/passes/YM_R112_CMP109_CONSTRAINT_GRAPH_VACUUM_COVARIANCE_20261027.md)** | Source p267 Dh=I gives exact graph C=(I-hD)E and S=(C*AC)^-1; SU2 identity vacuum color isotropy and Maxwell cutoff tail; numerical bounds and cross-cutoff law open |
 | **[YM-R111 investigation](ym/passes/YM_R111_CMP109_MONITORED_BOND_PROJECTION_GAUSSIAN_CUTOFF_20261026.md)** | Exact Ph=0 from printed CMP109: nonlinear correction only on excluded b0 bonds, so monitored Gaussian cutoff has no nonlinear shift; native covariance gate open |
 | **[YM-R110 investigation](ym/passes/YM_R110_CMP109_FLUCTUATION_PULLBACK_GAUSSIAN_LAW_20261026.md)** | CMP109 pre-linearization chi pullback, real conditional Gaussian/interaction law, exact cutoff and TV bounds; true two-history transport open |
 | **[YM-R109 investigation](ym/passes/YM_R109_CMP109_ORIGINAL_IMAGE_FP_NORMALIZER_SOURCE_PAIR_GATE_20261026.md)** | Printed-source verification: CMP109 local FP exponential and indicator are one unit-mass orbit identity; true remaining cutoff-law gate open |
@@ -83,4 +84,4 @@ This is an **inspectable research and source-audit trail**, not an end-to-end re
 
 **Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
 
-**Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-26, YM-R111 (exact χ-monitor projection and zero nonlinear displacement); **YM-R112 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
+**Last public-status review:** 2026-10-27. **Research frontier as recorded:** 2026-10-27, YM-R112 (source constraint graph and SU2 vacuum Gaussian covariance reduction); **YM-R113 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
