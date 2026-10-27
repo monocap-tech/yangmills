@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R125**, CMP102 source-kernel evidence hold, conditional volume-uniform Hk row sum and normalized winding W1 passport; historical passes retained).  
-**Next native cursor:** YM-R126, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R126**, regional winding coverage and normalized bad-event source-normalizer audit; historical passes retained).  
+**Next native cursor:** YM-R127, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R125 checkpoint](ym/checkpoints/YM_HEAD_R125_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R126 checkpoint](ym/checkpoints/YM_HEAD_R126_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -118,6 +118,10 @@ The validated periodic flat SU2 example has zero plaquette curvature but winding
 
 [YM-R125](ym/passes/YM_R125_CMP102_KERNEL_GATE_AND_WINDING_OBSERVABLE_LAW_20261027.md) traces CMP109 p.265 Landau Hk and p.271 Prop9 (190) back to CMP102 Sect G (1985); publisher-preview and secondary survey identify the target, **but CMP102 original mathematical image, source derivative kernel constants/metric/b0 regional passport remain unavailable**. Under explicit hypothetical uniform 4D exponential derivative kernel A exp(-κd1) on independent source bonds, ||Hk||∞≤m A coth(κ/2)^4 θk (m≤4), uniform in volume but NOT automatically in cutoff. Its proper R122 physical curvature entry requires 666(ε0ηk²+4η mA coth(κ/2)^4 θk)<1. Separately, if two actual normalized UV conditional histories share exactly the coarse Ω,V and all-stage source M winding homology, then good-event microscopic winding errors e_i and bad probabilities q_i give **W1 of the scalar Wilson laws ≤min(2,e0+e1+2(q0+q1))**. An exact Dirac-pair control proves W1 does NOT imply total variation. Original CMP102 derivative constants, actual q_i, source marginal normalizers, multi-cutoff Ω/V history and CMP99 precision remain OPEN. [Source receipt](ym/source_receipts/YM_R125_CMP102_HK_AND_WINDING_LAW_SOURCE_RECEIPT_20261027.md); [exact check](ym/computations/YM_R125_KERNEL_ROW_SUM_AND_WINDING_LAW_20261027.py).
 
+## YM-R126 — local coarse V and normalized cutoff exit are not sufficient by themselves
+
+[YM-R126](ym/passes/YM_R126_REGIONAL_WINDING_CUSTODY_AND_NORMALIZED_EXIT_GATE_20261027.md) constructs an exact periodic flat SU2 seam example: all plaquettes are I and an Ω region and every source M path avoiding the seam see identity links, while a winding Wilson loop sees a nontrivial diagonal holonomy with trace cosθ. Hence matching **local V|Ω** cannot determine an excluded global winding; R125's same noncontractible coarse cycle/homology coverage condition is NECESSARY. This declared torus model is not certified as admitted by every actual Bałaban Ω or χ domain. Separately, for any positive normalized χ-weighted reference law, q=∫χ1bad w dγ/∫χ w dγ. The χ exit is zero tautologically, but the stronger R125 good-event failure need not be. An exact positive reweighting example changes reference bad probability 1/100 to normalized 10000/10099, refuting an unweighted-Gaussian-tail-only transfer. Actual source CMP102 Prop9(190) original equations remain unavailable, and the Ω winding geometry, positive partition-function lower bound, interaction/FP/E/determinant weights, original Hk norm, CMP99 covariance and two-independent-UV laws remain OPEN. [Source receipt](ym/source_receipts/YM_R126_PRIMARY_SOURCE_HOLD_AND_SEAM_EXIT_RECEIPT_20261027.md); [exact check](ym/computations/YM_R126_FLAT_SEAM_AND_NORMALIZED_EXIT_20261027.py).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -165,7 +169,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R126 (native, open):** retrieve original CMP102 Sect G Prop9/(190) Hk derivative norms and verified constrained b0/Ω halo; source-quantify χk exit q_i and normalized conditional Ω,V common histories so that R125 scalar winding W1 can be instantiated rather than only hypothesized. CMP99 late precision and Gaussian normalization remain independent. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R127 (native, open):** recover original CMP102 derivative estimates or report the source-image hold; verify actual source Ω contains the same coarse winding cycle, or revert to a local Wilson square; prove source normalized partition lower bound and good-event weighted q_i with FP/E/determinant and χ. CMP99 covariance separately open. CMP99 late precision and Gaussian normalization remain independent. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 

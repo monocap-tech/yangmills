@@ -1,6 +1,6 @@
 # Target scope and native proof obligation (reviewer specification)
 
-**Prepared:** 2026-10-27. **Status:** Specification and research design, **not a theorem or a certified RG construction**. Native checkpoint: [YM-R125](ym/checkpoints/YM_HEAD_R125_20261027.json); next native pass: YM-R126. Historical R103 scope obligations remain relevant.
+**Prepared:** 2026-10-27. **Status:** Specification and research design, **not a theorem or a certified RG construction**. Native checkpoint: [YM-R126](ym/checkpoints/YM_HEAD_R126_20261027.json); next native pass: YM-R127. Historical R103 scope obligations remain relevant.
 
 ## 1. Full problem versus this investigation
 
@@ -66,7 +66,7 @@ This statement is a *self-contained elementary derivation*. Its proof needs only
 
 ## 5. Minimum new source-level evidence
 
-YM-R106 supplied an exact SU(2) finite-Wilson observable cospan and a full-Wilson small-field-only obstruction, *not* a native Bałaban pairing. YM-R126 must either (a) instantiate an actual cutoff-pair carrier selection/coupling with the draft's exact paired-Ω/V requirements **and** correct normalized measure marginals, or (b) isolate a source-specific reason the proposed pairing/observable route is inapplicable. The external candidate's minimizer/covariance/root estimates are not verified native theorems. **A new conditional lemma or an analogy to another field theory is not gate closure.**
+YM-R106 supplied an exact SU(2) finite-Wilson observable cospan and a full-Wilson small-field-only obstruction, *not* a native Bałaban pairing. YM-R127 must either (a) instantiate an actual cutoff-pair carrier selection/coupling with the draft's exact paired-Ω/V requirements **and** correct normalized measure marginals, or (b) isolate a source-specific reason the proposed pairing/observable route is inapplicable. The external candidate's minimizer/covariance/root estimates are not verified native theorems. **A new conditional lemma or an analogy to another field theory is not gate closure.**
 
 Separate future obligations remain: one-step polarization extraction and Bałaban CMP109 Eq. (0.29), the large-field construction, limits in UV and volume, OS reconstruction, and the positive spectral gap. See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) for the open-gate ledger.
 
