@@ -10,7 +10,7 @@ This page is an index, not an independent theorem or a replacement for the pass 
 
 | Label | Meaning |
 | --- | --- |
-| **Abstract derivation** | Mathematical statement proved under its explicitly written hypotheses; applicability to the actual Bałaban RG objects may remain open. |
+| **Abstract derivation** | Elementary or other mathematical statement argued internally under explicitly stated hypotheses. Independently checked/formal proof status must be established separately; applicability to native Bałaban RG objects may remain open. |
 | **Source-text witness** | A primary paper's theorem or construction was located in a third-party text transcription. Original publisher page-image verification of formulas may still be outstanding. |
 | **Secondary locator** | A non-primary source identifies notation or equation structure. It is not itself custody of the claimed primary theorem. |
 | **Conditional native interface** | A plausible application to the actual lattice-gauge/cutoff objects, contingent on specific not-yet-proved hypotheses. |
@@ -26,7 +26,7 @@ The labels describe the research notebook's internal evidence assessment, **not 
 | [R75](ym/passes/YM_R75_BETA_INDEX_SEMANTICS_PHYSICAL_SCALE_STATIONARITY_20260922.md) | The scale label on the traced marginal beta coefficient is a blocking/source-scale label. Aligned physical lattice spacings reduce the desired scalar comparison to covariance of the **fresh one-step vacuum-polarization extraction**. | **Secondary locator + abstract implication.** Physical-scale matching does not by itself prove equality of the one-step polarization tensors. |
 | [R102](ym/checkpoints/YM_HEAD_R102_20261014.json) | On a fixed localization apparatus, localization is linear in its analytic input. For actual differing histories, a second operator-motion term remains. | **Abstract algebra / conditional native interface.** No uniform rooted history-response norm was established. |
 | [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | Bałaban CMP 99(3), Theorem 3.14, concerns differences between **two admissible spatial domain sequences**. Common-overlap random-walk cancellation produces extra spatial-distance decay. | **Third-party primary-paper text witness**, with exact original-image formula custody outstanding. This is not a theorem about different backgrounds or inherited couplings. |
-| [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | An operator change can be split into a domain-motion term and a background/coefficient-motion term **once both objects are on a common carrier**. Uniform-contraction fixed-point difference inequalities are proved abstractly. | **Abstract derivations; native hypotheses open.** The necessary common weighted norm, contraction margin, operator bounds, and carrier transport have not been certified for the two histories. |
+| [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | An operator change admits an algebraic split **only on a well-typed common space with the intermediate operator defined and admissible**. Uniform-contraction fixed-point difference inequalities are proved abstractly. | **Abstract derivations; native hypotheses open.** The necessary common weighted norm, contraction margin, operator bounds, and carrier transport have not been certified for the two histories. |
 | [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | Same-domain/different-background and nonuniform-contraction toy examples prevent automatic promotion of spatial locality or per-instance contraction to historical stability. | **Negative controls.** These locate invalid shortcuts, not a disproof of the target theorem. |
 
 Source provenance and page/line locations for R103 are recorded in its [source receipt](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md); current terms are disambiguated in the [terminology registry](ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md).
@@ -51,7 +51,7 @@ This table transcribes and groups the open gates of [YM-R103](ym/checkpoints/YM_
 
 ## Why domain locality is not yet history stability
 
-For a common typed operator carrier, the R103 decomposition is
+For a common typed operator carrier **on which all three operators exist**, the R103 algebraic decomposition is
 
 ```text
 K(Ω1,U1) − K(Ω0,U0)
@@ -59,7 +59,11 @@ K(Ω1,U1) − K(Ω0,U0)
   + [K(Ω0,U1) − K(Ω0,U0)]      (background/coefficient motion)
 ```
 
-The source-text domain mark potentially controls the first bracket **under its own hypotheses**. It does not, alone, bound the second bracket or establish that two cutoff-dependent Gaussian/gauge carriers have been identified. Spatial distance to a changed domain boundary and *age of an RG history perturbation* are different quantities.
+This identity alone yields no estimate. The intermediate K(Ω0,U1) must exist with U1 admissible on Ω0, and both domain sequences must satisfy the CMP99(3) source assumptions at that same U1. The source-text domain mark potentially controls the first bracket **under those additional hypotheses**. It does not, alone, bound the second bracket or establish that two cutoff-dependent Gaussian/gauge carriers have been identified. Spatial distance to a changed domain boundary and *age of an RG history perturbation* are different quantities.
+
+## Scope-specification hold outside the R103 gate table
+
+A full target model and theorem statement have **not** been instantiated: the particular group(s), finite-cutoff lattice laws, gauge-invariant observable family, source norms, UV/volume limit topology and order, and reconstruction/spectral statements all require explicit specification before any claim of a completed construction. The [target-scope document](TARGET_SCOPE.md) records this gap without inventing definitions.
 
 ## Gate-closure rule
 
@@ -70,7 +74,7 @@ To mark a native gate closed, a new pass must:
 3. Establish an explicit interface to the actual two-cutoff objects, not just an analogous abstract lemma.
 4. Verify uniformity and summability in the needed cutoff, volume, scale, and source norms.
 5. State any remaining assumptions and provide a counterexample check against the nearest tempting invalid inference.
-6. Update the checkpoint and terminology/source receipts without rewriting historical passes.
+6. Update the checkpoint and terminology/source receipts without rewriting historical passes; document independent verification status and any negative findings.
 
 ## Immediate next work
 
@@ -78,4 +82,4 @@ To mark a native gate closed, a new pass must:
 
 **YM-EXT-01 (proposed external comparison, not a completed pass):** use [EXTERNAL_RECONCILIATION.md](EXTERNAL_RECONCILIATION.md) to test external accounts against these *specific* native gates.
 
-There is **no proof-completion schedule implied** by the number of passes, pages, or formal lines written.
+Historical [R103 editorial/source clarifications](REVIEW_ERRATA_20261026.md) are additive and do not close a gate. There is **no proof-completion schedule implied** by the number of passes, pages, or formal lines written.
