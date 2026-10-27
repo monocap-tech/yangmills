@@ -1,0 +1,54 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-26",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R107_20261026.json",
+  "passes_completed_through": "YM-R108",
+  "live_cursor": "YM-R109",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_FP_ORBIT_IDENTITY_PROSE_OCR_LOCATED;PHYSICAL_GAUGE_TILT_INFERENCE_REFUTED;CUTOFF_SIGMA_AND_KERNEL_KAPPA_SPLIT_TYPED;REFERENCE_SCALAR_CANCELLATION_PROVED;ORIGINAL_IMAGE_NATIVE_LAW_OPEN",
+  "completed_scope": "CMP109 FP original-paper OCR prose and original-image access audit plus self-contained compact gauge orbit, cutoff selection, kernel mass and reference normalizer mathematics. Actual source kernel and two-run Yang-Mills estimates remain open.",
+  "positive_results": [
+    "A normalized gauge-orbit weight preserves all invariant integrals: R108.1.",
+    "Gauge-slice cutoff produces invariant orbit-averaged selector sigma, R108.2.",
+    "A source-shaped positive kernel with gauge/cutoff factors induces normalized law tilted by kappa_t*sigma, R108.3.",
+    "If t is Markov then its truncated output law differs from unrestricted law by TV at most 1-E sigma, R108.4.",
+    "A V-independent action reference normalization cancels from a properly normalized observable law, R108.5."
+  ],
+  "source_provenance": {
+    "CMP109_original_paper_OCR": "f1aec083a3a6470c67a2c1205ca740c2583fe37a",
+    "CMP109_FP_prose": "OCR lines 293-325, equations (0.14)-(0.16), original-image OPEN",
+    "CMP109_action_N0": "OCR lines 327-338, equation (0.17), original-image OPEN",
+    "publisher_image_access": "ATTEMPTED_UNAVAILABLE",
+    "CMP98_original_image": "OPEN",
+    "CMP102b_original_image": "OPEN",
+    "CMP109_029_537_542": "OPEN",
+    "external_YM4": "UNVERIFIED_CANDIDATE"
+  },
+  "native_gates": {
+    "abstract_orbit_normalization_identity": "PROVED",
+    "abstract_orbit_cutoff_selector": "PROVED",
+    "abstract_kappa_sigma_normalized_law": "PROVED",
+    "abstract_conditional_markov_TV_bound": "PROVED",
+    "abstract_reference_scalar_cancellation": "PROVED",
+    "CMP109_FP_source_statement": "ORIGINAL_PAPER_OCR_PROSE_WITNESS_IMAGE_OPEN",
+    "native_CMP109_FP_orbit_weight": "OPEN",
+    "native_CMP109_kappa_t": "OPEN",
+    "native_CMP109_sigma_cN": "OPEN",
+    "source_averaging_choice_0_4_vs_0_12": "OPEN",
+    "source_paired_Omega_V": "OPEN",
+    "normalized_two_cutoff_RG_law": "OPEN",
+    "beta_Eq029": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R108_CMP109_GAUGE_ORBIT_CUTOFF_NORMALIZATION_AUDIT_20261026.md",
+    "ym/source_receipts/YM_R108_CMP109_FP_ORBIT_SOURCE_RECEIPT_20261026.md",
+    "ym/terminology/YM_R108_TERMINOLOGY_REGISTRY_20261026.md",
+    "ym/checkpoints/YM_HEAD_R108_20261026.json"
+  ],
+  "next_action": "YM-R109 verify CMP109 original image (0.15)-(0.17), reconstruct source based-gauge w and chi, choose actual M/t and compute native kappa_t sigma and c on an aligned block; then paired-cutoff admissibility and measurable law defect.",
+  "safety_boundary": "No source-verified actual CMP109 FP w or kernel, no cross-cutoff law comparison, no summable defect, Yang-Mills continuum existence or mass gap."
+}
