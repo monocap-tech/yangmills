@@ -1,7 +1,7 @@
 # YM-EXT-01 — Typed carrier specification / external YM4 transfer audit
 
 **Date:** 2026-10-26 (PDT). **Track:** external reconciliation, separate from native Yang–Mills passes.  
-**Native invariant:** YM-R104 completed; **YM-R105 unconsumed**. Native checkpoint: [YM_HEAD_R104](../ym/checkpoints/YM_HEAD_R104_20261026.json).  
+**Native invariant:** YM-R104 completed; **YM-R105 unconsumed**. Native checkpoint: [YM_HEAD_R104](../checkpoints/YM_HEAD_R104_20261026.json).  
 **Verdict:** **A TYPE/SPECIFICATION GAP IS CONFIRMED IN OUR PRESENT TWO-CUTOFF PROOF INTERFACE.** The existence or impossibility of a legitimate interface in Bałaban's construction remains undecided. This does **not** assert an error in Bałaban, prove Yang–Mills existence, or validate any external draft.
 
 ## 0. Import the RH/Weil method, not an RH theorem
@@ -97,9 +97,9 @@ A preceding repository workstream **already conducted an equation/line-level dir
 - [YM-EXT-01 direct YM4-to-native crosswalk](YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) and
 - [its pinned primary-source receipt](YM_EXT_01_SOURCE_RECEIPT_20261026.md).
 
-The direct audit used Sussman–Alpöge repository commit \`af96f9c5ec6d05a5c8f251256d87970d73b7f25a\`; the three raw TeX blobs are recorded there: Part I \`31898fb205c2990b59b7574915e82b22e08450b4\`, Part II \`f1e0aa132d23ed7f6d44f504a78ad57bd4ce38b8\`, and Part III \`6012ff578fb1c67c29651f1f4192ab59a4c862a3\`. It reviewed *selected* passages directly—not 424,000 lines end to end—and explicitly identified candidate results and acknowledged proof holes. This carrier-specification addendum is **not** a competing attempt to redo its mathematical status determinations.
+The direct audit used Sussman–Alpöge repository commit `af96f9c5ec6d05a5c8f251256d87970d73b7f25a`; the three raw TeX blobs are recorded there: Part I `31898fb205c2990b59b7574915e82b22e08450b4`, Part II `f1e0aa132d23ed7f6d44f504a78ad57bd4ce38b8`, and Part III `6012ff578fb1c67c29651f1f4192ab59a4c862a3`. It reviewed *selected* passages directly—not 424,000 lines end to end—and explicitly identified candidate results and acknowledged proof holes. This carrier-specification addendum is **not** a competing attempt to redo its mathematical status determinations.
 
-[Armstrong's \`YMACCOUNT.md\`](https://github.com/scottnarmstrong/balaban-lean/blob/493e9eb97292ebf6070c1c217a09bcf1adc23857/notes/phase1/YMACCOUNT.md), text blob \`50f1bc6522679a950a39af7b184cb0b8f856010a\`, was also directly read. **Armstrong's content is secondary** and compares an O(N) formalization with an earlier YM4 snapshot (\`e392ef4\`). It is useful for finding *adjacent type failures*, but does not override the newer direct source audit.
+[Armstrong's `YMACCOUNT.md`](https://github.com/scottnarmstrong/balaban-lean/blob/493e9eb97292ebf6070c1c217a09bcf1adc23857/notes/phase1/YMACCOUNT.md), text blob `50f1bc6522679a950a39af7b184cb0b8f856010a`, was also directly read. **Armstrong's content is secondary** and compares an O(N) formalization with an earlier YM4 snapshot (`e392ef4`). It is useful for finding *adjacent type failures*, but does not override the newer direct source audit.
 
 ### Critical finding: a candidate **carrier construction** exists in the external draft
 
@@ -140,7 +140,7 @@ These are source-located manuscript statements, **not independently verified the
 
 For any future candidate proposition, fill the following fields *before* a PASS decision:
 
-\`\`\`
+```
 CLAIM-ID:
 SOURCE: repository + immutable commit + exact equation/theorem/page
 SOURCE-TYPE: spaces, gauge group, measures, norm, quantifiers, analytic chart
@@ -153,7 +153,7 @@ UNIFORMITY: in UV depth, step, volume, fields, polynomial/cluster root counts
 NEGATIVE CONTROL: counterexample to the nearest invalid shortcut
 VERDICT: DISCHARGES / WEAKENS / BYPASSES / INAPPLICABLE / UNKNOWN
 REMAINING GATES:
-\`\`\`
+```
 
 Automatic refusal rules: a one-trajectory bound is not a cross-history bound; a fixed-lattice gauge covariance is not a cross-cutoff transport; a spatial mark is not history age; analytic source membership is not an intrinsic common chart; operator positivity is not Gaussian measure equivalence; a massive draft is not a verified theorem. A source can **bypass** an entire interface if the target physical observable construction is proved by another route; it is not legitimate to label the original gate "proved" in that event.
 
