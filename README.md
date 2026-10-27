@@ -6,9 +6,9 @@
 
 | Canonical state | Value |
 | --- | --- |
-| Last completed native pass | **[YM-R118](ym/passes/YM_R118_CMP98_CMP99_CMP109_CONTOUR_CURVATURE_AND_GAUGE_SIGNATURE_AUDIT_20261027.md)** — 2026-10-27 |
-| Next native cursor | **YM-R119** — not yet consumed |
-| Official research checkpoint | **[YM_HEAD_R118](ym/checkpoints/YM_HEAD_R118_20261027.json)** |
+| Last completed native pass | **[YM-R119](ym/passes/YM_R119_FULL_COARSE_LINK_DERIVATIVE_CURVATURE_RESPONSE_AND_GAUGE_ACTION_20261027.md)** — 2026-10-27 |
+| Next native cursor | **YM-R120** — not yet consumed |
+| Official research checkpoint | **[YM_HEAD_R119](ym/checkpoints/YM_HEAD_R119_20261027.json)** |
 | Public status snapshot | **2026-10-27** (documentation update, not a new proof pass) |
 
 ## Start here
@@ -18,6 +18,7 @@
 | **[Target scope and native proof obligation](TARGET_SCOPE.md)** | Full Clay target versus our still-uninstantiated Yang–Mills construction and admissible two-cutoff comparison |
 | **[Research status and evidence ledger](RESEARCH_STATUS.md)** | Internally checked deductions, source evidence, and native open gates |
 | **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
+| **[YM-R119 investigation](ym/passes/YM_R119_FULL_COARSE_LINK_DERIVATIVE_CURVATURE_RESPONSE_AND_GAUGE_ACTION_20261027.md)** | Printed CMP109 full coarse-link tangent; declared L13 axial-vs-sym exact sparse response 99/28561 and curvature sup bound 10584/169; full-field vs fixed-background gauge contexts distinguished |
 | **[YM-R118 investigation](ym/passes/YM_R118_CMP98_CMP99_CMP109_CONTOUR_CURVATURE_AND_GAUGE_SIGNATURE_AUDIT_20261027.md)** | Exact source-local symmetric versus single contour derivative = -1/2 plaquette curl, rational code certificate, gauge slice shear and CMP98/CMP99 averaging signature caution |
 | **[YM-R117 investigation](ym/passes/YM_R117_CMP99_MULTISCALE_GAUGE_INTERTWINING_AND_COARSE_SEAM_20261027.md)** | CMP99 Q_j D=D_j Q'_j; exact one-layer gauge section; inter-block term is coarse-gauge coboundary, while old Q vs new M remains open |
 | **[YM-R116 investigation](ym/passes/YM_R116_CMP99_PROJECTED_LAPLACIAN_GAUGE_RANK_AND_PRECISION_20261027.md)** | CMP99 projected Dirichlet Laplacian hard-gauge rank closed on ker Q'; source Delta_a=A on hard/fixed-average slice; L13 based/mean-zero interblock seam |
@@ -90,4 +91,4 @@ This is an **inspectable research and source-audit trail**, not an end-to-end re
 
 **Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
 
-**Last public-status review:** 2026-10-27. **Research frontier as recorded:** 2026-10-27, YM-R118 (source contour curvature and gauge-signature refutation test); **YM-R119 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
+**Last public-status review:** 2026-10-27. **Research frontier as recorded:** 2026-10-27, YM-R119 (full-link derivative, source-shaped transverse response and relative-background gauge clarification); **YM-R120 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).

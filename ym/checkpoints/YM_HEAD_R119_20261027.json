@@ -1,0 +1,78 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R118_20261027.json",
+  "passes_completed_through": "YM-R119",
+  "live_cursor": "YM-R120",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_PRINTED_FULL_EQ04_COARSE_LINK_DERIVATIVE_EXACT;DECLARED_CMP98_FIXED_PATH_FULL_LINK_DELTA_CURL_RESPONSE_L13_99_OVER_28561;FINITE_BLOCK_CURL_SUP_BOUND_10584_OVER_169;CMP98_VS_CMP99_GAUGE_ACTION_CONTEXT_APPARENT_CONFLICT_CORRECTED;ACTUAL_HISTORICAL_GAMMA_AND_MULTISCALE_GAUSSIAN_TWO_UV_LAW_OPEN",
+  "completed_scope": "Direct screenshot inspection CMP109 printed (0.3),(0.4),(0.8),(0.11),(0.12): derived full coarse-link tangent as normalized left paths + fine transported coarse bridge - right paths, with original coarse link cancellation. Read CMP98 (11),(14),(15) and descending axial path OCR, CMP99 (3.113)-(3.115) relative background action OCR. Declared an L13 SU2 identity centered block and descending selected old axial path, calculated 99/28561 exact sparse full link difference and finite block 10584/169 curl supremum bound with executed rational code. Fixed-background gauge action explains apparent R118 signature inconsistency. No historical unique selected path, source covariance or paired law certified.",
+  "positive_results": [
+    "Exact first variation of printed CMP109 FULL (0.4) coarse-link averaging: L^-4 sum over x of mean left shortest path plus translated bond path minus mean right shortest path.",
+    "Exact first variation of CMP98-style (15) with declared selected old contour and same bridge; difference is left/right path-mean differences and annihilates all pure gradients on a common full-connection chart.",
+    "On legal L13 centered SU2 identity block and declared descending axial selected paths, a unit e3 edge fluctuation has old full coarse-link coefficient zero and new symmetric coefficient 99/28561; the sparse rational coefficient is independently executed and reproducible.",
+    "Finite source-block curvature Lipschitz estimate ||Delta A||_coarse∞ <= 10584/169 ||dA||_fine∞ for fixed shortest monotone old orders with both source endpoint means, independent of block count but not a contraction.",
+    "CMP98 (11) is gauge covariance of full U, whereas CMP99 (3.113)–(3.115) is a background-relative fluctuation U' and induced site-gauge R(U)u. The apparent R118 conflicting gauge signatures were a context type mismatch, not a source contradiction.",
+    "Actual unique historical CMP98 Gamma in (15), complete CMP99/M109 chart, nested source Q' ranks, later Gaussian precision and cross-UV law remain unproved."
+  ],
+  "source_provenance": {
+    "CMP109_printed_image": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_PDF_indices_zero_based": [
+      3,
+      4,
+      5
+    ],
+    "CMP109_printed_pages": [
+      252,
+      253,
+      254
+    ],
+    "CMP98_original_paper_OCR_blob": "1442f25d63ef4189608e73bff05c2a359c16c01d",
+    "CMP98_source_lines": [
+      [
+        94,
+        146
+      ],
+      [
+        365,
+        377
+      ]
+    ],
+    "CMP99_original_paper_OCR_blob": "ce5af9ff9165b3e1a995f4c141c0bc0ca9fc6743",
+    "CMP99_source_lines": [
+      [
+        1427,
+        1463
+      ]
+    ],
+    "CMP98_CMP99_original_printed_images": "NOT_VERIFIED",
+    "CMP99_late_3157_3158": "OPEN",
+    "calculation": "ym/computations/YM_R119_FULL_LINK_FIRST_VARIATION_L13_20261027.py"
+  },
+  "native_gates": {
+    "CMP109_full_link_eq04_first_variation": "SOURCE_PRINTED_IMAGE_AND_EXACT_DERIVATION",
+    "CMP98_eq15_given_selected_path_first_variation": "SOURCE_OCR_AND_EXACT_CONDITIONAL_DERIVATION",
+    "full_link_oldnew_pure_gradient_annihilation": "PROVED",
+    "sparse_L13_test_99_over_28561": "EXECUTED_EXACT_RATIONAL_DECLARED_SELECTED_AXIAL_PATH",
+    "finite_L13_curvature_bound_10584_over_169": "EXACT_COMBINATORIAL_DERIVATION_NOT_RG_CONTRACTION",
+    "CMP98_full_vs_CMP99_relative_gauge_signature": "APPARENT_CONFLICT_RESOLVED_BY_BACKGROUND_ACTION_TYPE",
+    "actual_CMP98_selected_Gamma_source_custody": "OPEN",
+    "CMP99_nested_Qprime_Dirichlet_rank": "OPEN",
+    "CMP99_late_Deltak_Ak_covariance": "OPEN_ORIGINAL_FORMULAS",
+    "CMP109_uniform_covariance": "OPEN",
+    "native_two_UV_prescribed_Omega_V_law": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R119_FULL_COARSE_LINK_DERIVATIVE_CURVATURE_RESPONSE_AND_GAUGE_ACTION_20261027.md",
+    "ym/source_receipts/YM_R119_PRINTED_FULL_LINK_AND_BACKGROUND_GAUGE_RECEIPT_20261027.md",
+    "ym/terminology/YM_R119_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/computations/YM_R119_FULL_LINK_FIRST_VARIATION_L13_20261027.py",
+    "ym/checkpoints/YM_HEAD_R119_20261027.json"
+  ],
+  "next_action": "YM-R120 recover exact historically selected CMP98 Gamma in source (15) including its parent earlier Balaban papers; compare to CMP109 (0.4) on same background chart, verify CMP99 U'/U fixed-background gauge transformation and nested Q'_j domain; find readable original CMP99 late (3.157)/(3.158) before transferring gamma and then attempt actual paired Ω,V laws.",
+  "safety_boundary": "Exact first-order full coarse-link curvature estimate is not an RG contraction, Gaussian covariance/partition-law comparison, continuum YM construction, OS reconstruction or spectral mass gap."
+}
