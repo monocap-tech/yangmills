@@ -6,9 +6,9 @@
 
 | Canonical state | Value |
 | --- | --- |
-| Last completed native pass | **[YM-R104](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md)** — 2026-10-26 |
-| Next native cursor | **YM-R105** — not yet consumed |
-| Official research checkpoint | **[YM_HEAD_R104](ym/checkpoints/YM_HEAD_R104_20261026.json)** |
+| Last completed native pass | **[YM-R105](ym/passes/YM_R105_PAIRED_VARIATIONAL_CARRIER_LAW_SEPARATION_20261026.md)** — 2026-10-26 |
+| Next native cursor | **YM-R106** — not yet consumed |
+| Official research checkpoint | **[YM_HEAD_R105](ym/checkpoints/YM_HEAD_R105_20261026.json)** |
 | Public status snapshot | **2026-10-26** (documentation update, not a new proof pass) |
 
 ## Start here
@@ -18,11 +18,13 @@
 | **[Target scope and native proof obligation](TARGET_SCOPE.md)** | Full Clay target versus our still-uninstantiated Yang–Mills construction and admissible two-cutoff comparison |
 | **[Research status and evidence ledger](RESEARCH_STATUS.md)** | Internally checked deductions, source evidence, and native open gates |
 | **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
-| **[YM-R104 investigation](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md)** | Current source-text audit of analytic relative-background response and the unsolved two-cutoff transfer |
+| **[YM-R105 investigation](ym/passes/YM_R105_PAIRED_VARIATIONAL_CARRIER_LAW_SEPARATION_20261026.md)** | Refute-first cutoff-pair admissibility audit: physical-scale equality is not shared prescribed data; deterministic fiber comparisons are not normalized RG law comparisons |
+| **[YM-R104 investigation](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md)** | Previous analytic background response source audit, with native cutoff transfer still open |
 | **[YM-R103 investigation](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md)** | Previous domain-motion source finding, operator decomposition, conditional fixed-point interface and counterexamples |
 | **[R104 source receipt](ym/source_receipts/YM_R104_CMP99_BACKGROUND_RESPONSE_RECEIPT_20261026.md)** | CMP99(3) background-resolvent and CMP116 analytic sources with exact text locators and image holds |
 | **[R103 source receipt](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md)** | Earlier domain-marked comparison sources and provenance |
-| **[Terminology registry](ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md)** | Definitions and distinctions specific to the current frontier |
+| **[R105 terminology](ym/terminology/YM_R105_TERMINOLOGY_REGISTRY_20261026.md)** | Paired fiber, probability law, observable cospan and exact-shell distinctions |
+| **[Terminology registry (historical R103)](ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md)** | Earlier locality, minimizer and carrier terminology |
 | **[External research interfaces](EXTERNAL_RECONCILIATION.md)** | Proposed comparison with new constructive Yang–Mills research; no external claim adopted as proved |
 | **[Review errata and provenance](REVIEW_ERRATA_20261026.md)** | Non-destructive clarification of R103 bibliography, source status, and comparison hypotheses |
 | **[Contribution and rights guidance](CONTRIBUTING.md)** | How to report a mathematical correction; [rights and licensing hold](RIGHTS_AND_ATTRIBUTION.md) |
@@ -32,7 +34,7 @@ The historical research record remains in `ym/passes/`, `ym/checkpoints/`, `ym/r
 
 ## Technical synopsis
 
-The current focus is the gap between **local one-step RG estimates** and a sufficiently uniform **two-cutoff continuum comparison**. **R104** recovered CMP99(3) Theorem 3.4 and (3.64)–(3.65), (3.84)–(3.86) as a *fixed-domain, relative-background* analytic/resolvent response in its (3.37) complex chart. The source's smallness parameter is the **relative background perturbation**, not an established summable cutoff-history defect. **YM-R105** now tests whether the actual paired histories share that chart and a legitimate gauge/Gaussian carrier. In earlier passes, alignment of physical lattice spacing reduced the marginal-beta coherence question to an appropriate covariance or decay estimate for the freshly extracted one-step vacuum-polarization tensor. It did *not* prove that estimate.
+The current focus is the gap between **local one-step RG estimates** and a sufficiently uniform **two-cutoff continuum comparison**. **R104** recovered CMP99(3) Theorem 3.4 and (3.64)–(3.65), (3.84)–(3.86) as a *fixed-domain, relative-background* analytic/resolvent response in its (3.37) complex chart. The source's smallness parameter is the **relative background perturbation**, not an established summable cutoff-history defect. **YM-R105** showed that the older exact physical-scale identity and independent small-field regularity do **not** supply the external draft's stipulated common layers, nested domains, or equal prescribed (V). The next cursor, **YM-R106**, must instantiate a lawful matched pair or an observable-level coupling for the actual cutoff histories, including **normalized RG laws**, not just deterministic minimizers. In earlier passes, alignment of physical lattice spacing reduced the marginal-beta coherence question to an appropriate covariance or decay estimate for the freshly extracted one-step vacuum-polarization tensor. It did *not* prove that estimate.
 
 R102–R103 separate two effects that would otherwise be conflated:
 
@@ -67,7 +69,7 @@ The project retains failed transfers and counterexamples rather than silently pr
 
 On 2026-10-26, OpenAI [announced](https://openai.com/index/building-scientific-understanding-with-academic-communities/) an AI-generated Yang–Mills **existence** result built on Bałaban's approach; its physics proof artifacts were not publicly released in that announcement, and it did not claim a positive mass gap. The [Sussman–Alpöge research repository](https://github.com/ethanwsussman/Yang--Mills-LLM-experiment) and [Armstrong's O(N) formalization](https://github.com/scottnarmstrong/balaban-lean) offer separate public lines of investigation. They are **leads for precise comparison**, not results incorporated into this project's theorem ledger.
 
-See [External research interfaces](EXTERNAL_RECONCILIATION.md) for the comparison protocol. **[YM-EXT-01's focused crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md)** identifies a candidate two-cutoff covariance/root theorem in the public Sussman–Alpöge account and explicit unproved upstream obligations; its [source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md) pins the inspected TeX blobs. This is **completed external source auditing, not native theorem closure**, and YM-R105 remains unconsumed.
+See [External research interfaces](EXTERNAL_RECONCILIATION.md) for the comparison protocol. **[YM-EXT-01's focused crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md)** identifies a candidate two-cutoff covariance/root theorem in the public Sussman–Alpöge account and explicit unproved upstream obligations; its [source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md) pins the inspected TeX blobs. This is **completed external source auditing, not native theorem closure**, and its conditional covariance/root candidate remains unverified.
 
 ## Scope and contributions
 
@@ -75,4 +77,4 @@ This is an **inspectable research and source-audit trail**, not an end-to-end re
 
 **Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
 
-**Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-26, YM-R104; **YM-R105 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
+**Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-26, YM-R105 (source-applicability/negative-control pass); **YM-R106 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
