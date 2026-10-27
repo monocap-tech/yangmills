@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R120 (CMP95 axial path and corner-center coarse-frame transport, 2026-10-27); YM-R121 (unconsumed).  
+**Research frontier:** YM-R121 (source half-shift affine graph and geometric two-stage cocycle, 2026-10-27); YM-R122 (unconsumed).  
 **Prepared:** 2026-10-27.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -64,6 +64,10 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R121 checkpoint](ym/checkpoints/YM_HEAD_R121_20261027.json)
+- [YM-R121 affine/holonomy investigation](ym/passes/YM_R121_AFFINE_HALF_SHIFT_AND_MULTISCALE_TRANSPORT_COCYCLE_20261027.md)
+- [YM-R121 exact test](ym/computations/YM_R121_AFFINE_HALF_SHIFT_AND_PATH_COCYCLE_20261027.py)
 
 - [YM-R120 checkpoint](ym/checkpoints/YM_HEAD_R120_20261027.json)
 - [YM-R120 historical source/frame audit](ym/passes/YM_R120_CMP95_CMP98_CMP109_HISTORICAL_AXIAL_PATH_AND_FRAME_TRANSPORT_20261027.md)

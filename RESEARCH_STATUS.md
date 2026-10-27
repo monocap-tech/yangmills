@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R120**, historical CMP95/CMP98 axial path source custody and source coarse-frame alignment; historical passes retained).  
-**Next native cursor:** YM-R121, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R121**, exact one-step affine cell map and two-stage fine-path holonomy cocycle; historical passes retained).  
+**Next native cursor:** YM-R122, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R120 checkpoint](ym/checkpoints/YM_HEAD_R120_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R121 checkpoint](ym/checkpoints/YM_HEAD_R121_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -96,6 +96,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R120](ym/passes/YM_R120_CMP95_CMP98_CMP109_HISTORICAL_AXIAL_PATH_AND_FRAME_TRANSPORT_20261027.md) recovers CMP98 [2] as Balaban CMP95 and its (1.7) **descending-coordinate contour path**, validating R119's chosen axial order as historical source ancestry. But CMP95/CMP98 use **corner-anchored** blocks while printed CMP109 (0.3) uses **centered** blocks. To compare connections on a common physical fine block, the old coarse endpoints must be carried by fine holonomies tau: M_old^tau=U(tau_y)^-1 M_old U(tau_y'). The transport preserves the full-connection gauge signature exactly. A declared integer L=13 common-cell model with old corner 0 and new center (6,6,6,6) gives sparse transverse first-variation difference **-1/114244**, verified by [exact site/permutation enumeration](ym/computations/YM_R120_CORNER_CENTER_LINK_FRAME_L13_20261027.py). R119's 99/28561 is a DIFFERENT shared-centered-frame comparison and is not assigned to the historical corner-center maps. The actual source affine fine-lattice offset, selected bridge/boundary, nested Ω, CMP99 later covariance and paired two-UV probability laws remain OPEN. [Source receipt](ym/source_receipts/YM_R120_CMP95_HISTORICAL_PATH_AND_FRAME_RECEIPT_20261027.md).
 
+## YM-R121 source affine cell and path cocycle
+
+[YM-R121](ym/passes/YM_R121_AFFINE_HALF_SHIFT_AND_MULTISCALE_TRANSPORT_COCYCLE_20261027.md) original-page checks CMP109 (0.1),(0.3),(0.4). CMP109 fine lattice h(Z^4+1/2) versus CMP95/CMP98 corner fine lattice hZ^4 admits exact affine site/bond/plaquette map x↦x+h/2 on equal-period tori. Under old full L^4 half-open source boundary assumption, an old L13 corner cell maps bijectively onto the new centered 28561-site block, whose coarse basepoint is six fine steps per axis beyond the translated old corner. Across levels h_j=L^j h, shifts t_j=r h_j telescope. However staged versus direct DESCENDING fine path transport differs by **2808 elementary plaquettes** at two scales (468 in each of six coordinate planes), with unitary SU2 norm bound ≤min(2,2808 max plaquette deviation). [Exact Python certificate](ym/computations/YM_R121_AFFINE_HALF_SHIFT_AND_PATH_COCYCLE_20261027.py) passed. This is ONLY the fine graph: real second-stage coarse M(U), source Ω/Dirichlet collars, CMP99 later covariance, two-UV normalized laws and mass gap remain OPEN. [Source receipt](ym/source_receipts/YM_R121_SOURCE_AFFINE_HALF_SHIFT_AND_COCYCLE_RECEIPT_20261027.md).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -143,7 +147,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R121 (native, open):** certify the actual CMP95/CMP98 and CMP109 affine lattice/block boundaries, source-compatible corner-to-center holonomies, all fine bridges and Ω collar; construct a genuinely common old/new physical graph and plaquette-chain operator before importing source Gaussian covariance and paired UV laws. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R122 (native, open):** source-permitted τ and bridge paths on actual nested Ω/Dirichlet regions; quantify nonlinear CMP109 M(U) versus lifted fine holonomy, then source covariance and actual paired two-UV measures. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 
