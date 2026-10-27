@@ -1,0 +1,80 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-27",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R119_20261027.json",
+  "passes_completed_through": "YM-R120",
+  "live_cursor": "YM-R121",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP98_AXIAL_DESCENDING_ORDER_DIRECT_SOURCE_GENEALOGY_CMP95_17;CORNER_VS_CENTER_BLOCK_GEOMETRY_SOURCE_VERIFIED;GAUGE_COVARIANT_FINE_TAU_COARSE_ENDPOINT_TRANSPORT_EXACT;R119_SHARED_CENTERED_COEFFICIENT_DISTINCT_FROM_R120_DECLARED_COMMON_CELL_MINUS_ONE_OVER_114244;NATIVE_OFFSET_AND_SOURCE_COVARIANCE_TWO_UV_LAWS_OPEN",
+  "completed_scope": "Recovered CMP98 explicit [2] citation to CMP95 and CMP95 original-paper OCR (1.7) descending coordinate axial path 4,3,2,1. Inspected CMP109 printed pp251-253 (0.3),(0.4), verified centered vs earlier CMP95/CMP98 corner block origin. Derived gauge-covariant coarse endpoint frame map U(tau_y)^-1 Mold U(tau_y') and exact first variation/pure gauge telescoping. Independently enumerated a declared common L13 integer cell 13^4 sites with old descending path and right bridge vs new centered uniform shortest permutations; unit transverse e3 edge difference equals -1/114244, unlike R119 shared-centered 99/28561. Kept actual source affine lattice offsets and covariance/UV histories open.",
+  "positive_results": [
+    "CMP98 after (14) and reference [2] directly link selected contour notation to CMP95 (1.7), which defines descending coordinate order 4,3,2,1; R119 source chosen path rule is historically grounded.",
+    "CMP95/CMP98 old corner-anchored fine blocks are not geometrically identical to the CMP109 (0.3) centered blocks; naive same-basepoint old/new link derivative does not identify the full native source operators.",
+    "A correctly typed parallel holonomy from each older corner y to newer center s_y pulls old coarse group link into the center gauge frame; first variation adds -a(tau_y)+a(tau_y'). Both old transported and new maps then agree on full fine pure gauge gradients.",
+    "On an explicitly declared common fine integer block [0,12]^4 with old corner 0, new center (6,6,6,6), descending paths, selected tau and a single e3 bond, the exact new-old transported coarse-link derivative is -1/(4·13^4)=-1/114244; independently enumerated rationally.",
+    "R119 99/28561 remains correct for its different shared-centered-frame test; transfer of that coefficient or 10584/169 bound to historically frame-shifted native comparison is NOT justified.",
+    "Actual original CMP95/CMP98 printed math images, CMP109 half-lattice region matching, all source path/gauge background and regional collars, CMP99 later covariance relation and two independently truncated UV probability laws remain open."
+  ],
+  "source_provenance": {
+    "CMP95_original_paper_OCR_blob": "5cb604bd3d4a5d5cc4ff274750e0f7221273310b",
+    "CMP95_OCR_lines": [
+      [
+        80,
+        105
+      ]
+    ],
+    "CMP95_original_image": "OPEN",
+    "CMP98_original_paper_OCR_blob": "1442f25d63ef4189608e73bff05c2a359c16c01d",
+    "CMP98_OCR_lines": [
+      [
+        29,
+        40
+      ],
+      [
+        122,
+        148
+      ],
+      [
+        1662,
+        1667
+      ]
+    ],
+    "CMP98_original_images": "OPEN",
+    "CMP109_printed_pdf": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "CMP109_pdf_indices_zero_based": [
+      2,
+      3,
+      4
+    ],
+    "CMP109_images_original_printed_papers": "VERIFIED_THIRD_PARTY_SCAN",
+    "calculation": "ym/computations/YM_R120_CORNER_CENTER_LINK_FRAME_L13_20261027.py",
+    "CMP99_late_3157_3158": "OCR_DAMAGED_ORIGINAL_IMAGE_OPEN"
+  },
+  "native_gates": {
+    "CMP98_old_selected_path_ancestry": "CMP95_1_7_SOURCE_ORIGINAL_PAPER_OCR_LOCATED",
+    "CMP95_CMP98_corner_vs_CMP109_center": "SOURCE_GEOMETRY_DISTINCTION_VERIFIED",
+    "fine_holonomy_tau_endpoint_transport": "EXACT_GAUGE_COVARIANT_CONSTRUCTION_ON_COMMON_FINE_GRAPH",
+    "frame_corrected_pure_gradient_annihilation": "EXACT",
+    "L13_common_cell_sparse_difference": "EXACT_DECLARED_FINITE_GRID_MINUS_1_OVER_114244",
+    "R119_shared_frame_number_custody": "RETAIN_AS_DISTINCT_TEST_NOT_NATIVE_FRAME_COMPARISON",
+    "CMP95_CMP98_affine_lattice_offsets_endpoint_conventions": "OPEN",
+    "native_full_old_new_coarse_link_operator_and_curl_bound": "OPEN_COMMON_SOURCE_FRAME_NOT_COMPLETED",
+    "CMP99_nested_Qprime_Dirichlet": "OPEN",
+    "CMP99_later_Deltak_Ak_covariance": "OPEN",
+    "CMP109_source_uniform_covariance": "OPEN",
+    "two_UV_Omega_V_normalized_probability_law": "OPEN",
+    "continuum_OS_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R120_CMP95_CMP98_CMP109_HISTORICAL_AXIAL_PATH_AND_FRAME_TRANSPORT_20261027.md",
+    "ym/source_receipts/YM_R120_CMP95_HISTORICAL_PATH_AND_FRAME_RECEIPT_20261027.md",
+    "ym/terminology/YM_R120_TERMINOLOGY_REGISTRY_20261027.md",
+    "ym/computations/YM_R120_CORNER_CENTER_LINK_FRAME_L13_20261027.py",
+    "ym/checkpoints/YM_HEAD_R120_20261027.json"
+  ],
+  "next_action": "YM-R121 verify actual CMP95/CMP98 fine integer/half-offset site block endpoints, CMP109 centered torus offset, source-compatible tau and bridge on SAME eligible regional geometry; compute native complete curl-chain operator, include Ω/Dirichlet collars. Independently source-recover CMP99 later (3.157)-(3.158) and nested Q' ranks; only then attempt uniform covariance and two separate UV laws.",
+  "safety_boundary": "Old path and exact declared corner-center sparse difference are source-interface mathematics, not a source RG probability law, uniform Gaussian estimate, YM continuum OS reconstruction or physical positive mass gap."
+}
