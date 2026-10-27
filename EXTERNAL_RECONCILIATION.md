@@ -30,6 +30,10 @@ For a reproducible *entry point* into moving external repositories, the heads ob
 
 For each candidate external lemma, record the exact statement, section/page/commit, hypotheses, required model, source provenance, and a verdict: **DISCHARGES**, **WEAKENS**, **BYPASSES**, **INAPPLICABLE**, or **UNKNOWN**. Mark a result **DISCHARGES** only after verifying the mapping of every hypothesis to the native gate; otherwise retain a conditional or unknown status. A positive comparison must subsequently be audited in a *new* native pass before updating the canonical checkpoint.
 
+## RH/Weil carrier-type addendum — explicit transfer contract
+
+The [YM-EXT-01 typed-carrier addendum](ym/external/YM_EXT01_TYPED_CARRIER_CROSSWALK_20261026.md) applies the RH source→target admissibility protocol to the **existing directly inspected YM4 candidate**. The direct [YM-EXT-01 crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) already located specific paired variational backgrounds (III:34660–34734), a conditional gauge-relational minimizer theorem (III:35626–35641), and a proposed constrained covariance/root comparison (III:36675–36807). The *unproved bridge* is whether the **native** R105 cutoff pair inhabits precisely that source type, with valid gauge, Gaussian, normalization and analytic-domain transport. This is a sharpened specification problem, **not a new existence theorem** or a reclassification of native gates.
+
 ## First comparison target
 
 Armstrong's [YMACCOUNT](https://github.com/scottnarmstrong/balaban-lean/blob/main/notes/phase1/YMACCOUNT.md) cites a Sussman–Alpöge YM4 account and classifies several potential arguments as **ROUTE**, **SAME GAP**, or **NOTHING** for O(N) formalization blockers. It is useful as a *locator* for:
