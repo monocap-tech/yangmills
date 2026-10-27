@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-26 (public-facing summary of the last completed native checkpoint, **YM-R103**, dated 2026-10-14).  
-**Next native cursor:** YM-R104, **not consumed**.  
+**Snapshot:** 2026-10-26 (updated after native **YM-R104**, source-text background-response audit; historical YM-R103 remains preserved).  
+**Next native cursor:** YM-R105, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R103 checkpoint](ym/checkpoints/YM_HEAD_R103_20261014.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R104 checkpoint](ym/checkpoints/YM_HEAD_R104_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -28,12 +28,13 @@ The labels describe the research notebook's internal evidence assessment, **not 
 | [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | Bałaban CMP 99(3), Theorem 3.14, concerns differences between **two admissible spatial domain sequences**. Common-overlap random-walk cancellation produces extra spatial-distance decay. | **Third-party primary-paper text witness**, with exact original-image formula custody outstanding. This is not a theorem about different backgrounds or inherited couplings. |
 | [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | An operator change admits an algebraic split **only on a well-typed common space with the intermediate operator defined and admissible**. Uniform-contraction fixed-point difference inequalities are proved abstractly. | **Abstract derivations; native hypotheses open.** The necessary common weighted norm, contraction margin, operator bounds, and carrier transport have not been certified for the two histories. |
 | [R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md) | Same-domain/different-background and nonuniform-contraction toy examples prevent automatic promotion of spatial locality or per-instance contraction to historical stability. | **Negative controls.** These locate invalid shortcuts, not a disproof of the target theorem. |
+| [R104](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md) | CMP99(3) Theorem 3.4 and (3.64)–(3.65), (3.84)–(3.86) supply source-text same-domain relative-background analytic/resolvent response. | **Positive source-text witness, native two-history transfer still OPEN.** The α1 relative perturbation size is not a proved summable UV-history defect; [receipt](ym/source_receipts/YM_R104_CMP99_BACKGROUND_RESPONSE_RECEIPT_20261026.md). |
 
 Source provenance and page/line locations for R103 are recorded in its [source receipt](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md); current terms are disambiguated in the [terminology registry](ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md).
 
 ## Native unresolved obligations
 
-This table transcribes and groups the open gates of [YM-R103](ym/checkpoints/YM_HEAD_R103_20261014.json); it does not close or reclassify them.
+This table groups the inherited open gates and the [YM-R104](ym/checkpoints/YM_HEAD_R104_20261026.json) clarifications; a positive same-domain source witness does not close the two-history gates.
 
 | Gate | Status | Minimum next evidence |
 | --- | --- | --- |
@@ -78,7 +79,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R104 (native, open):** source-audit CMP99(3) background-analytic derivative/Lipschitz estimates at fixed domains; compare with CMP116 weighted fixed-point and weakening operations; establish or obstruct a true common current/gauge carrier. Preserve the distinction between spatial-domain marks and history-age response.
+**YM-R105 (native, open):** recover the *actual* aligned cutoff-pair gauge/background carrier, test whether a relative field (A_{N,j}) satisfies CMP99(3) (3.37) in a shared chart, and demand a quantitatively summable normalized amplitude before transferring CMP116 estimates. Preserve the distinction between the relative perturbation α1 and RG-history age.
 
 **YM-EXT-01 (proposed external comparison, not a completed pass):** use [EXTERNAL_RECONCILIATION.md](EXTERNAL_RECONCILIATION.md) to test external accounts against these *specific* native gates.
 
