@@ -6,9 +6,9 @@
 
 | Canonical state | Value |
 | --- | --- |
-| Last completed native pass | **[YM-R108](ym/passes/YM_R108_CMP109_GAUGE_ORBIT_CUTOFF_NORMALIZATION_AUDIT_20261026.md)** — 2026-10-26 |
-| Next native cursor | **YM-R109** — not yet consumed |
-| Official research checkpoint | **[YM_HEAD_R108](ym/checkpoints/YM_HEAD_R108_20261026.json)** |
+| Last completed native pass | **[YM-R109](ym/passes/YM_R109_CMP109_ORIGINAL_IMAGE_FP_NORMALIZER_SOURCE_PAIR_GATE_20261026.md)** — 2026-10-26 |
+| Next native cursor | **YM-R110** — not yet consumed |
+| Official research checkpoint | **[YM_HEAD_R109](ym/checkpoints/YM_HEAD_R109_20261026.json)** |
 | Public status snapshot | **2026-10-26** (documentation update, not a new proof pass) |
 
 ## Start here
@@ -18,6 +18,7 @@
 | **[Target scope and native proof obligation](TARGET_SCOPE.md)** | Full Clay target versus our still-uninstantiated Yang–Mills construction and admissible two-cutoff comparison |
 | **[Research status and evidence ledger](RESEARCH_STATUS.md)** | Internally checked deductions, source evidence, and native open gates |
 | **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
+| **[YM-R109 investigation](ym/passes/YM_R109_CMP109_ORIGINAL_IMAGE_FP_NORMALIZER_SOURCE_PAIR_GATE_20261026.md)** | Printed-source verification: CMP109 local FP exponential and indicator are one unit-mass orbit identity; true remaining cutoff-law gate open |
 | **[YM-R108 investigation](ym/passes/YM_R108_CMP109_GAUGE_ORBIT_CUTOFF_NORMALIZATION_AUDIT_20261026.md)** | FP orbit normalization versus cutoff selection and underlying kernel mass; actual source two-run law open |
 | **[YM-R107 investigation](ym/passes/YM_R107_CMP98_CMP109_ACTUAL_AVERAGING_KERNEL_NORMALIZATION_AUDIT_20261026.md)** | CMP109 Euclidean symmetric averaging alternatives, source M^k variational data, and restricted-kernel normalization cutset; source-law transport open |
 | **[YM-R106 investigation](ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md)** | One aligned physical Wilson loop cospan, maximal data coupling criterion and unavoidable large-field mass; no native RG-law bound |
@@ -37,7 +38,7 @@ The historical research record remains in `ym/passes/`, `ym/checkpoints/`, `ym/r
 
 ## Technical synopsis
 
-The current focus is the gap between **local one-step RG estimates** and a sufficiently uniform **two-cutoff continuum comparison**. **R104** recovered CMP99(3) Theorem 3.4 and (3.64)–(3.65), (3.84)–(3.86) as a *fixed-domain, relative-background* analytic/resolvent response in its (3.37) complex chart. The source's smallness parameter is the **relative background perturbation**, not an established summable cutoff-history defect. **YM-R105** showed that the older exact physical-scale identity and independent small-field regularity do **not** supply the external draft's stipulated common layers, nested domains, or equal prescribed (V). **YM-R106** constructs a gauge-invariant finite-Wilson physical-loop observable cospan and shows the exact normalized data-matching/large-field accounting needed. **YM-R107** locates the distinct CMP98/CMP109 averaging definitions and the source kernel/normalizer cutset. **YM-R108** separates FP gauge-orbit identity, cutoff selector, and underlying kernel mass; a background-independent reference scalar cancels in normalized laws. **YM-R109** must image-verify and compute source-specific weights and paired-law defects. In earlier passes, alignment of physical lattice spacing reduced the marginal-beta coherence question to an appropriate covariance or decay estimate for the freshly extracted one-step vacuum-polarization tensor. It did *not* prove that estimate.
+The current focus is the gap between **local one-step RG estimates** and a sufficiently uniform **two-cutoff continuum comparison**. **R104** recovered CMP99(3) Theorem 3.4 and (3.64)–(3.65), (3.84)–(3.86) as a *fixed-domain, relative-background* analytic/resolvent response in its (3.37) complex chart. The source's smallness parameter is the **relative background perturbation**, not an established summable cutoff-history defect. **YM-R105** showed that the older exact physical-scale identity and independent small-field regularity do **not** supply the external draft's stipulated common layers, nested domains, or equal prescribed (V). **YM-R106** constructs a gauge-invariant finite-Wilson physical-loop observable cospan and shows the exact normalized data-matching/large-field accounting needed. **YM-R107** locates the distinct CMP98/CMP109 averaging definitions and the source kernel/normalizer cutset. **YM-R108** separates FP gauge-orbit identity, cutoff selector, and underlying kernel mass; a background-independent reference scalar cancels in normalized laws. **YM-R109** visually verifies CMP109 (0.15)–(0.17), corrects the earlier assumption that its normalized FP indicator causes independent physical reweighting, and locates the separate (2.9) fluctuation cutoff. **YM-R110** must now test the actual residual sector and paired-law defect. In earlier passes, alignment of physical lattice spacing reduced the marginal-beta coherence question to an appropriate covariance or decay estimate for the freshly extracted one-step vacuum-polarization tensor. It did *not* prove that estimate.
 
 R102–R103 separate two effects that would otherwise be conflated:
 
@@ -80,4 +81,4 @@ This is an **inspectable research and source-audit trail**, not an end-to-end re
 
 **Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
 
-**Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-26, YM-R108 (FP orbit identity and cutoff-law cutset); **YM-R109 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
+**Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-26, YM-R109 (printed CMP109 FP identity and cutoff-separation pass); **YM-R110 unconsumed**. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).

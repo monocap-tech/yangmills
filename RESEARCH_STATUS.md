@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-26 (updated after native **YM-R108**, CMP109 gauge-orbit identity and cutoff-law separation; R103–R104 retained).  
-**Next native cursor:** YM-R109, **not consumed**.  
+**Snapshot:** 2026-10-26 (updated after native **YM-R109**, printed CMP109 source-image verification and local FP mass; R103–R104 retained).  
+**Next native cursor:** YM-R110, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R108 checkpoint](ym/checkpoints/YM_HEAD_R108_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R109 checkpoint](ym/checkpoints/YM_HEAD_R109_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -47,6 +47,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 ## R108 orbit-identity versus restricted-law result
 
 [YM-R108](ym/passes/YM_R108_CMP109_GAUGE_ORBIT_CUTOFF_NORMALIZATION_AUDIT_20261026.md) locates in CMP109 original-paper OCR prose an FP identity insertion at (0.15) followed by a distinct small-field restriction (0.16). An exactly orbit-normalized gauge-fixing factor leaves invariant expectations unchanged; a genuine cutoff has orbit-averaged weight sigma, while a separate source kernel can have fiber mass kappa. A coarse-field-independent N0 reference scalar cancels upon normalized probability conversion. The abstract Markov case has TV cutoff defect at most 1-E sigma. **Native CMP109 weights, original page images, admissible two-cutoff data and summable estimates remain OPEN.**
+
+## R109 source-image FP correction
+
+[YM-R109](ym/passes/YM_R109_CMP109_ORIGINAL_IMAGE_FP_NORMALIZER_SOURCE_PAIR_GATE_20261026.md) visually inspected actual CMP109 printed mathematical pages through a third-party-hosted 54-page scan. Equation (0.15) puts its near-identity indicator INSIDE the very same z-normalized Haar orbit integral as its exponential gauge-fixing term, and (0.16) reproduces that combined factor. It has exact unit orbit mass and must NOT be counted as an independent physical-law defect. The genuinely separate fluctuation-coordinate characteristic χ_k in (2.9), the composite χ_0/χ_k source restrictions, and the two-cutoff M-derived data laws remain OPEN. Printed p.251 also requires L odd >11; R106 L>=2 was a non-native finite test. [Pinned image receipt](ym/source_receipts/YM_R109_CMP109_PRINTED_IMAGE_SOURCE_RECEIPT_20261026.md).
 
 ## Native unresolved obligations
 
@@ -95,7 +99,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R109 (native, open):** image-verify CMP109 (0.15)-(0.17), recover actual w, chi and t/M on one source-eligible block; compute kappa, sigma, c and paired cutoff-law defect. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R110 (native, open):** use a legal odd L and actual CMP109 averaging M, remove the verified FP identity, identify genuine source non-FP chi0 and fluctuation chi_k restrictions, and compare normalized paired M-derived data laws, Omega and observables. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 

@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R108 (conditional FP orbit/cutoff normalization audit completed 2026-10-26); YM-R109 (unconsumed).  
+**Research frontier:** YM-R109 (printed source FP unit-orbit-mass audit completed 2026-10-26); YM-R110 (unconsumed).  
 **Prepared:** 2026-10-26.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -35,6 +35,8 @@ Its abstract proof is not a proof that a uniform source-weighted `q`, matched no
 
 **R108 refinement:** CMP109 (0.15)-(0.16) separates an FP gauge-orbit identity from an additional cutoff. Exact orbit normalization preserves invariant integrals, a cutoff induces orbit-averaged sigma, and positive kernel t may separately carry mass kappa. Scalar N0 cancels for normalized laws. No native w/chi/kappa or source-image formulas certified. [R108](ym/passes/YM_R108_CMP109_GAUGE_ORBIT_CUTOFF_NORMALIZATION_AUDIT_20261026.md).
 
+**R109 correction:** CMP109 printed (0.15) contains an exponential AND near-identity indicator inside the same z-normalized FP orbit identity. The corresponding (0.16) factor does not independently reweight the invariant law. Its true later fluctuation cutoff (2.9), source composite chi0/chik, and two-run data compatibility remain unproved. Printed source also demands odd L>11. [R109 record](ym/passes/YM_R109_CMP109_ORIGINAL_IMAGE_FP_NORMALIZER_SOURCE_PAIR_GATE_20261026.md).
+
 ## Target-specification hold
 
 The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: establishing a lawfully **paired actual two-cutoff fiber** (nested Ω and shared V, or a quantified alternative), comparing normalized cutoff **observable laws**, then deriving quantitative history-response estimates. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
@@ -48,6 +50,9 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R109 checkpoint](ym/checkpoints/YM_HEAD_R109_20261026.json)
+- [YM-R109 printed source and FP audit](ym/passes/YM_R109_CMP109_ORIGINAL_IMAGE_FP_NORMALIZER_SOURCE_PAIR_GATE_20261026.md)
 
 - [YM-R108 checkpoint](ym/checkpoints/YM_HEAD_R108_20261026.json)
 - [YM-R108 orbit/cutoff audit](ym/passes/YM_R108_CMP109_GAUGE_ORBIT_CUTOFF_NORMALIZATION_AUDIT_20261026.md)

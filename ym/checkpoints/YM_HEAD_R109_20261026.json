@@ -1,0 +1,88 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-26",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R108_20261026.json",
+  "passes_completed_through": "YM-R109",
+  "live_cursor": "YM-R110",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_PRINTED_PAGE_FORMULAS_VISUALLY_VERIFIED_THIRD_PARTY_SCAN;FP_EXPONENTIAL_AND_INDICATOR_SINGLE_NORMALIZED_ORBIT_IDENTITY;SOURCE_DELTA_GRAPH_MASS_TYPED;GENUINE_CHI_FLUCTUATION_AND_PAIRED_LAWS_OPEN",
+  "completed_scope": "Source original printed-image verification via third-party PDF scan for CMP109 (0.4),(0.12)-(0.17),(0.19),(0.21),(2.9),(2.12)-(2.13) plus L odd >11. Computed actual local FP z-normalization (including characteristic indicator), removed false interpretation of (0.16) as independent physical-law cutoff. No actual two-cutoff conditional-law estimate.",
+  "positive_results": [
+    "Visually inspected original printed CMP109 formulas in 54-page third-party hosted scan; source text not merely OCR for these equations.",
+    "Printed source (0.15) shows near-identity indicator and exponential inside SAME normalized Haar gauge identity; local z is field-independent and the combined FP factor has orbit mass 1.",
+    "Printed source (0.17)/(0.19) has delta(M(U)V^-1), chi0/chik and V=1 reference action normalization; pure graph delta integrates to 1 where source M lawfully defined.",
+    "Independent fluctuation-coordinate cutoff chik in (2.9) is distinct from FP orbit indicator; not normalized away by source (0.15).",
+    "CMP109 geometry L odd >11; R106 L>=2 remains only a non-native finite Wilson kinematic test.",
+    "Revises application of R108 sigma decomposition: no separate gauge-invariant law loss from the literal normalized (0.16) cutoff."
+  ],
+  "source_provenance": {
+    "CMP109_printed_scan": "https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf",
+    "scan_host": "THIRD_PARTY_SCISPACE; ORIGINAL_PRINTED_PAGES_VISUALLY_INSPECTED; NO_LOCAL_PDF_SHA",
+    "PDF_indices_zero_based": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      17,
+      18,
+      19
+    ],
+    "printed_pages": [
+      251,
+      253,
+      254,
+      255,
+      256,
+      266,
+      267,
+      268
+    ],
+    "checked_equations": [
+      "(0.1)",
+      "(0.4)",
+      "(0.12)",
+      "(0.13)",
+      "(0.14)",
+      "(0.15)",
+      "(0.16)",
+      "(0.17)",
+      "(0.19)",
+      "(0.21)",
+      "(2.9)",
+      "(2.12)",
+      "(2.13)"
+    ],
+    "earlier_original_paper_OCR_blob": "f1aec083a3a6470c67a2c1205ca740c2583fe37a",
+    "CMP98_printed_image": "OPEN",
+    "CMP102b_printed_image": "OPEN",
+    "CMP109_Eq029_537_542": "OPEN",
+    "external_YM4": "UNVERIFIED_CANDIDATE"
+  },
+  "native_gates": {
+    "CMP109_FP_local_indicator_and_z": "PRINTED_IMAGE_VERIFIED_EXACT_ORBIT_MASS_ONE",
+    "CMP109_FP_only_physical_cutoff_defect": "REFUTED_FOR_LITERAL_0_15_0_16_INDICATOR",
+    "CMP109_source_average_formula_0_4_0_12": "PRINTED_IMAGE_VERIFIED_BOTH_VARIANTS_SOURCE_CHOICE_FOR_ACTUAL_HISTORY_OPEN",
+    "CMP109_delta_M_graph_mass": "ONE_WHERE_M_ADMISSIBLY_DEFINED",
+    "CMP109_geometry": "L_ODD_GT_11_VERIFIED",
+    "CMP109_source_composite_chi0_chik": "PARTIALLY_LOCATED_REMAINING_REGULARITY_SECTOR_SPLIT_OPEN",
+    "CMP109_independent_fluctuation_chik_2_9": "PRINTED_IMAGE_VERIFIED_QUANTITATIVE_TWO_RUN_RESPONSE_OPEN",
+    "actual_two_cutoff_Omega_V_pair": "OPEN",
+    "source_actual_full_normalized_RG_law": "OPEN",
+    "actual_data_TV_and_paired_fiber_aN": "OPEN",
+    "large_field_uniform_probabilities": "OPEN",
+    "polarization_beta_Eq029": "OPEN",
+    "continuum_OS_positive_mass_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R109_CMP109_ORIGINAL_IMAGE_FP_NORMALIZER_SOURCE_PAIR_GATE_20261026.md",
+    "ym/source_receipts/YM_R109_CMP109_PRINTED_IMAGE_SOURCE_RECEIPT_20261026.md",
+    "ym/terminology/YM_R109_TERMINOLOGY_REGISTRY_20261026.md",
+    "ym/checkpoints/YM_HEAD_R109_20261026.json"
+  ],
+  "next_action": "YM-R110 with legally odd L and chosen CMP109 averaging, strip exact FP identity from source one-step integrals, identify residual chi0/chik physical and independent-fluctuation restrictions and normalized action/measure, then compare actual paired source M^k(U)=V and Omega with born-correct conditional law. No invented historical attenuation.",
+  "safety_boundary": "Original image only for listed printed CMP109 equations via third-party scan; no direct publisher download or independent verification of all hypotheses, no native two-cutoff law, no continuum Yang-Mills existence, OS reconstruction or positive mass gap."
+}
