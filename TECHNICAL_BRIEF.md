@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R109 (printed source FP unit-orbit-mass audit completed 2026-10-26); YM-R110 (unconsumed).  
+**Research frontier:** YM-R110 (CMP109 constrained Gaussian cutoff/interaction-law cutset completed 2026-10-26); YM-R111 (unconsumed).  
 **Prepared:** 2026-10-26.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -37,6 +37,8 @@ Its abstract proof is not a proof that a uniform source-weighted `q`, matched no
 
 **R109 correction:** CMP109 printed (0.15) contains an exponential AND near-identity indicator inside the same z-normalized FP orbit identity. The corresponding (0.16) factor does not independently reweight the invariant law. Its true later fluctuation cutoff (2.9), source composite chi0/chik, and two-run data compatibility remain unproved. Printed source also demands odd L>11. [R109 record](ym/passes/YM_R109_CMP109_ORIGINAL_IMAGE_FP_NORMALIZER_SOURCE_PAIR_GATE_20261026.md).
 
+**YM-R110 source-law correction:** CMP109 (2.9) defines chi_k in pre-linearization B', whereas (2.13) is in final constrained Gaussian B after a nonlinear coordinate change and rescaling. The true chi is therefore pulled back. At fixed admissible real background the law is chi_hat e^R Gaussian/Z; its cutoff mass, interaction oscillation, chart exit and covariance are explicit quantitative gates. Source Z^(k)(U(V)) remains V-dependent in the coarse action and cannot be canceled as a fixed reference scalar. No two-UV-history normalizer or observable-law bound certified. [R110 pass](ym/passes/YM_R110_CMP109_FLUCTUATION_PULLBACK_GAUSSIAN_LAW_20261026.md).
+
 ## Target-specification hold
 
 The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: establishing a lawfully **paired actual two-cutoff fiber** (nested Ω and shared V, or a quantified alternative), comparing normalized cutoff **observable laws**, then deriving quantitative history-response estimates. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
@@ -50,6 +52,9 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R110 checkpoint](ym/checkpoints/YM_HEAD_R110_20261026.json)
+- [YM-R110 source-constrained fluctuation analysis](ym/passes/YM_R110_CMP109_FLUCTUATION_PULLBACK_GAUSSIAN_LAW_20261026.md)
 
 - [YM-R109 checkpoint](ym/checkpoints/YM_HEAD_R109_20261026.json)
 - [YM-R109 printed source and FP audit](ym/passes/YM_R109_CMP109_ORIGINAL_IMAGE_FP_NORMALIZER_SOURCE_PAIR_GATE_20261026.md)
