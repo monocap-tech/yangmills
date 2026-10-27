@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R117**, CMP99 gauge averaging intertwining and the coarse representative distinction; historical passes retained).  
-**Next native cursor:** YM-R118, **not consumed**.  
+**Snapshot:** 2026-10-27 (updated after native **YM-R118**, source contour curvature and CMP98/CMP99 gauge-signature type audit; historical passes retained).  
+**Next native cursor:** YM-R119, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R117 checkpoint](ym/checkpoints/YM_HEAD_R117_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R118 checkpoint](ym/checkpoints/YM_HEAD_R118_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -84,6 +84,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 
 [YM-R117](ym/passes/YM_R117_CMP99_MULTISCALE_GAUGE_INTERTWINING_AND_COARSE_SEAM_20261027.md) source-locates CMP99 (3.114)–(3.115): **Q_j D = D_j Q'_j**. Only the complete multiscale ker Q' gauge space is guaranteed to preserve all source averages. On an eligible rank-matched one-layer block, based and Q'-averaged site-gauge sections admit an exact J = I - iota(Q'iota)^-1 Q' transport. The interface correction is a **lifted coarse gauge gradient**: potentially invisible to gauge-invariant Wilson loops, but not to a prescribed coarse representative V. CMP99 historical Q_j and CMP109's revised Euclidean-symmetric (0.4)/(0.12) must be compared explicitly. Actual nested Q'_j, Omega/Dirichlet compatibility, CMP99 late (3.157)–(3.158) covariance images, uniform variance and two-UV law remain OPEN. [Source receipt](ym/source_receipts/YM_R117_GAUGE_INTERTWINING_CMP99_CMP109_SOURCE_RECEIPT_20261027.md).
 
+## YM-R118 exact contour curvature and gauge-signature split
+
+[YM-R118](ym/passes/YM_R118_CMP98_CMP99_CMP109_CONTOUR_CURVATURE_AND_GAUGE_SIGNATURE_AUDIT_20261027.md) computes the source-shaped two-shortest-contour first variation of CMP109 (0.8),(0.11) relative to a selected CMP98-style contour. On one plaquette, the change is **minus one-half the plaquette curl**. A reproducible standard-library [rational matrix certificate](ym/computations/YM_R118_CONTOUR_CURVATURE_MATRIX_20261027.py) passes: the difference annihilates fine gauge gradients and responds nontrivially to curvature. This is a contour-coordinate comparison, **not yet the full CMP109 (0.4) coarse RG averaging map**. With both based F maps normalized, their gauge-fixing slices differ by a pure gauge gradient despite curvature-dependent coordinates. A separate type check shows that CMP98 (11) coarse-endpoint gauge covariance and CMP99 (3.115) averaged-site gauge covariance cannot be equated on a common chart without reconciling their background/gauge actions; the naive same-operator interpretation fails a two-block model. CMP99 nested annular Q'_j is a direct-sum output but its rank/Dirichlet lift is not certified. Late CMP99 (3.157)–(3.158), covariance bounds, full Ω/V laws and mass gap remain OPEN. [Source receipt](ym/source_receipts/YM_R118_CONTOUR_AND_INTERTWINER_SOURCE_RECEIPT_20261027.md).
+
 ## Native unresolved obligations
 
 This table groups inherited source gates, R104's background response and [YM-R105](ym/checkpoints/YM_HEAD_R105_20261026.json)'s pairing/law refinement. Neither closes the actual two-history comparison.
@@ -131,7 +135,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R118 (native, open):** recover CMP99 complete annular Q'_j rank and multiscale gauge lift, compare the historical Q_j tangent with CMP109 (0.4)/(0.12) on common actual bonds, and verify late CMP99 Delta_k/A_k covariance equations before attempting uniform constants or a two-UV law. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R119 (native, open):** reconcile CMP98 endpoint and CMP99 averaged-site gauge actions, compute the FULL CMP109 (0.4) derivative versus CMP98 (15) at an actual L=13 coarse link, and recover multiscale Q' regional rank and late covariance equations; no source-uniform variance or two-UV law yet. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 
