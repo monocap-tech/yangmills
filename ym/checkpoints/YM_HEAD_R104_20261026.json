@@ -1,0 +1,57 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-26",
+  "custody_state": "CMP99_RELATIVE_BACKGROUND_ANALYTIC_RESPONSE_SOURCE_TEXT_RECOVERED;CMP116_MINIMIZER_TWO_HISTORY_TRANSFER_OPEN;ACTUAL_CUTOFF_CARRIER_OPEN",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "historical_checkpoint_preserved": "ym/checkpoints/YM_HEAD_R103_20261014.json",
+  "passes_completed_through": "YM-R104",
+  "live_cursor": "YM-R105",
+  "live_cursor_consumed": false,
+  "live_frontier_title": "actual-cutoff relative-background analytic chart and constrained Gaussian/current/gauge carrier test",
+  "current_determination": "CMP99(3) Theorem 3.4 and equations (3.64)-(3.65),(3.84)-(3.86) supply a genuine fixed-domain, source-text analytic/resolvent background perturbation mechanism with source relative-alpha1 smallness inside (3.37). Gauge covariance (3.33)-(3.34) holds on a fixed source lattice. This does not establish an actual N-versus-N+1 common chart, summable relative background amplitude, or transport of distinct constrained Gaussian/carrier normalizations. CMP116 provides analytic single-apparatus nonlinear minimizer/weakener estimates, not the required two-history marked Lipschitz response.",
+  "source_positive_results": [
+    "CMP99(3) Theorem3.4 supports analytic continuation around regular background U via relative U'=exp(i eta A) in source (3.37) corridor.",
+    "CMP99(3) equations (3.64)-(3.65) provide G' relative-background resolvent difference and source O(alpha1) remainder; (3.84)-(3.86) provide main G Neumann expansion.",
+    "CMP99(3) equations (3.33)-(3.34) yield fixed-lattice gauge covariance, not automatic cross-cutoff transport.",
+    "CMP116 equations (1.2)-(1.18), (1.23)-(1.25), (1.33)-(1.36) demonstrate nonlinear minimizer / weakened operator analyticity and localized single-apparatus bounds."
+  ],
+  "negative_determinations": [
+    "Individual source regularity or analytic existence of two endpoints does not imply a common (3.37) relative chart.",
+    "Alpha1 describes relative chart perturbation amplitude, not age since UV perturbation; no summable alpha1_Nj established.",
+    "Two-domain theorem 3.14 does not apply until intermediate K(Omega0,U1) is admissible on a common carrier.",
+    "Constrained covariance and Gaussian root/normalization comparison are not established by same-domain resolvent formulas.",
+    "CMP116 common-analytic-domain single-trajectory statements do not create actual two-history moving-apparatus bound."
+  ],
+  "source_provenance": {
+    "CMP99_3_blob": "ce5af9ff9165b3e1a995f4c141c0bc0ca9fc6743",
+    "CMP99_3_analyticity_resolvent": "THIRD_PARTY_PRIMARY_PAPER_TEXT_WITNESS_NOT_ORIGINAL_IMAGE",
+    "CMP99_3_domain_mark": "THIRD_PARTY_PRIMARY_PAPER_TEXT_WITNESS_NOT_ORIGINAL_IMAGE",
+    "CMP116_blob": "2de28469578fcdc14270f57516b190234f9c8812",
+    "CMP116_minimizer_source": "THIRD_PARTY_PRIMARY_PAPER_TEXT_WITNESS_NOT_ORIGINAL_IMAGE",
+    "CMP109_029_537_542": "ORIGINAL_IMAGE_HARD_HOLD"
+  },
+  "native_gates": {
+    "source_fixed_domain_background_analyticity": "SOURCE_TEXT_WITNESS_POSITIVE_SCOPE_LIMITED",
+    "source_fixed_domain_resolvent_response": "SOURCE_TEXT_WITNESS_POSITIVE_SCOPE_LIMITED",
+    "actual_two_cutoff_relative_A_chart": "OPEN",
+    "same_background_domain_pair_admissibility": "CONDITIONAL",
+    "cutoff_gauge_gaussian_carrier_transport": "OPEN",
+    "constrained_covariance_root_difference": "OPEN",
+    "relative_background_amplitude_history_age": "OPEN",
+    "CMP116_uniform_moving_minimizer_and_weakener_response": "OPEN",
+    "CMP116_marked_positive_resummation": "OPEN",
+    "inherited_E_relative_rooted_norm": "OPEN",
+    "vacuum_polarization_beta_and_Eq029_alpha": "OPEN",
+    "large_field_continuum_OS_gap": "OPEN"
+  },
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md",
+    "ym/source_receipts/YM_R104_CMP99_BACKGROUND_RESPONSE_RECEIPT_20261026.md",
+    "ym/terminology/YM_R104_TERMINOLOGY_REGISTRY_20261026.md",
+    "ym/checkpoints/YM_HEAD_R104_20261026.json"
+  ],
+  "next_action": "YM-R105 reconstruct actual N/(N+1) aligned background/gauge and Gaussian carrier, test relative U'=exp(i eta A) in the same CMP99(3) (3.37) complex chart, source-quantify alpha1_Nj and assess summability before moving CMP116 minimizers.",
+  "safety_boundary": "No claim of 4D continuum Yang-Mills existence, Osterwalder-Schrader reconstruction, full Clay solution, positive physical mass gap or independent validation of OCR equations."
+}
