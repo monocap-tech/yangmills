@@ -1,0 +1,13 @@
+# YM-R108 — original CMP109 gauge-fixing / source-access receipt
+
+**Date:** 2026-10-26. [Native investigation](../passes/YM_R108_CMP109_GAUGE_ORBIT_CUTOFF_NORMALIZATION_AUDIT_20261026.md).
+
+**Published original-paper text in a third-party OCR transcription, not publisher page images:** Bałaban [7], *Renormalization group approach to lattice gauge field theories I*, CMP 109(2) (1987), 249–301, DOI https://doi.org/10.1007/BF01215223. Pinned OCR repository [text](https://github.com/chboishabba/dashi_agda/blob/master/Docs/support/reference/balaban-source-extracts/cmp109-effective-actions-part-i.txt), blob SHA f1aec083a3a6470c67a2c1205ca740c2583fe37a.
+
+Read the text at lines 277–339, printed pp.254–255: (0.13) gauge-invariant transformation kernel; (0.14) exponential gauge functional; (0.15) inserted identity with scalar z; lines 310–314 explicitly mention Faddeev–Popov procedure, based gauge transformations equal to identity on coarse vertices, and gauge-transformation integral equal to one; (0.16) retains a new characteristic small-field restriction; (0.17) source-action N0 is defined through the corresponding integral at V=1. Source formulas are severely OCR-damaged; no exact prefactors, matrix order, gauge Jacobian, domain or theorem claim is image-certified. The OCR text is the source witness for the **prose-level identity/extra-cutoff distinction only**.
+
+**Publisher-original attempts:** Web inspection of Project Euclid original-journal PDF and Springer content-PDF endpoints returned inaccessible results. Independent container HTTP requests failed for these providers. Bibliographic Rutgers and DOI records were available, but they cannot independently verify equation images. No PDF equation screenshot or original formula verification occurred. CMP98 averaging images, CMP102b fixed-average equations, and CMP109 (0.29),(5.37),(5.42) remain OPEN.
+
+**Mathematics independently checked:** R108.1 compact orbit-normalization identity, R108.2 orbit-averaged cutoff, R108.3 exact joint positive-kernel/cutoff factorization, R108.4 TV upper bound conditional on Markov mass, R108.5 background-independent action normalizer cancellation. All are abstract consumers: the CMP109 source weight w, cutoff chi and t have NOT been reconstructed or shown to satisfy their assumptions on the physical source domain.
+
+**No actual two-cutoff Yang–Mills coupling/law, OS axioms or mass-gap proof.** Historical bibliography upper bound [92]. External Sussman–Alpöge theorem candidates retain the source-hypothesis and proof-outstanding holds in [R105 receipt](YM_R105_PAIRED_CARRIER_SOURCE_RECEIPT_20261026.md).

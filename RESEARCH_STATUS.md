@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-26 (updated after native **YM-R107**, CMP109 source-averaging and restricted-kernel normalization cutset; R103–R104 retained).  
-**Next native cursor:** YM-R108, **not consumed**.  
+**Snapshot:** 2026-10-26 (updated after native **YM-R108**, CMP109 gauge-orbit identity and cutoff-law separation; R103–R104 retained).  
+**Next native cursor:** YM-R109, **not consumed**.  
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R107 checkpoint](ym/checkpoints/YM_HEAD_R107_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R108 checkpoint](ym/checkpoints/YM_HEAD_R108_20261026.json) is the canonical machine-readable research state; paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -43,6 +43,10 @@ Source provenance and page/line locations for R103 are recorded in its [source r
 ## R107 source-specific averaging and normalization finding
 
 [YM-R107](ym/passes/YM_R107_CMP98_CMP109_ACTUAL_AVERAGING_KERNEL_NORMALIZATION_AUDIT_20261026.md) establishes from pinned original-paper OCR that CMP109 changes CMP98's nonlinear contour averaging for Euclidean symmetry and permits (0.4) or alternative (0.12); its variational background uses M^k(U)=V. CMP109's (0.13)–(0.17) is a restricted, gauge-fixed kernel with an action reference normalizer at V=1, **not by definition a global Markov pushforward of an independently normalized Wilson law**. The exact positive-kernel lemma decomposes the normalized output into a conditional kernel applied to an input law tilted by its fiber mass kappa(U). **No native CMP109 kappa, paired prescribed V, normalized two-run defect or summability has been proved.** CMP98/CMP109 original equations and CMP102b fixed-average equations remain image-open.
+
+## R108 orbit-identity versus restricted-law result
+
+[YM-R108](ym/passes/YM_R108_CMP109_GAUGE_ORBIT_CUTOFF_NORMALIZATION_AUDIT_20261026.md) locates in CMP109 original-paper OCR prose an FP identity insertion at (0.15) followed by a distinct small-field restriction (0.16). An exactly orbit-normalized gauge-fixing factor leaves invariant expectations unchanged; a genuine cutoff has orbit-averaged weight sigma, while a separate source kernel can have fiber mass kappa. A coarse-field-independent N0 reference scalar cancels upon normalized probability conversion. The abstract Markov case has TV cutoff defect at most 1-E sigma. **Native CMP109 weights, original page images, admissible two-cutoff data and summable estimates remain OPEN.**
 
 ## Native unresolved obligations
 
@@ -91,7 +95,7 @@ To mark a native gate closed, a new pass must:
 
 ## Immediate next work
 
-**YM-R108 (native, open):** verify the operative CMP109 Euclidean symmetric averaging and restricted-kernel equations against source images; select one actual aligned block and compute source kernel fiber mass/normalization, then actual paired M-derived data laws and any quantitative defect. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
+**YM-R109 (native, open):** image-verify CMP109 (0.15)-(0.17), recover actual w, chi and t/M on one source-eligible block; compute kappa, sigma, c and paired cutoff-law defect. The external conditional minimizer/covariance/root theorem remains unverified, and no physical mass-gap conclusion follows.
 
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 

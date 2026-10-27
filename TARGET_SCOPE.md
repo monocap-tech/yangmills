@@ -1,6 +1,6 @@
 # Target scope and native proof obligation (reviewer specification)
 
-**Prepared:** 2026-10-26. **Status:** Specification and research design, **not a theorem or a certified RG construction**. Native checkpoint: [YM-R107](ym/checkpoints/YM_HEAD_R107_20261026.json); next native pass: YM-R108. Historical R103 scope obligations remain relevant.
+**Prepared:** 2026-10-26. **Status:** Specification and research design, **not a theorem or a certified RG construction**. Native checkpoint: [YM-R108](ym/checkpoints/YM_HEAD_R108_20261026.json); next native pass: YM-R109. Historical R103 scope obligations remain relevant.
 
 ## 1. Full problem versus this investigation
 
@@ -30,7 +30,7 @@ The *desired* two-cutoff comparison gate is a bound on properly transported phys
 
 with enough uniformity and summability to support the intended Cauchy/coherence argument. Here \(\mathcal T\), \(\mathcal O\), \(\mathcal B\), the indices, and the required sum are **placeholders awaiting source-native definition**; no numerical exponent or summable family is certified. Even a proof of such a gate would **not** alone yield continuum existence, OS reconstruction, nontriviality, or a mass gap.
 
-YM-R104 recovered a **same-domain** analytic relative-background response from CMP99(3). YM-R105 has shown that exact physical spacing and independent source regularity do **not** entail the external proposed pair input — nested domain sequences and identical prescribed gauge data on shared layers. Its further type distinction is deterministic minimizer/covariance fibers versus the **actual normalized RG probability laws**. YM-R106 now constructs a single gauge-invariant finite-Wilson observable cospan and exact normalized coupling/complement accounting; **YM-R107** recovers the source CMP109 averaging alternatives and restricted-kernel normalization distinction; **YM-R108** must now image-verify the actual operative choice and quantify the normalized law defect. Neither the original Bałaban source-pair conditions nor a quantitative full-history comparison follows from single-apparatus CMP99(3) analyticity.
+YM-R104 recovered a **same-domain** analytic relative-background response from CMP99(3). YM-R105 has shown that exact physical spacing and independent source regularity do **not** entail the external proposed pair input — nested domain sequences and identical prescribed gauge data on shared layers. Its further type distinction is deterministic minimizer/covariance fibers versus the **actual normalized RG probability laws**. YM-R106 now constructs a single gauge-invariant finite-Wilson observable cospan and exact normalized coupling/complement accounting; **YM-R107** recovers the source CMP109 averaging alternatives and restricted-kernel normalization distinction; **YM-R108** now separates source orbit identity and cutoff/kernel mass; **YM-R109** must image-verify the operative source weights and quantify the native law defect. Neither the original Bałaban source-pair conditions nor a quantitative full-history comparison follows from single-apparatus CMP99(3) analyticity.
 
 ## 3. Exact algebra versus admissible source comparison
 
@@ -66,7 +66,7 @@ This statement is a *self-contained elementary derivation*. Its proof needs only
 
 ## 5. Minimum new source-level evidence
 
-YM-R106 supplied an exact SU(2) finite-Wilson observable cospan and a full-Wilson small-field-only obstruction, *not* a native Bałaban pairing. YM-R108 must either (a) instantiate an actual cutoff-pair carrier selection/coupling with the draft's exact paired-Ω/V requirements **and** correct normalized measure marginals, or (b) isolate a source-specific reason the proposed pairing/observable route is inapplicable. The external candidate's minimizer/covariance/root estimates are not verified native theorems. **A new conditional lemma or an analogy to another field theory is not gate closure.**
+YM-R106 supplied an exact SU(2) finite-Wilson observable cospan and a full-Wilson small-field-only obstruction, *not* a native Bałaban pairing. YM-R109 must either (a) instantiate an actual cutoff-pair carrier selection/coupling with the draft's exact paired-Ω/V requirements **and** correct normalized measure marginals, or (b) isolate a source-specific reason the proposed pairing/observable route is inapplicable. The external candidate's minimizer/covariance/root estimates are not verified native theorems. **A new conditional lemma or an analogy to another field theory is not gate closure.**
 
 Separate future obligations remain: one-step polarization extraction and Bałaban CMP109 Eq. (0.29), the large-field construction, limits in UV and volume, OS reconstruction, and the positive spectral gap. See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) for the open-gate ledger.
 
