@@ -2,7 +2,7 @@
 
 **Prepared:** 2026-10-26. **Status:** Proposed workstream **YM-EXT-01**; no native theorem gate is closed by this document. The independent native cursor remains **YM-R104**, following the [YM-R103 checkpoint](ym/checkpoints/YM_HEAD_R103_20261014.json).
 
-This page identifies external materials worth checking against our [research-status ledger](RESEARCH_STATUS.md). An analogous technique, press release, manuscript, or Lean development does **not** establish that the exact theorem needed in this repository holds.
+This page identifies external materials worth checking against our [research-status ledger](RESEARCH_STATUS.md) and [target-scope hold](TARGET_SCOPE.md). An analogous technique, press release, manuscript, or Lean development does **not** establish that the exact theorem needed in this repository holds.
 
 ## Public leads
 
@@ -13,6 +13,10 @@ This page identifies external materials worth checking against our [research-sta
 | [Armstrong, balaban-lean](https://github.com/scottnarmstrong/balaban-lean) | Extensive, unfinished Lean formalization of Bałaban's **classical O(N) spin-model** renormalization group; its [YMACCOUNT analysis](https://github.com/scottnarmstrong/balaban-lean/blob/main/notes/phase1/YMACCOUNT.md) compares some of that project's blockers against the Sussman–Alpöge YM account and explicitly marks proposed routes and same gaps. | This is not a Lean formalization of our four-dimensional pure Yang–Mills theorem. Its comparison notes are leads, not automatically transferable gauge-theory estimates. |
 
 There is no established collaboration or shared proof chain between this repository and any group listed here. We have not claimed independent verification of their proposed constructions.
+
+## Public-repository reference snapshots
+
+For a reproducible *entry point* into moving external repositories, the heads observed on 2026-10-26 were: Sussman–Alpöge at [af96f9c](https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/commit/af96f9c5ec6d05a5c8f251256d87970d73b7f25a) and Armstrong at [493e9eb](https://github.com/scottnarmstrong/balaban-lean/commit/493e9eb97292ebf6070c1c217a09bcf1adc23857). These are snapshots **for later comparison**, not a claim that all cited manuscripts were read at those commits or that any theorem is validated. Each future lemma must be pinned to the *particular content version actually checked*.
 
 ## Comparison questions (ordered by direct relevance to YM-R103)
 
@@ -50,4 +54,4 @@ OpenAI's 26 October announcement requests physics-collaboration correspondence v
 
 ## Exit criteria for YM-EXT-01
 
-The initial comparison ends when it has produced at least one **source-cited, hypothesis-by-hypothesis** finding about a named R103/R104 gate, whether positive or negative. A broad survey without this precise interface does not count as gate progress. Publish the verdict and its unresolved assumptions in a dated note, leaving the canonical status unchanged until native audit.
+The initial *survey milestone* ends when it has produced at least one **source-cited, hypothesis-by-hypothesis** finding about a named R103/R104 gate, whether positive or negative. A broad survey without this precise interface does not count as gate progress. Publish the verdict and its unresolved assumptions in a dated note, leaving the canonical status unchanged until native audit. A documentation milestone or external survey is **not** proof completion.

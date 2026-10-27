@@ -2,7 +2,7 @@
 
 **An independent, AI-assisted mathematical research notebook on four-dimensional pure Yang–Mills theory, focused on Bałaban's constructive renormalization-group program.**
 
-> **Research status: OPEN / UNPROVED.** This repository does **not** claim a rigorous construction of the four-dimensional continuum Yang–Mills theory, satisfaction of the Osterwalder–Schrader axioms, or a strictly positive physical mass gap. Its many numbered passes contain source audits, mathematical reductions, conditional interfaces, and explicitly unresolved proof obligations. They have not been independently peer-reviewed.
+> **Research status: OPEN / UNPROVED.** This repository does **not** claim a rigorous construction of the four-dimensional continuum Yang–Mills theory, satisfaction of the Osterwalder–Schrader axioms, or a strictly positive physical mass gap. Its numbered passes contain source audits, elementary mathematical deductions, conditional interfaces, and explicitly unresolved proof obligations. They have not been independently peer-reviewed or checked end-to-end by a formal proof assistant.
 
 | Canonical state | Value |
 | --- | --- |
@@ -15,12 +15,15 @@
 
 | Document | Purpose |
 | --- | --- |
-| **[Research status and evidence ledger](RESEARCH_STATUS.md)** | What was actually established, under what hypotheses, and which native gates remain open |
+| **[Target scope and native proof obligation](TARGET_SCOPE.md)** | Full Clay target versus our still-uninstantiated Yang–Mills construction and admissible two-cutoff comparison |
+| **[Research status and evidence ledger](RESEARCH_STATUS.md)** | Internally checked deductions, source evidence, and native open gates |
 | **[Technical brief for independent review](TECHNICAL_BRIEF.md)** | One-page synopsis of the exact two-cutoff mathematical obstruction and useful review questions |
 | **[YM-R103 investigation](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md)** | Latest source-text result, two-history operator decomposition, fixed-point stability interface, and counterexamples |
 | **[R103 source receipt](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md)** | Primary-paper locations, third-party text provenance, and the original-image verification boundary |
 | **[Terminology registry](ym/terminology/YM_R103_TERMINOLOGY_REGISTRY_20261014.md)** | Definitions and distinctions specific to the current frontier |
 | **[External research interfaces](EXTERNAL_RECONCILIATION.md)** | Proposed comparison with new constructive Yang–Mills research; no external claim adopted as proved |
+| **[Review errata and provenance](REVIEW_ERRATA_20261026.md)** | Non-destructive clarification of R103 bibliography, source status, and comparison hypotheses |
+| **[Contribution and rights guidance](CONTRIBUTING.md)** | How to report a mathematical correction; [rights and licensing hold](RIGHTS_AND_ATTRIBUTION.md) |
 | **[YM-R75 investigation](ym/passes/YM_R75_BETA_INDEX_SEMANTICS_PHYSICAL_SCALE_STATIONARITY_20260922.md)** | Earlier marginal-beta / vacuum-polarization source question and its conditional reduction |
 
 The historical research record remains in `ym/passes/`, `ym/checkpoints/`, `ym/references/`, `ym/source_receipts/`, and `ym/terminology/`. These documents are not intended to be read as a single, completed proof.
@@ -34,7 +37,7 @@ R102–R103 separate two effects that would otherwise be conflated:
 - **Spatial-domain motion:** for certain source operators, a third-party text transcription of Bałaban's CMP 99(3), Theorem 3.14, supports an extra distance-to-domain-change factor from random-walk cancellation, subject to its stated hypotheses.
 - **Background, coupling-history, and carrier motion:** comparing genuinely different ultraviolet-cutoff histories also changes operator coefficients, nonlinear minimizers, source charts, gauge constraints, and possibly Gaussian carriers. A spatial domain mark does **not** automatically control those changes.
 
-The basic conditional decomposition is
+The basic **algebraic** decomposition, only when all operators and the intermediate term are defined on an admissible common space, is
 
 ```text
 K(Ω₁,U₁) − K(Ω₀,U₀)
@@ -42,7 +45,7 @@ K(Ω₁,U₁) − K(Ω₀,U₀)
   + [K(Ω₀,U₁) − K(Ω₀,U₀)],
 ```
 
-**only after identifying a common operator carrier**. The first bracket is domain motion; the second is background/coefficient motion. R103 also proves an abstract fixed-point difference inequality when two maps share a uniform contraction factor, but no suitable common weighted contraction margin has yet been certified for the actual two-cutoff Yang–Mills data.
+**This is not itself a source theorem.** In addition to identifying a common carrier, the intermediate term K(Ω₀,U₁) must exist in the required source domain; both domain sequences must satisfy the comparison theorem's hypotheses at the same background U₁. Separately controlling the second bracket and transporting gauge/Gaussian carriers may add further defects. The first bracket is domain motion; the second is background/coefficient motion. See [TARGET_SCOPE.md](TARGET_SCOPE.md). R103 also proves an abstract fixed-point difference inequality when two maps share a uniform contraction factor, but no suitable common weighted contraction margin has yet been certified for the actual two-cutoff Yang–Mills data.
 
 The native frontier therefore remains: **background-sensitive propagator and nonlinear-minimizer response, actual gauge/carrier identification, rooted historical decay, and the marginal/remainder source estimates**. Large-field closure, continuum/OS construction, and the spectral mass gap remain separate unresolved requirements. See the [complete gate ledger](RESEARCH_STATUS.md).
 
@@ -66,6 +69,8 @@ See [External research interfaces](EXTERNAL_RECONCILIATION.md) for the proposed 
 
 ## Scope and contributions
 
-This is a reproducible **research/evidence trail**, not a priority assertion or proof announcement. Contributions are most useful when they cite an exact pass, theorem, page, norm, assumption, and counterexample-sensitive transfer step. In particular, source-image corrections, independent checks of the two-cutoff interface, and sharply stated obstructions are welcome research inputs.
+This is an **inspectable research and source-audit trail**, not an end-to-end reproduced proof, a priority assertion, or a proof announcement. The target gauge group, observables, norms, and limit topology are not yet instantiated in a source-native theorem statement. Contributions are most useful when they cite an exact pass, theorem, page, norm, assumption, and counterexample-sensitive transfer step. In particular, source-image corrections, independent checks of the two-cutoff interface, and sharply stated obstructions are welcome research inputs. Reviewers can follow [CONTRIBUTING.md](CONTRIBUTING.md). A project-wide reuse license has not yet been selected; see [RIGHTS_AND_ATTRIBUTION.md](RIGHTS_AND_ATTRIBUTION.md).
 
-**Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-14, YM-R103.
+**Local documentation check:** run `python3 scripts/check_public_docs.py` from a checkout (links and snapshot consistency only; [source file](scripts/check_public_docs.py)).
+
+**Last public-status review:** 2026-10-26. **Research frontier as recorded:** 2026-10-14, YM-R103. **Documentation handoff:** [DOCUMENTATION_STOP_ADVISORY.md](DOCUMENTATION_STOP_ADVISORY.md).
