@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R103 (completed 2026-10-14); YM-R104 (unconsumed).  
+**Research frontier:** YM-R104 (completed 2026-10-26); YM-R105 (unconsumed).  
 **Prepared:** 2026-10-26.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -9,7 +9,9 @@
 
 This project investigates proof interfaces in Bałaban's constructive renormalization-group program for four-dimensional pure Yang–Mills theory. Its current focus is whether local one-step estimates suffice to compare renormalization histories started at two ultraviolet cutoffs. Earlier analysis separated the marginal vacuum-polarization coefficient from the complementary positive-exponent remainder; the current frontier is the motion of background-dependent propagators, nonlinear minimizers, weakened localization operators, and the gauge/Gaussian carriers on which two histories must be compared.
 
-The latest internally reviewed source audit, [YM-R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md), recovered a third-party text witness of Bałaban's CMP 99(3), Theorem 3.14: for the source's admissible pair of domain sequences, common-interior random-walk terms cancel and differences of particular propagators acquire extra *spatial* distance-to-domain-change decay. The exact formula is not yet verified against the publisher image. The same source does **not** automatically control changes in background coefficients or histories, nor does it immediately transfer to the later constrained covariance.
+The prior internally reviewed source audit, [YM-R103](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md), recovered a third-party text witness of Bałaban's CMP 99(3), Theorem 3.14: for the source's admissible pair of domain sequences, common-interior random-walk terms cancel and differences of particular propagators acquire extra *spatial* distance-to-domain-change decay. The exact formula is not yet verified against the publisher image. The same source does **not** automatically control changes in background coefficients or histories, nor does it immediately transfer to the later constrained covariance.
+
+The subsequent [YM-R104](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md) located source-text analyticity and same-domain relative-background resolvent response in CMP99(3) (3.37), Theorem 3.4 and (3.64)–(3.65), (3.84)–(3.86). This gives a perturbation smallness parameter for eligible propagators **only when both backgrounds occupy the required source chart**. No actual cutoff-pair relative amplitude or common gauge/Gaussian carrier has been constructed.
 
 An algebraic decomposition of operator motion is available **only where all three operators live on a common typed space, including a defined and admissible intermediate K(Ω0,U1)**:
 
@@ -29,7 +31,7 @@ Its abstract proof is not a proof that a uniform source-weighted `q`, matched no
 
 ## Target-specification hold
 
-The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: a two-cutoff background-response and carrier-admissibility obligation in a proposed constructive route. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
+The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: establishing an actual two-cutoff *relative-background chart and carrier* and deriving quantitative history-response estimates in a proposed constructive route. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
 
 ## Precise outstanding interfaces
 
@@ -41,7 +43,10 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 
 ## Evidence anchors
 
-- [YM-R103 canonical checkpoint](ym/checkpoints/YM_HEAD_R103_20261014.json)
+- [YM-R104 canonical checkpoint](ym/checkpoints/YM_HEAD_R104_20261026.json)
+- [YM-R104 source text and transfer cutset](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md)
+- [YM-R104 source receipt](ym/source_receipts/YM_R104_CMP99_BACKGROUND_RESPONSE_RECEIPT_20261026.md)
+- [YM-R103 canonical checkpoint (historical)](ym/checkpoints/YM_HEAD_R103_20261014.json)
 - [YM-R103 detailed pass](ym/passes/YM_R103_CMP99_DOMAIN_MARK_NONLINEAR_MINIMIZER_AUDIT_20261014.md)
 - [CMP99(3)/CMP116 source receipt and limitations](ym/source_receipts/YM_R103_CMP99_3_MARKED_DOMAIN_RECEIPT_20261014.md)
 - [YM-R75 earlier vacuum-polarization stationarity reduction](ym/passes/YM_R75_BETA_INDEX_SEMANTICS_PHYSICAL_SCALE_STATIONARITY_20260922.md)
