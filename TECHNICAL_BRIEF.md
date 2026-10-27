@@ -1,7 +1,7 @@
 # Technical brief for independent review
 
 **Project:** [monocap-tech/yangmills](https://github.com/monocap-tech/yangmills)  
-**Research frontier:** YM-R106 (completed as finite-Wilson test-cospan and conditional law cutset on 2026-10-26); YM-R107 (unconsumed).  
+**Research frontier:** YM-R107 (CMP109 source averaging/kernel normalization cutset completed on 2026-10-26); YM-R108 (unconsumed).  
 **Prepared:** 2026-10-26.  
 **Claim level:** Independent, AI-assisted source audit and conditional mathematical research; **no claimed existence, Osterwalder–Schrader reconstruction, or positive mass-gap proof.**
 
@@ -31,6 +31,8 @@ Its abstract proof is not a proof that a uniform source-weighted `q`, matched no
 
 **YM-R106 addition:** an explicit aligned SU(2) finite-Wilson loop observable cospan compares two full normalized cutoff laws through their gauge-invariant half-trace, while an exact abstract coupling criterion requires equality of the *distributions* of the shared source data (or pays their TV mismatch). Proper small-field sectors have positive full Wilson complement probability. The joint-law inequality must keep matched-fiber response, data-law TV and complement masses separate; **none has a native uniform bound yet**. See [YM-R106](ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md).
 
+**YM-R107 source correction:** CMP109 explicitly modifies CMP98's logarithmic contour average to restore Euclidean lattice symmetry and permits two source averaging alternatives; the fixed-average variational data are M^k(U)=V. CMP109 (0.13)–(0.17) supplies a regularity-restricted, gauge-fixed kernel and reference action normalization, not automatically a normalized physical-law pushforward. The abstract positive-kernel formula exposes a fiber-mass/input-tilt term unless a Markov identity is justified. Actual two-cutoff data laws remain open. [Full R107 record](ym/passes/YM_R107_CMP98_CMP109_ACTUAL_AVERAGING_KERNEL_NORMALIZATION_AUDIT_20261026.md).
+
 ## Target-specification hold
 
 The full Clay problem concerns each compact simple gauge group. This project's particular group, cutoff measures, observables, norms, and UV/volume limit topology have **not** all been instantiated in a single audited target theorem. The present native question is narrower: establishing a lawfully **paired actual two-cutoff fiber** (nested Ω and shared V, or a quantified alternative), comparing normalized cutoff **observable laws**, then deriving quantitative history-response estimates. See [TARGET_SCOPE.md](TARGET_SCOPE.md).
@@ -44,6 +46,9 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 5. **Global completion:** Independent treatment of the large-field sector, cutoff/volume limits, physical OS reconstruction, and the positive spectral gap; small-field history control alone does not resolve these.
 
 ## Evidence anchors
+
+- [YM-R107 canonical checkpoint](ym/checkpoints/YM_HEAD_R107_20261026.json)
+- [YM-R107 source averaging/kernel audit](ym/passes/YM_R107_CMP98_CMP109_ACTUAL_AVERAGING_KERNEL_NORMALIZATION_AUDIT_20261026.md)
 
 - [YM-R106 canonical checkpoint](ym/checkpoints/YM_HEAD_R106_20261026.json)
 - [YM-R106 finite-Wilson observable cospan and coupling cutset](ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md)
