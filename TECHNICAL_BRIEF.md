@@ -45,6 +45,9 @@ The full Clay problem concerns each compact simple gauge group. This project's p
 
 ## Evidence anchors
 
+- [YM-R106 canonical checkpoint](ym/checkpoints/YM_HEAD_R106_20261026.json)
+- [YM-R106 finite-Wilson observable cospan and coupling cutset](ym/passes/YM_R106_FINITE_WILSON_OBSERVABLE_COSPAN_COUPLING_CUTSET_20261026.md)
+
 - [YM-R105 canonical checkpoint](ym/checkpoints/YM_HEAD_R105_20261026.json)
 - [YM-R105 native pair/law test](ym/passes/YM_R105_PAIRED_VARIATIONAL_CARRIER_LAW_SEPARATION_20261026.md)
 - [YM-R105 pinned source receipt](ym/source_receipts/YM_R105_PAIRED_CARRIER_SOURCE_RECEIPT_20261026.md)
