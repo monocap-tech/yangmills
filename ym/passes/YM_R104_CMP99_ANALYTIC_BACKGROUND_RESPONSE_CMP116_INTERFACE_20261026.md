@@ -53,7 +53,15 @@ Notable source mechanisms:
 
 ## 2. The exact strength and limits of the perturbation estimate
 
-The perturbation bound is tied to the explicit complex neighbourhood \((3.37)\). A parameter \(\alpha_1\) there measures weighted relative \(A\) and its covariant derivatives at the relevant lattice scales. The source's \(O(\alpha_1)\) remainder in (3.65), and its smallness reasoning in (3.85)–(3.86), do **not** assert that independently produced cutoff backgrounds \(U_{N,j}\) and \(U_{N+1,j+1}\) obey such a relation.
+The perturbation bound is tied to the explicit complex neighbourhood \((3.37)\).
+
+**Quantitative corollary of the source resolvent (common Banach operator norm only).** Writing \(G_0=G(U)\), \(G_1=G(U'U)\) and \(T=V(A)G_0\) as in (3.86), if the source hypotheses furnish \(\|T\|\le q<1\) in one specified submultiplicative operator norm, the source's Neumann representation gives the exact abstract estimate
+\[
+ \|G_1-G_0\|\le \|G_0\|\,\frac{q}{1-q}.
+\]
+Indeed \(G_1=G_0(I-T)^{-1}\) and \((I-T)^{-1}-I=T(I-T)^{-1}\). When \(q\le C\alpha_1<1\), this becomes \(\|G_0\|C\alpha_1/(1-C\alpha_1)\), *within that norm and on that common carrier*. This estimate requires **neither** the false claim that the two histories have the same carrier **nor** a source-unverified claim about a uniform cutoff-depth factor; it only applies once the fixed-domain source perturbation hypotheses have actually been met. It does not automatically reproduce every weighted/localized norm in Theorems 3.1–3.3.
+
+ A parameter \(\alpha_1\) there measures weighted relative \(A\) and its covariant derivatives at the relevant lattice scales. The source's \(O(\alpha_1)\) remainder in (3.65), and its smallness reasoning in (3.85)–(3.86), do **not** assert that independently produced cutoff backgrounds \(U_{N,j}\) and \(U_{N+1,j+1}\) obey such a relation.
 
 To use this source mechanism for a canonical cutoff comparison, at minimum one must produce an actual physical-scale chart map \(\mathcal T\) and a relative field \(A_{N,j}\) such that, schematically,
 \[
