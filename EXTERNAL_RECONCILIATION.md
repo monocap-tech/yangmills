@@ -1,6 +1,6 @@
 # External research interfaces — comparison plan, not proof adoption
 
-**Prepared:** 2026-10-26. **Status:** Proposed workstream **YM-EXT-01**; no native theorem gate is closed by this document. The independent native cursor remains **YM-R104**, following the [YM-R103 checkpoint](ym/checkpoints/YM_HEAD_R103_20261014.json).
+**Prepared:** 2026-10-26. **Status:** Proposed workstream **YM-EXT-01**; no native theorem gate is closed by this document. The independent native cursor is now **YM-R105**, following the [YM-R104 checkpoint](ym/checkpoints/YM_HEAD_R104_20261026.json). The original YM-EXT-01 proposal and its external proof-evidence boundary are unchanged.
 
 This page identifies external materials worth checking against our [research-status ledger](RESEARCH_STATUS.md) and [target-scope hold](TARGET_SCOPE.md). An analogous technique, press release, manuscript, or Lean development does **not** establish that the exact theorem needed in this repository holds.
 
@@ -18,9 +18,9 @@ There is no established collaboration or shared proof chain between this reposit
 
 For a reproducible *entry point* into moving external repositories, the heads observed on 2026-10-26 were: Sussman–Alpöge at [af96f9c](https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/commit/af96f9c5ec6d05a5c8f251256d87970d73b7f25a) and Armstrong at [493e9eb](https://github.com/scottnarmstrong/balaban-lean/commit/493e9eb97292ebf6070c1c217a09bcf1adc23857). These are snapshots **for later comparison**, not a claim that all cited manuscripts were read at those commits or that any theorem is validated. Each future lemma must be pinned to the *particular content version actually checked*.
 
-## Comparison questions (ordered by direct relevance to YM-R103)
+## Comparison questions (ordered by direct relevance to YM-R104/R105)
 
-1. **Cutoff and source carriers.** Does an external construction compare actual cutoff histories on explicit common gauge/constraint/Gaussian/source carriers? Locate the definition and transport theorem, not merely an informal identification.
+1. **Cutoff and source carriers.** Does an external construction compare actual cutoff histories on explicit common gauge/constraint/Gaussian/source carriers and a quantified relative background chart (compare native [R104](ym/passes/YM_R104_CMP99_ANALYTIC_BACKGROUND_RESPONSE_CMP116_INTERFACE_20261026.md))? Locate the definition and transport theorem, not merely an informal identification.
 2. **Background-field variation.** Is there a two-background estimate at fixed domains, in the correct weighted complex chart, with constants uniform in the RG step? Or does the argument avoid the comparison?
 3. **Marked constrained covariance.** Does a spatial domain-difference mark survive the construction of the relevant constrained covariance (and any root or square-root), and does the argument distinguish it from history-age decay?
 4. **Nonlinear maps and localization.** Are CMP116-type minimizers, weakened propagators, weakening derivatives, and connected sums stable under moving the input apparatus with a common contraction margin?
