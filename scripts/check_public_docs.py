@@ -33,9 +33,9 @@ def check() -> list[str]:
         head = json.loads(checkpoint_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         return [f"cannot read canonical checkpoint: {exc}"]
-    if head.get("passes_completed_through") != "YM-R107":
+    if head.get("passes_completed_through") != "YM-R106":
         errors.append("canonical head no longer R106: update public status review")
-    if head.get("live_cursor") != "YM-R106" or head.get("live_cursor_consumed") is not False:
+    if head.get("live_cursor") != "YM-R107" or head.get("live_cursor_consumed") is not False:
         errors.append("native cursor changed: documentation snapshot must be revisited")
     if head.get("claim_status") != "UNPROVED_RESEARCH_PROGRAM":
         errors.append("canonical research status changed: documentation must be reviewed")
