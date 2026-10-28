@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-28 (YM-R148 monitored Gaussian conditional precision, dual cutoff-boundary gates and weighted-normalization audit; native source constants still open).
-**Next native cursor:** YM-R149, **not consumed**. Earlier YM-R127–R145 remain typed retrospective custody.
+**Snapshot:** 2026-10-28 (YM-R149 CMP109 source-operator passport and two-solve directional variance certificate; native finite K/region still on SOURCE_DATA_HOLD).
+**Next native cursor:** YM-R150, **not consumed**. Earlier YM-R127–R145 remain typed retrospective custody.
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R148 checkpoint](ym/checkpoints/YM_HEAD_R148_20261028.json) is the canonical machine-readable research state (superseding R126 without altering it); paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R149 checkpoint](ym/checkpoints/YM_HEAD_R149_20261028.json) is the canonical machine-readable research state (superseding R148 without altering it); paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -193,3 +193,8 @@ R127–R145 were investigated in conversation after the last merged R126 checkpo
 ## 2026-10-28 YM-R148 — native monitored Gaussian boundary gates
 
 [YM-R148](ym/passes/YM_R148_CMP109_CONDITIONAL_PRECISION_AND_DUAL_BOUNDARY_GATES_20261028.md) reuses the exact CMP109 independent-coordinate graph from R111–R112. On the SU2 identity Gaussian Q=K tensor I3, conditional variance of a monitored bond given other monitored coordinates is K_aa^-1, not marginal (K^-1)_aa. A 3-color shifted radial cutoff can be controlled by (A) a conditional-density boundary gate (upper K_aa required), or (B) a Maxwell **rare-exit** gate using the marginal variances (lower coercivity of K may suffice). This avoids unnecessary conditional-precision work when cutoff tails are small. The exact same-positive-weight normalized truncated-law TV identity retains weighted unmatched mass and partition denominators; it is not a comparison of two distinct source UV histories. A rational five-bond computation uses **synthetic A_test=I**, not Bałaban's source A^(k). [Source receipt](ym/source_receipts/YM_R148_CMP109_PRECISION_CUTOFF_SOURCE_RECEIPT_20261028.md); [reproducible arithmetic](ym/computations/YM_R148_GAUSSIAN_BOUNDARY_PRECISION_RATIONAL_20261028.py); [checkpoint](ym/checkpoints/YM_HEAD_R148_20261028.json). **Native K, source Ω/gauge, relative E and normalization, continuum OS/mass gap remain OPEN.** Next YM-R149.
+
+
+## 2026-10-28 YM-R149 — exact source passport, directional inverse audit, bounded stop
+
+[YM-R149](ym/passes/YM_R149_SOURCE_PRECISION_PASSPORT_AND_DIRECTIONAL_SOLVES_20261028.md) reinspects CMP109 printed (2.9)–(2.14) and the lower-custody CMP99 (3.155)–(3.158) OCR. **No actual admissible L13 finite source A^(k)(1) matrix, regional carrier, K bound or k-specific threshold was recovered.** The original five-bond t=1/52 example cannot be passed off as a full source operator. The exact two-solve/residual identity reduces directional Gaussian covariance certification to K h=v with an independently certified K lower bound; the R148 coercivity-based rare-exit second denominator improves from (1+|t|) to sqrt(1+t²) on the stated orthonormal carrier. [Receipt](ym/source_receipts/YM_R149_SOURCE_PRECISION_PASSPORT_20261028.md); [synthetic rational check](ym/computations/YM_R149_TWO_SOLVE_RESIDUAL_AND_RAYLEIGH_20261028.py); [checkpoint](ym/checkpoints/YM_HEAD_R149_20261028.json). **SOURCE_DATA_HOLD:** Native covariance, full Ω/χ/W, two independent UV laws, continuum OS and mass gap remain OPEN. Next cursor **YM-R150, not consumed**, only upon arrival of source operator/region or original CMP99 equation images; otherwise pause this branch rather than proliferating generic bounds.
