@@ -1,0 +1,38 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-28",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R146_20261028.json",
+  "passes_completed_through": "YM-R147",
+  "live_cursor": "YM-R148",
+  "live_cursor_consumed": false,
+  "custody_state": "COMPOSITE_SHEAR_PLUS_DISTINCT_PIVOT_FINITE_L13_EXACT;CURVATURE_SHIFT_MOVES_SOURCE_MONITORED_CUTOFF;NATIVE_REGIONAL_AND_WEIGHTED_BOUNDARY_MASS_OPEN",
+  "positive_results": [
+    "On a common finite-dimensional carrier with common right inverse, the constraint shear and independent-coordinate pivot exchange satisfy S C_n^b=C_o^a F, F=P_a C_n^b.",
+    "R120 source-shaped old/new sparse e3 coefficient difference ε=1/114244 combined with interface coefficient κ=1/2197 gives t=ε/κ=1/52 on a declared aligned identity L=13 five-bond model.",
+    "In that model F²=I and det F=-1 per color, but the actual source b-deleted cutoff pulls back with the curvature shift t z.",
+    "Strict rational counterexample: source physical monitored a_n=209/208 vs naive transported a_o=207/208 at θ=1, with both source-shaped coarse constraints satisfied.",
+    "For scalar nondegenerate Gaussian with conditional variance σ², the event mismatch has upper bound 2|t|θ/(sqrt(2π)σ); positive reweighting needs an L² likelihood K and sufficient normalizers."
+  ],
+  "native_gates": {
+    "CMP102_Hk_original_equation": "OPEN",
+    "CMP99_Ak_Deltak_exact_print": "OPEN",
+    "CMP99_CMP109_same_regional_carrier": "OPEN",
+    "native_source_conditional_variance": "OPEN",
+    "source_normalized_cutoff_boundary_probability": "OPEN",
+    "normalized_two_UV_laws": "OPEN",
+    "relative_inherited_E_and_determinants": "OPEN",
+    "continuum_OS_and_mass_gap": "OPEN"
+  },
+  "source_evidence": "CMP109 original printed images pp.253,266–268 directly reinspected; historical CMP95/98/99 full regional objects OCR/conditional",
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R147_COMPOSITE_CONSTRAINT_PIVOT_AND_SOURCE_CUTOFF_20261028.md",
+    "ym/source_receipts/YM_R147_CMP109_COMPOSITE_SOURCE_BOUNDARY_20261028.md",
+    "ym/computations/YM_R147_COMPOSITE_TRANSPORT_RATIONAL_20261028.py",
+    "ym/terminology/YM_R147_TERMINOLOGY_REGISTRY_20261028.md",
+    "ym/checkpoints/YM_HEAD_R147_20261028.json"
+  ],
+  "next_action": "YM-R148 recover CMP109 actual conditional variance for a monitored physical cutoff under a native source-local relative operator/chart change and its weighted boundary event probability; source Ω/FP/old-new chart still OPEN"
+}
