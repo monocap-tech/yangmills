@@ -1,0 +1,38 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-28",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R148_20261028.json",
+  "passes_completed_through": "YM-R149",
+  "live_cursor": "YM-R150",
+  "live_cursor_consumed": false,
+  "custody_state": "CMP109_OPERATOR_PROVENANCE_SOURCE_AUDITED;TWO_SOLVE_VARIANCE_CERTIFICATE;RAYLEIGH_SHARPENED_RARE_EXIT;NATIVE_PRECISION_SOURCE_DATA_HOLD",
+  "positive_results": [
+    "Original CMP109 printed pp266–268 source images rechecked: A^(k) depends on CMP99 Eq3.156 with exponential gauge, reduced covariance (C* A^(k) C)^-1.",
+    "Minimal native L13 domain/operator/threshold passport specified; absent numerical matrix or source-valid domain.",
+    "Two solves K h_a=e_a and K h_u=e_a-t e_z suffice for the two marginal variances if source K is known.",
+    "Exact residual identity v*K^-1v=2<v,h>-<h,Kh>+r*K^-1r, certifiable interval if K>=alpha I.",
+    "Stronger coercivity-based rare exit has second threshold T sqrt(alpha)/sqrt(1+t^2) rather than /(1+|t|).",
+    "Exact rational synthetic independent check passed; synthetic A_test=I not source numeric."
+  ],
+  "native_gates": {
+    "CMP109_identity_Ak_and_K_legal_L13_region": "SOURCE_DATA_HOLD",
+    "CMP99_original_equation_images_and_gauge_precision_dictionary": "OPEN",
+    "source_coercivity_alpha_and_selected_cutoff_threshold": "OPEN",
+    "source_Omega_and_full_cutoff": "OPEN",
+    "interaction_weight_second_moment_and_partition": "OPEN",
+    "two_independent_UV_normalized_laws": "OPEN",
+    "continuum_OS_and_mass_gap": "OPEN"
+  },
+  "source_evidence": "Printed CMP109 pp266–268 verified; CMP99 p427–428 OCR-only, original images not revalidated",
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R149_SOURCE_PRECISION_PASSPORT_AND_DIRECTIONAL_SOLVES_20261028.md",
+    "ym/source_receipts/YM_R149_SOURCE_PRECISION_PASSPORT_20261028.md",
+    "ym/computations/YM_R149_TWO_SOLVE_RESIDUAL_AND_RAYLEIGH_20261028.py",
+    "ym/terminology/YM_R149_TERMINOLOGY_REGISTRY_20261028.md",
+    "ym/checkpoints/YM_HEAD_R149_20261028.json"
+  ],
+  "next_action": "YM-R150 source-first: recover original CMP99 images or actual source-compatible CMP109 finite operator/domain, then compute two directional inverse actions; otherwise pause SOURCE_DATA_HOLD, do not generate generic inequalities."
+}
