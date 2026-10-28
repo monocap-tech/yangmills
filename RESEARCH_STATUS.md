@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-28 (native YM-R147 composite constraint/pivot and cutoff-boundary audit merged after R146; earlier history preserved).
-**Next native cursor:** YM-R148, **not consumed**. R127–R145 remain typed retrospective custody.
+**Snapshot:** 2026-10-28 (YM-R148 monitored Gaussian conditional precision, dual cutoff-boundary gates and weighted-normalization audit; native source constants still open).
+**Next native cursor:** YM-R149, **not consumed**. Earlier YM-R127–R145 remain typed retrospective custody.
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R147 checkpoint](ym/checkpoints/YM_HEAD_R147_20261028.json) is the canonical machine-readable research state (superseding R126 without altering it); paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R148 checkpoint](ym/checkpoints/YM_HEAD_R148_20261028.json) is the canonical machine-readable research state (superseding R126 without altering it); paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -188,3 +188,8 @@ R127–R145 were investigated in conversation after the last merged R126 checkpo
 ## 2026-10-28 YM-R147 composite source-cutoff audit
 
 [YM-R147](ym/passes/YM_R147_COMPOSITE_CONSTRAINT_PIVOT_AND_SOURCE_CUTOFF_20261028.md) combines the change in averaging constraint with the **different** historical/revised deleted-bond coordinate choices on a **declared L=13, identity-background, five-bond sparse test**, using native R120's −1/114244 curvature-sensitive difference and R143's 1/2197 interface coefficient. The resulting composite map F has det −1 and curvature shift t=1/52. It must pull back **literal CMP109 χ (2.9)** as χ_n(S^{-1}C_o^a y), not evaluate χ_n on the unsheared old representative nor substitute a hypothetical old-pivot box. A strict rational finite test demonstrates nonidentity of the first two events. A conditional Gaussian boundary-layer probability estimate requires actual conditional variance and weighted likelihood; neither is available natively. [Printed source receipt](ym/source_receipts/YM_R147_CMP109_COMPOSITE_SOURCE_BOUNDARY_20261028.md), [computation](ym/computations/YM_R147_COMPOSITE_TRANSPORT_RATIONAL_20261028.py), [R147 checkpoint](ym/checkpoints/YM_HEAD_R147_20261028.json). **No two-UV normalized RG law, full regional Ω/Q′/FP transfer, OS or positive mass gap is established.** YM-R148 is unconsumed.
+
+
+## 2026-10-28 YM-R148 — native monitored Gaussian boundary gates
+
+[YM-R148](ym/passes/YM_R148_CMP109_CONDITIONAL_PRECISION_AND_DUAL_BOUNDARY_GATES_20261028.md) reuses the exact CMP109 independent-coordinate graph from R111–R112. On the SU2 identity Gaussian Q=K tensor I3, conditional variance of a monitored bond given other monitored coordinates is K_aa^-1, not marginal (K^-1)_aa. A 3-color shifted radial cutoff can be controlled by (A) a conditional-density boundary gate (upper K_aa required), or (B) a Maxwell **rare-exit** gate using the marginal variances (lower coercivity of K may suffice). This avoids unnecessary conditional-precision work when cutoff tails are small. The exact same-positive-weight normalized truncated-law TV identity retains weighted unmatched mass and partition denominators; it is not a comparison of two distinct source UV histories. A rational five-bond computation uses **synthetic A_test=I**, not Bałaban's source A^(k). [Source receipt](ym/source_receipts/YM_R148_CMP109_PRECISION_CUTOFF_SOURCE_RECEIPT_20261028.md); [reproducible arithmetic](ym/computations/YM_R148_GAUSSIAN_BOUNDARY_PRECISION_RATIONAL_20261028.py); [checkpoint](ym/checkpoints/YM_HEAD_R148_20261028.json). **Native K, source Ω/gauge, relative E and normalization, continuum OS/mass gap remain OPEN.** Next YM-R149.

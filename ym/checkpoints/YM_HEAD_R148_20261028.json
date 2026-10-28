@@ -1,0 +1,38 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-28",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R147_20261028.json",
+  "passes_completed_through": "YM-R148",
+  "live_cursor": "YM-R149",
+  "live_cursor_consumed": false,
+  "custody_state": "MONITORED_CONDITIONAL_PRECISION_VS_MARGINAL_VARIANCE_DISTINGUISHED;DUAL_GAUSSIAN_BOUNDARY_GATES;NATIVE_K_WEIGHT_AND_REGIONAL_TRANSFER_OPEN",
+  "positive_results": [
+    "CMP109 printed p266–268 validates special-bond exclusion, Gaussian covariance (C* A^(k) C)^-1, separate background determinants and nonlinear weights.",
+    "SU2 identity conditional monitored vector covariance equals K_aa^-1 I3, distinct from marginal (K^-1)_aa I3.",
+    "Declared L13 equal-interface graph yields K_aa=<e_a-e_b,A^(k)(1)(e_a-e_b)>; no native numeric operator norm.",
+    "Three-color conditional boundary gate δ≤4|t|/π sqrt(K_aa (K^-1)_zz); marginal Maxwell rare-exit gate δ≤Q3(T/s_a)+Q3(T/s_u), with threshold branch retained.",
+    "Same-weight cutoff-conditioned laws have exact TV=max(unmatched weighted masses)/max(partition masses).",
+    "Synthetic A_test=I5 exact rationals Kaa=2, Sigma_aa=8113/10817, Sigma_zz=10816/10817, Sigma_az=52/10817; NOT source values."
+  ],
+  "native_gates": {
+    "CMP109_identity_K_native_numeric_or_uniform": "OPEN",
+    "CMP99_CMP109_regional_precision": "OPEN",
+    "CMP102_original_derivative_image": "OPEN",
+    "source_Omega_and_full_cutoff": "OPEN",
+    "interaction_weight_second_moment_and_partition": "OPEN",
+    "two_independent_UV_normalized_laws": "OPEN",
+    "continuum_OS_and_mass_gap": "OPEN"
+  },
+  "source_evidence": "Original CMP109 printed equation images p266–268 checked; no source numeric covariance supplied",
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R148_CMP109_CONDITIONAL_PRECISION_AND_DUAL_BOUNDARY_GATES_20261028.md",
+    "ym/source_receipts/YM_R148_CMP109_PRECISION_CUTOFF_SOURCE_RECEIPT_20261028.md",
+    "ym/computations/YM_R148_GAUSSIAN_BOUNDARY_PRECISION_RATIONAL_20261028.py",
+    "ym/terminology/YM_R148_TERMINOLOGY_REGISTRY_20261028.md",
+    "ym/checkpoints/YM_HEAD_R148_20261028.json"
+  ],
+  "next_action": "YM-R149: source-compatible numerical/quantitative K covariance or lower eigenvalue and true T on one eligible L13 domain; otherwise typed stop. Reweighted W/partition and relative histories still separate."
+}
