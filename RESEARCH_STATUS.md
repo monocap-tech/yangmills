@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-28 (retrospective custody of conversational YM-R127–R145, plus source-audited conditional YM-R146; historical passes retained).
-**Next native cursor:** YM-R147, **not consumed**; previous R127–R145 retrospectively indexed with explicitly conditional status.
+**Snapshot:** 2026-10-28 (native YM-R147 composite constraint/pivot and cutoff-boundary audit merged after R146; earlier history preserved).
+**Next native cursor:** YM-R148, **not consumed**. R127–R145 remain typed retrospective custody.
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R146 checkpoint](ym/checkpoints/YM_HEAD_R146_20261028.json) is the canonical machine-readable research state (superseding R126 without altering it); paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R147 checkpoint](ym/checkpoints/YM_HEAD_R147_20261028.json) is the canonical machine-readable research state (superseding R126 without altering it); paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -183,3 +183,8 @@ R127–R145 were investigated in conversation after the last merged R126 checkpo
 [YM-R146](ym/passes/YM_R146_CUTOFF_AWARE_PIVOT_EXCHANGE_AND_CHART_GAUSSIAN_CUSTODY_20261028.md) establishes an **abstract exact one-constraint pivot exchange** and source-shaped L=13 identity-interface calculation. The coordinate Jacobian has unit magnitude when both pivot coefficients are 1/2197, but chart operator norm can be ~46.87 even on the interface-only subsystem and cutoff-event boxes are **not invariant by renaming**. Proper physical χ pullback and reduced Gaussian congruence remain exact coordinate-invariance facts, not native two-cutoff law equivalence. Printed CMP109 (2.9)–(2.14) were rechecked; original CMP99 (3.157)–(3.158) images and regional full charts remain open. [R146 evidence](ym/source_receipts/YM_R146_CMP109_PIVOT_CUTOFF_AND_RETROSPECTIVE_TRANSFER_20261028.md); [new checkpoint](ym/checkpoints/YM_HEAD_R146_20261028.json).
 
 **Sole next native cursor YM-R147:** recover the source-exact combined old/new constraint and omitted-bond chart transport on actual regional Ω/Λ, including literal χ pullback and normalized measure factors. Do NOT transfer an abstract Gaussian or external 3D source theorem automatically to 4D; no continuum YM, OS or positive mass gap is claimed.
+
+
+## 2026-10-28 YM-R147 composite source-cutoff audit
+
+[YM-R147](ym/passes/YM_R147_COMPOSITE_CONSTRAINT_PIVOT_AND_SOURCE_CUTOFF_20261028.md) combines the change in averaging constraint with the **different** historical/revised deleted-bond coordinate choices on a **declared L=13, identity-background, five-bond sparse test**, using native R120's −1/114244 curvature-sensitive difference and R143's 1/2197 interface coefficient. The resulting composite map F has det −1 and curvature shift t=1/52. It must pull back **literal CMP109 χ (2.9)** as χ_n(S^{-1}C_o^a y), not evaluate χ_n on the unsheared old representative nor substitute a hypothetical old-pivot box. A strict rational finite test demonstrates nonidentity of the first two events. A conditional Gaussian boundary-layer probability estimate requires actual conditional variance and weighted likelihood; neither is available natively. [Printed source receipt](ym/source_receipts/YM_R147_CMP109_COMPOSITE_SOURCE_BOUNDARY_20261028.md), [computation](ym/computations/YM_R147_COMPOSITE_TRANSPORT_RATIONAL_20261028.py), [R147 checkpoint](ym/checkpoints/YM_HEAD_R147_20261028.json). **No two-UV normalized RG law, full regional Ω/Q′/FP transfer, OS or positive mass gap is established.** YM-R148 is unconsumed.
