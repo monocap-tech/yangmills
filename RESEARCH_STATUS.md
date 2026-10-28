@@ -1,10 +1,10 @@
 # Research status and evidence ledger
 
-**Snapshot:** 2026-10-27 (updated after native **YM-R126**, regional winding coverage and normalized bad-event source-normalizer audit; historical passes retained).  
-**Next native cursor:** YM-R127, **not consumed**.  
+**Snapshot:** 2026-10-28 (retrospective custody of conversational YM-R127–R145, plus source-audited conditional YM-R146; historical passes retained).
+**Next native cursor:** YM-R147, **not consumed**; previous R127–R145 retrospectively indexed with explicitly conditional status.
 **Project claim status:** **UNPROVED RESEARCH PROGRAM.** No construction of the four-dimensional physical continuum theory, proof of the Osterwalder–Schrader axioms for it, or positive mass-gap theorem is claimed.
 
-This page is an index, not an independent theorem or a replacement for the pass records. The [R126 checkpoint](ym/checkpoints/YM_HEAD_R126_20261027.json) is the canonical machine-readable research state; paths below are relative to the repository root.
+This page is an index, not an independent theorem or a replacement for the pass records. The [R146 checkpoint](ym/checkpoints/YM_HEAD_R146_20261028.json) is the canonical machine-readable research state (superseding R126 without altering it); paths below are relative to the repository root.
 
 ## Evidence levels
 
@@ -174,3 +174,12 @@ To mark a native gate closed, a new pass must:
 **YM-EXT-01 (focused external comparison recorded; no native pass consumed):** the [source-pinned crosswalk](ym/external/YM_EXT_01_EXTERNAL_YM4_NATIVE_CROSSWALK_20261026.md) identifies candidate paired-minimizer, constrained covariance/root, and one-loop beta stationarity arguments in the external YM4 manuscript, alongside its expressly unproved fine-propagator, exact-shell, history and Gaussian-integral transfers. [Source receipt](ym/external/YM_EXT_01_SOURCE_RECEIPT_20261026.md). **Every corresponding native gate remains OPEN until independently checked and instantiated.**
 
 Historical [R103 editorial/source clarifications](REVIEW_ERRATA_20261026.md) are additive and do not close a gate. There is **no proof-completion schedule implied** by the number of passes, pages, or formal lines written.
+
+
+## 2026-10-28 retrospective custody and YM-R146 source gate
+
+R127–R145 were investigated in conversation after the last merged R126 checkpoint and are now present as **retroactively written, claim-typed research summaries**, not falsified historical native commits. [Evidence-boundary receipt](ym/source_receipts/YM_R127_R135_RETROSPECTIVE_EVIDENCE_BOUNDARY_20261028.md). The physical Yang–Mills program remains unproved. R127–R135 develop conditional reference/likelihood/observable-law tests; R136–R141 source-mechanism and Hessian/normalizer audits; R142–R145 constraint/pivot transport and the distinct-deleted-bond obstruction.
+
+[YM-R146](ym/passes/YM_R146_CUTOFF_AWARE_PIVOT_EXCHANGE_AND_CHART_GAUSSIAN_CUSTODY_20261028.md) establishes an **abstract exact one-constraint pivot exchange** and source-shaped L=13 identity-interface calculation. The coordinate Jacobian has unit magnitude when both pivot coefficients are 1/2197, but chart operator norm can be ~46.87 even on the interface-only subsystem and cutoff-event boxes are **not invariant by renaming**. Proper physical χ pullback and reduced Gaussian congruence remain exact coordinate-invariance facts, not native two-cutoff law equivalence. Printed CMP109 (2.9)–(2.14) were rechecked; original CMP99 (3.157)–(3.158) images and regional full charts remain open. [R146 evidence](ym/source_receipts/YM_R146_CMP109_PIVOT_CUTOFF_AND_RETROSPECTIVE_TRANSFER_20261028.md); [new checkpoint](ym/checkpoints/YM_HEAD_R146_20261028.json).
+
+**Sole next native cursor YM-R147:** recover the source-exact combined old/new constraint and omitted-bond chart transport on actual regional Ω/Λ, including literal χ pullback and normalized measure factors. Do NOT transfer an abstract Gaussian or external 3D source theorem automatically to 4D; no continuum YM, OS or positive mass gap is claimed.

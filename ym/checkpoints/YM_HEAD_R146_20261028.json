@@ -1,0 +1,39 @@
+{
+  "project": "Yang-Mills research laboratory",
+  "repository": "monocap-tech/yangmills",
+  "date": "2026-10-28",
+  "claim_status": "UNPROVED_RESEARCH_PROGRAM",
+  "previous_checkpoint": "ym/checkpoints/YM_HEAD_R126_20261027.json",
+  "passes_completed_through": "YM-R146",
+  "retrospective_passes": "YM-R127–YM-R145; bounded reconstructed conversational research records, not verbatim transcripts or retroactive native theorem certificates",
+  "current_pass": "YM-R146 cutoff-aware pivot exchange",
+  "live_cursor": "YM-R147",
+  "live_cursor_consumed": false,
+  "custody_state": "COMMON_CONSTRAINT_PIVOT_EXCHANGE_EXACT_ABSTRACT;CUT_OFF_BOX_NOT_INVARIANT_UNDER_REPIVOT;MULTISCALE_NATIVE_OMEGA_Q_AND_GAUGE_OPEN",
+  "positive_results": [
+    "For fixed surjective scalar linear constraint D, pivot-chart determinant is -kappa_b/kappa_a; equal source-shaped interface coefficients yield absolute determinant one on declared identity L=13 block.",
+    "Reduced Gaussian Q_a=T*Q_b T, so the SAME Gaussian field with the SAME physical chi is invariant under an exact change of coordinates.",
+    "A cutoff omitting the source b0 bond pulls back to an oblique domain when chart deletes a different bond.",
+    "With N=L^3=2197 interface bonds, Euclidean chart operator norm is at least sqrt((N+sqrt(N^2-4))/2)≈46.872, despite determinant magnitude one.",
+    "Four-bond rational example with a=6/5,b=0,z1=z2=-3/5 satisfies coarse constraint and separates the two pivot-omitting coordinate boxes."
+  ],
+  "native_gates": {
+    "CMP102_Hk_original_equation": "OPEN",
+    "CMP99_Ak_Deltak_exact_print": "OPEN",
+    "CMP99_CMP109_same_regional_carrier": "OPEN",
+    "native_moving_chart_and_cutoff_pullback": "OPEN",
+    "normalized_two_UV_laws": "OPEN",
+    "relative_inherited_E_and_determinants": "OPEN",
+    "continuum_OS_and_mass_gap": "OPEN"
+  },
+  "source_evidence": "CMP109 pp.266–268 printed-page images inspected; CMP99 (3.157)–(3.158) third-party OCR only",
+  "highest_reference_number": 92,
+  "authoritative_files": [
+    "ym/passes/YM_R146_CUTOFF_AWARE_PIVOT_EXCHANGE_AND_CHART_GAUSSIAN_CUSTODY_20261028.md",
+    "ym/source_receipts/YM_R146_CMP109_PIVOT_CUTOFF_AND_RETROSPECTIVE_TRANSFER_20261028.md",
+    "ym/computations/YM_R146_PIVOT_EXCHANGE_RATIONAL_20261028.py",
+    "ym/terminology/YM_R146_TERMINOLOGY_REGISTRY_20261028.md",
+    "ym/checkpoints/YM_HEAD_R146_20261028.json"
+  ],
+  "next_action": "YM-R147 actual CMP99/CMP109 composite (constraint + pivot) regional map, literal χ pullback and normalization; no abstract-only loop"
+}
