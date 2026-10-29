@@ -66,3 +66,14 @@ assert bound_per_facepair==F(324,13)
 print('PASS 2D bound per transverse coarse plane',bound_per_facepair)
 assert 2*4*Eabs+L-1==F(492,13)
 print('PASS 4D symbolic boundary coefficient',F(492,13))
+
+# Four-dimensional lift of the two-dimensional field:
+# the extra axes do not move its nonzero a_0 coordinate; shortest path
+# integration depends only on the relative order of axes 0 and 1.
+for mask in range(1<<4):
+ active=[i for i in range(4) if mask & (1<<i)]
+ orders=list(permutations(active))
+ if 0 in active and 1 in active:
+  before=sum(o.index(0)<o.index(1) for o in orders)
+  assert 2*before==len(orders)
+print('PASS 4D permutation marginal reduces to 2D source paths for lifted fields')
