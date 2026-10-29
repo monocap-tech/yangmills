@@ -11,3 +11,13 @@ PASS 2D bound per transverse coarse plane 324/13
 PASS 4D symbolic boundary coefficient 492/13
 
 Note: actual execution uses a local byte copy of the same algorithm, not a GitHub Actions run. The 4D coefficient is a symbolic combinatorial check, not a 4D full lattice enumeration or source-domain verification. Assertions for BOTH coarse orientations and every regional origin pass in the exact counterexample.
+
+Post-extension rerun of local certificate with 4D shortest-order marginal test:
+PASS REGIONAL IDENTITY mu 0 Dsum -2012/169 baseline -54/13 path -800/169 bridge -510/169
+PASS REGIONAL IDENTITY mu 1 Dsum -84/13 baseline -84/13 path 0 bridge 0
+PASS EXPLICIT REGIONAL KERNEL with mean 19/507 coarse coefficient p/q 1/13 19/169
+PASS 2D bound per transverse coarse plane 324/13
+PASS 4D symbolic boundary coefficient 492/13
+PASS 4D permutation marginal reduces to 2D source paths for lifted fields
+
+The last line checks that every 4D shortest permutation on an active-axis set has balanced order of axes 0 and 1 (when both are active). The d=4 full derivative reduction is then analytic; no 39^4 numeric brute force is claimed.
