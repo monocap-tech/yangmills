@@ -1,0 +1,23 @@
+YM-AUX-03 independent local exact rational execution — 2026-10-28
+
+Command: python /mnt/data/ym_aux03_check.py
+Data and algorithm reproduced in:
+ym/computations/YM_AUX_03_COCLOSED_REGIONAL_L169_RATIONAL_20261028.py
+
+PASS 13 source coarse origins x 2 directions, N=169=L^2
+PASS co-closed divergence at 169^2 lattice sites
+PASS regional fine-bond mean a1=1 exactly; harmonic full component=1
+PASS nonzero linearized plaquette curvature at all 13 boundary sources, -1352
+PASS sup-norm 339; arbitrary positive scaling preserves zero constraints and div=0
+
+Second independent computational spot-check:
+For a single plaquette q_(7,0) and selected origin (0,0), horizontal D value = 1/26,
+endpoint-path contribution = 1/26, bridge contribution = 0.
+Other selected course rows and directions vanish.
+
+The committed repository script reproduces the same calculation using the
+Python standard library and adds an explicit 4D permutation marginal assertion.
+The 4D lifting statement itself is proved by translation/permutation symmetry,
+not by numerical enumeration of 169^4 sites.
+
+No source-admissibility or source K eigenvalue certification.
