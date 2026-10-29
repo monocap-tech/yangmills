@@ -203,3 +203,8 @@ R127–R145 were investigated in conversation after the last merged R126 checkpo
 ## 2026-10-28 YM-R150 source-first entry hold (not a completed pass)
 
 [Source-retrieval receipt](ym/source_requests/YM_R150_CMP99_PRECISION_IMAGE_NATIVE_K_HOLD_20261028.md): publisher CMP99(3) bibliographic page identified, but original mathematical images (3.155)–(3.158) and a native legal L13 reduced precision K remain unrecovered. A newly located 2026-10-12 AI-authored/agent-audited secondary technical chapter claims uniform coercivity for C*Delta^(k)C and regional variants; it is **not** independently verified and cannot be equated with CMP109 C* A^(k) C. No new numerical alpha, Gaussian cutoff law or two-UV result. **Canonical YM-R149 checkpoint and YM-R150 unconsumed cursor remain authoritative; no replacement checkpoint is created.**
+
+
+### YM-R150 source-custody follow-up — independent local original-PDF locator, no cursor consumption
+
+A separate public [primary-image provenance addendum](ym/source_requests/YM_R150_EXTERNAL_PRIMARY_IMAGE_PROVENANCE_ADDENDUM_20261028.md) records an external repository's locally checked CMP99 original-PDF SHA-256 and carefully limits what its `visual_confirmed` label covers. We have **not** received that PDF or seen CMP99 printed (3.155)–(3.158). Springer currently serves a subscription preview. Hence this is only a **potential provenance/legitimate-access lead**, not source-image recovery, native K or coercivity certification. **YM-R150 remains unconsumed; SOURCE_DATA_HOLD remains binding.**
