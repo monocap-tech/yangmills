@@ -1,0 +1,16 @@
+2026-10-29 source-image verification arithmetic follow-up
+Original mathematical source: user-uploaded 46-page original-typeset CMP99 scan, SHA256
+9904f303f01e2d267a0d138d4fc08d60742086d6557fc78bef6f2d25faeaad20.
+See ym/source_receipts/YM_R150_CMP99_ORIGINAL_IMAGE_VERIFIED_20261029.md
+
+Executed:
+python /mnt/data/ym_cmp99_inspection/projection_check.py
+PASS: Qsite psi = 0; <D*a, Delta psi> = -1/169 != 0
+PASS: therefore AUX05 declared field fails R_source D*a=0, while R_model D*a=0
+
+Committed independent reproducer:
+ym/computations/YM_R150_AUX05_PROJECTION_COUNTERCHECK_20261029.py
+
+This proves the specific AUX05 field is NOT a counterexample to source-typed
+CMP99 projected Landau. It does not prove general flux conservation for source
+projected gauge, existence of native CMP109 K, positivity of source K, or mass gap.
