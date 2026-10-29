@@ -1,0 +1,15 @@
+YM-AUX-05 exact-rational local execution log — 2026-10-28
+
+Command: python /mnt/data/ym_aux05/check.py
+Source program: local model calculation substantively reproduced by
+ym/computations/YM_AUX_05_PROJECTED_GAUGE_DIRICHLET_RATIONAL_20261028.py
+(the repository file has equivalent Fraction arithmetic and asserts).
+
+PASS D* a = Qsite* lambda on all 28561 sites; hence R D*a=0 (R projects onto ker Qsite)
+PASS a has strict Dirichlet zero-extension support in normal strip 7..31
+PASS one zero normal-flux slice, BUT flux varies; Phi(0)= 0 Phi(19)= -13
+PASS entire-torus horizontal mean = -1/169 strip horizontal mean = -1/25
+PASS Qsite^* is exact adjoint of normalized LxL centered-block site average
+PASS: source-shaped one-step countermodel, NOT actual multiscale source gauge/Dirichlet operator
+
+No numeric native K or source coercivity, Gaussian FP/interaction normalization, or physical mass-gap computation. This code independently verifies only the finite one-step identity site-average countermodel.
