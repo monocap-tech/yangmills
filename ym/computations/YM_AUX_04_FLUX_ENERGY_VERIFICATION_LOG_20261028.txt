@@ -1,0 +1,17 @@
+YM-AUX-04 independent local verification — 2026-10-28
+Actual local command: python /mnt/data/ym_nf/verify_aux03.py
+D_1 sample: 0
+D_2 sample: 0
+PASS all 26 selected coarse constraints, 28,561 divergence sites, mean=1
+||a||²= 5969249 ||da||²= 29703440 Rayleigh= 4.976076555023924
+support plaquettes 65
+
+Actual local command: python /mnt/data/ym_nf/verify_flux.py
+PASS AUX03 flux 169 on every one of 169 complete transverse slices
+PASS AUX03 contains nonzero horizontal bonds away from one-plane selected strip
+PASS compactly supported divergence-free plaquette circulation has zero flux on every slice
+PASS AUX03 unnormalized ||da||^2=29703440 and ||a||^2=5969249; ratio=1040/209
+
+Reproducible minimal version of the independently executed second test:
+ym/computations/YM_AUX_04_FLUX_AND_ENERGY_AUDIT_20261028.py
+The flux theorem for arbitrary d follows analytically by transverse summation and does not depend on numerical tests. Proxy energy is unweighted ordinary curl and not source Gaussian precision. No primary CMP99 equation image acquired.
