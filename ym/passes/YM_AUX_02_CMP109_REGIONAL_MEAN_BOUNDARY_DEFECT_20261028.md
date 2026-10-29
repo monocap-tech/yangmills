@@ -68,6 +68,16 @@ This is a **complete-kernel** counterexample to directly replacing the *full-per
 
 [Exact standard-library Fraction certificate](../computations/YM_AUX_02_REGIONAL_MEAN_DEFECT_RATIONAL_20261028.py) has been **executed**, with test output retained separately. It independently tests the full source-shaped 2D D, equality of E_path+E_bridge with the regional defect on a nonconstant field, transverse exact cancellation, the all-direction counterexample, and the 4D surface coefficient.
 
+### 3.1 Four-dimensional lift to **all** coarse orientations (DERIVATION)
+
+The counterexample is not confined to dimension 2. Set N=39 and d=4; take Y={0}×{0,13,26}³ and a fixed nonzero Lie generator T∈su(2). Let the ONLY nonzero bond component be
+`a_1(x_1,x_2,x_3,x_4) = [19·1_{(x_1,x_2)=(6,0)} − 13·1_{(x_1,x_2)=(7,0)}]T`
+for **every** pair (x_3,x_4), and set a_2=a_3=a_4=0.
+
+Every source shortest path's a_1 integral depends only on the relative order of axes 1 and 2; axes 3 and 4 make no contribution and do not alter (x_1,x_2). The uniform permutation average induces equal probabilities for axis 1 before or after axis 2 when both are active, *regardless of the other active axes*. Thus the d=4 first-variation path average reduces **exactly** to the d=2 one for these fields. Its bridge average also reduces, since the field is independent of x_3,x_4. For coarse directions 3 or 4, the two endpoint averages cancel pointwise by translation invariance, and their bridge components vanish. The previously calculated two-dimensional constraints show D_1a=D_2a=0 at every origin of Y.
+
+Therefore `(Da)_μ(y)=0` for **ALL four directions μ=1,2,3,4 and all y∈Y**, while `mean_{B_Y}a_1=(19/507)T ≠0`. This is an **exact 4D linearized full-source-M counterexample on a declared full torus with selected coarse origins**, *not* an assertion of original-source admissible regional gauge conditions. The 4D reduction is a mathematical permutation/translation proof, not a 39⁴ numerical enumeration. The certificate additionally checks the uniform relative-order permutation combinatorics over all active-axis subsets.
+
 ## 4. Operator/jurisdiction cut and next source test
 
 AUX-01 (full periodic): ker D ⟂ constant Lie modes. AUX-02 (proper strip): regional ker(D|Y) need not be orthogonal to constant modes restricted to B_Y; its mean can leak through two explicit interface faces. This **does not resurrect** the constant harmonic whole-torus mode as an exact global null of full D; these are different constraint operators and carriers.
